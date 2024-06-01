@@ -14,7 +14,7 @@ Además, es importante destacar que todo el software y los lenguajes que se pres
 
 En el mundo actual de la producción de contenido, la eficiencia y la versatilidad son claves. La edición ramificada permite generar múltiples formatos de salida (PDF, ePub, HTML y muchos otros) a partir de una única fuente origen. Este seminario está diseñado para introducir a los participantes en las herramientas y técnicas necesarias para implementar un flujo de trabajo eficiente en la producción de contenido multipropósito.
 
-## Objetivos del Seminario
+## Objetivos del seminario
 
 - **Comprender** los conceptos básicos de la edición ramificada.
 - **Explorar** diversas herramientas de marcado como Markdown, AsciiDoc y LaTeX.
@@ -25,7 +25,7 @@ En el mundo actual de la producción de contenido, la eficiencia y la versatilid
 - **Manejar** gestores de referencias como JabRef y Zotero para la gestión bibliográfica.
 - **Incorporar** metadatos en los documentos para mejorar la organización y búsqueda de la información.
 
-## Público Objetivo
+## Público objetivo
 
 Este seminario está dirigido a:
 
@@ -34,7 +34,7 @@ Este seminario está dirigido a:
 - Escritores técnicos
 - Cualquier persona interesada en la producción de documentos multipropósito
 
-## Contenido del Seminario
+## Contenido del seminario
 
 ### Módulo 1: Introducción a la edición ramificada
 
@@ -83,7 +83,7 @@ Este seminario está dirigido a:
    - Introducción y funcionalidades principales
    - Integración con editores de texto y otros formatos
 
-### Módulo 7: Metadatos en la Documentación
+### Módulo 7: Metadatos en la documentación
 
 - Importancia de los metadatos
 - Cómo añadir metadatos en Markdown, AsciiDoc y LaTeX
