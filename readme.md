@@ -1,4 +1,4 @@
-# Proyecto del Seminario: Introducción a la edición ramificada para contenidos académicos y científicos
+# Seminario: Introducción a la edición ramificada para contenidos académicos y científicos
 
 ## Fundamentación
 
