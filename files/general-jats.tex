@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+\usepackage[autostyle=true]{csquotes}
+
+% diseño ISO690
+\usepackage[style=iso-authoryear,
+backend=biber,
+sortcites=true,
+indexing=cite,
+texencoding=utf8,
+bibencoding=utf8]{biblatex}
+
+\defcounter{biburlnumpenalty}{3000}
+\defcounter{biburlucpenalty}{6000}
+\defcounter{biburllcpenalty}{9000}
+
+% Generar los índices, desactivamos las opciones para títulos
+\renewbibmacro*{bibindex}{%
+  \ifbibindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+\renewbibmacro*{citeindex}{%
+  \ifciteindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+\usepackage[xindy]{imakeidx}
+\makeindex[name=names,title=Índice de autores]
+\makeindex
+\makeindex[name=concepto,title=Índice de conceptos]
+\makeindex[name=onomastico,title=Índice onomástico]
+
+\usepackage{esindex}
+\DeclareIndexNameFormat{default}{%
+    \usebibmacro{index:name}{\esindex[names]}
+    {\namepartfamily}
+    {\namepartgiven}
+    {\namepartprefix}
+    {\namepartsuffix}}
+\renewbibmacro*{citeindex}{%
+    \ifciteindex
+    {\indexnames{labelname}}
+    {}}
+
+% Diseño de la raya del medio
+\makeatletter
+\def\thinskip{\hskip 0.16667em\relax}
+\def\endash{--}
+\def\emdash{\endash-}
+\def\d@sh#1#2{\unskip#1\thinskip#2\thinskip\ignorespaces}
+\def\dash{\d@sh\nobreak\endash}
+\def\Dash{\d@sh\nobreak\emdash}
+\def\ldash{\d@sh\empty{\hbox{\endash}\nobreak}}
+\def\rdash{\d@sh\nobreak\endash}
+\def\Ldash{\d@sh\empty{\hbox{\emdash}\nobreak}}
+\def\Rdash{\d@sh\nobreak\emdash}
+\def\hyph{-\penalty\z@\hskip\z@skip}
+\def\slash{/\penalty\z@\hskip\z@skip}
+\makeatother
+
+\usepackage{froufrou}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{svg}
+\usepackage{xcolor}
+
+% diseño de 3 asteriscos para los epub
+\newcommand{\aste}{\begin{center}* * *\end{center}}
+
+% configuración de los valores decimales de los cuadros
+\usepackage{siunitx}
+\sisetup{output-decimal-marker={.},
+	group-separator={\,},
+	group-minimum-digits=3,
+	table-text-alignment=center,
+	detect-all}
+
+% diseño de listas
+\usepackage{enumerate}
+
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,nonumberlist]{glossaries}
+\preto\chapter{\glsresetall}
+\makenoidxglossaries
+\renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
+
+\usepackage{endnotes,chngcntr}
+\def\notesname{Notas}
+\let\footnote=\endnote
+
+\makeatletter
+\renewcommand\enoteheading{%
+    \setcounter{secnumdepth}{-2}
+    \chapter*{\notesname\markboth{}{}}
+    \mbox{}\par\vskip-\baselineskip
+    \let\@afterindentfalse\@afterindenttrue
+}
+\makeatother
+
+\usepackage{xparse}
+
+\let\latexchapter\chapter
+
+\RenewDocumentCommand{\chapter}{som}{%
+    \IfBooleanTF{#1}
+    {\latexchapter*{#3}}
+    {\IfNoValueTF{#2}
+        {\latexchapter{#3}}
+        {\latexchapter[#2]{#3}}%
+        \addtoendnotes{%
+            \noexpand\enotedivision{\noexpand\subsection}
+            {\thechapter \, \unexpanded{#3}}}% \chaptername\
+    }%
+}
+\makeatletter
+\def\enotedivision#1#2{\@ifnextchar\enotedivision{}{#1{#2}}}
+\makeatletter
+
+\usepackage{xurl}
+
+\usepackage{ifthen}
+
+% fin del preambulo

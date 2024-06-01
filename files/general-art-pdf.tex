@@ -1,0 +1,48 @@
+\documentclass[fleqn]{./files/gbTeXcls}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+
+\usepackage[portuguese,english,german,spanish,es-ucroman,es-noshorthands]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa]{biblatex}
+
+\setlength{\columnsep}{0.6cm}
+\setlength{\fboxrule}{0.75pt}
+
+\definecolor{color1}{RGB}{0,0,0}
+\definecolor{color2}{RGB}{144,12,63}
+
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
+%\preto\chapter{\glsresetall} %no corresponde a la clase artículo
+\makenoidxglossaries
+\renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
+
+% Diseño y estilo a glosario y acrónimo
+\newglossarystyle{crossreflist}%
+{% base it on list (adapt as required)
+	\renewcommand*{\glossentry}[2]{%
+		\item[\glsentryitem{##1}%
+		\glstarget{##1}{\glossentryname{##1}}]
+		\glossentrydesc{##1}\glspostdescription\space ##2%
+		% check if the user1 key has been supplied:
+		\ifglshasfield{useri}{##1}%
+		{% do cross-reference
+			\newline
+			\glsletentryfield{\crossrefs}{##1}{useri}%
+			\glsseeformat[\emph{Véase:}]{\crossrefs}{}%
+		}%
+		{}%
+	}%
+}
+\setglossarystyle{crossreflist}
+
+% deshabilitamos mostrar el número de página
+%\renewcommand{\glossaryentrynumbers}[1]{Véase página #1.}
+\renewcommand{\delimN}{, }
+\renewcommand{\delimR}{--}
+
+\usepackage{ifthen}
+
+%% fin del preambulo

@@ -1,0 +1,94 @@
+\documentclass[12pt,a4,oneside,onecolumn,openany,final]{book}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+\usepackage[autostyle=true]{csquotes}
+
+% diseño de listas
+\usepackage{enumitem}
+\setlist{nosep,topsep=-\parskip}
+
+% diseño ISO690
+\usepackage[style=iso-authoryear,
+backend=biber,
+sortcites=true,
+indexing=cite,
+texencoding=utf8,
+bibencoding=utf8]{biblatex}
+
+\defcounter{biburlnumpenalty}{3000}
+\defcounter{biburlucpenalty}{6000}
+\defcounter{biburllcpenalty}{9000}
+
+% Generar los índices, desactivamos las opciones para títulos
+\renewbibmacro*{bibindex}{%
+  \ifbibindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+\renewbibmacro*{citeindex}{%
+  \ifciteindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+% figuras y epígrafe
+\usepackage{graphicx}
+\usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
+
+% Nuevo tipo de entorno flotante para fotografías
+\usepackage{newfloat}
+\DeclareFloatingEnvironment[
+fileext=lop,
+listname={Índice de imágenes},
+name=Imagen,
+placement=ht,
+%within=section,% activate it if you want
+%chapterlistsgaps=on,% meaningful only if chapters exist
+]{imagen}
+
+% configuración de los valores decimales de los cuadros
+\usepackage{siunitx}
+\sisetup{output-decimal-marker={.},
+group-separator={\,},
+group-minimum-digits=3,
+table-text-alignment=center,
+detect-all}
+
+\usepackage{xcolor}
+
+%% se deshabilitan momentaneamente hasta encontrar el error de inicial
+% generamos los índices
+\usepackage[xindy]{imakeidx}
+\makeindex
+\makeindex[name=names,title={Índice de autoras y autores}]
+\makeindex[name=concepto,title={Índice de conceptos}]
+\makeindex[name=onomastico,title={Índice onomástico}]
+
+% generamos el índice para biblatex
+\DeclareIndexNameFormat{default}{%
+\usebibmacro{index:name}{\index[names]}
+ 	{\namepartfamily}
+ 	{\namepartgiven}
+ 	{\namepartprefix}
+ 	{\namepartsuffix}}
+\renewbibmacro*{citeindex}{%
+ 	\ifciteindex
+ 	{\indexnames{labelname}}
+{}}
+
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
+\preto\chapter{\glsresetall}
+\makenoidxglossaries
+\renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
+
+% estos paquetes deben ir al final
+\usepackage{url}
+\usepackage{ifthen}
+
+% fin del preambulo
