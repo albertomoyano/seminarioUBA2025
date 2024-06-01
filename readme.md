@@ -94,7 +94,7 @@ El seminario combinará teoría con prácticas en vivo. Cada módulo incluirá:
 
 Al finalizar el seminario, los participantes deberán cumplir con los siguientes requisitos para obtener su certificación:
 
-**Participación activa:** Los participantes deberán haber mostrado una participación activa en las discusiones dentro del repositorio de Git del seminario, específicamente en los issues designados para debates y consultas. Esta participación incluirá contribuir con ideas, resolver dudas, y colaborar con sus compañeros en la resolución de problemas planteados durante el curso.
+**Participación activa:** Los participantes deberán haber mostrado una participación activa en las discusiones dentro del repositorio de Git del seminario, específicamente en los _issues_ designados para debates y consultas. Esta participación incluirá contribuir con ideas, resolver dudas, y colaborar con sus compañeros en la resolución de problemas planteados durante el curso.
 
 **Producción de múltiples salidas:** Cada participante deberá producir la salida en tres formatos diferentes (PDF, ePub y HTML) de un libro de ejercicios proporcionado durante el seminario. Este proyecto final deberá demostrar el dominio de las herramientas y técnicas aprendidas, asegurando que la fuente origen se transforma correctamente en cada uno de los formatos de salida, manteniendo la coherencia y calidad del contenido.
 
