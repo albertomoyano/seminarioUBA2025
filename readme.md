@@ -58,7 +58,7 @@ Este seminario está dirigido a:
    - Comandos básicos y flujos de trabajo
    - Integración con VSCode
 
-### Módulo 5: Generación de Salidas Múltiples
+### Módulo 5: Generación de salidas múltiples
 
 - Pandoc
    - Introducción a Pandoc
@@ -73,7 +73,7 @@ Este seminario está dirigido a:
    - Generación de sitios estáticos
    - Integración con GitHub Pages
 
-### Módulo 6: Gestión Bibliográfica
+### Módulo 6: Gestión bibliográfica
 
 - JabRef
    - Introducción y funcionalidades principales
@@ -90,13 +90,13 @@ El seminario combinará teoría con prácticas en vivo. Cada módulo incluirá:
 - Ejercicios prácticos donde los participantes aplicarán lo aprendido.
 - Proyectos finales en los que los participantes desarrollarán un documento que pueda ser exportado a múltiples formatos.
 
-## Evaluación y Certificación
+## Evaluación y certificación
 
 Al finalizar el seminario, los participantes deberán cumplir con los siguientes requisitos para obtener su certificación:
 
-**Participación Activa:** Los participantes deberán haber mostrado una participación activa en las discusiones dentro del repositorio de Git del seminario, específicamente en los issues designados para debates y consultas. Esta participación incluirá contribuir con ideas, resolver dudas, y colaborar con sus compañeros en la resolución de problemas planteados durante el curso.
+**Participación activa:** Los participantes deberán haber mostrado una participación activa en las discusiones dentro del repositorio de Git del seminario, específicamente en los issues designados para debates y consultas. Esta participación incluirá contribuir con ideas, resolver dudas, y colaborar con sus compañeros en la resolución de problemas planteados durante el curso.
 
-**Producción de Múltiples Salidas:** Cada participante deberá producir la salida en tres formatos diferentes (PDF, ePub y HTML) de un libro de ejercicios proporcionado durante el seminario. Este proyecto final deberá demostrar el dominio de las herramientas y técnicas aprendidas, asegurando que la fuente origen se transforma correctamente en cada uno de los formatos de salida, manteniendo la coherencia y calidad del contenido.
+**Producción de múltiples salidas:** Cada participante deberá producir la salida en tres formatos diferentes (PDF, ePub y HTML) de un libro de ejercicios proporcionado durante el seminario. Este proyecto final deberá demostrar el dominio de las herramientas y técnicas aprendidas, asegurando que la fuente origen se transforma correctamente en cada uno de los formatos de salida, manteniendo la coherencia y calidad del contenido.
 
 ## Conclusión
 
