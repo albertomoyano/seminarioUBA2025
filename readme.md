@@ -59,7 +59,7 @@ Este seminario está dirigido a:
    - Comandos básicos y flujos de trabajo
    - Integración con VSCode
 
-### Módulo 5: Generación de salidas múltiples
+### Módulo 4: Generación de salidas múltiples
 
 - Pandoc
    - Introducción a Pandoc
@@ -74,7 +74,7 @@ Este seminario está dirigido a:
    - Generación de sitios estáticos
    - Integración con GitHub Pages
 
-### Módulo 6: Gestión bibliográfica
+### Módulo 5: Gestión bibliográfica
 
 - JabRef
    - Introducción y funcionalidades principales
@@ -83,7 +83,7 @@ Este seminario está dirigido a:
    - Introducción y funcionalidades principales
    - Integración con editores de texto y otros formatos
 
-### Módulo 7: Metadatos en la documentación
+### Módulo 6: Metadatos en la documentación
 
 - Importancia de los metadatos
 - Cómo añadir metadatos en Markdown, AsciiDoc y LaTeX
