@@ -43,49 +43,44 @@ Este seminario está dirigido a:
 ### Módulo 2: Herramientas de marcado
 
 - Markdown
-
-- Sintaxis básica
-- Herramientas y plugins
-
+   - Sintaxis básica
+   - Herramientas y plugins
 - AsciiDoc
-
-- Sintaxis y estructuras avanzadas
-- Comparativa con Markdown
-
+   - Sintaxis y estructuras avanzadas
+   - Comparativa con Markdown
 - LaTeX
-
-- Introducción a LaTeX
-- Estructura de documentos y comandos básicos
+   - Introducción a LaTeX
+   - Estructura de documentos y comandos básicos
 
 ### Módulo 3: Control de versiones con Git
 
 - Introducción a Git
-- Comandos básicos y flujos de trabajo
-- Integración con VSCode
+   - Comandos básicos y flujos de trabajo
+   - Integración con VSCode
 
 ### Módulo 5: Generación de Salidas Múltiples
 
-1. Pandoc
+- Pandoc
    - Introducción a Pandoc
    - Uso de Pandoc para conversiones de formato
-2. PDF
+- PDF
    - Herramientas y técnicas
    - Ejemplos prácticos
-3. ePub
+- ePub
    - Conversión desde formatos de marcado
    - Herramientas útiles
-4. HTML
+- HTML
    - Generación de sitios estáticos
    - Integración con GitHub Pages
 
 ### Módulo 6: Gestión Bibliográfica
 
 - JabRef
-- Introducción y funcionalidades principales
-- Integración con LaTeX y otros formatos
+   - Introducción y funcionalidades principales
+   - Integración con LaTeX y otros formatos
 - Zotero
-- Introducción y funcionalidades principales
-- Integración con editores de texto y otros formatos
+   - Introducción y funcionalidades principales
+   - Integración con editores de texto y otros formatos
 
 ## Metodología
 
