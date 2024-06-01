@@ -16,13 +16,14 @@ En el mundo actual de la producción de contenido, la eficiencia y la versatilid
 
 ## Objetivos del Seminario
 
-- Comprender los conceptos básicos de la edición ramificada.
-- Explorar diversas herramientas de marcado como Markdown, AsciiDoc y LaTeX.
-- Aprender a usar sistemas de control de versiones con Git para gestionar proyectos de documentación.
-- Utilizar editores de código abierto como VSCode y TeXstudio para optimizar el proceso de edición.
-- Implementar flujos de trabajo que permitan generar salidas en PDF, ePub y HTML desde una única fuente.
-- Introducir el uso de Pandoc como herramienta de conversión de documentos.
-- Manejar gestores de referencias como JabRef y Zotero para la gestión bibliográfica.
+- **Comprender** los conceptos básicos de la edición ramificada.
+- **Explorar** diversas herramientas de marcado como Markdown, AsciiDoc y LaTeX.
+- **Aprender** a usar sistemas de control de versiones con Git para gestionar proyectos de documentación.
+- **Utilizar** editores de código abierto como VSCode y TeXstudio para optimizar el proceso de edición.
+- **Implementar** flujos de trabajo que permitan generar salidas en PDF, ePub y HTML desde una única fuente.
+- **Introducir** el uso de Pandoc como herramienta de conversión de documentos.
+- **Manejar** gestores de referencias como JabRef y Zotero para la gestión bibliográfica.
+- **Incorporar** metadatos en los documentos para mejorar la organización y búsqueda de la información.
 
 ## Público Objetivo
 
@@ -81,6 +82,12 @@ Este seminario está dirigido a:
 - Zotero
    - Introducción y funcionalidades principales
    - Integración con editores de texto y otros formatos
+
+### Módulo 7: Metadatos en la Documentación
+
+- Importancia de los metadatos
+- Cómo añadir metadatos en Markdown, AsciiDoc y LaTeX
+- Uso de metadatos en Pandoc para gestionar conversiones
 
 ## Metodología
 
