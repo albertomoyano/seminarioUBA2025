@@ -76,6 +76,9 @@ Este seminario está dirigido a:
 
 ### Módulo 5: Gestión bibliográfica
 
+- Visión general de las referencias bibliográficas
+   - Importancia de la gestión bibliográfica en la producción de documentos.
+   - Tipos de referencias y su uso en diferentes contextos.
 - JabRef
    - Introducción y funcionalidades principales
    - Integración con LaTeX y otros formatos
@@ -88,6 +91,9 @@ Este seminario está dirigido a:
 - Importancia de los metadatos
 - Cómo añadir metadatos en Markdown, AsciiDoc y LaTeX
 - Uso de metadatos en Pandoc para gestionar conversiones
+
+## Bibliografía
+
 
 ## Metodología
 
