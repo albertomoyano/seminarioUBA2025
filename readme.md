@@ -6,7 +6,7 @@ Los cambios tecnológicos que se han dado en las últimas décadas junto con la 
 
 La capacidad de producir contenido que pueda ser distribuido eficientemente en formatos como PDF, ePub y HTML desde una única fuente origen no solo optimiza el flujo de trabajo sino que también asegura consistencia y calidad en todas las salidas. Creemos indispensable tanto la incorporación de herramientas que permitan explorar de manera crítica la tecnología disponible como el desarrollo de flujos de trabajo propios y la constante revisión y actualización en términos de aplicaciones y programas disponibles para la toma de decisiones en relación con una determinada publicación o proyecto editorial.
 
-Este seminario, entonces, se propone como un espacio de formación disciplinar y específica complementario a diferentes propuestas de materias de la carrera en la que se encuentra inserto al mismo tiempo que aporta y actualiza la propuesta académica general. Los participantes serán guiados en el uso de lenguajes de marcado como Markdown, AsciiDoc y LaTeX, el control de versiones con Git, la utilización de editores de código como VSCode, la herramienta de conversión Pandoc, y gestores de referencias como JabRef y Zotero, con el objetivo final de habilitarlos para manejar de manera eficiente las diversas demandas del entorno editorial contemporáneo.
+Este seminario, entonces, se propone como un espacio de formación disciplinar y específica complementario a diferentes propuestas de materias de la carrera en la que se encuentra inserto al mismo tiempo que aporta y actualiza la propuesta académica general. Los participantes serán guiados en el uso de lenguajes de marcado como Markdown y LaTeX, el control de versiones con Git, la utilización de editores de código como VSCode t TeXstudio, la herramienta de conversión Pandoc, y gestores de referencias como JabRef y Zotero, con el objetivo final de habilitarlos para manejar de manera eficiente las diversas demandas del entorno editorial contemporáneo.
 
 Además, es importante destacar que todo el software y los lenguajes que se presentarán en el seminario adhieren de diferentes formas a la lógica del código abierto, asegurando a los participantes no tener dependencia de ninguna empresa o software en particular y promoviendo una mayor libertad y flexibilidad en sus proyectos.
 
@@ -17,7 +17,7 @@ En el mundo actual de la producción de contenido, la eficiencia y la versatilid
 ## Objetivos del seminario
 
 - **Comprender** los conceptos básicos de la edición ramificada.
-- **Explorar** diversas herramientas de marcado como Markdown, AsciiDoc y LaTeX.
+- **Explorar** diversas herramientas de marcado como Markdown y LaTeX.
 - **Aprender** a usar sistemas de control de versiones con Git para gestionar proyectos de documentación.
 - **Utilizar** editores de código abierto como VSCode y TeXstudio para optimizar el proceso de edición.
 - **Implementar** flujos de trabajo que permitan generar salidas en PDF, ePub y HTML desde una única fuente.
@@ -46,9 +46,6 @@ Este seminario está dirigido a:
 - Markdown
    - Sintaxis básica
    - Herramientas y plugins
-- AsciiDoc
-   - Sintaxis y estructuras avanzadas
-   - Comparativa con Markdown
 - LaTeX
    - Introducción a LaTeX
    - Estructura de documentos y comandos básicos
@@ -89,7 +86,7 @@ Este seminario está dirigido a:
 ### Módulo 6: Metadatos en la documentación
 
 - Importancia de los metadatos
-- Cómo añadir metadatos en Markdown, AsciiDoc y LaTeX
+- Cómo añadir metadatos en Markdown y LaTeX
 - Uso de metadatos en Pandoc para gestionar conversiones
 
 ## Bibliografía
