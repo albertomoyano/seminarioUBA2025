@@ -6,7 +6,7 @@ Los cambios tecnológicos que se han dado en las últimas décadas junto con la 
 
 La capacidad de producir contenido que pueda ser distribuido eficientemente en formatos como PDF, ePub y HTML desde una única fuente origen no solo optimiza el flujo de trabajo sino que también asegura consistencia y calidad en todas las salidas. Creemos indispensable tanto la incorporación de herramientas que permitan explorar de manera crítica la tecnología disponible como el desarrollo de flujos de trabajo propios y la constante revisión y actualización en términos de aplicaciones y programas disponibles para la toma de decisiones en relación con una determinada publicación o proyecto editorial.
 
-Este seminario, entonces, se propone como un espacio de formación disciplinar y específica complementario a diferentes propuestas de materias de la carrera en la que se encuentra inserto al mismo tiempo que aporta y actualiza la propuesta académica general. Los participantes serán guiados en el uso de lenguajes de marcado como Markdown y LaTeX, el control de versiones con Git, la utilización de editores de código como VSCode y TeXstudio, la herramienta de conversión Pandoc, y el gestor de referencias JabRef, con el objetivo final de habilitarlos para manejar de manera eficiente las diversas demandas del entorno editorial contemporáneo.
+Este seminario, entonces, se propone como un espacio de formación disciplinar y específica complementario a diferentes propuestas de materias de la carrera en la que se encuentra inserto al mismo tiempo que aporta y actualiza la propuesta académica general. Los participantes serán guiados en el uso de lenguajes de marcado como Markdown y LaTeX, el control de versiones con Git, la utilización de editores de código como VSCode y TeXstudio, la herramienta de conversión Pandoc, con el objetivo final de habilitarlos para manejar de manera eficiente las diversas demandas del entorno editorial contemporáneo.
 
 Además, es importante destacar que todo el software y los lenguajes que se presentarán en el seminario adhieren de diferentes formas a la lógica del código abierto, asegurando a los participantes no tener dependencia de ninguna empresa o software en particular y promoviendo una mayor libertad y flexibilidad en sus proyectos.
 
@@ -22,7 +22,7 @@ En el mundo actual de la producción de contenido, la eficiencia y la versatilid
 - **Utilizar** editores de código abierto como VSCode y TeXstudio para optimizar el proceso de edición.
 - **Implementar** flujos de trabajo que permitan generar salidas en PDF, ePub y HTML desde una única fuente.
 - **Introducir** el uso de Pandoc como herramienta de conversión de documentos.
-- **Manejar** gestores de referencias como JabRef y Zotero para la gestión bibliográfica.
+- **Manejar** gestores bibliográficos.
 - **Incorporar** metadatos en los documentos para mejorar la organización y búsqueda de la información.
 
 ## Público objetivo
@@ -43,7 +43,7 @@ Este seminario está dirigido a:
 
 ### Módulo 2: Herramientas de marcado
 
-- Markdown
+- [Markdown](https://es.wikipedia.org/wiki/Markdown)
    - Sintaxis básica
    - Herramientas y plugins
 - LaTeX
@@ -58,7 +58,7 @@ Este seminario está dirigido a:
 
 ### Módulo 4: Generación de salidas múltiples
 
-- Pandoc
+- [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
    - Introducción a Pandoc
    - Uso de Pandoc para conversiones de formato
 - PDF
@@ -70,15 +70,13 @@ Este seminario está dirigido a:
 - HTML
    - Generación de sitios estáticos
    - Integración con GitHub Pages
-- Uso de gbTeXpublisher para múltiples salidas
+- Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher) para múltiples salidas
 
 ### Módulo 5: Gestión bibliográfica
 
 - Visión general de las referencias bibliográficas
    - Importancia de la gestión bibliográfica en la producción de documentos.
    - Tipos de referencias y su uso en diferentes contextos.
-- JabRef
-   - Introducción y funcionalidades principales
    - Integración con LaTeX y otros formatos
 
 ### Módulo 6: Metadatos en la documentación
@@ -88,9 +86,9 @@ Este seminario está dirigido a:
 
 ## Bibliografía
 
-Sarah Simpkin, «Introducción a Markdown», traducido por Víctor Gayol, Programming Historian en español 1 (2017), https://doi.org/10.46430/phes0014.
+Sarah Simpkin, [«Introducción a Markdown»](https://doi.org/10.46430/phes0014), traducido por Víctor Gayol, Programming Historian en español 1 (2017).
 
-Manual de LaTeX, https://es.wikibooks.org/wiki/Manual_de_LaTeX
+Manual de [LaTeX](https://es.wikibooks.org/wiki/Manual_de_LaTeX)
 
 ## Metodología
 
