@@ -57,9 +57,6 @@ Este seminario está dirigido a:
 
 ### Módulo 4: Generación de salidas múltiples
 
-- [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
-   - Introducción a Pandoc
-   - Uso de Pandoc para conversiones de formato
 - PDF
    - Herramientas y técnicas
    - Ejemplos prácticos
@@ -69,19 +66,21 @@ Este seminario está dirigido a:
 - HTML
    - Generación de sitios estáticos
    - Integración con GitHub Pages
-- Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher) para múltiples salidas
+- Múltiples salidas
+   - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
+   - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
 
 ### Módulo 5: Gestión bibliográfica
 
 - Visión general de las referencias bibliográficas
    - Importancia de la gestión bibliográfica en la producción de documentos.
-   - Tipos de referencias y su uso en diferentes contextos.
-   - Integración con LaTeX y otros formatos
+   - Tipos de referencias, análisis comparativo y su uso en diferentes contextos
+   - Integración con Markdown y LaTeX
 
 ### Módulo 6: Metadatos en la documentación
 
-- Importancia de los metadatos
-- Cómo añadir metadatos en Markdown y LaTeX
+- Características e importancia de los metadatos
+- Cómo añadir metadatos en diferentes formatos de salida, utilizando Markdown y LaTeX
 
 ## Bibliografía
 
