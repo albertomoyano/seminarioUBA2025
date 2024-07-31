@@ -79,6 +79,7 @@ Este seminario está dirigido a:
 - Visión general de las referencias bibliográficas
    - Importancia de la gestión bibliográfica en la producción de documentos.
    - Tipos de referencias, análisis comparativo y su uso en diferentes contextos
+   - Uso de [JabRef](https://www.jabref.org/) y del módulo de referencias en [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
    - Integración con Markdown y LaTeX
 
 ### Módulo 6: Metadatos en la documentación
