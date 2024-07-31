@@ -54,7 +54,7 @@ Este seminario está dirigido a:
 
 ### Módulo 3: Control de versiones con Git
 
--  GitHub
+-  [GitHub](https://github.com/)
    - Introducción, comandos básicos
    - Uso de la wiki
    - Uso del área de discusiones
