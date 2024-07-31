@@ -31,8 +31,7 @@ Este seminario está dirigido a:
 
 - Estudiantes universitarios
 - Editores
-- Escritores técnicos
-- Cualquier persona interesada en la producción de documentos multipropósito
+- Investigadores científicos y escritores técnicos
 
 ## Contenido del seminario
 
