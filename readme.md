@@ -46,14 +46,19 @@ Este seminario está dirigido a:
 - [Markdown](https://es.wikipedia.org/wiki/Markdown)
    - Sintaxis básica
    - Herramientas y plugins
-- LaTeX
+- [LaTeX](https://www.latex-project.org/)
    - Introducción a LaTeX
    - Estructura de documentos y comandos básicos
+- [XML](https://www.w3.org/XML/)
+   - Introducción a XML
+   - Estructura de documentos
 
 ### Módulo 3: Control de versiones con Git
 
--  GitHub y GitLab
-   - Introducción, comandos básicos y flujos de trabajo
+-  GitHub
+   - Introducción, comandos básicos
+   - Uso de la wiki
+   - Uso del área de discusiones
 
 ### Módulo 4: Generación de salidas múltiples
 
