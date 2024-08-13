@@ -96,7 +96,7 @@ Manual de [LaTeX](https://es.wikibooks.org/wiki/Manual_de_LaTeX)
 
 ## Metodología
 
-El seminario combinará teoría con prácticas en vivo. Los alumnos instalarán en su computadora diferentes programas de software para el desarrollo del seminario, esto se hará en una máquina virtual para no alterar la composición del equipo, es aconsejable que los participantes dispongan de al menos 30gb de espacio libre en el disco principal de su computadora.
+El seminario combinará teoría con prácticas en vivo. Los alumnos instalarán en su computadora diferentes programas de software libre para el desarrollo del seminario, esto se hará en una máquina virtual para no alterar la composición de sus equipos, es aconsejable que los participantes dispongan de al menos 30gb de espacio libre en el disco principal de su computadora.
 
 Cada módulo del seminario incluirá:
 
