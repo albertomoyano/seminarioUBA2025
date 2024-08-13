@@ -72,6 +72,7 @@ Este seminario está dirigido a:
    - Integración con GitHub Pages
 - Múltiples salidas
    - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
+   - Uso de [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/)
    - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
 
 ### Módulo 5: Gestión bibliográfica
