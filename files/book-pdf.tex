@@ -1,0 +1,614 @@
+\documentclass{book}
+% Diseño general de página
+\usepackage[paperwidth=155mm,
+paperheight=230mm,
+textwidth=110mm,
+textheight=540pt,
+centering,
+includehead,
+includefoot,
+headsep=13.5pt,
+top=35pt,
+footskip=0mm,
+footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
+
+% Idiomas y babel
+\usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
+\usepackage[autostyle=true]{csquotes}
+\renewcommand{\spanishcontentsname}{Sumario}
+\renewcommand{\spanishindexname}{Índice alfabético}
+
+\tracinglostchars=2
+\usepackage{fontspec}
+\usepackage{microtype}
+\newfontfeature{Microtypography}{protrusion=default;expansion=default}
+\directlua{fonts.protrusions.setups.default.factor=.5}
+\renewcommand{\normalsize}{\fontsize{10pt}{13.5pt}\selectfont}
+\topskip=13.5pt
+
+% tipografía Libertinus
+\setmainfont{Libertinus Serif}
+[Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.18]
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}
+
+% configuración y tipografía por default en TeXlive para idioma chino
+\usepackage{luatexja-fontspec}
+\setmainjfont{FandolSong}
+
+\setsansfont[Scale=MatchLowercase,
+Ligatures=TeX,
+Extension=.otf,
+UprightFont=*-Regular,
+ItalicFont=*-Italic,
+BoldFont=*-SemiBold,
+BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
+
+\setmonofont[Scale=0.91,
+Extension=.otf,
+UprightFont=*-Regular,
+ItalicFont = IBMPlexMono-Italic.otf,
+BoldFont = IBMPlexMono-Bold.otf,
+BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
+
+% configuración de los valores decimales de los cuadros
+\usepackage{siunitx}
+\sisetup{output-decimal-marker={.},
+         group-separator={\hspace{0.15em}},
+         group-minimum-digits=3,
+         table-text-alignment=center,
+         detect-all,
+         per-mode=fraction}
+
+% control de ruptura de linea
+\usepackage{linebreaker}
+\linebreakersetup{
+	maxtolerance=90,
+	maxemergencystretch=1em,
+	maxcycles=4
+}
+
+% paquetes varios
+\usepackage{qrcode}% generamos el QR
+\usepackage{froufrou}
+\usepackage{nccfoots}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage[final]{pdfpages}
+\usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{bchart}
+\usepackage[most]{tcolorbox}
+% control sobre parrafos de una linea a final de página
+\usepackage{needspace}% usar donde se desea el corte \Needspace*{4\baselineskip}
+% diseño de listas (opcion 1) con paralist
+\usepackage{paralist}
+\setdefaultenum{1)}{a)}{i)}{}
+\pltopsep=0.5mm
+\plitemsep=0mm
+% diseño de listas (opcion 2) con enumitem
+\usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
+% rediseñamos la raya de las notas a pie aumentamos la distancia de la raya
+\renewcommand{\footnoterule}{%
+	\kern -3pt%
+	\hrule height 0.5pt width 0.4\columnwidth%
+	\kern 6pt%
+	}
+
+%% rediseño del epígrafe
+%% la columna superior es tratada como párrafo y
+%% la inferior marginada a la derecha
+\newcommand{\epigraph}[2]{%
+	\par\nobreak\noindent\par\nobreak\vspace{.5\baselineskip}
+	\hfill{\small\begin{tabular}{@{}>{\raggedright\arraybackslash}m{.65\textwidth}@{}}
+			#1 \\[1ex]
+			\midrule
+			\hfill #2
+	\end{tabular}}
+	\vspace{.5\baselineskip}
+}
+
+% niveles para los contadores
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{4}
+
+% dibujo de caja contenedora, solo para desarrollo
+%\usepackage{showframe}
+%\renewcommand\ShowFrameLinethickness{0.1pt}
+%\renewcommand\ShowFrameColor{\color{blue}}
+
+% diseño del pie de página
+\usepackage[bottom,stable,hang]{footmisc}
+\makeatletter
+\patchcmd{\@footnotetext}{\footnotesize}{\small}{}{}% tamaño del cuerpo del texto del footnote
+\makeatother
+\renewcommand*{\thefootnote}{\scriptsize\sf{[\arabic{footnote}]}}% tamaño del cuerpo de puntero del footnote
+
+% KOMA script
+\usepackage{scrextend}
+% \KOMAoptions{footnotes=multiple}% maybe you want to use this option?
+\newcommand*\footnotemarkspace{0em} % set distance of the footnote text from the margin
+\deffootnote{\footnotemarkspace}% use distance from above
+{\parindent}% paragraph indent in footnotes (footnotes should never have paragraphs!)
+{\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}} % footfont with period for footnote marks in footnote
+%   {\makebox[\footnotemarkspace][l]{\footfont\phantom{99}\llap{\thefootnotemark.}}} % footfont with period for footnote marks in footnote
+
+% cambiar la font specification for the name "PART"
+\renewcommand\thepart{\arabic{part}}
+
+% AJUSTE PARA UTILIZAR SUBTITULOS, CHAPTER CON ce MAYÚSCULA \Chapter{}{}
+% \usepackage{relsize} %Package to set relative font size (\smaller, \larger)
+\newcommand\Chapter[2]{
+	\chapter[#1]{#1\\ {\fontsize{12pt}{14.4pt}\selectfont#2}}
+}
+
+\usepackage{titletoc}
+% partes
+\titlecontents{part}[0em]
+{\addvspace{5pt}\sf\bfseries\normalsize\selectfont\filright}
+{\contentslabel[\thecontentslabel]{2.5pc}}{}{}
+
+% capitulo
+\titlecontents{chapter}[2pc]
+{\addvspace{.4em}\sf\selectfont\filright}
+{\contentslabel{2pc}}
+{\hspace*{-2pc}}%
+{\titlerule*[1pc]{.}\contentspage[\hspace*{-3pc} {\rm\small\thecontentspage}]}%
+[]
+
+\titlecontents{section}[4.5pc]
+{\small\filright}
+{\contentslabel{2.5pc}}
+{\hspace*{-2.5pc}}
+{\titlerule*[1pc]{.}\contentspage}
+
+% %% diseño de sección
+% \titlecontents*{section}[2.5pc]
+% {\small\selectfont\filright}
+% {{\sffamily{\thecontentslabel}} \ }{}
+% { [\textbf{\thecontentspage}]}[][\ \textbullet\ ][]
+
+% \titlecontents*{section}[2.5pc]
+% {\footnotesize\selectfont\raggedright}
+% {\textbf{\thecontentslabel\adddot}\addspace}
+% % {\thecontentslabel.\addspace}% despues de terminar con Tucumán usar este
+% {}
+% {~[\thecontentspage].\addspace}[]
+% % {\addspace[\thecontentspage].\addspace}[]
+
+% CORRIJE LA POSICIÓN DE LOS NUMEROS EN EL ÍNDICE DE FIGURAS Y CUADROS
+\makeatletter
+\renewcommand{\l@figure}{\@dottedtocline {1}{0}{2.5pc}}
+\renewcommand{\l@table}{\@dottedtocline {1}{0}{2.5pc}}
+\makeatother
+
+\usepackage[sf,bf,compact,topmarks,calcwidth,pagestyles,clearempty,newlinetospace]{titlesec}
+%diseño de parte
+\makeatletter
+\def\@part[#1]#2{%
+	\ifnum \c@secnumdepth >-2\relax
+	\refstepcounter{part}%
+	\addcontentsline{toc}{part}{Parte \thepart\hspace{1em}#1}%
+	\else
+	\addcontentsline{toc}{part}{#1}%
+	\fi
+	\markboth{}{}%
+	{\centering
+		\interlinepenalty \@M
+		\ifnum \c@secnumdepth >-2\relax
+		\sf\LARGE\selectfont \partname~\thepart
+		\par\vskip 20\p@%
+		\fi
+		\sf\Large\selectfont
+		#2\par}%
+	\@endpart}
+
+\def\@spart#1{%
+	\markboth{}{}%
+	{\centering
+		\interlinepenalty \@M
+		\sf\LARGE\selectfont
+		#1\par}%
+	\@endpart}
+\makeatother
+
+%diseño de capitulo
+\titleformat{\chapter}[display]
+% {\sf \LARGE}
+% {\filleft {\chaptertitlename} \thechapter}
+% {2ex}{\filright}[]
+{\Large}
+{\vspace{-2.5cm}\centering{\textsc{\MakeLowercase\chaptertitlename}}~\thechapter}
+{1.5cm}
+{\filright\sf\LARGE}
+[]
+% \titlespacing{\chapter}{0pt}{-9ex}{0pt}
+
+%diseño de seccion
+\titleformat{\section}[hang]
+{\sf\bfseries\large\raggedright}
+{\thesection}{.5em}{}[]
+\titlespacing{\section}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+
+%diseño de subseccion
+\titleformat{\subsection}[hang]
+{\sf\large\raggedright}
+{\thesubsection}{.5em}{}[]
+\titlespacing{\subsection}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+
+%diseño de subsubseccion
+\titleformat{\subsubsection}[hang]
+{\rm\bfseries\normalsize\raggedright}
+{\thesubsubsection}{.5em}{}[]
+\titlespacing{\subsubsection}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+
+%diseño de parrafo para usar con los autores de compilaciones
+\titleformat{\paragraph}[runin]
+  {\bfseries}
+  {}{0em}{}
+  [\mbox{ --- }]
+\titlespacing{\paragraph}
+  {0pt}% antes de la raya
+  {6.75pt plus 0.5pt minus 0.5pt}% antes del párrafo
+  {0pt}% después de la raya
+
+%diseño de subparrafo
+\titleformat{\subparagraph}[hang]
+{\sf\bfseries\large\centering}
+{\thesubparagraph}{.5em}{}[]
+\titlespacing{\subparagraph}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+
+% DISEÑO DE CABEZALES
+\renewpagestyle{plain}[]{% \footrule
+\setfoot{}{}{}}
+\newpagestyle{myps}[]{%
+\setfoot[][][]{}{}{}
+\sethead[\sf \textbf{\usepage}][][\sf \TheAuthor]
+{\sf \chaptertitle}{}{\sf \textbf{\usepage}}
+}
+\pagestyle{myps}
+
+\newcommand{\TheAuthor}{}
+\newcommand{\Author}[1]{\renewcommand{\TheAuthor}{#1}}
+
+% Ajustes de viudas y huérfanas
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+% \finalhyphendemerits% evitamos el corte en la última línea del párrafo
+%% CON ESTAS 2 INSTRUCCIONES NUNCA VA A GUIONIZAR PALABRAS MENORES A 7 CARACTERES
+% \lefthyphenmin3 %% determina el minimo de caracteres de final de linea a la izquierda
+% \righthyphenmin3 %% determina el minimo de caracteres de final de linea a la derecha
+
+% NUEVO TIPO DE ENTORNO FLOTANTE PARA FOTOGRAFIAS (\listofimagen)
+\usepackage{newfloat}
+\DeclareFloatingEnvironment[
+fileext=lop,
+listname={Índice de imágenes},
+name=Imagen,
+placement=ht,
+%within=section,% activate it if you want
+%chapterlistsgaps=on,% meaningful only if chapters exist
+]{imagen}
+
+% DISEÑO DE RAYA DEL MEDIO
+\makeatletter
+\def\thinskip{\hskip 0.16667em\relax}
+\def\endash{--}
+\def\emdash{\endash-}
+\def\d@sh#1#2{\unskip#1\thinskip#2\thinskip\ignorespaces}
+\def\dash{\d@sh\nobreak\endash}
+\def\Dash{\d@sh\nobreak\emdash}
+\def\ldash{\d@sh\empty{\hbox{\endash}\nobreak}}
+\def\rdash{\d@sh\nobreak\endash}
+\def\Ldash{\d@sh\empty{\hbox{\emdash}\nobreak}}
+\def\Rdash{\d@sh\nobreak\emdash}
+\def\hyph{-\penalty\z@\hskip\z@skip}
+\def\slash{/\penalty\z@\hskip\z@skip}
+\makeatother
+
+% CENTRADO DEL AUTOR DE LOS CAPITULOS
+\newcommand\nombreautor[1]{\textsc{\MakeLowercase{#1}}}
+
+% CITA CON CAMBIO DE TAMAÑO TIPOGRAFICO
+\renewenvironment{quote}
+  {\normalsize\list{}{\sf\leftmargin=14pt \rightmargin=0pt}%
+   \item\relax}
+  {\endlist}
+
+% CONFIGURACIÓN PARA BIBLATEX
+\usepackage[style=philosophy-modern,
+% refsection=chapter,%para obtener las referencias por capítulo
+sortcites=true,
+lowscauthors=true,
+scauthorsbib=true,
+annotation=true,
+backend=biber,
+labeldateparts=true,
+backref=true,
+useprefix=true,
+citereset=chapter,
+indexing=cite,
+relatedformat=brackets,
+publocformat=loccolonpub,
+volnumformat=strings,
+latinemph=true,
+inbeforejournal=true,
+shorthandintro=true,
+texencoding=utf8,
+bibencoding=utf8,
+uniquelist=minyear]{biblatex}
+
+%GENERAR LOS INDICES, DESACTIVAMOS LAS OPCIONES PARA TITULOS
+\renewbibmacro*{bibindex}{%
+  \ifbibindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+\renewbibmacro*{citeindex}{%
+  \ifciteindex
+    {\indexnames{author}%
+     \indexnames{editor}%
+     \indexnames{translator}%
+     \indexnames{commentator}}
+    {}}
+
+% CAMBIAMOS URL PARA QUE APAREZCA LA LEYENDA EN LINEA
+\makeatletter
+\newrobustcmd{\mkbiblege}[1]{%
+	\begingroup
+	\blx@blxinit
+	\blx@setsfcodes
+	<#1>
+	\endgroup}
+\makeatother
+
+\DeclareFieldFormat{url}{\bibstring{url}\space\mkbiblege{\url{#1}}}
+
+% REDEFINIR EL FORMATO DE CITADO EN PÁGINA 00
+% \DeclareFieldFormat{pagerefformat}{\mkbibparens{{\color{red}\mkbibemph{#1}}}}
+\renewbibmacro*{pageref}{%
+	\iflistundef{pageref}
+	{}
+	{\printtext[pagerefformat]{%
+			\ifnumgreater{\value{pageref}}{1}
+			{\bibstring{backrefpages}\ppspace}
+			{\bibstring{backrefpage}\ppspace}%
+			\printlist[pageref][-\value{listtotal}]{pageref}}}}
+
+% DECLARO UNA ALIAS PARA TRATAR MOVIE COMO MISC
+\DeclareBibliographyAlias{movie}{misc}
+
+% PONE PUNTO Y COMA ENTRE NOMBRE DE VARIOS AUTORES
+\renewcommand*{\multinamedelim}{\addsemicolon\space}
+
+% CAMBIA LA TIPOGRAFIA DE LA BIBLIOGRAFIA
+\renewcommand*{\annotationfont}{\small\sf}
+\renewcommand*{\bibfont}{\small}
+\setlength{\bibhang}{3\parindent}%modifico el valor por default (4) de indentacion del año
+
+\defcounter{biburlnumpenalty}{3000}
+\defcounter{biburlucpenalty}{6000}
+\defcounter{biburllcpenalty}{9000}
+
+%% REDISEÑO PARA OBTENER MODO LARGO EN ALGUNAS ENTRADAS
+\NewBibliographyString{organizator}
+\NewBibliographyString{organizators}
+\NewBibliographyString{byorganizator}
+\NewBibliographyString{cordinator}
+\NewBibliographyString{cordinators}
+\NewBibliographyString{bycordinator}
+\NewBibliographyString{direction}
+\NewBibliographyString{directions}
+\NewBibliographyString{bydirection}
+\NewBibliographyString{maestriathesis}
+\NewBibliographyString{ingenieriathesis}
+\NewBibliographyString{gradothesis}
+\NewBibliographyString{licenciaturathesis}
+\NewBibliographyString{origpubbare}
+\NewBibliographyString{especialthesis}
+\NewBibliographyString{documentjob}
+\NewBibliographyString{posgradothesis}
+\NewBibliographyString{magisterthesis}
+\NewBibliographyString{dirigida}% MODIFICACIONES PARA FILMES
+\NewBibliographyString{dirigidas}
+\NewBibliographyString{bydirigida}
+\NewBibliographyString{escrita}
+\NewBibliographyString{escritas}
+\NewBibliographyString{byescrita}
+\NewBibliographyString{elenco}
+\NewBibliographyString{elencos}
+\NewBibliographyString{byelenco}
+\NewBibliographyString{tifthesis}
+\NewBibliographyString{mimeograph}
+\NewBibliographyString{photocopy}
+\NewBibliographyString{digitalprinting}
+
+\DefineBibliographyStrings{spanish}{%
+	inpreparation    = {en preparación},
+	submitted        = {enviado},
+	forthcoming      = {de próxima aparición},
+	inpress          = {en imprenta},
+	prepublished     = {previamente publicado},
+	digitalprinting  = {impresión digital},
+	photocopy        = {fotocopia},
+	mimeograph       = {mimeo},
+	dirigida         = {dirección},
+	dirigidas        = {dirección},
+	bydirigida       = {Dirección de},
+	escrita          = {escrita},
+	escritas         = {escrita},
+	byescrita        = {escrita por},
+	elenco           = {actúan:},
+	elencos          = {actúan:},
+	byelenco         = {actúan:},
+	part             = {tomo},
+	january          = {enero},
+	february         = {febrero},
+	march            = {marzo},
+	april            = {abril},
+	may              = {mayo},
+	june             = {junio},
+	july             = {julio},
+	august           = {agosto},
+	september        = {septiembre},
+	october          = {octubre},
+	november         = {noviembre},
+	december         = {diciembre},
+	see              = {véase},
+	seealso          = {véase también},
+	backrefpage      = {re\-fe\-ren\-cia ci\-ta\-da en pági\-na},
+	backrefpages     = {re\-fe\-ren\-cia ci\-ta\-da en pági\-nas},
+	seenote          = {véase nota},
+	quotedin         = {citado en},
+	idem             = {ídem},
+	idemsf           = {ídem},
+	idemsm           = {ídem},
+	idemsn           = {ídem},
+	idempf           = {ídem},
+	idempm           = {ídem},
+	idempn           = {ídem},
+	idempp           = {ídem},
+	ibidem           = {\emph{ibidem}},
+	prepublished     = {previamente publicado},
+	nodate           = {sin fecha},
+	withcommentator  = {con comentario de},
+	withannotator    = {con notas de},
+	withintroduction = {con introdución de},
+	withforeword     = {con prólogo de},
+	withafterword    = {con epílogo de},
+	bycollaborator   = {con colaboración de},
+	andothers        = {\emph{et al\adddot}},
+	organizator      = {org\adddot},
+	organizators     = {orgs\adddot},
+	byorganizator    = {org\adddot\addspace por},
+	cordinator       = {coord\adddot},
+	cordinators      = {coords\adddot},
+	bycordinator     = {coord\adddot\addspace por},
+	direction        = {dir\adddot},
+	directions       = {dirs\adddot},
+	bydirection      = {dir\adddot\addspace por},
+	mathesis         = {Tesis de Maestría},
+	ingenieriathesis = {Tesis de Ingeniería},
+	magisterthesis   = {Tesis de Magíster},
+	phdthesis        = {Tesis de Doctorado},
+	gradothesis      = {Tesis de Grado},
+	licenciaturathesis = {Tesis de Licenciatura},
+	tifthesis        = {Trabajo Integrador Final},
+	posgradothesis   = {Tesis de Posgrado},
+	especialthesis   = {Tesis de Especialización},
+	documentjob      = {documento de trabajo},
+	urlseen          = {visitado el\addspace},
+	translationof    = {trad\adddot\addspace de},
+	translationas    = {original publicado en},
+	url              = {recuperado de},
+	origpubbare      = {orig\adddotspace pub\adddotspace},
+	newseries        = {nueva época},
+	oldseries        = {antigua época},
+	byeditorfo       = {ed\adddotspace y pról\adddotspace por},
+	byeditorco       = {ed\adddotspace y com\adddotspace por},
+	bytranslatorfo   = {traducido \lbx@lfromlang\ y prologado por},
+	pagetotal        = {págs},
+	pagetotals       = {págs},
+	techreport       = {informe técnico},
+	resreport        = {reporte de investigación},
+	file             = {archivo},
+	patent           = {patente},
+	patentde         = {patente alemana},
+	patenteu         = {patente europea},
+	patentfr         = {patente francesa},
+	patentuk         = {patente británica},
+	patentus         = {patente estadounidense},
+	patreq           = {solicitud de patente},
+	patreqde         = {solicitud de patente alemana},
+	patreqeu         = {solicitud de patente europea},
+	patreqfr         = {solicitud de patente francesa},
+	patrequk         = {solicitud de patente británica},
+	patrequs         = {solicitud de patente estadounidense},
+	bycompiler       = {comp\adddotspace por},
+}
+
+% corrección para año original
+\makeatletter
+\renewbibmacro*{transorigstring}{%
+  \iffieldundef{reprinttitle}%
+  {\printtext{\ifdefstring{\bbx@origfields}{origed}
+      {\bibstring{origpubbare}}%
+      {\bibstring{translationas}}}\nopunct}%
+  {\printtext{\bibstring{reprint}}}\nopunct}
+\makeatother
+
+% generamos los índices
+\usepackage[xindy]{imakeidx}
+\makeindex
+\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
+\makeindex[name=concepto,title={Índice de conceptos}]
+\makeindex[name=onomastico,title={Índice onomástico}]
+
+\usepackage{esindex}
+\DeclareIndexNameFormat{default}{%
+	\usebibmacro{index:name}{\esindex[names]}
+	{\namepartfamily}
+	{\namepartgiven}
+	{\namepartprefix}
+	{\namepartsuffix}}
+\renewbibmacro*{citeindex}{%
+	\ifciteindex
+	{\indexnames{labelname}}
+	{}}
+\usepackage[totoc]{idxlayout}
+
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
+\preto\chapter{\glsresetall}
+\makenoidxglossaries
+\renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
+
+% Diseño y estilo a glosario y acrónimo
+\newglossarystyle{crossreflist}%
+{% base it on list (adapt as required)
+	\renewcommand*{\glossentry}[2]{%
+		\item[\glsentryitem{##1}%
+		\glstarget{##1}{\glossentryname{##1}}]
+		\glossentrydesc{##1}\glspostdescription\space ##2%
+		% check if the user1 key has been supplied:
+		\ifglshasfield{useri}{##1}%
+		{% do cross-reference
+			\newline
+			\glsletentryfield{\crossrefs}{##1}{useri}%
+			\glsseeformat[\emph{Véase:}]{\crossrefs}{}%
+		}%
+		{}%
+	}%
+}
+\setglossarystyle{crossreflist}
+
+% deshabilitamos mostrar el número de página
+%\renewcommand{\glossaryentrynumbers}[1]{Véase página #1.}
+\renewcommand{\delimN}{, }
+\renewcommand{\delimR}{--}
+
+% Instrucciones de salida
+%\printnoidxglossary[type=\acronymtype,title={Índice de siglas}]
+%\printnoidxglossary[title={Glosario de términos}]
+
+\usepackage{url}%[allowmove]
+\Urlmuskip = 0mu plus 1mu
+\def\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z\do0\do1\do2\do3\do4\do5\do6\do7\do8\do9\do=\do.\do:\do\%\do?\do_\do-\do+\do/\do\#\do~}
+\def\UrlFont{\rm}
+
+\usepackage{ifthen}
+
+% fin del preambulo
