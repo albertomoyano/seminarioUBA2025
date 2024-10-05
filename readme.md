@@ -118,4 +118,4 @@ Además, los participantes habrán demostrado su capacidad para colaborar y reso
 
 ## Imagen ilustrativa de un posible modelo de producción basado en fuente única
 
-![](./media/arbol5.png)
+![](./media/arbol.png)
