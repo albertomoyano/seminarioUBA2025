@@ -1,16 +1,23 @@
-\documentclass{book}
-% Diseño general de página
-\usepackage[paperwidth=155mm,
-paperheight=230mm,
-textwidth=110mm,
-textheight=540pt,
-centering,
+\documentclass[oneside,onecolumn,openany,final]{book}
+
+% Deben cargarse temprano para parches de macros
+\usepackage{etoolbox}
+\usepackage{ifthen}
+
+% Diseño pantalla de 10 pulgadas
+\usepackage[paperwidth=124mm,
+paperheight=220mm,
 includehead,
 includefoot,
-headsep=13.5pt,
-top=35pt,
+headsep=4pt,
+top=4mm,
+inner=4mm,
+bottom=4mm,
+outer=4mm,
+marginparsep=0mm,
+marginparwidth=0mm,
 footskip=0mm,
-footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
+footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 
 % Idiomas y babel
 \usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
@@ -23,16 +30,18 @@ footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
 \usepackage{microtype}
 \newfontfeature{Microtypography}{protrusion=default;expansion=default}
 \directlua{fonts.protrusions.setups.default.factor=.5}
-\renewcommand{\normalsize}{\fontsize{10pt}{13.5pt}\selectfont}
-\topskip=13.5pt
+\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+\topskip=14pt
 
 % tipografía Libertinus
 \setmainfont{Libertinus Serif}
 [Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.18]
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}
 
-% diseño tipográfico con Minion Pro 3
-% \setmainfont{Minion 3}
-% [Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.2]
+%% configuración y tipografía por default en TeXlive para idioma chino
+%\usepackage{luatexja-fontspec}
+%\setmainjfont{FandolSong}
 
 \setsansfont[Scale=MatchLowercase,
 Ligatures=TeX,
@@ -52,13 +61,11 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 % configuración de los valores decimales de los cuadros
 \usepackage{siunitx}
 \sisetup{output-decimal-marker={.},
-         group-separator={\,},
+         group-separator={\hspace{0.15em}},
          group-minimum-digits=3,
          table-text-alignment=center,
-         detect-all}
-
-% para comentarios y alertas
-\usepackage{easyReview}
+         detect-all,
+         per-mode=fraction}
 
 % control de ruptura de linea
 \usepackage{linebreaker}
@@ -69,6 +76,9 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 }
 
 % paquetes varios
+\usepackage{pageslts}
+\usepackage{calc}
+\usepackage{qrcode}% generamos el QR
 \usepackage{froufrou}
 \usepackage{nccfoots}
 \usepackage{booktabs}
@@ -79,38 +89,47 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
 \usepackage{ragged2e}
 \usepackage{xcolor}
-
-% diseño de listas
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{bchart}
+\usepackage[most]{tcolorbox}
+% control sobre parrafos de una linea a final de página
+\usepackage{needspace}% usar donde se desea el corte \Needspace*{4\baselineskip}
+% diseño de listas (opcion 1) con paralist
+\usepackage{paralist}
+\setdefaultenum{1)}{a)}{i)}{}
+\pltopsep=0.5mm
+\plitemsep=0mm
+% diseño de listas (opcion 2) con enumitem
 \usepackage{enumitem}
-\setlist{nosep,topsep=-\parskip}
+\setlist{nosep,topsep=4pt}
+% rediseñamos la raya de las notas a pie aumentamos la distancia de la raya
+\renewcommand{\footnoterule}{%
+	\kern -3pt%
+	\hrule height 0.5pt width 0.4\columnwidth%
+	\kern 6pt%
+	}
 
-% rediseño del epígrafe
+%% rediseño del epígrafe
+%% la columna superior es tratada como párrafo y
+%% la inferior marginada a la derecha
 \newcommand{\epigraph}[2]{%
 	\par\nobreak\noindent\par\nobreak\vspace{.5\baselineskip}
 	\hfill{\small\begin{tabular}{@{}>{\raggedright\arraybackslash}m{.65\textwidth}@{}}
 			#1 \\[1ex]
 			\midrule
-			#2
+			\hfill #2
 	\end{tabular}}
 	\vspace{.5\baselineskip}
 }
 
 % niveles para los contadores
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{4}
 
 % dibujo de caja contenedora, solo para desarrollo
 %\usepackage{showframe}
 %\renewcommand\ShowFrameLinethickness{0.1pt}
 %\renewcommand\ShowFrameColor{\color{blue}}
-
-% cruces de corte
-%\usepackage[width=18truecm,height=25.5truecm,cam,center]{crop}
-%\newcommand*\infofont[1]{\sf{\footnotesize #1 (alberto.alejandro.moyano@gmail.com)}}
-%\crop[font=infofont]
-
-%% fondo gris para no arruinarme la vista
-%\pagecolor{lightgray!40}
 
 % diseño del pie de página
 \usepackage[bottom,stable,hang]{footmisc}
@@ -122,7 +141,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 % KOMA script
 \usepackage{scrextend}
 % \KOMAoptions{footnotes=multiple}% maybe you want to use this option?
-\newcommand*\footnotemarkspace{0em} % set distance of the footnote text from the margin
+\newcommand*\footnotemarkspace{8mm} % set distance of the footnote text from the margin
 \deffootnote{\footnotemarkspace}% use distance from above
 {\parindent}% paragraph indent in footnotes (footnotes should never have paragraphs!)
 {\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}} % footfont with period for footnote marks in footnote
@@ -180,22 +199,31 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \usepackage[sf,bf,compact,topmarks,calcwidth,pagestyles,clearempty,newlinetospace]{titlesec}
 %diseño de parte
 \makeatletter
-\def\@part[#1]#2{\ifnum \c@secnumdepth >-2\relax
+\def\@part[#1]#2{%
+	\ifnum \c@secnumdepth >-2\relax
 	\refstepcounter{part}%
-
-	\addcontentsline{toc}{part}{Parte \thepart
-		\hspace{1em}#1}\else
-
-	\addcontentsline{toc}{part}{#1}\fi
+	\addcontentsline{toc}{part}{Parte \thepart\hspace{1em}#1}%
+	\else
+	\addcontentsline{toc}{part}{#1}%
+	\fi
 	\markboth{}{}%
 	{\centering
 		\interlinepenalty \@M
 		\ifnum \c@secnumdepth >-2\relax
 		\sf\LARGE\selectfont \partname~\thepart
-		\par
-		\vskip 20\p@\fi
+		\par\vskip 20\p@%
+		\fi
+		\sf\Large\selectfont
+		#2\par}%
+	\@endpart}
+
+\def\@spart#1{%
+	\markboth{}{}%
+	{\centering
+		\interlinepenalty \@M
 		\sf\LARGE\selectfont
-		#2\par}\@endpart}
+		#1\par}%
+	\@endpart}
 \makeatother
 
 %diseño de capitulo
@@ -215,38 +243,38 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 {\sf\bfseries\large\raggedright}
 {\thesection}{.5em}{}[]
 \titlespacing{\section}
-{\parindent}{18pt plus .1pt minus -.1pt}{6.75pt}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 
 %diseño de subseccion
 \titleformat{\subsection}[hang]
 {\sf\large\raggedright}
 {\thesubsection}{.5em}{}[]
 \titlespacing{\subsection}
-{\parindent}{18pt plus .1pt minus -.1pt}{6.75pt}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 
 %diseño de subsubseccion
 \titleformat{\subsubsection}[hang]
 {\rm\bfseries\normalsize\raggedright}
 {\thesubsubsection}{.5em}{}[]
 \titlespacing{\subsubsection}
-{\parindent}{18pt plus .1pt minus -.1pt}{6.75pt}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 
 %diseño de parrafo para usar con los autores de compilaciones
 \titleformat{\paragraph}[runin]
-  {\normalfont\sc\MakeLowercase}
+  {\bfseries}
   {}{0em}{}
   [\mbox{ --- }]
 \titlespacing{\paragraph}
   {0pt}% antes de la raya
-  {6.75pt plus .1pt minus -.1pt}% antes del párrafo
+  {6.75pt plus 0.5pt minus 0.5pt}% antes del párrafo
   {0pt}% después de la raya
 
-%diseño de subparrafo TRUCO PARA CENTRAR NUMEROS DE NIGRA
+%diseño de subparrafo
 \titleformat{\subparagraph}[hang]
 {\sf\bfseries\large\centering}
 {\thesubparagraph}{.5em}{}[]
 \titlespacing{\subparagraph}
-{\parindent}{1pc plus .1pc minus -.2pc}{.5pc}
+{\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 
 % DISEÑO DE CABEZALES
 \renewpagestyle{plain}[]{% \footrule
@@ -265,8 +293,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
-% \hyphenpenalty=3000
-\finalhyphendemerits% evitamos el corte en la última línea del párrafo
+% \finalhyphendemerits% evitamos el corte en la última línea del párrafo
 %% CON ESTAS 2 INSTRUCCIONES NUNCA VA A GUIONIZAR PALABRAS MENORES A 7 CARACTERES
 % \lefthyphenmin3 %% determina el minimo de caracteres de final de linea a la izquierda
 % \righthyphenmin3 %% determina el minimo de caracteres de final de linea a la derecha
@@ -309,6 +336,7 @@ placement=ht,
 
 % CONFIGURACIÓN PARA BIBLATEX
 \usepackage[style=philosophy-modern,
+% refsection=chapter,%para obtener las referencias por capítulo
 sortcites=true,
 lowscauthors=true,
 scauthorsbib=true,
@@ -413,17 +441,28 @@ uniquelist=minyear]{biblatex}
 \NewBibliographyString{elencos}
 \NewBibliographyString{byelenco}
 \NewBibliographyString{tifthesis}
+\NewBibliographyString{mimeograph}
+\NewBibliographyString{photocopy}
+\NewBibliographyString{digitalprinting}
 
 \DefineBibliographyStrings{spanish}{%
-	dirigida         = {direcci\'on},
-	dirigidas        = {direcci\'on},
-	bydirigida       = {Direcci\'on de},
+	inpreparation    = {en preparación},
+	submitted        = {enviado},
+	forthcoming      = {de próxima aparición},
+	inpress          = {en imprenta},
+	prepublished     = {previamente publicado},
+	digitalprinting  = {impresión digital},
+	photocopy        = {fotocopia},
+	mimeograph       = {mimeo},
+	dirigida         = {dirección},
+	dirigidas        = {dirección},
+	bydirigida       = {Dirección de},
 	escrita          = {escrita},
 	escritas         = {escrita},
 	byescrita        = {escrita por},
-	elenco           = {act\'uan:},
-	elencos          = {act\'uan:},
-	byelenco         = {act\'uan:},
+	elenco           = {actúan:},
+	elencos          = {actúan:},
+	byelenco         = {actúan:},
 	part             = {tomo},
 	january          = {enero},
 	february         = {febrero},
@@ -437,29 +476,29 @@ uniquelist=minyear]{biblatex}
 	october          = {octubre},
 	november         = {noviembre},
 	december         = {diciembre},
-	see              = {v\'ease},
-	seealso          = {v\'ease tambi\'en},
-	backrefpage      = {re\-fe\-ren\-cia ci\-ta\-da en p\'agi\-na},
-	backrefpages     = {re\-fe\-ren\-cia ci\-ta\-da en p\'agi\-nas},
-	seenote          = {v\'ease nota},
+	see              = {véase},
+	seealso          = {véase también},
+	backrefpage      = {re\-fe\-ren\-cia ci\-ta\-da en pági\-na},
+	backrefpages     = {re\-fe\-ren\-cia ci\-ta\-da en pági\-nas},
+	seenote          = {véase nota},
 	quotedin         = {citado en},
-	idem             = {\'{\i}dem},
-	idemsf           = {\'{\i}dem},
-	idemsm           = {\'{\i}dem},
-	idemsn           = {\'{\i}dem},
-	idempf           = {\'{\i}dem},
-	idempm           = {\'{\i}dem},
-	idempn           = {\'{\i}dem},
-	idempp           = {\'{\i}dem},
+	idem             = {ídem},
+	idemsf           = {ídem},
+	idemsm           = {ídem},
+	idemsn           = {ídem},
+	idempf           = {ídem},
+	idempm           = {ídem},
+	idempn           = {ídem},
+	idempp           = {ídem},
 	ibidem           = {\emph{ibidem}},
 	prepublished     = {previamente publicado},
 	nodate           = {sin fecha},
 	withcommentator  = {con comentario de},
 	withannotator    = {con notas de},
-	withintroduction = {con introduci\'on de},
-	withforeword     = {con pr\'ologo de},
-	withafterword    = {con ep\'{\i}logo de},
-	bycollaborator   = {con colaboraci\'{o}n de},
+	withintroduction = {con introdución de},
+	withforeword     = {con prólogo de},
+	withafterword    = {con epílogo de},
+	bycollaborator   = {con colaboración de},
 	andothers        = {\emph{et al\adddot}},
 	organizator      = {org\adddot},
 	organizators     = {orgs\adddot},
@@ -470,42 +509,42 @@ uniquelist=minyear]{biblatex}
 	direction        = {dir\adddot},
 	directions       = {dirs\adddot},
 	bydirection      = {dir\adddot\addspace por},
-	mathesis         = {Tesis de Maestr\'{\i}a},
-	ingenieriathesis = {Tesis de Ingenier\'{\i}a},
-	magisterthesis   = {Tesis de Mag\'ister},
+	mathesis         = {Tesis de Maestría},
+	ingenieriathesis = {Tesis de Ingeniería},
+	magisterthesis   = {Tesis de Magíster},
 	phdthesis        = {Tesis de Doctorado},
 	gradothesis      = {Tesis de Grado},
 	licenciaturathesis = {Tesis de Licenciatura},
 	tifthesis        = {Trabajo Integrador Final},
 	posgradothesis   = {Tesis de Posgrado},
-	especialthesis   = {Tesis de Especializaci\'{o}n},
+	especialthesis   = {Tesis de Especialización},
 	documentjob      = {documento de trabajo},
 	urlseen          = {visitado el\addspace},
 	translationof    = {trad\adddot\addspace de},
 	translationas    = {original publicado en},
 	url              = {recuperado de},
 	origpubbare      = {orig\adddotspace pub\adddotspace},
-	newseries        = {nueva \'epoca},
-	oldseries        = {antigua \'epoca},
-	byeditorfo       = {ed\adddotspace y pr\'ol\adddotspace por},
+	newseries        = {nueva época},
+	oldseries        = {antigua época},
+	byeditorfo       = {ed\adddotspace y pról\adddotspace por},
 	byeditorco       = {ed\adddotspace y com\adddotspace por},
 	bytranslatorfo   = {traducido \lbx@lfromlang\ y prologado por},
-	pagetotal        = {p\'ags},
-	pagetotals       = {p\'ags},
-	techreport       = {informe t\'ecnico},
-	resreport        = {reporte de investigaci\'{o}n},
+	pagetotal        = {págs},
+	pagetotals       = {págs},
+	techreport       = {informe técnico},
+	resreport        = {reporte de investigación},
 	file             = {archivo},
 	patent           = {patente},
 	patentde         = {patente alemana},
 	patenteu         = {patente europea},
 	patentfr         = {patente francesa},
-	patentuk         = {patente brit\'anica},
+	patentuk         = {patente británica},
 	patentus         = {patente estadounidense},
 	patreq           = {solicitud de patente},
 	patreqde         = {solicitud de patente alemana},
 	patreqeu         = {solicitud de patente europea},
 	patreqfr         = {solicitud de patente francesa},
-	patrequk         = {solicitud de patente brit\'anica},
+	patrequk         = {solicitud de patente británica},
 	patrequs         = {solicitud de patente estadounidense},
 	bycompiler       = {comp\adddotspace por},
 }
@@ -523,7 +562,7 @@ uniquelist=minyear]{biblatex}
 % generamos los índices
 \usepackage[xindy]{imakeidx}
 \makeindex
-\makeindex[name=names,title={Índice de autoras y autores}]
+\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
 \makeindex[name=concepto,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
@@ -538,7 +577,6 @@ uniquelist=minyear]{biblatex}
 	\ifciteindex
 	{\indexnames{labelname}}
 	{}}
-\usepackage[totoc]{idxlayout}
 
 % generamos los glosarios
 \usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
@@ -579,6 +617,8 @@ uniquelist=minyear]{biblatex}
 \def\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z\do0\do1\do2\do3\do4\do5\do6\do7\do8\do9\do=\do.\do:\do\%\do?\do_\do-\do+\do/\do\#\do~}
 \def\UrlFont{\rm}
 
-\usepackage{ifthen}
-
-% fin del preambulo
+% declaramos los condicionales
+\newif\ifPDF
+\newif\ifBNPDF
+\newif\ifPNGEPUB
+\newif\ifHTMLEPUB

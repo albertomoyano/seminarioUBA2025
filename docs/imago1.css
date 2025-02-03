@@ -1,0 +1,170 @@
+/* Archivo CSS: imago1.css */
+/* Autor: Alberto Moyano */
+/* Fecha: 26 de noviembre de 2024 */
+/* Descripción: Estilo para Ediciones Imago Mundi */
+
+/* --- Reset de estilos básicos --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-feature-settings: "liga", "kern"; /* Mejora renderizado tipográfico */
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 4px; /* Reduce el margen inferior */
+	font-feature-settings: "liga", "kern"; /* Mejora renderizado tipográfico */
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 4px; /* Reduce el margen inferior */
+	font-feature-settings: "liga", "kern"; /* Mejora renderizado tipográfico */
+}
+p {
+	margin-top: 6px; /* Ajusta el margen superior del párrafo */
+	margin-bottom: 6px; /* Ajusta el margen superior del párrafo */
+	font-feature-settings: "liga", "kern"; /* Mejora renderizado tipográfico */
+}
+
+/* Contenedor principal */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #800000;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+header {
+    width: 1116px;
+    margin: 12px auto;
+}
+
+aside {
+    width: 260px;
+    background-color: #e6e6e6;
+    padding: 12px;
+}
+
+.main-content aside img {
+    padding: 0 !important;
+    margin: 0;
+    display: block;
+}
+
+section {
+    flex: 1;
+    padding: 0px;
+    margin-left: 24px;
+    background-color: white;
+}
+
+.resumen {
+line-height: 1.5;
+}
+
+.autor {
+font-size: 14px;
+line-height: 1.3;
+}
+
+/* Botones en sección */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los botones uniformemente */
+    gap: 10px; /* Espaciado entre botones */
+    margin-top: 0; /* Elimina margen superior extra */
+}
+
+.button-container a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #800000; /* Color borravino para los botones */
+    /* border-radius: 5px;  Bordes redondeados */
+    flex: 1; /* Cada botón ocupa espacio equitativo */
+    font-weight: bold;
+}
+
+/* Cambia el color al pasar el mouse */
+.button-container a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    width: 1116px;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 12px;
+    margin: 12px auto;
+}
+
+.url-link {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+    .info-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+font-size: 14px;
+    }
+
+    .info-table th,
+    .info-table td {
+text-align: left;
+padding: 8px;
+    }
+
+    .info-table th {
+background-color: #800000;
+color: white;
+font-weight: bold;
+    }
+
+    .info-table td:nth-child(2),
+    .info-table td:nth-child(3),
+    .info-table th:nth-child(2),
+    .info-table th:nth-child(3) {
+width: 60px;
+text-align: center;
+    }
+
+    .info-table tbody tr {
+border-bottom: 1px solid #ddd;
+    }
+
+    .info-table tbody tr:last-child {
+border-bottom: none;
+    }
+
+/* Títulos específicos dentro de section */
+section > h2, section > h3 {
+    line-height: 0.8; /* Reduce el interlineado */
+}
+
+/* Parrafo del resumen con márgenes específicos */
+section > .resumen {
+    margin-top: 36px; /* Ajusta la distancia superior */
+    margin-bottom: 16px; /* Ajusta la distancia inferior */
+}
+
