@@ -47,6 +47,9 @@ Este seminario está dirigido a:
 
 ### Míodulo 3: Herramientas
 
+- Uso de [Visual Studio Code](https://code.visualstudio.com/)
+- Uso de [TeXstudio](https://texstudio.org/)
+- Uso de [JabRef](https://www.jabref.org/)
 - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
 - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
    
