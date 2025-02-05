@@ -41,7 +41,7 @@ La generación de índices y glosarios es una capacidad fundamental de LaTeX par
 
 ## Glosarios en LaTeX
 
-### Paquetes Principales
+### Paquetes principales
 
 #### 1. glossaries
 - **Características**:
@@ -71,7 +71,7 @@ La generación de índices y glosarios es una capacidad fundamental de LaTeX par
 | **Facilidad de Uso** | Alta | Media | Media | Alta |
 | **Tipos de Entrada** | Básicos | Avanzados | Múltiples | Básicos |
 
-## Implementación Práctica
+## Implementación práctica
 
 ### Ejemplo de Índice con MakeIndex
 
@@ -108,7 +108,7 @@ Primera mención de \gls{latex}
 \end{document}
 ```
 
-## Tipos de Índices Especializados
+## Tipos de Índices especializados
 
 ### 1. Índice de Materias
 - Entradas temáticas principales
@@ -125,7 +125,7 @@ Primera mención de \gls{latex}
 - Símbolos especiales
 - Ordenamiento personalizado
 
-## Mejores Prácticas
+## Mejores prácticas
 
 ### Para Índices
 1. **Planificación**:
@@ -138,7 +138,7 @@ Primera mención de \gls{latex}
    - Mantener coherencia en nivel de detalle.
    - Verificar ordenamiento.
 
-### Para Glosarios
+### Para glosarios
 1. **Organización**:
    - Separar términos por categorías.
    - Mantener definiciones concisas.
@@ -149,7 +149,7 @@ Primera mención de \gls{latex}
    - Documentar decisiones de estilo.
    - Revisar consistencia.
 
-## Automatización y Herramientas
+## Automatización y herramientas
 
 ### Scripts de Compilación
 ```bash
