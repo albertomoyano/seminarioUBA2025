@@ -1,35 +1,118 @@
-# Gestión de bibliografías con BibTeX y BibLaTeX
+# BibTeX y BibLaTeX en LaTeX
 
 ## Introducción
-La gestión de referencias bibliográficas es un aspecto esencial en la elaboración de documentos académicos y científicos. En LaTeX, existen dos herramientas principales para manejar bibliografías: **BibTeX** y **BibLaTeX**. Ambas permiten organizar y citar referencias de manera eficiente, pero difieren en su enfoque y capacidades. En este trabajo, exploraremos las características, ventajas y desventajas de cada una, así como su uso en documentos LaTeX.
 
-## BibTeX: el estándar tradicional
-### Características Principales
-- **Origen**: Desarrollado en la década de 1980 como una herramienta para gestionar bibliografías en LaTeX.
-- **Funcionamiento**: Utiliza un archivo `.bib` que contiene las referencias bibliográficas en un formato estructurado.
-- **Compatibilidad**: Ampliamente soportado en distribuciones de LaTeX.
-- **Estilos**: Se basa en archivos de estilo (`.bst`) para definir el formato de las citas y la bibliografía.
+La gestión de referencias bibliográficas es fundamental en documentos académicos y científicos. BibTeX y BibLaTeX son dos sistemas de gestión bibliográfica para LaTeX que ofrecen diferentes capacidades y enfoques. Este trabajo analiza ambas herramientas, sus características principales y casos de uso.
 
-### Ventajas
-- **Simplicidad**: Fácil de usar para documentos con necesidades bibliográficas básicas.
-- **Compatibilidad**: Funciona con la mayoría de los editores y compiladores de LaTeX.
-- **Estilos predefinidos**: Incluye estilos comunes como `plain`, `abbrv`, y `unsrt`.
+## Gestión de Referencias Bibliográficas
 
-### Desventajas
-- **Limitaciones en personalización**: Los estilos de citas y bibliografía son difíciles de modificar.
-- **Soporte limitado para Unicode**: No maneja bien caracteres especiales o idiomas no occidentales.
-- **Funcionalidades avanzadas**: Carece de soporte para citas complejas, como notas al pie o múltiples estilos de citación en un mismo documento.
+La gestión de referencias es crucial para mantener la consistencia y precisión en documentos académicos. Ambos sistemas, BibTeX y BibLaTeX, permiten separar el contenido bibliográfico del documento principal, facilitando la reutilización y el mantenimiento de las referencias.
 
-### Ejemplo de Uso
-```latex
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{biblatex} % No se usa con BibTeX
-\addbibresource{referencias.bib} % Solo para BibLaTeX
+## BibTeX
 
-\begin{document}
-Este es un ejemplo de cita \cite{knuth1984texbook}.
+### Características principales
 
-\bibliographystyle{plain} % Estilo de BibTeX
-\bibliography{referencias} % Archivo .bib
-\end{document}
+- **Origen**: Desarrollado por Oren Patashnik y Leslie Lamport en 1985.
+- **Funcionamiento**:
+  - Utiliza archivos .bib para almacenar referencias.
+  - Procesa las referencias en un paso separado de compilación.
+  - Genera un archivo .bbl con las referencias formateadas.
+- **Estilos de Citación**:
+  - Implementados en lenguaje BST.
+  - Estilos predefinidos como plain, alpha, unsrt.
+- **Ventajas**:
+  - Simple y establecido.
+  - Amplia compatibilidad con sistemas legacy.
+  - Menor sobrecarga computacional.
+- **Desventajas**:
+  - Soporte limitado para Unicode.
+  - Dificultad para personalizar estilos.
+  - Capacidades limitadas para datos bibliográficos complejos.
+
+## BibLaTeX
+
+### Características principales
+
+- **Origen**: Desarrollo más reciente, diseñado para superar limitaciones de BibTeX.
+- **Funcionamiento**:
+  - Utiliza el motor Biber para procesamiento bibliográfico.
+  - Mayor integración con LaTeX.
+  - Procesamiento más flexible de los datos bibliográficos.
+- **Estilos de Citación**:
+  - Implementados en LaTeX/TeX.
+  - Mayor facilidad de personalización.
+  - Soporte para estilos complejos como APA, Chicago, IEEE.
+- **Ventajas**:
+  - Soporte completo para Unicode.
+  - Mejor manejo de nombres y fechas.
+  - Capacidades avanzadas de filtrado y ordenamiento.
+- **Desventajas**:
+  - Mayor complejidad de configuración.
+  - Puede ser más lento en documentos grandes.
+  - Menor compatibilidad con sistemas antiguos.
+
+## Comparación de funcionalidades
+
+| Característica | BibTeX | BibLaTeX |
+|----------------|--------|-----------|
+| **Soporte Unicode** | Limitado | Completo |
+| **Personalización** | Compleja (BST) | Simple (LaTeX) |
+| **Tipos de Entrada** | Básicos | Extendidos |
+| **Estilos Predefinidos** | Pocos | Numerosos |
+| **Localizaciones** | Limitadas | Extensivas |
+| **Formato de Nombres** | Simple | Avanzado |
+
+## Tipos de entradas bibliográficas
+
+### BibTeX Básico
+
+- **article**: Artículos en revistas
+- **book**: Libros
+- **inproceedings**: Artículos en conferencias
+- **misc**: Otros tipos
+- **thesis**: Tesis
+- **techreport**: Reportes técnicos
+
+### BibLaTeX extendido
+
+Incluye todos los tipos de BibTeX más:
+- **online**: Recursos web
+- **software**: Software y código
+- **dataset**: Conjuntos de datos
+- **review**: Reseñas
+- **patent**: Patentes
+- **standard**: Estándares técnicos
+
+## Ejemplos de uso
+
+### Entrada BibTeX
+```bibtex
+@article{smith2024,
+  author  = {Smith, John},
+  title   = {Un Estudio Sobre LaTeX},
+  journal = {Journal of Documentation},
+  year    = {2024},
+  volume  = {80},
+  number  = {1},
+  pages   = {1--15}
+}
+```
+
+### Entrada BibLaTeX
+```bibtex
+@article{smith2024,
+  author    = {Smith, John and Doe, Jane},
+  title     = {Un Estudio Sobre LaTeX},
+  journal   = {Journal of Documentation},
+  date      = {2024-01-15},
+  volume    = {80},
+  number    = {1},
+  pages     = {1--15},
+  langid    = {spanish},
+  doi       = {10.1000/example}
+}
+```
+
+## Conclusión
+
+Mientras que BibTeX sigue siendo útil para documentos simples y casos donde la compatibilidad con sistemas antiguos es importante, BibLaTeX representa la evolución moderna en la gestión de referencias bibliográficas. Para proyectos nuevos, especialmente aquellos que requieren soporte multilingüe o estilos de citación complejos, BibLaTeX es la opción recomendada.
