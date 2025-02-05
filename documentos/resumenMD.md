@@ -1,4 +1,4 @@
-# Trabajo Práctico: Markdown
+# Markdown
 
 ## Introducción
 Markdown es un lenguaje de marcado ligero creado en 2004 por John Gruber, con contribuciones de Aaron Swartz. Su propósito fue facilitar la escritura de texto estructurado en un formato sencillo de leer y escribir, convirtiéndolo fácilmente en HTML u otros formatos.
