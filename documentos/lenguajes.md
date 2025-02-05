@@ -1,0 +1,51 @@
+# Lenguajes de marcas
+
+## Introducción
+
+Los lenguajes de marcas han sido una herramienta fundamental en la estructuración y presentación de información en distintos ámbitos, desde la tipografía digital hasta la web. A lo largo del tiempo, han evolucionado desde simples mecanismos de anotación hasta complejos sistemas con estandarización global.
+
+## Orígenes y creadores
+
+Los primeros lenguajes de marcas surgieron como una necesidad de estructurar documentos electrónicos. Entre los hitos más importantes encontramos:
+
+- **SGML (Standard Generalized Markup Language)** - Desarrollado en la década de 1960 por **Charles Goldfarb**, fue el primer intento de formalizar un sistema de marcado estructurado.
+- **HTML (HyperText Markup Language)** - Creado por **Tim Berners-Lee** en 1991 para la estructuración de documentos en la web.
+- **LaTeX** - Creado por **Leslie Lamport** en los años 80 como una evolución de TeX para facilitar la composición tipográfica científica.
+- **Markdown** - Desarrollado por **John Gruber y Aaron Swartz** en 2004 como una sintaxis más sencilla y legible para estructuración de documentos.
+- **reStructuredText (reST)** - Creado a principios de los 2000 para documentar proyectos de software, especialmente en Python.
+- **AsciiDoc** - Un lenguaje de marcas ligero creado por **Stuart Rackham**, orientado a la conversión en múltiples formatos.
+- **XML (Extensible Markup Language)** - Desarrollado en 1996 por el W3C, se usa ampliamente para estructuración de datos y su intercambio entre sistemas.
+
+## Motivaciones para su creación
+
+Cada lenguaje de marcas surge con propósitos específicos:
+
+- **Automatización**: Facilitar la generación de documentos con reglas predefinidas.
+- **Estandarización**: Asegurar la interoperabilidad entre distintos sistemas y herramientas.
+- **Simplicidad**: Hacer que la escritura y el formateo de documentos sea accesible sin conocimientos avanzados.
+- **Publicación en múltiples formatos**: Convertir documentos en HTML, PDF, DOCX, entre otros.
+
+## Estandarización actual e industrias involucradas
+
+Hoy en día, varios lenguajes de marcas están regidos por estándares internacionales y son utilizados en diversas industrias:
+
+- **HTML5** es el estándar web oficial, mantenido por el W3C y WHATWG. (Industria: Desarrollo Web, Medios Digitales)
+- **XML** sigue siendo un estándar clave en el intercambio de datos estructurados. (Industria: Software, Bases de Datos, Finanzas, Salud)
+- **Markdown** tiene varias variantes, pero la más usada es la de CommonMark. (Industria: Publicaciones Digitales, Documentación Técnica)
+- **LaTeX** mantiene compatibilidad con estándares de publicación académica. (Industria: Educación, Investigación, Editorial)
+- **AsciiDoc** y **reST** se han consolidado en entornos de documentación técnica. (Industria: Software, Documentación Técnica)
+
+## Comparación entre lenguajes de marcas
+
+| Lenguaje   | Propósito Principal      | Facilidad de Uso | Estandarización | Conversión a Otros Formatos | Industrias Involucradas |
+|-----------|-------------------------|------------------|----------------|-----------------------------|--------------------------|
+| **HTML**  | Web                      | Media            | Alta           | Sí                          | Desarrollo Web, Medios Digitales |
+| **LaTeX** | Tipografía científica    | Baja             | Alta           | Sí                          | Educación, Investigación, Editorial |
+| **Markdown** | Escritura ligera       | Alta             | Media          | Sí                          | Publicaciones Digitales, Documentación Técnica |
+| **reST**  | Documentación técnica    | Media            | Media          | Sí                          | Software, Documentación Técnica |
+| **AsciiDoc** | Documentación estructurada | Media      | Media          | Sí                          | Software, Documentación Técnica |
+| **XML**  | Intercambio de datos      | Media            | Alta           | Sí                          | Software, Bases de Datos, Finanzas, Salud |
+
+## Conclusión
+
+Los lenguajes de marcas han sido fundamentales en el desarrollo tecnológico y la estructuración de documentos. Su elección depende del contexto y del propósito del documento, desde simples notas hasta publicaciones científicas y contenido web. Cada uno tiene ventajas y desventajas, por lo que es importante conocer sus fortalezas para elegir el más adecuado.
