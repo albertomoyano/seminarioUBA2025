@@ -1,4 +1,4 @@
-# Markdown
+# Trabajo Práctico: Markdown
 
 ## Introducción
 Markdown es un lenguaje de marcado ligero creado en 2004 por John Gruber, con contribuciones de Aaron Swartz. Su propósito fue facilitar la escritura de texto estructurado en un formato sencillo de leer y escribir, convirtiéndolo fácilmente en HTML u otros formatos.
@@ -17,6 +17,13 @@ Markdown es ampliamente utilizado en diversas plataformas:
 - **Jupyter Notebooks**: Documentación dentro de notebooks de Python.
 - **CMS y Blogs**: WordPress, Ghost y Jekyll admiten Markdown.
 
+## Integración con Otras Herramientas
+Markdown se ha integrado con diversas herramientas para aumentar su versatilidad:
+- **Pandoc**: Convierte archivos Markdown a múltiples formatos, como PDF, DOCX y LaTeX.
+- **Obsidian y Notion**: Aplicaciones de toma de notas que soportan Markdown para organizar información.
+- **MkDocs**: Generación de documentación estática para proyectos de software.
+- **Zettlr**: Editor de Markdown orientado a la investigación académica.
+
 ## Integración con Otros Lenguajes
 Markdown se combina con otros lenguajes para mejorar su funcionalidad:
 - **HTML**: Puede incluir etiquetas HTML dentro del texto Markdown.
@@ -27,78 +34,14 @@ Markdown se combina con otros lenguajes para mejorar su funcionalidad:
 ## Estado Actual
 Hoy en día, Markdown es un estándar de facto en la documentación y escritura técnica. Existen múltiples variantes como GitHub Flavored Markdown (GFM), CommonMark y Pandoc Markdown, cada una con extensiones específicas.
 
-## Resumen de Instrucciones
-A continuación, se presentan las principales instrucciones de Markdown con ejemplos.
-
-### Encabezados
-```markdown
-# Encabezado 1
-## Encabezado 2
-### Encabezado 3
-```
-
-### Énfasis
-```markdown
-*Texto en cursiva*  
-**Texto en negrita**  
-~~Texto tachado~~
-```
-
-### Listas
-```markdown
-- Elemento 1
-- Elemento 2
-  - Subelemento 2.1
-```
-
-```markdown
-1. Elemento 1
-2. Elemento 2
-```
-
-### Enlaces
-```markdown
-[Texto del enlace](https://ejemplo.com)
-```
-
-### Imágenes
-```markdown
-![Texto alternativo](https://ejemplo.com/imagen.jpg)
-```
-
-### Citas
-```markdown
-> Esto es una cita.
-```
-
-### Código en línea y bloques de código
-```markdown
-`Código en línea`
-```
-
-```markdown
-```
-Bloque de código
-```
-```
-
-### Tablas
-```markdown
-| Columna 1 | Columna 2 |
-|-----------|-----------|
-| Dato 1    | Dato 2    |
-```
-
-### Listas de tareas
-```markdown
-- [x] Tarea completada
-- [ ] Tarea pendiente
-```
-
-### División de contenido
-```markdown
----
-```
+## Comparación con Otros Lenguajes de Marcas
+| Lenguaje   | Puntos Fuertes                                      | Puntos Débiles                                  |
+|------------|-------------------------------------------------|----------------------------------------------|
+| **Markdown** | Sencillo, ampliamente adoptado, compatible con muchas plataformas | Limitado en funciones avanzadas como tablas complejas o referencias cruzadas |
+| **AsciiDoc** | Más potente que Markdown, soporta documentos estructurados y referencias | Sintaxis más compleja, menos soporte nativo en algunas plataformas |
+| **reStructuredText (reST)** | Usado en Sphinx, adecuado para documentación técnica avanzada | Curva de aprendizaje más pronunciada que Markdown |
+| **LaTeX** | Potente para documentos científicos y matemáticos | Sintaxis compleja, no es ideal para contenido web básico |
+| **HTML** | Totalmente flexible y compatible con la web | Verboso, requiere conocimientos en CSS para estilización |
 
 ## Conclusión
 Markdown sigue siendo una herramienta esencial para la documentación técnica, facilitando la escritura de contenido estructurado de forma sencilla y compatible con múltiples plataformas.
