@@ -4,7 +4,7 @@
 
 La gestión de referencias bibliográficas es fundamental en documentos académicos y científicos. BibTeX y BibLaTeX son dos sistemas de gestión bibliográfica para LaTeX que ofrecen diferentes capacidades y enfoques. Este trabajo analiza ambas herramientas, sus características principales y casos de uso.
 
-## Gestión de Referencias Bibliográficas
+## Gestión de referencias bibliográficas
 
 La gestión de referencias es crucial para mantener la consistencia y precisión en documentos académicos. Ambos sistemas, BibTeX y BibLaTeX, permiten separar el contenido bibliográfico del documento principal, facilitando la reutilización y el mantenimiento de las referencias.
 
