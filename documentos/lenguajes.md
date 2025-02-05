@@ -37,14 +37,14 @@ Hoy en día, varios lenguajes de marcas están regidos por estándares internaci
 
 ## Comparación entre lenguajes de marcas
 
-| Lenguaje   | Propósito Principal      | Facilidad de Uso | Estandarización | Conversión a Otros Formatos | Industrias Involucradas |
+| Lenguaje   | Propósito Principal      | Complejidad de Uso | Estandarización | Conversión a Otros Formatos | Industrias Involucradas |
 |-----------|-------------------------|------------------|----------------|-----------------------------|--------------------------|
 | **HTML**  | Web                      | Media            | Alta           | Sí                          | Desarrollo Web, Medios Digitales |
-| **LaTeX** | Escritura y edición científica    | Baja             | Alta           | Sí                          | Educación, Investigación, Editorial |
-| **Markdown** | Escritura ligera       | Alta             | Media          | Sí                          | Publicaciones Digitales, Documentación Técnica |
+| **LaTeX** | Escritura y edición científica    | Alta             | Alta           | Sí                          | Educación, Investigación, Editorial |
+| **Markdown** | Escritura ligera       | Baja             | Media          | Sí                          | Publicaciones Digitales, Documentación Técnica |
 | **reST**  | Documentación técnica    | Media            | Media          | Sí                          | Software, Documentación Técnica |
 | **AsciiDoc** | Documentación estructurada | Media      | Media          | Sí                          | Software, Documentación Técnica |
-| **XML**  | Intercambio de datos      | Media            | Alta           | Sí                          | Software, Bases de Datos, Finanzas, Salud, ingenieria |
+| **XML**  | Intercambio de datos      | Alta            | Alta           | Sí                          | Software, Bases de Datos, Finanzas, Salud, ingenieria |
 
 ## Conclusión
 
