@@ -103,7 +103,3 @@ Al finalizar el seminario, los participantes deberán cumplir con los siguientes
 Este seminario proporcionará a los participantes las habilidades y conocimientos necesarios para implementar una estrategia de edición ramificada en sus proyectos de documentación. Al finalizar, estarán equipados para producir contenido en múltiples formatos de manera eficiente y organizada, utilizando herramientas y lenguajes de código abierto que aseguran independencia y flexibilidad en sus proyectos editoriales.
 
 Además, los participantes habrán demostrado su capacidad para colaborar y resolver problemas en un entorno de control de versiones, produciendo contenido de alta calidad en varios formatos y participando activamente en discusiones técnicas y de contenido. Esta experiencia práctica les permitirá aplicar lo aprendido en sus futuros proyectos editoriales, asegurando que puedan adaptarse a diversas demandas del mercado con confianza y habilidad.
-
-## Imagen ilustrativa de un posible modelo de producción basado en fuente única
-
-![](./media/arbol.png)
