@@ -41,7 +41,7 @@ LaTeX puede interactuar con otros lenguajes y tecnologías:
 
 ## Estado Actual
 
-LaTeX sigue siendo el estándar en la redacción de documentos científicos y técnicos. Su comunidad activa mantiene paquetes y herramientas en constante evolución. Alternativas como LuaLaTeX y XeLaTeX han mejorado la tipografía y compatibilidad con Unicode.
+LaTeX sigue siendo el estándar en la redacción de documentos científicos y técnicos. Su comunidad activa mantiene paquetes y herramientas en constante evolución. Alternativas como LuaLaTeX han mejorado sus capacidades tipográficas y su compatibilidad con Unicode.
 
 ## Comparación con Otros Lenguajes de Marcas
 
