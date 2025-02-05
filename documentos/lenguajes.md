@@ -40,7 +40,7 @@ Hoy en día, varios lenguajes de marcas están regidos por estándares internaci
 | Lenguaje   | Propósito Principal      | Facilidad de Uso | Estandarización | Conversión a Otros Formatos | Industrias Involucradas |
 |-----------|-------------------------|------------------|----------------|-----------------------------|--------------------------|
 | **HTML**  | Web                      | Media            | Alta           | Sí                          | Desarrollo Web, Medios Digitales |
-| **LaTeX** | Edición científica    | Baja             | Alta           | Sí                          | Educación, Investigación, Editorial |
+| **LaTeX** | Escritura y edición científica    | Baja             | Alta           | Sí                          | Educación, Investigación, Editorial |
 | **Markdown** | Escritura ligera       | Alta             | Media          | Sí                          | Publicaciones Digitales, Documentación Técnica |
 | **reST**  | Documentación técnica    | Media            | Media          | Sí                          | Software, Documentación Técnica |
 | **AsciiDoc** | Documentación estructurada | Media      | Media          | Sí                          | Software, Documentación Técnica |
