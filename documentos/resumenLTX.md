@@ -22,7 +22,7 @@ LaTeX se ha integrado con múltiples plataformas y herramientas:
 - **ArXiv**: Repositorio de artículos científicos donde LaTeX es el formato estándar.
 - **Jupyter Notebooks**: Soporte para ecuaciones en formato LaTeX.
 
-## Integración con Otras Herramientas
+## Integración con otras herramientas
 
 LaTeX puede combinarse con diversas herramientas para mejorar su funcionalidad:
 
@@ -31,7 +31,7 @@ LaTeX puede combinarse con diversas herramientas para mejorar su funcionalidad:
 - **TikZ y PGF**: Creación de gráficos vectoriales de alta calidad.
 - **Beamer**: Creación de presentaciones en PDF con calidad profesional.
 
-## Integración con Otros Lenguajes
+## Integración con otros lenguajes
 
 LaTeX puede interactuar con otros lenguajes y tecnologías:
 
@@ -39,11 +39,11 @@ LaTeX puede interactuar con otros lenguajes y tecnologías:
 - **Python**: Uso de LaTeX en Jupyter Notebooks y con paquetes como Matplotlib para renderizar ecuaciones.
 - **HTML y CSS**: Conversión de documentos LaTeX a páginas web mediante herramientas como MathJax.
 
-## Estado Actual
+## Estado actual
 
 LaTeX sigue siendo el estándar en la redacción de documentos científicos y técnicos. Su comunidad activa mantiene paquetes y herramientas en constante evolución. Alternativas como LuaLaTeX han mejorado sus capacidades tipográficas y su compatibilidad con Unicode.
 
-## Comparación con Otros Lenguajes de Marcas
+## Comparación con otros lenguajes de marcas
 
 | Lenguaje   | Puntos Fuertes                                      | Puntos Débiles                                  |
 |------------|-------------------------------------------------|----------------------------------------------|
@@ -55,4 +55,4 @@ LaTeX sigue siendo el estándar en la redacción de documentos científicos y t�
 
 ## Conclusión
 
-LaTeX sigue siendo una de las mejores herramientas para la escritura académica y técnica. Su potencia y flexibilidad lo hacen indispensable en múltiples disciplinas, aunque su curva de aprendizaje sigue siendo un desafío para nuevos usuarios.
+LaTeX sigue siendo una de las mejores herramientas para la escritura científica y técnica. Su potencia y flexibilidad lo hacen único en múltiples disciplinas, aunque su curva de aprendizaje sigue siendo un desafío para usuarios novatos.
