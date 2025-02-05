@@ -47,9 +47,8 @@ Este seminario está dirigido a:
 
 ### Míodulo 3: Herramientas
 
-- Múltiples salidas
-   - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
-   - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
+- Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
+- Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
    
 ### Módulo 4: Herramientas de marcado
 
