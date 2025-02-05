@@ -56,23 +56,13 @@ Este seminario está dirigido a:
 ### Módulo 4: Herramientas de marcado
 
 - [Markdown](https://es.wikipedia.org/wiki/Markdown)
-   - Sintaxis básica
-   - Herramientas y plugins
 - [LaTeX](https://www.latex-project.org/)
-   - Introducción a LaTeX
-   - Estructura de documentos y comandos básicos
 
 ### Módulo 5: Generación de salidas múltiples
 
 - PDF
-   - Herramientas y técnicas
-   - Ejemplos prácticos
 - ePub
-   - Conversión desde formatos de marcado
-   - Herramientas útiles
 - HTML
-   - Generación de sitios estáticos
-   - Integración con GitHub Pages
 
 ### Módulo 6: Gestión bibliográfica
 
