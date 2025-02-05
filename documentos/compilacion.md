@@ -4,7 +4,7 @@
 
 Desde su creación, LaTeX ha evolucionado junto con los métodos de compilación de documentos. Inicialmente, los archivos se compilaban en formato DVI, pero con el tiempo se han desarrollado métodos más modernos como PDFLaTeX y LuaLaTeX, cada uno con mejoras en funcionalidad y compatibilidad.
 
-## Etapas de la Compilación en LaTeX
+## Etapas de la compilación en LaTeX
 
 ### 1. DVI (DeVice Independent)
 
