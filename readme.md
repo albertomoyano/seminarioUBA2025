@@ -37,7 +37,6 @@ Este seminario está dirigido a:
 
 -  [GitHub](https://github.com/)
    - Introducción, comandos básicos
-   - Uso de la wiki
    - Uso del área de discusiones
    
 ### Módulo 2: Introducción a la edición ramificada
@@ -70,12 +69,10 @@ Este seminario está dirigido a:
    - Importancia de la gestión bibliográfica en la producción de documentos.
    - Tipos de referencias, análisis comparativo y su uso en diferentes contextos
    - Uso de [JabRef](https://www.jabref.org/) y del módulo de referencias en [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
-   - Integración con Markdown y LaTeX
 
 ### Módulo 7: Metadatos en la documentación
 
 - Características e importancia de los metadatos
-- Cómo añadir metadatos en diferentes formatos de salida, utilizando Markdown y LaTeX
 
 ## Bibliografía
 
