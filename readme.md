@@ -33,12 +33,25 @@ Este seminario está dirigido a:
 
 ## Contenido del seminario
 
-### Módulo 1: Introducción a la edición ramificada
+### Módulo 1: Control de versiones con Git
+
+-  [GitHub](https://github.com/)
+   - Introducción, comandos básicos
+   - Uso de la wiki
+   - Uso del área de discusiones
+   
+### Módulo 2: Introducción a la edición ramificada
 
 - Concepto de edición ramificada
 - Ventajas y aplicaciones
 
-### Módulo 2: Herramientas de marcado
+### Míodulo 3: Herramientas
+
+- Múltiples salidas
+   - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
+   - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
+   
+### Módulo 4: Herramientas de marcado
 
 - [Markdown](https://es.wikipedia.org/wiki/Markdown)
    - Sintaxis básica
@@ -47,14 +60,7 @@ Este seminario está dirigido a:
    - Introducción a LaTeX
    - Estructura de documentos y comandos básicos
 
-### Módulo 3: Control de versiones con Git
-
--  [GitHub](https://github.com/)
-   - Introducción, comandos básicos
-   - Uso de la wiki
-   - Uso del área de discusiones
-
-### Módulo 4: Generación de salidas múltiples
+### Módulo 5: Generación de salidas múltiples
 
 - PDF
    - Herramientas y técnicas
@@ -65,11 +71,8 @@ Este seminario está dirigido a:
 - HTML
    - Generación de sitios estáticos
    - Integración con GitHub Pages
-- Múltiples salidas
-   - Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
-   - Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
 
-### Módulo 5: Gestión bibliográfica
+### Módulo 6: Gestión bibliográfica
 
 - Visión general de las referencias bibliográficas
    - Importancia de la gestión bibliográfica en la producción de documentos.
@@ -77,7 +80,7 @@ Este seminario está dirigido a:
    - Uso de [JabRef](https://www.jabref.org/) y del módulo de referencias en [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
    - Integración con Markdown y LaTeX
 
-### Módulo 6: Metadatos en la documentación
+### Módulo 7: Metadatos en la documentación
 
 - Características e importancia de los metadatos
 - Cómo añadir metadatos en diferentes formatos de salida, utilizando Markdown y LaTeX
