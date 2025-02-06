@@ -15,7 +15,7 @@ clave2 = valor2
 Este formato permite una fácil interpretación tanto por humanos como por máquinas, asegurando compatibilidad y flexibilidad en distintos sistemas.
 
 ## Uso en Markdown
-Markdown, aunque más simple y centrado en la estructuración de texto, permite la incorporación del modelo clave=valor a través de metadatos, especialmente en el formato **YAML front matter**, usado en plataformas como Jekyll o Hugo.
+Markdown, aunque más simple y centrado en la estructuración de texto, permite la incorporación del modelo clave=valor a través de metadatos, especialmente en el formato **YAML front matter**.
 
 Ejemplo:
 ```yaml
