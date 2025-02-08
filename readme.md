@@ -56,7 +56,7 @@ Este seminario está dirigido a:
 ### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
 - Imágenes, enlaces y bloques de código.
-- Práctica: crear un documento y exportarlo.
+- Práctica: escribir un documento utilizando marcas.
 
 ### **Markdown avanzado y conversión de documentos**
 - Tablas y citas en Markdown.
