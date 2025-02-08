@@ -1,7 +1,7 @@
 # Introducción (muy básica) a Markdown
 
 ## Objetivo
-El objetivo de este trabajo práctico es comprender el lenguaje de marcado Markdown y sus principales características. A lo largo del trabajo, se explorarán las estructuras fundamentales de este sistema de escritura, sus ventajas en comparación con otros formatos y su utilidad en distintos contextos.
+El objetivo de este trabajo práctico es comprender el lenguaje de marcado Markdown y sus principales características. A lo largo del trabajo, se explorarán las estructuras fundamentales de este sistema de escritura.
 
 ## Introducción a Markdown
 Markdown es un lenguaje de marcado ligero diseñado para ser fácil de leer y escribir, permitiendo la creación de documentos estructurados con formato sin necesidad de herramientas especializadas. Fue desarrollado por John Gruber y se ha convertido en un estándar en la documentación técnica, blogs y sistemas de control de versiones como GitHub.
