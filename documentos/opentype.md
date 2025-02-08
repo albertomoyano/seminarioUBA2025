@@ -60,13 +60,24 @@ Las variaciones tipográficas han evolucionado con la tecnología de impresión:
 
 Las variaciones ópticas permiten que una fuente se optimice según el tamaño de uso. Algunos ejemplos incluyen:
 
-- **Caption (<8 pt):** Altura x mayor, trazos gruesos, mayor espaciado
-- **Text (9-13 pt):** Proporciones balanceadas, contraste moderado
-- **Subhead (14-24 pt):** Contraste incrementado, detalles refinados
-- **Display (25-72 pt):** Espaciado ajustado, detalles delicados
-- **Poster (>72 pt):** Adaptaciones extremas para visibilidad a distancia
+- **Caption (<8 pt):** altura x mayor, trazos gruesos, mayor espaciado
+- **Text (9-13 pt):** proporciones balanceadas, contraste moderado
+- **Subhead (14-24 pt):** contraste incrementado, detalles refinados
+- **Display (25-72 pt):** espaciado ajustado, detalles delicados
+- **Poster (>72 pt):** adaptaciones extremas para visibilidad a distancia
 
 Esta flexibilidad es crucial para mejorar la legibilidad en diferentes formatos.
+
+## OpenType y la tipografía con condicionales
+
+El uso de OpenType en LaTeX puede considerarse como una forma de tipografía con condicionales, ya que permite aplicar reglas específicas según el contexto en el que aparezca un glifo. Algunos ejemplos de estas reglas incluyen:
+
+- **Ligaduras contextuales:** se activan solo cuando ciertos caracteres aparecen juntos (por ejemplo, `fi` → `ﬁ`).
+- **Variaciones ópticas:** se selecciona una variante de glifo según el tamaño del texto.
+- **Alternativas estilísticas:** se pueden activar variantes de glifos solo en ciertos contextos.
+- **Números proporcionales vs. tabulares:** se elige el formato de los números según el estilo tipográfico del documento.
+
+En LaTeX, el paquete fontspec permite definir estas reglas utilizando opciones condicionales dentro de \setmainfont, lo que en la práctica es equivalente a programación basada en condiciones.
 
 ## Características OpenType en LaTeX
 
