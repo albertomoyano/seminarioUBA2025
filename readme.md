@@ -50,7 +50,7 @@ Este seminario está dirigido a:
   - **Oracle Virtual Machine y Linux Mint**
   - **Git**
   - Markdown: **[Notepad Next](https://github.com/dail8859/NotepadNext)**
-  - LaTeX: **TeX Live y [TeXstudio](https://www.texstudio.org/)**
+  - LaTeX: **[TeX Live](https://www.tug.org/texlive/) y [TeXstudio](https://www.texstudio.org/)**
   - Gestión de bibliografía: **[JabRef](https://www.jabref.org/)**
   - Gestión integral: **[gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)**
 
@@ -84,15 +84,15 @@ Este seminario está dirigido a:
 - Uso de entornos `equation` y `align`.
 - Fracciones, raíces, matrices, operadores avanzados.
 - Uso de `amssymb` y `amsmath`.
-- Configuración de **TeXstudio** para facilitar la escritura matemática.
+- Configuración de **TeXstudio** para facilitar la escritura.
 
 ### **Imágenes, gráficos y figuras**
 - Uso de `\includegraphics` con `graphicx`.
 - Entorno `figure` y configuración de tamaños.
 
-### **Tablas avanzadas y bibliografía con JabRef**
+### **Tablas avanzadas y bibliografía**
 - Tablas complejas (`booktabs`).
-- Introducción a **JabRef** para gestionar bibliografía.
+- Introducción a la gestión bibliografía.
 - Uso de `biber`.
 - Estilos de citas (`numérico`, `autor-año` y `pie de página`).
 
@@ -101,7 +101,7 @@ Este seminario está dirigido a:
 ## **Módulo 3: Documentos avanzados y personalización**
 
 ### **Estilos de documentos y personalización avanzada**
-- Clases de documentos: `article` y `book`.
+- Tipo de documentos: la clase `book`.
 - Uso de `titlesec` para personalizar títulos.
 - Márgenes con `geometry`.
 
