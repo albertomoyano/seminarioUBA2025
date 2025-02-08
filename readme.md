@@ -128,7 +128,6 @@ Este seminario está dirigido a:
 - Ganancia de punto
 - Relación tinta-agua
 - Relación toner-fusor
-- Desperdicios
 
 ### **Preimpresión**
 
@@ -137,8 +136,9 @@ Este seminario está dirigido a:
 
 ### **Impresión**
 
-- sistema off-set
-- sistema digital
+- Sistema seco
+- Sistema offset
+- Sistema digital
 
 ---
 
