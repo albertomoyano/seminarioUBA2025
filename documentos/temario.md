@@ -13,22 +13,21 @@
 - ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
 - Aplicaciones y ventajas de Markdown y LaTeX.
 - **Instalación del software:**
-  - Markdown: **Zettlr**
+  - Markdown: **Notepad Next**
   - LaTeX: **TeX Live y TeXstudio**
   - Gestión de bibliografía: **JabRef**
   - Gestión integral: **gbTeXpublisher**
 
-### **Markdown – Sintaxis básica y primeros pasos con Zettlr**
-- Introducción a **Zettlr** y su configuración.
+### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
 - Imágenes, enlaces y bloques de código.
-- Práctica: crear un documento en Zettlr y exportarlo a PDF.
+- Práctica: crear un documento y exportarlo.
 
 ### **Markdown avanzado y conversión de documentos**
 - Tablas y citas en Markdown.
 - Expresiones matemáticas con MathJax.
 - Conversión de documentos: Markdown a **HTML, PDF y LaTeX** con Pandoc.
-- Creación de documentos estructurados en Zettlr.
+- Creación de documentos estructurados.
 
 ### **Instalación y primeros pasos en LaTeX con TeXstudio**
 - Configuración de **TeXstudio** y compiladores.
@@ -113,7 +112,7 @@
 
 ## **Metodología**
 
-- 📌 **Software oficial desde el inicio** (Zettlr, TeXstudio, JabRef).
+- 📌 **Software oficial desde el inicio** (Notepad Next, TeXstudio, JabRef).
 - 📌 **Ejercicios semanales** para cada tema.
 - 📌 **Proyecto final:** un documento profesional en LaTeX.
 
