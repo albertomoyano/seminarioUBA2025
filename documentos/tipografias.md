@@ -69,8 +69,8 @@ XeLaTeX y LuaLaTeX son motores de compilación que proporcionan compatibilidad n
 |------------|---------|--------------------------------|--------------------------------|--------------------------|
 | **Type 1** | No      | Limitado                        | No soportado                   | Requiere paquetes extra  |
 | **Type 3** | No      | No soportado                    | No soportado                   | Poco usado actualmente   |
-| **TrueType** | Sí    | Parcialmente compatible         | Dependiente del motor de renderizado | Compatible con XeLaTeX y LuaLaTeX |
-| **OpenType** | Sí    | Soporte total                   | Soporte total                   | Mejor opción con XeLaTeX y LuaLaTeX |
+| **TrueType** | Sí    | Parcialmente compatible         | Dependiente del motor de renderizado | Compatible con LuaLaTeX |
+| **OpenType** | Sí    | Soporte total                   | Soporte total                   | Compatible con LuaLaTeX |
 
 ## Kerning y ligaduras
 
@@ -81,4 +81,4 @@ El kerning y las ligaduras son aspectos fundamentales en la calidad tipográfica
 
 ## Conclusión
 
-El formato de fuente ideal depende del tipo de documento y de las necesidades tipográficas. Mientras que Type 1 fue la norma en publicaciones científicas, TrueType y OpenType han tomado el liderazgo debido a su compatibilidad con Unicode y sistemas de escritura complejos. Para documentos multilingües, OpenType es la mejor opción en combinación con XeLaTeX o LuaLaTeX.
+El formato de fuente ideal depende del tipo de documento y de las necesidades tipográficas. Mientras que Type 1 fue la norma en publicaciones científicas, TrueType y OpenType han tomado el liderazgo debido a su compatibilidad con Unicode y sistemas de escritura complejos. Para documentos multilingües, OpenType es la mejor opción en combinación con LuaLaTeX.
