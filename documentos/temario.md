@@ -44,7 +44,6 @@
 - Secciones (`\section`, `\subsection`) y numeración automática.
 - Fuentes y estilos tipográficos.
 - Listas (`itemize`, `enumerate`) y notas al pie.
-- Creación de **plantillas personalizadas** en TeXstudio.
 
 ### **Creación de ecuaciones y expresiones matemáticas**
 - Uso de entornos `equation` y `align`.
