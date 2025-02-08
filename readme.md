@@ -49,10 +49,11 @@ Este seminario está dirigido a:
   - **[Oracle Virtual Machine](https://www.virtualbox.org/) y [Linux Mint](https://linuxmint.com/)**
   - **[Git](https://git-scm.com/)**
   - **[Pandoc](https://pandoc.org/)**
-  - Markdown: **[Notepad Next](https://github.com/dail8859/NotepadNext)**
-  - LaTeX: **[TeX Live](https://www.tug.org/texlive/) y [TeXstudio](https://www.texstudio.org/)**
-  - Gestión de bibliografía: **[JabRef](https://www.jabref.org/)**
-  - Gestión integral: **[gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)**
+  - **[TeX Live](https://www.tug.org/texlive/)**
+  - **[Notepad Next](https://github.com/dail8859/NotepadNext)**
+  - **[TeXstudio](https://www.texstudio.org/)**
+  - **[JabRef](https://www.jabref.org/)**
+  - **[gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)**
 
 ### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
