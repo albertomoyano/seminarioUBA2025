@@ -1,118 +1,93 @@
-# Features OpenType en LaTeX: pequeña guía práctica
+# Features OpenType en LaTeX: Guía Práctica
 
 ## Introducción
 
-Las tipografías OpenType representan uno de los avances más significativos en la tipografía digital, ofreciendo capacidades avanzadas que van más allá del simple renderizado de caracteres. Este artículo explora cómo LaTeX, mediante LuaTeX, permite aprovechar estas características de una manera que actualmente no está disponible en software tradicional de autoedición.
+Las tipografías OpenType representan un avance significativo en la tipografía digital, permitiendo capacidades avanzadas que van más allá del simple renderizado de caracteres. A diferencia de los formatos anteriores, OpenType combina la flexibilidad del formato TrueType con las capacidades avanzadas de PostScript.
+
+LuaTeX, una de las variantes modernas de LaTeX, permite aprovechar estas características de OpenType, brindando un control tipográfico superior en comparación con el software tradicional de autoedición.
 
 En este artículo exploraremos:
-- Los fundamentos de OpenType y sus características
+- Los fundamentos y estructura de OpenType
 - La evolución histórica de las variaciones tipográficas
-- Las capacidades específicas de OpenType en LaTeX
-- Implementaciones prácticas y casos de uso
+- La implementación práctica de OpenType en LaTeX con `fontspec`
+- Casos de uso en la composición tipográfica avanzada
 
 ## Fundamentos de OpenType
 
-OpenType es un formato de fuente tipográfica desarrollado conjuntamente por Adobe y Microsoft. Sus principales ventajas incluyen:
+OpenType es un formato de fuente desarrollado por Adobe y Microsoft que ofrece:
 
 - Compatibilidad multiplataforma
 - Soporte para conjuntos de caracteres extensos
 - Características tipográficas avanzadas
-- Capacidad para manejar variaciones ópticas
+- Variaciones ópticas y personalización de glifos
 
-Las fuentes OpenType pueden contener hasta 65,536 glifos, permitiendo un amplio conjunto de caracteres, ligaduras, alternativas estilísticas y variaciones numéricas. Esta flexibilidad las hace ideales para trabajos tipográficos profesionales. Hay que distinguir entre dos conceptos diferentes que a menudo se confunden:
+Las fuentes OpenType pueden contener hasta **65,536 glifos** por tabla individual, aunque pueden superar este límite mediante el uso de subtablas. Esto permite la incorporación de ligaduras, alternativas estilísticas y caracteres específicos para cada idioma.
 
-### El formato OpenType:
+### Estructura de OpenType
 
-Tiene un límite de 65,536 glifos por tabla individual, pero puede usar múltiples tablas para superar esta limitación. Las tablas más comunes son `cmap` (mapeo de caracteres), `glyf` (datos de glifos), etc.
+El formato OpenType utiliza diversas tablas internas para definir sus glifos y funciones. Algunas de las más relevantes son:
 
-### Unicode
+- `cmap`: Mapeo de caracteres a glifos
+- `glyf`: Datos de los glifos
+- `GSUB`: Sustitución de glifos (ligaduras, variantes contextuales)
+- `GPOS`: Posicionamiento de glifos (kerning, ajustes de espaciado)
 
-El estándar Unicode actual (15.1) tiene espacio para 1.114.112 caracteres, actualmente tiene asignados aproximadamente 150.000 caracteres, no todos estos son glifos visuales (hay códigos de control, espacios, etc.)
+Un ejemplo práctico de sustitución de glifos es la activación de ligaduras en un texto, lo cual puede mejorar la estética de la tipografía.
 
-### Una fuente OpenType puede:
+### Unicode y OpenType
 
-- Mapear más de 65,536 glifos usando múltiples subtablas
-- Usar características como variantes contextuales y ligaduras para generar glifos adicionales
-- Emplear tecnologías como OpenType Collections (.ttc) para agrupar múltiples fuentes
+El estándar **Unicode 15.1** define un espacio para **1,114,112 caracteres**, de los cuales aproximadamente **150,000** están actualmente asignados. No todos son glifos visuales, ya que algunos representan caracteres de control, espacios y combinaciones.
 
-Por ejemplo, la fuente Source Han Sans (una fuente CJK) contiene más de 65,536 glifos porque:
-
-- Utiliza múltiples subtablas para organizar los glifos
-- Implementa un sistema de mapeo complejo para acceder a todos los caracteres
-- Técnicamente es una colección de fuentes que trabajan juntas
-
-Así que una fuente OpenType puede tener más de 65,536 glifos en total, pero esto se logra mediante estructuras complejas dentro del formato, no como una simple lista lineal de glifos.
+Las fuentes OpenType pueden mapear estos caracteres de manera flexible, permitiendo una representación tipográfica rica y variada.
 
 ## Historia y evolución de las variaciones tipográficas
 
-La historia de las variaciones tipográficas se remonta a los inicios de la impresión con tipos móviles. En la era del plomo, cada tamaño de letra requería un diseño específico debido a limitaciones técnicas en la fabricación de tipos y los efectos de la ganancia de punto en la impresión.
+Las variaciones tipográficas han evolucionado con la tecnología de impresión:
 
-La evolución histórica puede resumirse en tres etapas principales:
-
-1. Era del plomo (1450-1950s):
+1. **Era del plomo (1450-1950s):**
    - Diseños específicos para cada tamaño
-   - Limitaciones técnicas en la producción
    - Control manual de la ganancia de punto
+   
+2. **Era de la fotocomposición (1950s-1980s):**
+   - Introducción de la escalabilidad tipográfica
+   - Pérdida inicial de variaciones ópticas
 
-2. Era de la fotocomposición (1950s-1980s):
-   - Introducción de la escalabilidad
-   - Pérdida inicial de las variaciones ópticas
-   - Simplificación del proceso de producción
-
-3. Era digital (1980s-presente):
+3. **Era digital (1980s-presente):**
    - Recuperación de las variaciones ópticas
-   - Optimización para diferentes tamaños
-   - Integración de características avanzadas
+   - Integración de características avanzadas a través de OpenType
 
 ## Variaciones ópticas en OpenType
 
-Las variaciones ópticas modernas se diseñan para optimizar la legibilidad y el impacto visual en diferentes tamaños. Los rangos típicos incluyen:
+Las variaciones ópticas permiten que una fuente se optimice según el tamaño de uso. Algunos ejemplos incluyen:
 
-1. Caption (hasta 8 puntos):
-   - Mayor altura x
-   - Trazos más gruesos
-   - Mayor espaciado entre caracteres
-   - Contraformas más abiertas
+- **Caption (<8 pt):** Altura x mayor, trazos gruesos, mayor espaciado
+- **Text (9-13 pt):** Proporciones balanceadas, contraste moderado
+- **Subhead (14-24 pt):** Contraste incrementado, detalles refinados
+- **Display (25-72 pt):** Espaciado ajustado, detalles delicados
+- **Poster (>72 pt):** Adaptaciones extremas para visibilidad a distancia
 
-2. Text (9-13 puntos):
-   - Proporciones balanceadas
-   - Espaciado óptimo para texto corrido
-   - Contraste moderado en los trazos
+Esta flexibilidad es crucial para mejorar la legibilidad en diferentes formatos.
 
-3. Subhead (14-24 puntos):
-   - Mayor contraste
-   - Espaciado más ajustado
-   - Detalles más refinados
+## Características OpenType en LaTeX
 
-4. Display (25-72 puntos):
-   - Máximo contraste
-   - Detalles más delicados
-   - Espaciado muy ajustado
-
-5. Poster (más de 72 puntos):
-   - Ajustes extremos para visibilidad a distancia
-   - Modificaciones específicas para gran formato
-
-## Features OpenType
-
-Las características OpenType disponibles en una fuente pueden consultarse mediante herramientas como `otfinfo`.
+Las **features OpenType** disponibles en una fuente pueden consultarse con `otfinfo`:
 
 ```bash
 otfinfo -f MinionPro-Regular.otf
 ```
 
-Algunas características comunes incluyen:
+Algunas features comunes incluyen:
 
-- Liga: Ligaduras estándar
-- Dlig: Ligaduras discrecionales
-- Onum: Números de estilo antiguo
-- Pnum: Números proporcionales
-- Smcp: Versalitas
-- Kern: Kerning
+- `liga`: Ligaduras estándar
+- `dlig`: Ligaduras discrecionales
+- `onum`: Números de estilo antiguo
+- `pnum`: Números proporcionales
+- `smcp`: Versalitas
+- `kern`: Kerning avanzado
 
-## Implementación en LaTeX
+## Implementación en LaTeX con `fontspec`
 
-La implementación en LaTeX se realiza principalmente a través del paquete `fontspec`. Ejemplo básico de configuración:
+El paquete `fontspec` en LuaTeX permite aprovechar OpenType de manera sencilla. Ejemplo de configuración:
 
 ```latex
 \usepackage{fontspec}
@@ -133,44 +108,28 @@ La implementación en LaTeX se realiza principalmente a través del paquete `fon
 ]
 ```
 
-Configuración de estilos para títulos:
+### Configuración de estilos tipográficos en documentos
 
-```latex
-\titleformat{\chapter}[display]
-    {\Large}
-    {\vspace{-2.5cm}\centering{\textsc{
-    \MakeLowercase\chaptertitlename}}~\thechapter}
-    {1.5cm}
-    {\filright\LARGE}
-    []
-```
+Ejemplo en un documento académico:
 
-## Casos prácticos
-
-### Ejemplo 1: documento académico
 ```latex
 \documentclass[12pt]{book}
 \usepackage{fontspec}
 \usepackage{microtype}
 
-% Configuración de la fuente principal
+% Configuración de fuente principal
 \setmainfont{Minion Pro}[
     Numbers={OldStyle,Proportional}
 ]
-
-% Configuración para títulos
-\setsansfont{Myriad Pro}[
-    Numbers={Lining,Proportional}
-]
 ```
 
-### Ejemplo 2: producción editorial
+Ejemplo en producción editorial:
+
 ```latex
 \documentclass[11pt]{memoir}
 \usepackage{fontspec}
 \usepackage{microtype}
 
-% Configuración avanzada de fuentes
 \setmainfont{Minion Pro}[
     Numbers={OldStyle,Proportional},
     SizeFeatures={
@@ -184,35 +143,23 @@ Configuración de estilos para títulos:
 
 ## Conclusión
 
-La combinación de OpenType y LaTeX ofrece un control tipográfico superior al disponible en software tradicional de autoedición. Las características avanzadas de OpenType, junto con la flexibilidad de LaTeX, permiten:
+La combinación de OpenType y LaTeX permite un control tipográfico avanzado, ideal para publicaciones académicas y editoriales. Sus ventajas incluyen:
 
-- Control preciso sobre las variaciones ópticas
-- Implementación automática de características tipográficas
+- Control preciso de variaciones ópticas
+- Automatización de características tipográficas
 - Consistencia en documentos extensos
-- Mayor calidad tipográfica final
+- Mejora de la calidad tipográfica final
 
-## Referencias y recursos adicionales
+## Recursos adicionales
 
-1. Documentación:
-   - Manual de fontspec
-   - Documentación de OpenType
+1. **Documentación:**
+   - Manual de `fontspec`
    - Guías de XeTeX y LuaTeX
 
-2. Herramientas:
-   - otfinfo
-   - fontforge
+2. **Herramientas:**
+   - `otfinfo`
+   - `fontforge`
    - LaTeX Font Catalogue
 
-3. Comunidades:
-   - TeX StackExchange
-   - Typography StackExchange
-   - Foros de LaTeX
+Este artículo proporciona una base sólida para utilizar OpenType en LaTeX de manera efectiva.
 
-## Glosario
-
-- **DTP**: Desktop Publishing (Autoedición)
-- **Features**: Características especiales de una fuente OpenType
-- **NFSS**: New Font Selection Scheme
-- **Ganancia de punto**: Incremento en el tamaño del punto impreso respecto al original
-
-Este artículo proporciona una base introductoria sólida para comprender y utilizar las características OpenType en LaTeX.
