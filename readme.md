@@ -49,7 +49,7 @@ Este seminario está dirigido a:
   - **Oracle Virtual Machine y Linux Mint**
   - **Git**
   - Markdown: **Notepad Next**
-  - LaTeX: **TeX Live y TeXstudio**
+  - LaTeX: **TeX Live y [TeXstudio](https://www.texstudio.org/)**
   - Gestión de bibliografía: **JabRef**
   - Gestión integral: **gbTeXpublisher**
 
