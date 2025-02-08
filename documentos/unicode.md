@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Unicode es el estándar de codificación de caracteres más amplio y utilizado en la actualidad, permitiendo la representación de casi todos los sistemas de escritura del mundo. Su implementación en LaTeX mediante XeTeX y LuaTeX ha facilitado enormemente el uso de tipografías con caracteres extendidos y escritura multilingüe sin necesidad de comandos especiales.
+Unicode es el estándar de codificación de caracteres más amplio y utilizado en la actualidad, permitiendo la representación de casi todos los sistemas de escritura del mundo. Su implementación en LaTeX mediante LuaTeX ha facilitado enormemente el uso de tipografías con caracteres extendidos y escritura multilingüe sin necesidad de comandos especiales.
 
 En este trabajo exploraremos:
 - Los fundamentos de Unicode y su organización interna
