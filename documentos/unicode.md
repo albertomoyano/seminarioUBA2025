@@ -81,4 +81,4 @@ La fórmula \( \int_{0}^{\infty} e^{-x^2} dx \) usa caracteres Unicode.
 
 ## Conclusión
 
-Unicode ha revolucionado la tipografía digital al permitir la representación universal de caracteres en cualquier idioma o sistema de escritura. Su integración con LaTeX, especialmente a través de LuaTeX, ha facilitado el uso de tipografías avanzadas con un control tipográfico de alta calidad.
+Unicode ha revolucionado la tipografía digital al permitir la representación universal de caracteres en cualquier idioma o sistema de escritura. Su integración con LaTeX --especialmente a través de LuaTeX-- ha facilitado el uso de tipografías avanzadas con un control tipográfico muy preciso y de alta calidad.
