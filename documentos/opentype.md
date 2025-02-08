@@ -1,4 +1,4 @@
-# Features OpenType en LaTeX: Guía Práctica
+# *Features* OpenType en LaTeX: pequeña guía práctica
 
 ## Introducción
 
