@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Las tipografías OpenType representan uno de los avances más significativos en la tipografía digital, ofreciendo capacidades avanzadas que van más allá del simple renderizado de caracteres. Este artículo explora cómo LaTeX, mediante XeTeX o LuaTeX, permite aprovechar estas características de una manera que actualmente no está disponible en software tradicional de autoedición.
+Las tipografías OpenType representan uno de los avances más significativos en la tipografía digital, ofreciendo capacidades avanzadas que van más allá del simple renderizado de caracteres. Este artículo explora cómo LaTeX, mediante LuaTeX, permite aprovechar estas características de una manera que actualmente no está disponible en software tradicional de autoedición.
 
 En este artículo exploraremos:
 - Los fundamentos de OpenType y sus características
@@ -19,7 +19,29 @@ OpenType es un formato de fuente tipográfica desarrollado conjuntamente por Ado
 - Características tipográficas avanzadas
 - Capacidad para manejar variaciones ópticas
 
-Las fuentes OpenType pueden contener hasta 65,536 glifos, permitiendo un amplio conjunto de caracteres, ligaduras, alternativas estilísticas y variaciones numéricas. Esta flexibilidad las hace ideales para trabajos tipográficos profesionales.
+Las fuentes OpenType pueden contener hasta 65,536 glifos, permitiendo un amplio conjunto de caracteres, ligaduras, alternativas estilísticas y variaciones numéricas. Esta flexibilidad las hace ideales para trabajos tipográficos profesionales. Hay que distinguir entre dos conceptos diferentes que a menudo se confunden:
+
+### El formato OpenType:
+
+Tiene un límite de 65,536 glifos por tabla individual, pero puede usar múltiples tablas para superar esta limitación. Las tablas más comunes son `cmap` (mapeo de caracteres), `glyf` (datos de glifos), etc.
+
+### Unicode
+
+El estándar Unicode actual (15.1) tiene espacio para 1.114.112 caracteres, actualmente tiene asignados aproximadamente 150.000 caracteres, no todos estos son glifos visuales (hay códigos de control, espacios, etc.)
+
+### Una fuente OpenType puede:
+
+- Mapear más de 65,536 glifos usando múltiples subtablas
+- Usar características como variantes contextuales y ligaduras para generar glifos adicionales
+- Emplear tecnologías como OpenType Collections (.ttc) para agrupar múltiples fuentes
+
+Por ejemplo, la fuente Source Han Sans (una fuente CJK) contiene más de 65,536 glifos porque:
+
+- Utiliza múltiples subtablas para organizar los glifos
+- Implementa un sistema de mapeo complejo para acceder a todos los caracteres
+- Técnicamente es una colección de fuentes que trabajan juntas
+
+Así que una fuente OpenType puede tener más de 65,536 glifos en total, pero esto se logra mediante estructuras complejas dentro del formato, no como una simple lista lineal de glifos.
 
 ## Historia y evolución de las variaciones tipográficas
 
