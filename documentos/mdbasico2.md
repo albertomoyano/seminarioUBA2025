@@ -50,5 +50,5 @@ Aplicaciones como Obsidian y Joplin utilizan Markdown para la organización de n
 Markdown es una opción viable para la escritura de apuntes, resúmenes y trabajos académicos, especialmente cuando se combina con herramientas como Pandoc para la conversión a PDF, Word o LaTeX.
 
 ## Conclusión
-Markdown destaca por su simplicidad, versatilidad y compatibilidad con múltiples plataformas. Aunque no reemplaza completamente a formatos más avanzados como LaTeX o HTML en contextos específicos, su facilidad de uso lo convierte en una herramienta poderosa para la escritura y gestión de contenido en diversos entornos.
+Markdown destaca por su simplicidad, versatilidad y compatibilidad con múltiples plataformas. **Aunque no reemplaza** a formatos más avanzados como LaTeX en contextos específicos, su facilidad de uso lo convierte en una herramienta poderosa para la escritura y gestión de contenido en diversos entornos.
 
