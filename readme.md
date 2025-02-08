@@ -46,11 +46,12 @@ Este seminario está dirigido a:
 - ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
 - Aplicaciones y ventajas de Markdown y LaTeX, instalación de software.
 - **Instalación del software:**
-  [x] **Oracle Virtual Machine y Linux Mint**
-  [] Markdown: **Notepad Next**
-  [] LaTeX: **TeX Live y TeXstudio**
-  [] Gestión de bibliografía: **JabRef**
-  [] Gestión integral: **gbTeXpublisher**
+  - **Oracle Virtual Machine y Linux Mint**
+  - **Git**
+  - Markdown: **Notepad Next**
+  - LaTeX: **TeX Live y TeXstudio**
+  - Gestión de bibliografía: **JabRef**
+  - Gestión integral: **gbTeXpublisher**
 
 ### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
