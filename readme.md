@@ -94,7 +94,7 @@ Este seminario está dirigido a:
 
 ---
 
-## **Documentos avanzados y personalización**
+## **Módulo 3: Documentos avanzados y personalización**
 
 ### **Estilos de documentos y personalización avanzada**
 - Clases de documentos: `article` y `book`.
