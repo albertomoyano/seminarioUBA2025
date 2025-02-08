@@ -125,8 +125,8 @@ Este seminario está dirigido a:
 
 ### **Documentos científicos y libros en LaTeX**
 - Plantillas para artículos científicos.
-- Estructura de libros con `book`.
-- Integración de bibliografía con **JabRef**.
+- Estructura de libros con la clase `book`.
+- Bibliografía con biblatex.
 
 ### **Creación de libros con LaTeX**
 - Organización de capítulos.
