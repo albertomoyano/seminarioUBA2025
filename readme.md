@@ -17,7 +17,7 @@ Además, es fundamental destacar que todo el software utilizado en este curso si
 - **Comprender** los conceptos básicos de la edición ramificada.
 - **Explorar** diversas herramientas de marcado como Markdown y LaTeX.
 - **Aprender** a usar sistemas de control de versiones con Git para gestionar proyectos de documentación.
-- **Utilizar** editores de código abierto como VSCode y TeXstudio para optimizar el proceso de edición.
+- **Utilizar** editores de código abierto como **Notepad Next** y **TeXstudio** para optimizar el proceso de edición.
 - **Implementar** flujos de trabajo que permitan generar salidas en PDF, ePub y HTML desde una única fuente.
 - **Introducir** el uso de Pandoc como herramienta de conversión de documentos.
 - **Manejar** gestores bibliográficos.
@@ -27,9 +27,8 @@ Además, es fundamental destacar que todo el software utilizado en este curso si
 
 Este seminario está dirigido a:
 
-- Estudiantes universitarios
+- Estudiantes de la carrera de edición
 - Editores
-- Investigadores científicos y escritores técnicos
 
 ---
 
@@ -47,8 +46,9 @@ Este seminario está dirigido a:
 - Aplicaciones y ventajas de Markdown y LaTeX.
 
 #### Instalación del software
-  - **Oracle Virtual Machine y Linux Mint**
-  - **Git**
+  - **[Oracle Virtual Machine](https://www.virtualbox.org/) y [Linux Mint](https://linuxmint.com/)**
+  - **[Git](https://git-scm.com/)**
+  - **[Pandoc](https://pandoc.org/)**
   - Markdown: **[Notepad Next](https://github.com/dail8859/NotepadNext)**
   - LaTeX: **[TeX Live](https://www.tug.org/texlive/) y [TeXstudio](https://www.texstudio.org/)**
   - Gestión de bibliografía: **[JabRef](https://www.jabref.org/)**
@@ -62,7 +62,7 @@ Este seminario está dirigido a:
 ### **Markdown avanzado y conversión de documentos**
 - Tablas y citas en Markdown.
 - Expresiones matemáticas con MathJax.
-- Conversión de documentos: Markdown a **HTML, PDF y LaTeX** con Pandoc.
+- Conversión de documentos: Markdown a **HTML, PDF** y **LaTeX**.
 - Creación de documentos estructurados.
 
 ### **Instalación y primeros pasos en LaTeX con TeXstudio**
