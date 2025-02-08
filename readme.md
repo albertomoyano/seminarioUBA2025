@@ -44,8 +44,9 @@ Este seminario está dirigido a:
 
 ### **Introducción a los lenguajes de marcas y elección de software**
 - ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
-- Aplicaciones y ventajas de Markdown y LaTeX, instalación de software.
-- **Instalación del software:**
+- Aplicaciones y ventajas de Markdown y LaTeX.
+
+#### Instalación del software
   - **Oracle Virtual Machine y Linux Mint**
   - **Git**
   - Markdown: **[Notepad Next](https://github.com/dail8859/NotepadNext)**
