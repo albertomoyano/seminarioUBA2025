@@ -31,66 +31,115 @@ Este seminario está dirigido a:
 - Editores
 - Investigadores científicos y escritores técnicos
 
-## Contenido del seminario
+## **Módulo 1: Introducción y herramientas esenciales**
 
-### Módulo 1: Control de versiones con Git
+### **Introducción a GitHub y su uso en el seminario**
+- Creación de una cuenta en **GitHub**.
+- Uso del área de discusión para consultas y debates.
+- Flujo de trabajo en GitHub: repositorios, commits y ramas.
+- Subida y mantenimiento de proyectos en GitHub.
+- Normas de participación en **GitHub Discussions**.
 
--  [GitHub](https://github.com/)
-   - Introducción, comandos básicos
-   - Uso del área de discusiones
-   
-### Módulo 2: Introducción a la edición ramificada
+### **Introducción a los lenguajes de marcas y elección de software**
+- ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
+- Aplicaciones y ventajas de Markdown y LaTeX, instalación de software.
+- **Instalación del software:**
+  - **Oracle Virtual Machine y Linux Mint**
+  - Markdown: **Notepad Next**
+  - LaTeX: **TeX Live y TeXstudio**
+  - Gestión de bibliografía: **JabRef**
+  - Gestión integral: **gbTeXpublisher**
 
-- Concepto de edición ramificada
-- Ventajas y aplicaciones
+### **Markdown – Sintaxis básica y primeros pasos**
+- Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
+- Imágenes, enlaces y bloques de código.
+- Práctica: crear un documento y exportarlo.
 
-### Míodulo 3: Herramientas
+### **Markdown avanzado y conversión de documentos**
+- Tablas y citas en Markdown.
+- Expresiones matemáticas con MathJax.
+- Conversión de documentos: Markdown a **HTML, PDF y LaTeX** con Pandoc.
+- Creación de documentos estructurados.
 
-- Uso de [Visual Studio Code](https://code.visualstudio.com/)
-- Uso de [TeXstudio](https://texstudio.org/)
-- Uso de [JabRef](https://www.jabref.org/)
-- Uso de [Pandoc](https://es.wikipedia.org/wiki/Pandoc)
-- Uso de [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
-   
-### Módulo 4: Herramientas de marcado
+### **Instalación y primeros pasos en LaTeX con TeXstudio**
+- Configuración de **TeXstudio** y compiladores.
+- Creación del primer documento en LaTeX.
+- Estructura básica (`\documentclass`, `\begin{document}`, `\end{document}`).
+- Manejo del visor de PDF integrado en TeXstudio.
 
-- [Markdown](https://es.wikipedia.org/wiki/Markdown)
-- [LaTeX](https://www.latex-project.org/)
+---
 
-### Módulo 5: Generación de salidas múltiples
+## **Módulo 2: Fundamentos de LaTeX**
 
-- PDF
-- ePub
-- HTML
+### **Formato de texto y estructura de documentos**
+- Secciones (`\section`, `\subsection`) y numeración automática.
+- Fuentes y estilos tipográficos.
+- Listas (`itemize`, `enumerate`) y notas al pie.
 
-### Módulo 6: Gestión bibliográfica
+### **Creación de ecuaciones y expresiones matemáticas**
+- Uso de entornos `equation` y `align`.
+- Fracciones, raíces, matrices, operadores avanzados.
+- Uso de `amssymb` y `amsmath`.
+- Configuración de **TeXstudio** para facilitar la escritura matemática.
 
-- Visión general de las referencias bibliográficas
-   - Importancia de la gestión bibliográfica en la producción de documentos.
-   - Tipos de referencias, análisis comparativo y su uso en diferentes contextos
-   - Uso de [JabRef](https://www.jabref.org/) y del módulo de referencias en [gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)
+### **Imágenes, gráficos y figuras**
+- Uso de `\includegraphics` con `graphicx`.
+- Entorno `figure` y configuración de tamaños.
 
-### Módulo 7: Metadatos en la documentación
+### **Tablas avanzadas y bibliografía con JabRef**
+- Tablas complejas (`booktabs`).
+- Introducción a **JabRef** para gestionar bibliografía.
+- Uso de `biber`.
+- Estilos de citas (`numérico`, `autor-año` y `pie de página`).
 
-- Características e importancia de los metadatos
+---
 
-## Bibliografía
+## **Documentos avanzados y personalización**
 
-Sarah Simpkin, [«Introducción a Markdown»](https://doi.org/10.46430/phes0014), traducido por Víctor Gayol, Programming Historian en español 1 (2017).
+### **Estilos de documentos y personalización avanzada**
+- Clases de documentos: `article` y `book`.
+- Uso de `titlesec` para personalizar títulos.
+- Márgenes con `geometry`.
 
-Manual de [LaTeX](https://es.wikibooks.org/wiki/Manual_de_LaTeX)
+### **Referencias y automatización**
+- Referencias cruzadas (`\label`, `\ref`).
+- Uso de `hyperref` para hipervínculos.
+- Creación de índices y tablas de contenido avanzadas.
 
-## Metodología
+### **Presentaciones en LaTeX con Beamer**
+- Creación de diapositivas con `beamer`.
+- Diseño y personalización de presentaciones.
+- Animaciones y transiciones.
 
-El seminario combinará teoría con prácticas en vivo. Los alumnos instalarán en su computadora diferentes programas de software libre para el desarrollo del seminario, esto se hará en una máquina virtual para no alterar la composición de sus equipos, es aconsejable que los participantes dispongan de al menos 30gb de espacio libre en el disco principal de su computadora.
+### **Trabajo colaborativo y automatización de compilación**
+-  `latexmk` para compilaciones automáticas.
+- Introducción a **LuaLaTeX**.
 
-Cada módulo del seminario incluirá:
+---
 
-- Presentaciones teóricas para explicar los conceptos y herramientas.
-- Ejercicios prácticos donde los participantes aplicarán lo aprendido.
-- Proyectos finales en los que los participantes desarrollarán un documento que pueda ser exportado a múltiples formatos.
+## **Módulo 4: Proyectos reales y optimización**
 
-## Evaluación y certificación
+### **Documentos científicos y libros en LaTeX**
+- Plantillas para artículos científicos.
+- Estructura de libros con `book`.
+- Integración de bibliografía con **JabRef**.
+
+### **Creación de libros con LaTeX**
+- Organización de capítulos.
+- Generación de glosarios y acrónimos.
+- Exportación a diferentes formatos.
+
+### **Resolución de errores y optimización**
+- Depuración de errores en LaTeX con logs.
+- Mejoras de rendimiento y optimización de código.
+- Buenas prácticas para documentos largos.
+
+### **Proyecto final y evaluación**
+- Presentación de documentos finales en LaTeX.
+- Revisión de calidad y optimización.
+- Sesión de preguntas y respuestas.
+
+---
 
 Al finalizar el seminario, los participantes deberán cumplir con los siguientes requisitos para obtener su certificación:
 
