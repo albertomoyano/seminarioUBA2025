@@ -19,10 +19,10 @@ Unicode es un sistema de codificación que asigna a cada carácter un punto de c
 Los caracteres en Unicode se organizan en bloques y planos:
 
 - **Planos Unicode**: Unicode está dividido en 17 planos de 65.536 posiciones cada uno. Los más relevantes son:
-  - **Plano Multilingüe Básico (BMP, U+0000 a U+FFFF)**: Contiene los caracteres más utilizados, incluyendo latinos, griegos, cirílicos y cjk básicos.
-  - **Planos Suplementarios**: Contienen caracteres menos comunes como jeroglífcos egipcios, emojis y glifos especializados.
+  - **Plano Multilingüe Básico (BMP, U+0000 a U+FFFF)**: contiene los caracteres más utilizados, incluyendo latinos, griegos, cirílicos y cjk básicos.
+  - **Planos Suplementarios**: contienen caracteres menos comunes como jeroglífcos egipcios, emojis y glifos especializados.
 
-- **Bloques Unicode**: Dentro de los planos, los caracteres se agrupan en bloques temáticos como "Latin Extended-A", "Greek and Coptic" o "Mathematical Alphanumeric Symbols".
+- **Bloques Unicode**: dentro de los planos, los caracteres se agrupan en bloques temáticos como "Latin Extended-A", "Greek and Coptic" o "Mathematical Alphanumeric Symbols".
 
 ### Formatos de codificación
 
