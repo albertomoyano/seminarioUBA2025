@@ -46,7 +46,8 @@ Este seminario está dirigido a:
 - Aplicaciones y ventajas de Markdown y LaTeX.
 
 #### Instalación del software
-  - **[Oracle Virtual Machine](https://www.virtualbox.org/) y [Linux Mint](https://linuxmint.com/)**
+  - **[Oracle Virtual Machine](https://www.virtualbox.org/)**
+  - **[Linux Mint](https://linuxmint.com/)**
   - **[Git](https://git-scm.com/)**
   - **[Pandoc](https://pandoc.org/)**
   - **[TeX Live](https://www.tug.org/texlive/)**
