@@ -31,6 +31,8 @@ Este seminario está dirigido a:
 - Editores
 - Investigadores científicos y escritores técnicos
 
+---
+
 ## **Módulo 1: Introducción y herramientas esenciales**
 
 ### **Introducción a GitHub y su uso en el seminario**
