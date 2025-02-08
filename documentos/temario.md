@@ -58,14 +58,14 @@
 - Tablas complejas (`booktabs`).
 - Introducción a **JabRef** para gestionar bibliografía.
 - Uso de `biber`.
-- Estilos de citas (`verona`, `apa`).
+- Estilos de citas (`numérico`, `autor-año` y `pie de página`).
 
 ---
 
 ## **Documentos avanzados y personalización**
 
 ### **Estilos de documentos y personalización avanzada**
-- Clases de documentos: `article`, `report`, `book`.
+- Clases de documentos: `article` y `book`.
 - Uso de `titlesec` para personalizar títulos.
 - Márgenes con `geometry`.
 
@@ -80,17 +80,16 @@
 - Animaciones y transiciones.
 
 ### **Trabajo colaborativo y automatización de compilación**
-- Uso de **Overleaf** para colaboración en línea.
-- Configuración de `latexmk` para compilaciones automáticas.
+-  `latexmk` para compilaciones automáticas.
 - Introducción a **LuaLaTeX**.
 
 ---
 
 ## **Módulo 4: Proyectos reales y optimización**
 
-### **Documentos científicos y tesis en LaTeX**
-- Plantillas para artículos científicos (`IEEE`, `ACM`).
-- Estructura de tesis con `book` y `memoir`.
+### **Documentos científicos y libros en LaTeX**
+- Plantillas para artículos científicos.
+- Estructura de libros con `book`.
 - Integración de bibliografía con **JabRef**.
 
 ### **Creación de libros con LaTeX**
