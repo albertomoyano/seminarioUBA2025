@@ -111,7 +111,7 @@
 
 ## **Metodología**
 
-- 📌 **Software oficial desde el inicio** (Notepad Next, TeXstudio, JabRef).
+- 📌 **Software oficial desde el inicio** (Notepad Next, TeXstudio, JabRef y gbTeXpublisher).
 - 📌 **Ejercicios semanales** para cada tema.
 - 📌 **Proyecto final:** un documento profesional en LaTeX.
 
