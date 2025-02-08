@@ -1,4 +1,4 @@
-# Editores de Texto vs Procesadores de Texto: Análisis Comparativo
+# Editores de texto vs Procesadores de texto
 
 ## Introducción
 
