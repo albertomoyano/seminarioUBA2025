@@ -85,17 +85,15 @@ Este seminario está dirigido a:
 ### **Creación de ecuaciones y expresiones matemáticas**
 - Uso de entornos `equation` y `align`.
 - Fracciones, raíces, matrices, operadores avanzados.
-- Uso de `amssymb` y `amsmath`.
 - Configuración de **TeXstudio** para facilitar la escritura.
 
 ### **Imágenes, gráficos y figuras**
 - Uso de `\includegraphics` con `graphicx`.
 - Entorno `figure` y configuración de tamaños.
 
-### **Tablas avanzadas y bibliografía**
-- Tablas complejas (`booktabs`).
+### **Cuadros, tablas y bibliografía**
+- Lógica y confección de cuadros y tablas.
 - Introducción a la gestión bibliografía.
-- Uso de `biber`.
 - Estilos de citas (`numérico`, `autor-año` y `pie de página`).
 
 ---
@@ -123,7 +121,28 @@ Este seminario está dirigido a:
 
 ---
 
-## **Módulo 4: Proyectos reales y optimización**
+## **Módulo 4: Artes gráficas para editores**
+
+### ** Principios básicos**
+
+- Ganancia de punto
+- Relación tinta-agua
+- Relación toner-fusor
+- Desperdicios
+
+### **Preimpresión**
+
+- Modelo CTF
+- Modelo CTP
+
+### **Impresión**
+
+- sistema off-set
+- sistema digital
+
+---
+
+## **Módulo 5: Proyectos reales y optimización**
 
 ### **Documentos científicos y libros en LaTeX**
 - Plantillas para artículos científicos.
