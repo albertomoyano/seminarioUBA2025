@@ -160,11 +160,15 @@ pdflatex documento
 pdflatex documento
 ```
 
-### Editores Integrados
+### Editores
+
+Algunos editores ofrecen soporte para compilación automática de índices y glosarios.
+
 - TeXstudio
 - TeXmaker
 - TeXworks
-Ofrecen soporte para compilación automática de índices y glosarios.
+
+
 
 ## Conclusión
 
