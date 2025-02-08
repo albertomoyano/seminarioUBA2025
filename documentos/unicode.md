@@ -44,7 +44,7 @@ Unicode resolvió estos problemas al unificar todos los caracteres en un solo es
 
 ## Implementación en LaTeX
 
-LaTeX tradicional no maneja Unicode de forma nativa, pero XeTeX y LuaTeX han introducido soporte completo. El paquete `fontspec` permite configurar tipografías compatibles:
+LaTeX tradicional no maneja Unicode de forma nativa, pero LuaTeX ha introducido soporte completo. El paquete `fontspec` permite configurar tipografías compatibles:
 
 ```latex
 \usepackage{fontspec}
