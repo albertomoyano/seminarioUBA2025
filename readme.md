@@ -38,9 +38,9 @@ Este seminario está dirigido a:
 ### **Introducción a GitHub y su uso en el seminario**
 - Creación de una cuenta en **GitHub**.
 - Uso del área de discusión para consultas y debates.
+- Normas de participación en **GitHub Discussions**.
 - Flujo de trabajo en GitHub: repositorios, commits y ramas.
 - Subida y mantenimiento de proyectos en GitHub.
-- Normas de participación en **GitHub Discussions**.
 
 ### **Introducción a los lenguajes de marcas y elección de software**
 - ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
