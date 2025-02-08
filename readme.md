@@ -123,7 +123,7 @@ Este seminario está dirigido a:
 
 ## **Módulo 4: Artes gráficas para editores**
 
-### ** Principios básicos**
+### **Principios básicos**
 
 - Ganancia de punto
 - Relación tinta-agua
