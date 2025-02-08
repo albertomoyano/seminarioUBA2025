@@ -48,10 +48,10 @@ Este seminario está dirigido a:
 - **Instalación del software:**
   - **Oracle Virtual Machine y Linux Mint**
   - **Git**
-  - Markdown: **Notepad Next**
+  - Markdown: **[Notepad Next](https://github.com/dail8859/NotepadNext)**
   - LaTeX: **TeX Live y [TeXstudio](https://www.texstudio.org/)**
-  - Gestión de bibliografía: **JabRef**
-  - Gestión integral: **gbTeXpublisher**
+  - Gestión de bibliografía: **[JabRef](https://www.jabref.org/)**
+  - Gestión integral: **[gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)**
 
 ### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
