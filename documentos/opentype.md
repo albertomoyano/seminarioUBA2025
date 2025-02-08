@@ -21,7 +21,7 @@ OpenType es un formato de fuente desarrollado por Adobe y Microsoft que ofrece:
 - Características tipográficas avanzadas
 - Variaciones ópticas y personalización de glifos
 
-Las fuentes OpenType pueden contener hasta **65,536 glifos** por tabla individual, aunque pueden superar este límite mediante el uso de subtablas. Esto permite la incorporación de ligaduras, alternativas estilísticas y caracteres específicos para cada idioma.
+Las fuentes OpenType pueden contener hasta **65.536 glifos** por tabla individual, aunque pueden superar este límite mediante el uso de subtablas. Esto permite la incorporación de ligaduras, alternativas estilísticas y caracteres específicos para cada idioma.
 
 ### Estructura de OpenType
 
@@ -36,7 +36,7 @@ Un ejemplo práctico de sustitución de glifos es la activación de ligaduras en
 
 ### Unicode y OpenType
 
-El estándar **Unicode 15.1** define un espacio para **1,114,112 caracteres**, de los cuales aproximadamente **150,000** están actualmente asignados. No todos son glifos visuales, ya que algunos representan caracteres de control, espacios y combinaciones.
+El estándar **Unicode 15.1** define un espacio para **1.114.112 caracteres**, de los cuales aproximadamente **150.000** están actualmente asignados. No todos son glifos visuales, ya que algunos representan caracteres de control, espacios y combinaciones.
 
 Las fuentes OpenType pueden mapear estos caracteres de manera flexible, permitiendo una representación tipográfica rica y variada.
 
@@ -160,17 +160,3 @@ La combinación de OpenType y LaTeX permite un control tipográfico avanzado, id
 - Automatización de características tipográficas
 - Consistencia en documentos extensos
 - Mejora de la calidad tipográfica final
-
-## Recursos adicionales
-
-1. **Documentación:**
-   - Manual de `fontspec`
-   - Guías de XeTeX y LuaTeX
-
-2. **Herramientas:**
-   - `otfinfo`
-   - `fontforge`
-   - LaTeX Font Catalogue
-
-Este artículo proporciona una base sólida para utilizar OpenType en LaTeX de manera efectiva.
-
