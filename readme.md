@@ -152,7 +152,7 @@ Este seminario está dirigido a:
 ### **Creación de libros con LaTeX**
 - Organización de capítulos.
 - Generación de glosarios y acrónimos.
-- Exportación a diferentes formatos (PDF para pantalla, PDF para imprenta, ePub en imágenes, ePub en HTML y HTML5).
+- Exportación a diferentes formatos (PDF para pantalla, PDF para imprenta, ePub en imágenes, ePub en HTML y sitio estático en HTML5).
 
 ### **Resolución de errores y optimización**
 - Depuración de errores en LaTeX con logs.
