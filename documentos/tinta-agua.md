@@ -28,7 +28,7 @@ La temperatura y la humedad ambiental influyen en la evaporación del agua y en 
 ## Problemas comunes y soluciones
 A continuación, se presentan algunos problemas típicos que surgen por un mal equilibrio tinta-agua y sus posibles soluciones:
 
-| Problema                  | Causa Posible                              | Solución |
+| Problema                  | Causa posible                              | Solución |
 |---------------------------|------------------------------------------|----------|
 | Tinta difuminada o apagada | Exceso de agua en la solución de fuente | Reducir la cantidad de agua en la prensa |
 | Suciedad en áreas no imprimibles | Falta de agua en la solución de fuente | Aumentar la proporción de agua |
