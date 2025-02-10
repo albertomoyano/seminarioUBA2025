@@ -153,6 +153,7 @@ Este seminario está dirigido a:
 - Organización de capítulos.
 - Generación de glosarios y acrónimos.
 - Exportación a diferentes formatos (PDF para pantalla, PDF para imprenta, ePub en imágenes, ePub en HTML y sitio estático en HTML5).
+- Optimización de metadatos para las diferentes salidas.
 
 ### **Resolución de errores y optimización**
 - Depuración de errores en LaTeX con logs.
