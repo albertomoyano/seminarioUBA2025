@@ -29,6 +29,7 @@ Este seminario está dirigido a:
 
 - Estudiantes de la carrera de edición
 - Editores
+- Trabajadores del rubro editorial
 
 ---
 
@@ -77,23 +78,21 @@ Este seminario está dirigido a:
 
 ## **Módulo 2: Fundamentos de LaTeX**
 
+### **Vista general de los paquetes más utilizados**
+- `fontspec`, `microtype`, `siunitx`, `nccfoots`, `booktabs`, `bchart`, `footmisc` entre otros.
+
 ### **Formato de texto y estructura de documentos**
 - Secciones (`\section`, `\subsection`) y numeración automática.
 - Fuentes y estilos tipográficos.
-- Listas (`itemize`, `enumerate`) y notas al pie.
-
-### **Creación de ecuaciones y expresiones matemáticas**
-- Uso de entornos `equation` y `align`.
-- Fracciones, raíces, matrices, operadores avanzados.
-- Configuración de **TeXstudio** para facilitar la escritura.
+- Listas (`paralist`, `enumerate`) y notas al pie.
 
 ### **Imágenes, gráficos y figuras**
-- Uso de `\includegraphics` con `graphicx`.
-- Entorno `figure` y configuración de tamaños.
+- Uso de `\includegraphics` con `graphicx` y `svg`.
+- Entorno `figure` e `imagen` y configuración de tamaños.
 
 ### **Cuadros, tablas y bibliografía**
 - Lógica y confección de cuadros y tablas.
-- Introducción a la gestión bibliografía.
+- Introducción a la gestión bibliografía con `biblatex`.
 - Estilos de citas (`numérico`, `autor-año` y `pie de página`).
 
 ---
