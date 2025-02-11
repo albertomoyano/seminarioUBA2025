@@ -1,5 +1,10 @@
 \documentclass{book}
-% Diseño general de página
+
+% Deben cargarse temprano para parches de macros
+\usepackage{etoolbox}
+\usepackage{ifthen}
+
+% Configuración geométrica detallada
 \usepackage[paperwidth=155mm,
 paperheight=230mm,
 textwidth=110mm,
@@ -7,34 +12,42 @@ textheight=540pt,
 centering,
 includehead,
 includefoot,
-headsep=13.5pt,
+headsep=14pt,
 top=35pt,
 footskip=0mm,
-footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
+footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 
-% Idiomas y babel
+%% Configuración de idioma
 \usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
-\usepackage[autostyle=true]{csquotes}
-\renewcommand{\spanishcontentsname}{Sumario}
-\renewcommand{\spanishindexname}{Índice alfabético}
+\usepackage[autostyle=true]{csquotes}% Citas automáticas con estilo idiomático correcto
+\frenchspacing% Espaciado uniforme después de puntos
+\renewcommand{\spanishcontentsname}{Sumario}% Personalización del nombre del índice
 
-\tracinglostchars=2
-\usepackage{fontspec}
-\usepackage{microtype}
-\newfontfeature{Microtypography}{protrusion=default;expansion=default}
-\directlua{fonts.protrusions.setups.default.factor=.5}
-\renewcommand{\normalsize}{\fontsize{10pt}{13.5pt}\selectfont}
-\topskip=13.5pt
+\usepackage{fontspec}% Soporte para fuentes OpenType
+\usepackage[final]{microtype}% Mejoras tipográficas micro
+\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+%% solo trabajamos con protusion y sin expansion para Libertinus
+\SetProtrusion
+[ name=libertinus ]
+{ encoding = * }
+{ . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
+\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+\topskip=14pt
 
-% tipografía Libertinus
+%% Fuente principal Libertinus con características tipográficas
 \setmainfont{Libertinus Serif}
-[Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.18]
-\usepackage{unicode-math}
-\setmathfont{Libertinus Math}
+[Numbers={OldStyle,Proportional},
+Ligatures={TeX,Common,Discretionary},
+RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
+Scale=1.18]
 
-% configuración y tipografía por default en TeXlive para idioma chino
-\usepackage{luatexja-fontspec}
-\setmainjfont{FandolSong}
+% Matemáticas con Libertinus Math
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+
+%% Configuración de fuentes para chino
+% \usepackage{luatexja-fontspec}
+% \setmainjfont{FandolSong}
 
 \setsansfont[Scale=MatchLowercase,
 Ligatures=TeX,
@@ -51,15 +64,6 @@ ItalicFont = IBMPlexMono-Italic.otf,
 BoldFont = IBMPlexMono-Bold.otf,
 BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 
-% configuración de los valores decimales de los cuadros
-\usepackage{siunitx}
-\sisetup{output-decimal-marker={.},
-         group-separator={\hspace{0.15em}},
-         group-minimum-digits=3,
-         table-text-alignment=center,
-         detect-all,
-         per-mode=fraction}
-
 % control de ruptura de linea
 \usepackage{linebreaker}
 \linebreakersetup{
@@ -69,6 +73,9 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 }
 
 % paquetes varios
+\usepackage{zref-totpages}% contar el total de páginas
+\usepackage{pageslts}
+\usepackage{calc}
 \usepackage{qrcode}% generamos el QR
 \usepackage{froufrou}
 \usepackage{nccfoots}
@@ -124,6 +131,12 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 
 % diseño del pie de página
 \usepackage[bottom,stable,hang]{footmisc}
+\setlength{\footnotesep}{10pt}% cambia el valor deseado en puntos (pt)
+
+\makeatletter
+\patchcmd\@footnotetext{\@MM}{100}{}{\fail}
+\makeatother
+
 \makeatletter
 \patchcmd{\@footnotetext}{\footnotesize}{\small}{}{}% tamaño del cuerpo del texto del footnote
 \makeatother
@@ -154,11 +167,11 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 {\contentslabel[\thecontentslabel]{2.5pc}}{}{}
 
 % capitulo
-\titlecontents{chapter}[2pc]
+\titlecontents{chapter}[1.5pc]
 {\addvspace{.4em}\sf\selectfont\filright}
-{\contentslabel{2pc}}
-{\hspace*{-2pc}}%
-{\titlerule*[1pc]{.}\contentspage[\hspace*{-3pc} {\rm\small\thecontentspage}]}%
+{\contentslabel{1.5pc}}
+{\hspace*{-1.5pc}}%
+{\titlerule*[1pc]{.}\contentspage[\hspace*{-4pc} {\rm\small\thecontentspage}]}%
 []
 
 \titlecontents{section}[4.5pc]
@@ -325,235 +338,17 @@ placement=ht,
    \item\relax}
   {\endlist}
 
-% CONFIGURACIÓN PARA BIBLATEX
-\usepackage[style=philosophy-modern,
-% refsection=chapter,%para obtener las referencias por capítulo
-sortcites=true,
-lowscauthors=true,
-scauthorsbib=true,
-annotation=true,
-backend=biber,
-labeldateparts=true,
-backref=true,
-useprefix=true,
-citereset=chapter,
-indexing=cite,
-relatedformat=brackets,
-publocformat=loccolonpub,
-volnumformat=strings,
-latinemph=true,
-inbeforejournal=true,
-shorthandintro=true,
-texencoding=utf8,
-bibencoding=utf8,
-uniquelist=minyear]{biblatex}
-
-%GENERAR LOS INDICES, DESACTIVAMOS LAS OPCIONES PARA TITULOS
-\renewbibmacro*{bibindex}{%
-  \ifbibindex
-    {\indexnames{author}%
-     \indexnames{editor}%
-     \indexnames{translator}%
-     \indexnames{commentator}}
-    {}}
-
-\renewbibmacro*{citeindex}{%
-  \ifciteindex
-    {\indexnames{author}%
-     \indexnames{editor}%
-     \indexnames{translator}%
-     \indexnames{commentator}}
-    {}}
-
-% CAMBIAMOS URL PARA QUE APAREZCA LA LEYENDA EN LINEA
-\makeatletter
-\newrobustcmd{\mkbiblege}[1]{%
-	\begingroup
-	\blx@blxinit
-	\blx@setsfcodes
-	<#1>
-	\endgroup}
-\makeatother
-
-\DeclareFieldFormat{url}{\bibstring{url}\space\mkbiblege{\url{#1}}}
-
-% REDEFINIR EL FORMATO DE CITADO EN PÁGINA 00
-% \DeclareFieldFormat{pagerefformat}{\mkbibparens{{\color{red}\mkbibemph{#1}}}}
-\renewbibmacro*{pageref}{%
-	\iflistundef{pageref}
-	{}
-	{\printtext[pagerefformat]{%
-			\ifnumgreater{\value{pageref}}{1}
-			{\bibstring{backrefpages}\ppspace}
-			{\bibstring{backrefpage}\ppspace}%
-			\printlist[pageref][-\value{listtotal}]{pageref}}}}
-
-% DECLARO UNA ALIAS PARA TRATAR MOVIE COMO MISC
-\DeclareBibliographyAlias{movie}{misc}
-
-% PONE PUNTO Y COMA ENTRE NOMBRE DE VARIOS AUTORES
-\renewcommand*{\multinamedelim}{\addsemicolon\space}
-
-% CAMBIA LA TIPOGRAFIA DE LA BIBLIOGRAFIA
-\renewcommand*{\annotationfont}{\small\sf}
-\renewcommand*{\bibfont}{\small}
-\setlength{\bibhang}{3\parindent}%modifico el valor por default (4) de indentacion del año
-
-\defcounter{biburlnumpenalty}{3000}
-\defcounter{biburlucpenalty}{6000}
-\defcounter{biburllcpenalty}{9000}
-
-%% REDISEÑO PARA OBTENER MODO LARGO EN ALGUNAS ENTRADAS
-\NewBibliographyString{organizator}
-\NewBibliographyString{organizators}
-\NewBibliographyString{byorganizator}
-\NewBibliographyString{cordinator}
-\NewBibliographyString{cordinators}
-\NewBibliographyString{bycordinator}
-\NewBibliographyString{direction}
-\NewBibliographyString{directions}
-\NewBibliographyString{bydirection}
-\NewBibliographyString{maestriathesis}
-\NewBibliographyString{ingenieriathesis}
-\NewBibliographyString{gradothesis}
-\NewBibliographyString{licenciaturathesis}
-\NewBibliographyString{origpubbare}
-\NewBibliographyString{especialthesis}
-\NewBibliographyString{documentjob}
-\NewBibliographyString{posgradothesis}
-\NewBibliographyString{magisterthesis}
-\NewBibliographyString{dirigida}% MODIFICACIONES PARA FILMES
-\NewBibliographyString{dirigidas}
-\NewBibliographyString{bydirigida}
-\NewBibliographyString{escrita}
-\NewBibliographyString{escritas}
-\NewBibliographyString{byescrita}
-\NewBibliographyString{elenco}
-\NewBibliographyString{elencos}
-\NewBibliographyString{byelenco}
-\NewBibliographyString{tifthesis}
-\NewBibliographyString{mimeograph}
-\NewBibliographyString{photocopy}
-\NewBibliographyString{digitalprinting}
-
-\DefineBibliographyStrings{spanish}{%
-	inpreparation    = {en preparación},
-	submitted        = {enviado},
-	forthcoming      = {de próxima aparición},
-	inpress          = {en imprenta},
-	prepublished     = {previamente publicado},
-	digitalprinting  = {impresión digital},
-	photocopy        = {fotocopia},
-	mimeograph       = {mimeo},
-	dirigida         = {dirección},
-	dirigidas        = {dirección},
-	bydirigida       = {Dirección de},
-	escrita          = {escrita},
-	escritas         = {escrita},
-	byescrita        = {escrita por},
-	elenco           = {actúan:},
-	elencos          = {actúan:},
-	byelenco         = {actúan:},
-	part             = {tomo},
-	january          = {enero},
-	february         = {febrero},
-	march            = {marzo},
-	april            = {abril},
-	may              = {mayo},
-	june             = {junio},
-	july             = {julio},
-	august           = {agosto},
-	september        = {septiembre},
-	october          = {octubre},
-	november         = {noviembre},
-	december         = {diciembre},
-	see              = {véase},
-	seealso          = {véase también},
-	backrefpage      = {re\-fe\-ren\-cia ci\-ta\-da en pági\-na},
-	backrefpages     = {re\-fe\-ren\-cia ci\-ta\-da en pági\-nas},
-	seenote          = {véase nota},
-	quotedin         = {citado en},
-	idem             = {ídem},
-	idemsf           = {ídem},
-	idemsm           = {ídem},
-	idemsn           = {ídem},
-	idempf           = {ídem},
-	idempm           = {ídem},
-	idempn           = {ídem},
-	idempp           = {ídem},
-	ibidem           = {\emph{ibidem}},
-	prepublished     = {previamente publicado},
-	nodate           = {sin fecha},
-	withcommentator  = {con comentario de},
-	withannotator    = {con notas de},
-	withintroduction = {con introdución de},
-	withforeword     = {con prólogo de},
-	withafterword    = {con epílogo de},
-	bycollaborator   = {con colaboración de},
-	andothers        = {\emph{et al\adddot}},
-	organizator      = {org\adddot},
-	organizators     = {orgs\adddot},
-	byorganizator    = {org\adddot\addspace por},
-	cordinator       = {coord\adddot},
-	cordinators      = {coords\adddot},
-	bycordinator     = {coord\adddot\addspace por},
-	direction        = {dir\adddot},
-	directions       = {dirs\adddot},
-	bydirection      = {dir\adddot\addspace por},
-	mathesis         = {Tesis de Maestría},
-	ingenieriathesis = {Tesis de Ingeniería},
-	magisterthesis   = {Tesis de Magíster},
-	phdthesis        = {Tesis de Doctorado},
-	gradothesis      = {Tesis de Grado},
-	licenciaturathesis = {Tesis de Licenciatura},
-	tifthesis        = {Trabajo Integrador Final},
-	posgradothesis   = {Tesis de Posgrado},
-	especialthesis   = {Tesis de Especialización},
-	documentjob      = {documento de trabajo},
-	urlseen          = {visitado el\addspace},
-	translationof    = {trad\adddot\addspace de},
-	translationas    = {original publicado en},
-	url              = {recuperado de},
-	origpubbare      = {orig\adddotspace pub\adddotspace},
-	newseries        = {nueva época},
-	oldseries        = {antigua época},
-	byeditorfo       = {ed\adddotspace y pról\adddotspace por},
-	byeditorco       = {ed\adddotspace y com\adddotspace por},
-	bytranslatorfo   = {traducido \lbx@lfromlang\ y prologado por},
-	pagetotal        = {págs},
-	pagetotals       = {págs},
-	techreport       = {informe técnico},
-	resreport        = {reporte de investigación},
-	file             = {archivo},
-	patent           = {patente},
-	patentde         = {patente alemana},
-	patenteu         = {patente europea},
-	patentfr         = {patente francesa},
-	patentuk         = {patente británica},
-	patentus         = {patente estadounidense},
-	patreq           = {solicitud de patente},
-	patreqde         = {solicitud de patente alemana},
-	patreqeu         = {solicitud de patente europea},
-	patreqfr         = {solicitud de patente francesa},
-	patrequk         = {solicitud de patente británica},
-	patrequs         = {solicitud de patente estadounidense},
-	bycompiler       = {comp\adddotspace por},
-}
-
-% corrección para año original
-\makeatletter
-\renewbibmacro*{transorigstring}{%
-  \iffieldundef{reprinttitle}%
-  {\printtext{\ifdefstring{\bbx@origfields}{origed}
-      {\bibstring{origpubbare}}%
-      {\bibstring{translationas}}}\nopunct}%
-  {\printtext{\bibstring{reprint}}}\nopunct}
-\makeatother
+% elegimos el estandar para las referencias
+\def\estandar{veronaAY}
+%\def\estandar{veronaFN}
+%\def\estandar{apa}
+%\def\estandar{chicago}
+\input{./files/biblatex-\estandar-config.tex}
 
 % generamos los índices
 \usepackage[xindy]{imakeidx}
 \makeindex
-\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
+\makeindex[name=names]
 \makeindex[name=concepto,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
@@ -564,19 +359,24 @@ uniquelist=minyear]{biblatex}
 	{\namepartgiven}
 	{\namepartprefix}
 	{\namepartsuffix}}
-\renewbibmacro*{citeindex}{%
+  \renewbibmacro*{citeindex}{%
 	\ifciteindex
 	{\indexnames{labelname}}
 	{}}
-\usepackage[totoc]{idxlayout}
 
-% generamos los glosarios
+% Esto inserta la entrada relacionada con el contenido como parte de las últimas cosas antes de que el índice se imprima realmente.
+\makeatletter
+\g@addto@macro{\theindex}{\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de autoras y autores del aparato bibliográfico}}
+\makeatother
+\renewcommand{\spanishindexname}{Índice de autoras y autores del aparato bibliográfico}
+
+%% generamos los glosarios
 \usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
 \preto\chapter{\glsresetall}
 \makenoidxglossaries
 \renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
 
-% Diseño y estilo a glosario y acrónimo
+%% Diseño y estilo a glosario y acrónimo
 \newglossarystyle{crossreflist}%
 {% base it on list (adapt as required)
 	\renewcommand*{\glossentry}[2]{%
@@ -595,12 +395,12 @@ uniquelist=minyear]{biblatex}
 }
 \setglossarystyle{crossreflist}
 
-% deshabilitamos mostrar el número de página
+%% deshabilitamos mostrar el número de página
 %\renewcommand{\glossaryentrynumbers}[1]{Véase página #1.}
 \renewcommand{\delimN}{, }
 \renewcommand{\delimR}{--}
 
-% Instrucciones de salida
+%% Instrucciones de salida
 %\printnoidxglossary[type=\acronymtype,title={Índice de siglas}]
 %\printnoidxglossary[title={Glosario de términos}]
 
@@ -609,6 +409,25 @@ uniquelist=minyear]{biblatex}
 \def\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z\do0\do1\do2\do3\do4\do5\do6\do7\do8\do9\do=\do.\do:\do\%\do?\do_\do-\do+\do/\do\#\do~}
 \def\UrlFont{\rm}
 
-\usepackage{ifthen}
+% configuración de los valores decimales de los cuadros
+\usepackage{siunitx}
+\sisetup{output-decimal-marker={.},
+	group-separator={\hspace{0.15em}},
+	group-minimum-digits=3,
+	table-text-alignment=center,
+	detect-all,
+	per-mode=fraction}
 
-% fin del preambulo
+% Comando para insertar una página en blanco
+\newcommand{\PaginaEnBlanco}{
+    \newpage
+    \thispagestyle{empty}
+    {\textcolor{white}{.}} % Punto invisible para forzar la página
+}
+
+% declaramos los condicionales
+\newif\ifPDF
+\newif\ifBNPDF
+\newif\ifPNGEPUB
+\newif\ifHTMLEPUB
+\newif\ifHTML

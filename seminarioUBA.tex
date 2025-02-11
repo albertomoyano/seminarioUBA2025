@@ -1,0 +1,72 @@
+
+% referencias
+\addbibresource{./files/gbTeXbib-seminarioUBA.bib}
+
+% separata de capítulos
+\input{./files/gbTeXseparata-seminarioUBA.tex}
+
+\ifPDF
+% control de inconsistencias de principio y fin de linea
+\usepackage[hyphenation, homeoarchy, homeoarchywordcolor=orange, homeoarchycharcolor=orange]{impnattypo}
+\usepackage[allcolors=magenta, colorlinks, unicode]{hyperref}
+\usepackage{easyReview}
+\usepackage{hyperxmp}
+\input{./files/gbTeXmeta-seminarioUBA.tex}
+	\else
+	\ifBNPDF
+	\usepackage[width=18truecm,height=25.5truecm,cam,center]{crop}
+	\newcommand*\infofont[1]{\sf{\footnotesize #1 (alberto.alejandro.moyano@gmail.com)}}
+	\crop[font=infofont]
+	\usepackage[hidelinks, unicode]{hyperref}
+	\usepackage{hyperxmp}
+	\input{./files/gbTeXmeta-seminarioUBA.tex}
+	\fi
+		\else
+		\ifPNGEPUB
+		\usepackage[hidelinks, unicode]{hyperref}
+		\fi
+\fi
+
+\begin{document}
+\frontmatter
+
+\input{./artcap/inicio-frontmatter.tex}
+
+\Author{Sumario}
+\tableofcontents
+
+\include{./artcap/prologo.tex}
+\include{./artcap/presentacion.tex}
+\include{./artcap/introduccion.tex}
+
+\mainmatter
+
+\include{./artcap/capitulo1.tex}
+\include{./artcap/capitulo2.tex}
+\include{./artcap/capitulo3.tex}
+
+\backmatter
+
+\include{./artcap/conclusiones.tex}
+
+\chapter{Referencias}
+\setcounter{PrimPag}{\theCurrentPage}
+\Author{Referencias}
+\printbibliography[heading=none]
+\separata{referencias}
+
+\input{./artcap/colofon.tex}
+
+% Y aquí añadimos el término "exit" al script y lo cerramos
+\immediate\write\script{exit}%
+\immediate\closeout\script%
+
+\ifPDF
+\PaginaEnBlanco
+	\else
+	\ifBNPDF
+	\PaginaEnBlanco
+	\fi
+\fi
+
+\end{document}
