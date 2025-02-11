@@ -79,7 +79,7 @@ Este seminario está dirigido a:
 ## **Módulo 2: Fundamentos de LaTeX**
 
 ### **Vista general de los paquetes más utilizados**
-- `fontspec`, `microtype`, `siunitx`, `nccfoots`, `booktabs`, `bchart`, `footmisc` entre otros.
+- `fontspec`, `microtype`, `siunitx`, `nccfoots`, `booktabs`, `bchart` y `footmisc` entre otros.
 
 ### **Formato de texto y estructura de documentos**
 - Secciones (`\section`, `\subsection`) y numeración automática.
