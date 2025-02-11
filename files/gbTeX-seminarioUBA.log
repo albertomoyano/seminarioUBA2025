@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  11 FEB 2025 07:55
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  11 FEB 2025 08:05
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -2664,15 +2664,29 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 \hyxmp@cct=\catcodetable19
 )
 (./files/gbTeXmeta-seminarioUBA.tex
-Package hyperref Info: Option `unicode' set `true' on input line 15.
 
+! Package kvsetkeys Error: Undefined key `pdfx'.
+
+See the kvsetkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 }
+    
+The keyval family of the key `pdfx' is `Hyp'.
+The setting of the key is ignored because of the error.
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package hyperref Info: Option `unicode' set `true' on input line 23.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 15.
+(hyperref)                setting the option has no effect on input line 23.
 
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 15.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 23.
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 23.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -3186,9 +3200,10 @@ LaTeX Info: Redefining \% on input line 480.
 \openout2 = ./artcap/conclusiones.aux
  (./artcap/conclusiones.tex)
 Package biblatex Info: Resetting trackers on input line 486.
-
-
-LaTeX Warning: Empty bibliography on input line 489.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 10.61993pt on input line 489.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 10.61993pt on input line 489.
 
 (./artcap/colofon.tex
 LaTeX Info: Redefining \. on input line 2.
@@ -3257,27 +3272,28 @@ Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 66775 strings out of 476553
- 596757,2848258 words of node,token memory allocated
- 409434 words of node memory still in use:
-   4048 hlist, 7 vlist, 3599 rule, 2 ins, 1 adjust, 4114 disc, 373 local_par, 4 
-math, 4939 glue, 1842 kern, 673 penalty, 119 margin_kern, 27371 glyph, 21331 att
-ribute, 920 glue_spec, 3059 attribute_list, 4 write, 24 pdf_literal, 22 pdf_star
-t_link, 22 pdf_end_link, 4 pdf_dest, 10 pdf_action, 294 pdf_colorstack, 8 pdf_se
-tmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:14,2:239,3:81,4:20,5:126,6:2,7:2667,8:4,9:6103,10:10,11:308
- 86863 multiletter control sequences out of 65536+600000
- 86 fonts using 21877771 bytes
+ 66995 strings out of 476553
+ 596760,2848258 words of node,token memory allocated
+ 412233 words of node memory still in use:
+   4059 hlist, 7 vlist, 3598 rule, 2 ins, 1 adjust, 4140 disc, 375 local_par, 4 
+math, 4970 glue, 1862 kern, 683 penalty, 120 margin_kern, 27525 glyph, 21639 att
+ribute, 928 glue_spec, 3103 attribute_list, 12 write, 24 pdf_literal, 31 pdf_sta
+rt_link, 31 pdf_end_link, 4 pdf_dest, 13 pdf_action, 316 pdf_colorstack, 8 pdf_s
+etmatrix, 8 pdf_save, 8 pdf_restore nodes
+   avail lists: 1:14,2:269,3:80,4:21,5:96,6:2,7:2518,8:5,9:6085,10:9,11:290
+ 87082 multiletter control sequences out of 65536+600000
+ 88 fonts using 22685851 bytes
  117i,7n,123p,2362b,2662s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
-Serif-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSan
-sCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/I
-BMPlexSansCondensed-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/pu
-blic/libertinus-fonts/LibertinusSerif-Regular.otf>
-Output written on pdf-seminarioUBA.pdf (28 pages, 674764 bytes).
+Serif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus
+-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/ib
+m/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/fonts/op
+entype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/texlive/texmf-dist/
+fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf>
+Output written on pdf-seminarioUBA.pdf (28 pages, 681492 bytes).
 
-PDF statistics: 262 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 131072)
+PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 131072)
  301 words of extra memory for PDF output out of 10000 (max. 100000000)
 
