@@ -109,39 +109,13 @@ Este seminario está dirigido a:
 - Uso de `hyperref` para hipervínculos.
 - Creación de índices y tablas de contenido avanzadas.
 
-### **Presentaciones en LaTeX con Beamer**
-- Creación de diapositivas con `beamer`.
-- Diseño y personalización de presentaciones.
-- Animaciones y transiciones.
-
 ### **Trabajo colaborativo y automatización de compilación**
 -  `latexmk` para compilaciones automáticas.
 - Introducción a **LuaLaTeX**.
 
 ---
 
-## **Módulo 4: Artes gráficas para editores**
-
-### **Principios básicos**
-
-- Ganancia de punto
-- Relación tinta-agua
-- Relación toner-fusor
-
-### **Preimpresión**
-
-- Modelo CTF
-- Modelo CTP
-
-### **Impresión**
-
-- Sistema seco
-- Sistema offset
-- Sistema digital
-
----
-
-## **Módulo 5: Proyectos reales y optimización**
+## **Módulo 4: Proyectos reales y control de resultados**
 
 ### **Documentos científicos y libros en LaTeX**
 - Plantillas para artículos científicos.
@@ -158,6 +132,19 @@ Este seminario está dirigido a:
 - Depuración de errores en LaTeX con logs.
 - Mejoras de rendimiento y optimización de código.
 - Buenas prácticas para documentos largos.
+
+### **Artes gráficas para editores**
+- Principios básicos de control
+  - Ganancia de punto
+  - Relación tinta-agua
+  - Relación toner-fusor 
+- Preimpresión
+  - Modelo CTF
+  - Modelo CTP
+- Impresión
+  - Sistema seco
+  - Sistema offset
+  - Sistema digital
 
 ### **Proyecto final y evaluación**
 - Presentación de documentos finales en LaTeX.
