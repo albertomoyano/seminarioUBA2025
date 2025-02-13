@@ -1,4 +1,4 @@
-# El Concepto Clave=Valor en los Lenguajes de Marcas
+# El concepto clave=valor en los lenguajes de marcas
 
 ## Introducción
 El modelo de asignación **clave=valor** es un paradigma ampliamente utilizado en diversos lenguajes de marcas. Su propósito principal es estructurar y organizar información de manera clara y legible. En este documento exploraremos cómo se aplica este concepto en distintos lenguajes como Markdown, LaTeX y BibTeX, destacando sus similitudes y diferencias.
