@@ -1,7 +1,7 @@
 # El concepto clave=valor en los lenguajes de marcas
 
 ## Introducción
-El modelo de asignación **clave=valor** es un paradigma ampliamente utilizado en diversos lenguajes de marcas. Su propósito principal es estructurar y organizar información de manera clara y legible. En este documento exploraremos cómo se aplica este concepto en distintos lenguajes como Markdown, LaTeX y BibTeX, destacando sus similitudes y diferencias.
+El modelo de asignación **clave=valor** es un paradigma ampliamente utilizado en diversos lenguajes de marcas. Su propósito principal es estructurar y organizar información de manera clara y legible. En este documento exploraremos cómo se aplica este concepto en distintos lenguajes como Markdown, LaTeX y XML, destacando sus similitudes y diferencias.
 
 ## ¿Qué es el modelo Clave=Valor?
 El modelo clave=valor consiste en una estructura en la que cada "clave" representa una categoría o identificador, y el "valor" es la información asignada a esa clave. Este modelo es esencial en la definición de metadatos, configuración y estructuración de documentos.
@@ -43,28 +43,26 @@ Ejemplo en `hyperref`:
 ```
 Aquí, `colorlinks`, `linkcolor` y `urlcolor` determinan la apariencia de los enlaces en el documento.
 
-## Uso en BibTeX
-En BibTeX, el modelo clave=valor es esencial para definir entradas bibliográficas. Cada referencia sigue esta estructura:
+## Uso en XML
+En XML, el modelo clave=valor se utiliza en etiquetas para definir atributos de los elementos.
 
-```bibtex
-@book{knuth1984,
-  author = "Donald Knuth",
-  title = "The TeXbook",
-  year = "1984",
-  publisher = "Addison-Wesley"
-}
+Ejemplo de metadatos en XML:
+```xml
+<document title="Ejemplo de Clave=Valor en XML" author="Juan Pérez" date="2024-02-05">
+    <category>documentación</category>
+    <category>marcas</category>
+</document>
 ```
-Aquí, `author`, `title`, `year` y `publisher` son claves que definen los atributos del libro citado.
+Aquí, `title`, `author` y `date` son atributos clave=valor dentro de la etiqueta `document`.
 
 ## Comparación entre los lenguajes
-| Característica  | Markdown (YAML) | LaTeX | BibTeX |
+| Característica  | Markdown (YAML) | LaTeX | XML |
 |---------------|----------------|-------|--------|
-| Uso principal | Metadatos de documentos | Configuración de paquetes y opciones | Referencias bibliográficas |
-| Sintaxis | Clave: Valor (YAML) | Clave=Valor dentro de llaves `[...]` | Clave = "Valor" |
-| Flexibilidad | Alto, permite listas y anidamiento | Depende del paquete | Estricto en su estructura |
+| Uso principal | Metadatos de documentos | Configuración de paquetes y opciones | Estructuración de datos en documentos |
+| Sintaxis | Clave: Valor (YAML) | Clave=Valor dentro de llaves `[...]` | Clave="Valor" en atributos de etiquetas |
+| Flexibilidad | Alto, permite listas y anidamiento | Depende del paquete | Muy alto, permite estructuras jerárquicas |
 
 ## Conclusión
 El modelo clave=valor es un enfoque versátil que facilita la estructuración de información en distintos lenguajes de marcas. Aunque cada lenguaje lo implementa de manera específica, el principio fundamental se mantiene, permitiendo modularidad y claridad en la configuración y definición de datos.
 
 Este modelo sigue siendo clave en la evolución de los lenguajes de marcas y continuará adaptándose a nuevas tecnologías y necesidades.
-
