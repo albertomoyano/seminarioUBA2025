@@ -33,7 +33,7 @@ Al construir referencias bibliográficas en LaTeX con biblatex, es importante ma
      }
      ```
 
-3. **Ho Chi Minh City, Vietnam**:
+3. **Ho Chi Minh, Vietnam**:
    - Nombre original: **Saigón** (nombre usado hasta 1976).
    - Referencia:  
      ```latex
@@ -98,8 +98,8 @@ Al construir referencias bibliográficas en LaTeX con biblatex, es importante ma
      }
      ```
 
-### Consideraciones adicionales:
-- Si estás utilizando un estilo bibliográfico específico (como APA, Chicago, MLA, etc.), asegúrate de seguir sus directrices sobre cómo manejar nombres de ciudades que han cambiado.
-- En algunos casos, especialmente en publicaciones académicas, se prefiere mantener el nombre original sin añadir el nombre moderno, pero esto depende del campo de estudio y del estilo bibliográfico que estés utilizando.
+## Consideraciones adicionales:
+- Si se está utilizando un estilo bibliográfico específico (como APA, Chicago, MLA, etc.), se debe estar seguro de seguir sus directrices sobre cómo manejar nombres de ciudades que han cambiado.
+- En algunos casos, se prefiere mantener el nombre original sin añadir el nombre moderno, pero esto depende del campo de estudio y del estilo bibliográfico que se esté utilizando.
 
 En resumen, el criterio correcto es mantener el nombre original de la ciudad y, si es necesario para la claridad, añadir el nombre moderno entre corchetes. Esto respeta la integridad de la referencia original mientras proporciona contexto útil para el lector.
