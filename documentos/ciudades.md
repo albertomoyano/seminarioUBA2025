@@ -5,6 +5,7 @@ Al construir referencias bibliográficas en LaTeX con biblatex, es importante ma
 - Conservar el nombre original de la ciudad y el país tal como aparecen en la publicación original. Esto es importante para mantener la precisión histórica y bibliográfica. Sin embargo, si el cambio de nombre o de país es relevante para el contexto de la referencia, puedes añadir una nota o una aclaración entre corchetes.
 - Si el cambio es muy relevante para el contexto actual, puedes incluir el nombre moderno entre corchetes después del nombre original. Esto ayuda al lector a ubicar la ciudad en el contexto actual sin alterar la referencia original.
 
+## Veamos algunos ejemplos:
 
 1. **San Petersburgo, Rusia**:
    - Nombre original: **Leningrado** (nombre usado entre 1924 y 1991).
