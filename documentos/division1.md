@@ -113,12 +113,3 @@ En algunos casos, la estructura de un libro puede variar significativamente debi
 ## 5. Conclusión
 
 La división lógica y la división estructural son dos aspectos complementarios que contribuyen a la organización y comprensión de un libro. Mientras que la primera refleja la intención del autor y la estructura narrativa o temática, la segunda facilita la navegación y el acceso al contenido. En casos excepcionales, como obras completas o ediciones críticas, estas divisiones pueden adaptarse para incluir material adicional y análisis complementarios. Ambas son esenciales para garantizar una experiencia de lectura coherente y satisfactoria.
-
----
-
-## 6. Referencias
-
-- Eco, U. (1981). *Cómo se hace una tesis*. Barcelona: Gedisa.
-- Cassany, D. (2006). *La cocina de la escritura*. Barcelona: Anagrama.
-- Manual de estilo de la APA (7ª edición). (2020). Washington, DC: American Psychological Association.
-- Lehman, P. (2016). *The BibLaTeX Guide*. Disponible en: [https://www.ctan.org/pkg/biblatex](https://www.ctan.org/pkg/biblatex).
