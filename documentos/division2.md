@@ -93,7 +93,7 @@ Uso de Partes:
 - Error: No actualizar el índice después de cambios en la estructura.
 - Solución: Compilar el documento dos veces para asegurar que el índice refleje los cambios.
 
-## 4. Conclusión
+## Conclusión
 
 La división en frontmatter, mainmatter y backmatter en LaTeX permite estructurar un libro de manera coherente, adaptándose a las convenciones hispanohablantes (como números romanos en mayúscula). Mientras que los capítulos y secciones son elementos comunes a las tres partes, su tratamiento (numeración, contenido y propósito) varía según el bloque. Esta estructura garantiza claridad tanto para el autor como para el lector.
 
