@@ -58,7 +58,7 @@ Aunque `frontmatter`, `mainmatter` y `backmatter` utilizan la misma lógica de c
 
 | **Elemento**       | **Frontmatter**                 | **Mainmatter**                  | **Backmatter**                  |
 |---------------------|---------------------------------|----------------------------------|----------------------------------|
-| **Capítulos**       | No numerados (`\chapter{...}`) | Numerados (`\chapter{...}`)      | Opcionalmente numerados (ej: apéndices con letras) |
+| **Capítulos**       | No numerados (`\chapter{...}`) | Numerados (`\chapter{...}`)      | Opcionalmente numerados |
 | **Numeración páginas** | Romanos mayúscula (I, II, ...)  | Arábigos (1, 2, ...)            | Continúa numeración arábiga |
 | **Contenido**       | Preliminares | Desarrollo temático | Material complementario |
 
