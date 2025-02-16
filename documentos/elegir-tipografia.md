@@ -118,7 +118,7 @@ Debe garantizar:
 
 ---
 
-### Configuración recomendada en LaTeX  
+### Una posible configuración recomendada en LaTeX  
 ```latex  
 \usepackage{unicode-math}  
 \setmainfont{Libertinus Serif}  
@@ -126,7 +126,7 @@ Debe garantizar:
 \setsansfont{Noto Sans CJK SC} % Para títulos en chino.
 ```
 
-# Conclusión técnica:
+## Conclusión técnica:
 
 Para libros científicos multilingües:
 
