@@ -21,7 +21,7 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
 - **Numeración de páginas**: 
   - En español, se usan **números romanos en mayúscula** (I, II, III, ...).
   - En inglés, se usan **números romanos en minúscula** (i, ii, iii, ...).
-  - No se numera la portada ni la página de créditos, pero sí el resto.
+  - Las páginas en blanco no llevan numeración, aunque son tomadas por el contador.
 - **Comando en LaTeX**: `\frontmatter`.
 
 ### 1.2. Mainmatter (cuerpo principal)
@@ -33,6 +33,7 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
 - **Numeración**:
   - Páginas: Números arábigos (1, 2, 3, ...).
   - Capítulos y secciones: numeración arábiga jerárquica (Ej: Capítulo 1, Sección 1.1).
+  - Las páginas en blanco no llevan numeración, aunque son tomadas por el contador.
 - **Comando en LaTeX**: `\mainmatter`.
 
 ### 1.3. Backmatter (complementos finales)
@@ -45,6 +46,7 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
 - **Numeración**:
   - Las páginas continúan con la numeración arábiga del `mainmatter`.
   - Los apéndices se numeran con letras mayúsculas (A, B, C).
+  - Las páginas en blanco no llevan numeración, aunque son tomadas por el contador.
 - **Comando en LaTeX**: `\backmatter`.
 
 ---
