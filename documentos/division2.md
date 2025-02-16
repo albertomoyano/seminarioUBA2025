@@ -39,10 +39,11 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
 ### 1.3. Backmatter (complementos finales)
 - **Descripción**: Incluye material adicional de referencia o soporte.
 - **Elementos comunes**:
+  - Conclusiones.
   - Apéndices (`\appendix`).
   - Glosario.
   - Bibliografía (`\bibliography`).
-  - Índice analítico.
+  - Índices.
 - **Numeración**:
   - Las páginas continúan con la numeración arábiga del `mainmatter`.
   - Los apéndices se numeran con letras mayúsculas (A, B, C).
