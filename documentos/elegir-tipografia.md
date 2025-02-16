@@ -126,7 +126,7 @@ Debe garantizar:
 \setsansfont{Noto Sans CJK SC} % Para títulos en chino.
 ```
 
-## Conclusión técnica:
+## Conclusión técnica
 
 Para libros científicos multilingües:
 
