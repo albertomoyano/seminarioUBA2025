@@ -16,7 +16,7 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
   - Portada (`\title`, `\author`, `\date`).
   - Página de créditos (editorial, ISBN, derechos de autor).
   - Dedicatoria.
-  - Prólogo o Prefacio (no se numera `\chapter` pero se debe utilizar * a partir de `\section` para evitar numeración errónea).
+  - Prólogo o Prefacio (no se numera `\chapter` pero sí `\section`, se debe utilizar `\section*` para evitar numeración errónea).
   - Índice general (`\tableofcontents`).
 - **Numeración de páginas**: 
   - En español, se usan **números romanos en mayúscula** (I, II, III, ...).
