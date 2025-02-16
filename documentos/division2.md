@@ -64,7 +64,6 @@ Aunque `frontmatter`, `mainmatter` y `backmatter` utilizan la misma lógica de c
 
 ### 2.1. Uso de capítulos en Frontmatter
 - Ejemplo: Un prólogo se define como `\chapter{Prólogo}`, pero si este tiene divisones se utiliza `\section*{Una sección}` para evitar numeración.
-- La numeración de páginas comienza después de la portada (generalmente en el prólogo).
 
 ### 2.2. Partes y capítulos en Mainmatter
 - Las partes (`\part`) dividen el libro en bloques temáticos (ej: Parte I, Parte II).
