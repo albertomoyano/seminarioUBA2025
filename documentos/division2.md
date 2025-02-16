@@ -58,9 +58,9 @@ Aunque `frontmatter`, `mainmatter` y `backmatter` utilizan la misma lógica de c
 
 | **Elemento**       | **Frontmatter**                 | **Mainmatter**                  | **Backmatter**                  |
 |---------------------|---------------------------------|----------------------------------|----------------------------------|
-| **Capítulos**       | No numerados (`\chapter*{...}`) | Numerados (`\chapter{...}`)      | Opcionalmente numerados (ej: apéndices con letras). |
-| **Numeración págs** | Romanos mayúscula (I, II, ...)  | Arábigos (1, 2, ...)            | Continúa numeración arábiga.     |
-| **Contenido**       | Preliminares (prólogo, índice)  | Desarrollo temático              | Material complementario.         |
+| **Capítulos**       | No numerados (`\chapter{...}`) | Numerados (`\chapter{...}`)      | Opcionalmente numerados (ej: apéndices con letras) |
+| **Numeración páginas** | Romanos mayúscula (I, II, ...)  | Arábigos (1, 2, ...)            | Continúa numeración arábiga |
+| **Contenido**       | Preliminares | Desarrollo temático | Material complementario |
 
 ### 2.1. Uso de capítulos en Frontmatter
 - Ejemplo: Un prólogo se define como `\chapter{Prólogo}`, pero si este tiene divisones se utiliza `\section*{Una sección}` para evitar numeración.
