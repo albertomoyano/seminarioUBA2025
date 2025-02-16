@@ -1,6 +1,6 @@
 # Uso de siglas y acrónimos en textos científicos y generales
 
-## 1. Diferencias entre siglas y acrónimos
+## Diferencias entre siglas y acrónimos
 
 - **Siglas**: Abreviaciones formadas por las letras iniciales de una expresión compleja. Se escriben enteramente en mayúsculas y sin puntos entre las letras.  
   Ejemplo: **ONU** (Organización de las Naciones Unidas).
@@ -10,7 +10,7 @@
 
 ---
 
-## 2. Casos especiales: Siglas lexicalizadas
+## Casos especiales: siglas lexicalizadas
 
 Algunas siglas, especialmente marcas o nombres propios, se integran al lenguaje como palabras comunes y pierden las mayúsculas completas. Ejemplos:
 
@@ -21,7 +21,7 @@ En estos casos, se escribe con mayúscula inicial y el resto en minúsculas, a m
 
 ---
 
-## 3. Normas de escritura
+## Normas de escritura
 
 ### Para siglas no lexicalizadas:
 - Se escriben enteramente en mayúsculas.  
@@ -37,7 +37,7 @@ En estos casos, se escribe con mayúscula inicial y el resto en minúsculas, a m
 
 ---
 
-## 4. El caso de DOI en textos científicos
+## El caso de DOI en textos científicos
 
 El **DOI** (*Digital Object Identifier*, en español *Identificador de Objeto Digital*) es una sigla reciente pero ampliamente utilizada en el ámbito académico y científico. Su tratamiento sigue estas normas:
 
@@ -48,7 +48,7 @@ El **DOI** (*Digital Object Identifier*, en español *Identificador de Objeto Di
 
 ---
 
-## 5. Recomendaciones finales
+## Recomendaciones finales
 
 - En textos formales o científicos, mantén las siglas en mayúsculas para garantizar claridad y precisión.
 - En textos informales o dirigidos a un público no especializado, podrías optar por adaptaciones como **Doi**, aunque esto no es común en contextos académicos.

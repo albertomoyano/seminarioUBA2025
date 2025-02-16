@@ -74,5 +74,5 @@ El paquete `glossaries` en LaTeX es extremadamente versátil y permite gestionar
 
 ## Conclusión
 
-El paquete `glossaries` no solo permite manejar listas de términos, sino que mejora la organización y presentación del contenido. Su extensibilidad lo convierte en una herramienta fundamental para cualquier tipo de documento extenso y técnico. ¡Por eso su manual tiene tantas páginas! 😃
+El paquete `glossaries` no solo permite manejar listas de términos, sino que mejora la organización y presentación del contenido. Su extensibilidad lo convierte en una herramienta fundamental para cualquier tipo de documento extenso y técnico. ¡Por eso su manual tiene tantas páginas!
 
