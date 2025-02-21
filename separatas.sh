@@ -1,7 +1,7 @@
 #!/bin/bash
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 9-11 output ./docs/prologo-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 13-15 output ./docs/capitulo1-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 17-19 output ./docs/capitulo2-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 21-24 output ./docs/capitulo3-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 25-28 output ./docs/referencias-pdf-seminarioUBA.pdf
+pdftk ./pdf/epub1-seminarioUBA.pdf cat 5-7 output ./docs/prologo-epub1-seminarioUBA.pdf
+pdftk ./pdf/epub1-seminarioUBA.pdf cat 8-11 output ./docs/capitulo1-epub1-seminarioUBA.pdf
+pdftk ./pdf/epub1-seminarioUBA.pdf cat 12-15 output ./docs/capitulo2-epub1-seminarioUBA.pdf
+pdftk ./pdf/epub1-seminarioUBA.pdf cat 16-20 output ./docs/capitulo3-epub1-seminarioUBA.pdf
+pdftk ./pdf/epub1-seminarioUBA.pdf cat 21-23 output ./docs/referencias-epub1-seminarioUBA.pdf
 exit
