@@ -27,8 +27,9 @@ Además, es fundamental destacar que todo el software utilizado en este curso si
 
 Este seminario está dirigido a:
 
-- Estudiantes de la carrera de edición
 - Editores
+- Editoriales universitarias
+- Estudiantes de la carrera de edición
 - Trabajadores del rubro editorial
 
 ---
