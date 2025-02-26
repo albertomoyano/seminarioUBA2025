@@ -1,4 +1,4 @@
-# Seminario: Introducción a la producción editorial para contenidos académicos y científicos utilizando lenguajes de marcas
+# Seminario: Introducción a la producción editorial de libros para contenidos académicos y científicos utilizando lenguajes de marcas
 
 ## Fundamentación
 
