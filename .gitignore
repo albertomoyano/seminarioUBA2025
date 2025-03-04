@@ -1,3 +1,4 @@
 # Ignorar todo el contenido dentro de /ebook/epub1
 /ebook/epub1/*
 /ebook/epub2/*
+.gitignore
