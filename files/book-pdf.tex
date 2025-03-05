@@ -21,13 +21,21 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 
 %% Configuración de idioma
 \usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
-\usepackage[autostyle=true]{csquotes}% Citas automáticas con estilo idiomático correcto
-\frenchspacing% Espaciado uniforme después de puntos
-\renewcommand{\spanishcontentsname}{Sumario}% Personalización del nombre del índice
+% Citas automáticas con estilo idiomático correcto
+\usepackage[autostyle=true]{csquotes}
+% Espaciado uniforme después de puntos
+\frenchspacing
+% Personalización del nombre del índice
+\renewcommand{\spanishcontentsname}{Sumario}
+% cambiamos el nombre de sigla
+\newcommand{\acronymsname}{Índice de siglas}
 
-\usepackage{fontspec}% Soporte para fuentes OpenType
-\usepackage[final]{microtype}% Mejoras tipográficas micro
-\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+% Soporte para fuentes OpenType
+\usepackage{fontspec}
+% Mejoras tipográficas micro
+\usepackage[final]{microtype}
+% Mejora espaciado sin modificar el interletrado
+\microtypecontext{spacing=nonfrench}
 %% solo trabajamos con protusion y sin expansion para Libertinus
 \SetProtrusion
 [ name=libertinus ]
@@ -36,11 +44,11 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 \renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
 \topskip=14pt
 
-%% Fuente principal Libertinus con características tipográficas
+% Fuente principal Libertinus con características tipográficas
 \setmainfont{Libertinus Serif}
 [Numbers={OldStyle,Proportional},
 Ligatures={TeX,Common,Discretionary},
-RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
+RawFeature={+cv01,+cv02},% Variantes de caracteres opcionales
 Scale=1.18]
 
 % Matemáticas con Libertinus Math
@@ -373,7 +381,7 @@ placement=ht,
 \renewcommand{\spanishindexname}{Índice de autoras y autores del aparato bibliográfico}
 
 %% generamos los glosarios
-\usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
+\usepackage[acronym,sanitizesort,toc=false,nonumberlist]{glossaries}
 \preto\chapter{\glsresetall}
 \makenoidxglossaries
 \renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
