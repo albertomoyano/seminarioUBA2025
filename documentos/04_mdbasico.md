@@ -9,7 +9,7 @@ Markdown es un lenguaje de marcado ligero diseñado para ser fácil de leer y es
 ## Estructura de Markdown
 A continuación, se presentan las principales estructuras y elementos de Markdown:
 
-### 1. Encabezados
+### Encabezados
 Los encabezados en Markdown se crean utilizando el símbolo `#` seguido del texto del título. Existen seis niveles de encabezados:
 
 ```markdown
@@ -21,7 +21,7 @@ Los encabezados en Markdown se crean utilizando el símbolo `#` seguido del text
 ###### Encabezado de nivel 6
 ```
 
-### 2. Párrafos y énfasis
+### Párrafos y énfasis
 Los párrafos en Markdown se crean simplemente escribiendo texto separado por una línea en blanco. Además, es posible aplicar énfasis mediante asteriscos o guiones bajos:
 
 ```markdown
@@ -30,14 +30,14 @@ Texto en **negrita** o __negrita__
 Texto en ***negrita y cursiva***
 ```
 
-### 3. Citas en bloque
+### Citas en bloque
 Las citas en bloque se crean con el símbolo `>` al inicio de la línea:
 
 ```markdown
 > Esta es una cita en bloque. Puede extenderse a múltiples líneas.
 ```
 
-### 4. Listas
+### Listas
 Existen listas ordenadas y no ordenadas en Markdown:
 
 - **Listas no ordenadas:**
@@ -58,7 +58,7 @@ Existen listas ordenadas y no ordenadas en Markdown:
    2. Sub-elemento 2.2
 ```
 
-### 5. Tablas
+### Cuadros y tablas
 Las tablas se crean utilizando tuberías (`|`) y guiones (`-`):
 
 ```markdown
@@ -68,7 +68,7 @@ Las tablas se crean utilizando tuberías (`|`) y guiones (`-`):
 | Alejandro     | 39   |
 ```
 
-### 6. Código fuente
+### Código fuente
 Markdown permite insertar fragmentos de código utilizando comillas invertidas (`\``):
 
 ```markdown
