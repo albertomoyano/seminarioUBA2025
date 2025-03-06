@@ -1,10 +1,10 @@
 # Introducción (muy básica) a Markdown
 
 ## Objetivo
-El objetivo de este trabajo práctico es comprender el lenguaje de marcado Markdown y sus principales características. A lo largo del trabajo, se explorarán las estructuras fundamentales de este sistema de escritura.
+El objetivo de este informe es comprender el lenguaje de marcado Markdown y sus principales características. A lo largo del mismo, se explorarán las estructuras fundamentales de este sistema de escritura.
 
 ## Introducción a Markdown
-Markdown es un lenguaje de marcado ligero diseñado para ser fácil de leer y escribir, permitiendo la creación de documentos estructurados con formato sin necesidad de herramientas especializadas. Fue desarrollado por John Gruber y se ha convertido en un estándar en la documentación técnica, blogs y sistemas de control de versiones como GitHub.
+Markdown es un lenguaje de marcado simple y ligero diseñado para ser fácil de leer y escribir, permitiendo la creación de documentos estructurados con formato sin necesidad de herramientas especializadas. Fue desarrollado por John Gruber y se ha convertido en un estándar en la documentación técnica, blogs y sistemas de control de versiones como GitHub.
 
 ## Estructura de Markdown
 A continuación, se presentan las principales estructuras y elementos de Markdown:
@@ -59,7 +59,7 @@ Existen listas ordenadas y no ordenadas en Markdown:
 ```
 
 ### Cuadros y tablas
-Las tablas se crean utilizando tuberías (`|`) y guiones (`-`):
+Los cuadros y tablas se crean utilizando tuberías (`|`) y guiones (`-`):
 
 ```markdown
 | Nombre  | Edad |
