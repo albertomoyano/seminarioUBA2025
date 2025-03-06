@@ -37,11 +37,11 @@ Hoy en día, Markdown es un estándar de facto en la documentación y escritura 
 ## Comparación con otros lenguajes de marcas
 | Lenguaje   | Puntos fuertes                                      | Puntos débiles                                  |
 |------------|-------------------------------------------------|----------------------------------------------|
-| **Markdown** | Sencillo, ampliamente adoptado, compatible con muchas plataformas | Limitado en funciones avanzadas como tablas complejas o referencias cruzadas |
-| **AsciiDoc** | Más potente que Markdown, soporta documentos estructurados y referencias | Sintaxis más compleja, menos soporte nativo en algunas plataformas |
-| **reStructuredText (reST)** | Usado en Sphinx, adecuado para documentación técnica avanzada | Curva de aprendizaje más pronunciada que Markdown |
-| **LaTeX** | Potente para documentos científicos y matemáticos | Sintaxis compleja, no es ideal para contenido web básico |
-| **HTML** | Totalmente flexible y compatible con la web | Verboso, requiere conocimientos en CSS para estilización |
+| **Markdown** | Sencillo, ampliamente adoptado, compatible con muchas plataformas | Limitado en funciones avanzadas |
+| **AsciiDoc** | Más potente que Markdown, soporta condicionales y variables | Sintaxis más compleja |
+| **reStructuredText (reST)** | Usado en Sphinx, adecuado para documentación técnica avanzada | Curva de aprendizaje más pronunciada |
+| **LaTeX** | Potente para documentos científicos y matemáticos | Sintaxis mas verbosa |
+| **HTML** | Flexible y compatible con la web | Requiere conocimientos en CSS para estilización |
 
 ## Conclusión
 Markdown sigue siendo una herramienta esencial para la documentación técnica, facilitando la escritura de contenido estructurado de forma sencilla y compatible con múltiples plataformas.
