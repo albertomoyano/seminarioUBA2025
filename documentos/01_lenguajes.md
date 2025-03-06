@@ -28,11 +28,11 @@ Los lenguajes de marcas surgen con propósitos específicos, entre los principal
 
 Hoy en día, varios lenguajes de marcas están regidos por estándares internacionales y son utilizados en diversas industrias:
 
-- **HTML5** es el estándar web oficial, mantenido por el W3C y WHATWG. (Desarrollo Web, Medios Digitales)
-- **XML** sigue siendo un estándar clave para el intercambio de datos estructurados. (Software, Bases de Datos, Finanzas, Salud, Ingenieria)
-- **Markdown** tiene variantes, pero la más usada es la de CommonMark. (Publicaciones Digitales, Documentación Técnica)
-- **LaTeX** mantiene compatibilidad con estándares de publicación académica. (Editorial, Educación, Investigación)
-- **AsciiDoc** y **reST** se han consolidado en entornos de documentación técnica. (Software, Documentación Técnica)
+- **HTML5** es el estándar web oficial, mantenido por el W3C y WHATWG.
+- **XML** sigue siendo un estándar clave para el intercambio de datos estructurados.
+- **Markdown** tiene variantes, pero la más usada es la de CommonMark.
+- **LaTeX** mantiene compatibilidad con estándares de publicación académica.
+- **AsciiDoc** y **reST** se han consolidado en entornos de documentación técnica.
 
 ## Comparación entre lenguajes de marcas
 
