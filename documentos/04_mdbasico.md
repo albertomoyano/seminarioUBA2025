@@ -129,10 +129,10 @@ print("Hola, mundo!")
 - **Imágenes:**
 
 ```markdown
-![Texto alternativo](https://www.ejemplo.com/imagen.jpg)
+[Texto alternativo](https://es.wikipedia.org/static/images/icons/wikipedia.png)
 ```
 
-![Texto alternativo](https://es.wikipedia.org/static/images/icons/wikipedia.png)
+[Texto alternativo](https://es.wikipedia.org/static/images/icons/wikipedia.png)
 
 ## Conclusión
 Markdown es una herramienta poderosa para la creación de documentos estructurados de manera sencilla. Su compatibilidad con múltiples plataformas y su sintaxis intuitiva lo hacen ideal para la documentación técnica y la escritura en general. Mediante este trabajo práctico, los estudiantes podrán familiarizarse con su sintaxis y aplicarlo en diversos contextos.
