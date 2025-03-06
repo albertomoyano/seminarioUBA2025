@@ -36,7 +36,7 @@ Hoy en día, varios lenguajes de marcas están regidos por estándares internaci
 
 ## Comparación entre lenguajes de marcas
 
-| Lenguaje   | Propósito principal      | Complejidad de uso | Estandarización | Conversión a otros formatos | Sectores industriales |
+| Lenguaje   | Propósito principal      | Complejidad de uso | Estandarización | Conversión a otros formatos | Principales usos |
 |-----------|-------------------------|------------------|----------------|-----------------------------|--------------------------|
 | **HTML**  | Web                      | Media            | Alta           | Sí                          | Desarrollo Web, Medios Digitales |
 | **LaTeX** | Escritura y edición científica    | Alta             | Alta           | Sí                          | Educación, Investigación, Editorial |
