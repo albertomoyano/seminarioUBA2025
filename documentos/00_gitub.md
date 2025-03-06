@@ -1,16 +1,18 @@
 # GitHub, GitLab y Plataformas Similares
 
-## Introducción  
-En la actualidad, la gestión del código fuente es un aspecto fundamental en el desarrollo de software. Herramientas como **GitHub, GitLab y otras plataformas similares** permiten a los desarrolladores trabajar de manera colaborativa, gestionar versiones de código y automatizar procesos. En este trabajo, exploraremos el origen, el propósito y los objetivos de estas plataformas.
+
+## Introducción
+
+En la actualidad, para **la gestión de archivos de texto estructurado**, ya sea código fuente, documentación o contenido técnico, es fundamental para su creación, desarrollo y mantenimiento, disponer de herramientas como **GitHub, GitLab y otras plataformas similares** que permiten trabajar de manera colaborativa, gestionar versiones de documentos y automatizar procesos. Estas plataformas son utilizadas no solo por programadores, sino también por escritores, investigadores y académicos para la producción de libros, artículos y proyectos en lenguajes como **LaTeX**. En este trabajo, exploraremos el origen, el propósito y los objetivos de estas herramientas.  
 
 ## ¿Qué son GitHub, GitLab y plataformas similares?  
-Son plataformas de alojamiento de código fuente que utilizan **Git**, un sistema de control de versiones distribuido. Estas herramientas permiten a los equipos colaborar en el desarrollo de software, almacenar repositorios de código, realizar revisiones y desplegar proyectos de manera eficiente.
+Son plataformas de alojamiento de archivos, principalmente de código fuente que utilizan **Git**, un sistema de control de versiones distribuido. Estas herramientas permiten, tanto a personas como a equipos de trabajo, almacenar repositorios de código, realizar revisiones y desplegar proyectos de manera eficiente.
 
 ## Origen y evolución  
 
 ### Git  
 - Fue creado en **2005** por **Linus Torvalds**, el mismo creador de Linux.  
-- Nació como una solución para gestionar el código del kernel de Linux de manera descentralizada y eficiente.  
+- Nació como una solución para gestionar el código del kernel de Linux de manera descentralizada y eficiente (el kernel tiene en promedio 4.000 desarrolladores interactuando a traves de Git).  
 
 ### GitHub  
 - Fundado en **2008** por Tom Preston-Werner, Chris Wanstrath y PJ Hyett.  
@@ -28,9 +30,9 @@ Son plataformas de alojamiento de código fuente que utilizan **Git**, un sistem
 
 ## Motivo de su creación  
 Antes de Git, muchas empresas usaban sistemas de control de versiones centralizados como **CVS o Subversion (SVN)**, que tenían problemas de escalabilidad y acceso distribuido. Git y sus plataformas asociadas surgieron para:  
-- Facilitar la colaboración en proyectos grandes.  
+- Facilitar la colaboración en proyectos --realmente-- grandes.  
 - Mejorar la gestión de versiones y cambios en el código.  
-- Automatizar procesos de integración y despliegue.  
+- Automatizar procesos de integración y despliegue (despliegue = generar salidas de forma automática).  
 
 ## Objetivos principales  
 Las plataformas como GitHub y GitLab buscan:  
