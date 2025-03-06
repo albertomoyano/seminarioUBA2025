@@ -42,7 +42,7 @@ Hoy en día, varios lenguajes de marcas están regidos por estándares internaci
 | **LaTeX** | Escritura y edición científica    | Alta             | Alta           | Sí                          | Educación, Investigación, Editorial |
 | **Markdown** | Escritura ligera       | Baja             | Media          | Sí                          | Publicaciones Digitales, Documentación Técnica |
 | **reST**  | Documentación técnica    | Media            | Media          | Sí                          | Software, Documentación Técnica |
-| **AsciiDoc** | Documentación estructurada | Media      | Media          | Sí                          | Software, Documentación Técnica |
+| **AsciiDoc** | Documentación estructurada | Baja      | Media          | Sí                          | Software, Documentación Técnica |
 | **XML**  | Intercambio de datos      | Alta            | Alta           | Sí                          | Software, Bases de Datos, Finanzas, Salud, ingenieria |
 
 ## Conclusión
