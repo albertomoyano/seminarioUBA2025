@@ -9,11 +9,10 @@ Los lenguajes de marcas han sido una herramienta fundamental en la estructuraci�
 Los primeros lenguajes de marcas surgieron como una necesidad de estructurar documentos electrónicos. Entre los hitos más importantes encontramos:
 
 - **SGML (Standard Generalized Markup Language)** - Desarrollado en la década de 1960 por **Charles Goldfarb**, fue el primer intento de formalizar un sistema de marcado estructurado.
+- **LaTeX** - Creado por **Leslie Lamport** en los años 80 como una evolución de **TeX** para facilitar la composición tipográfica científica.
 - **XML (Extensible Markup Language)** - Desarrollado en 1996 por el W3C, se usa ampliamente para estructuración de datos y su intercambio entre sistemas.
-- **HTML (HyperText Markup Language)** - Creado por **Tim Berners-Lee** en 1991 para la estructuración de documentos en la web.
-- **LaTeX** - Creado por **Leslie Lamport** en los años 80 como una evolución de TeX para facilitar la composición tipográfica científica.
 - **reStructuredText (reST)** - Creado a principios de los 2000 para documentar proyectos de software, especialmente en Python.
-- **Markdown** - Desarrollado por **John Gruber y Aaron Swartz** en 2004 como una sintaxis sencilla y legible para estructuración de documentos.
+- **Markdown** - Desarrollado por **John Gruber y Aaron Swartz** en 2004 como una sintaxis sencilla y legible para estructuración básica de documentos.
 - **AsciiDoc** - Un lenguaje de marcas ligero creado por **Stuart Rackham**, orientado a la conversión en múltiples formatos.
 
 ## Motivaciones para su creación
