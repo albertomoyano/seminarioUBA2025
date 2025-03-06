@@ -10,32 +10,32 @@ Desde su creación, Markdown ha evolucionado significativamente:
 - **2012**: Se publica CommonMark, un estándar para unificar implementaciones.
 - **2016-presente**: Plataformas como GitHub, GitLab, Reddit, y Stack Overflow han integrado variaciones de Markdown.
 
-## Integración con Otras Plataformas
+## Integración con otras plataformas
 Markdown es ampliamente utilizado en diversas plataformas:
 - **GitHub y GitLab**: Documentación y archivos README.
 - **Reddit y Stack Overflow**: Formateo de publicaciones y comentarios.
 - **Jupyter Notebooks**: Documentación dentro de notebooks de Python.
 - **CMS y Blogs**: WordPress, Ghost y Jekyll admiten Markdown.
 
-## Integración con Otras Herramientas
+## Integración con otras herramientas
 Markdown se ha integrado con diversas herramientas para aumentar su versatilidad:
 - **Pandoc**: Convierte archivos Markdown a múltiples formatos, como PDF, DOCX y LaTeX.
 - **Obsidian y Notion**: Aplicaciones de toma de notas que soportan Markdown para organizar información.
 - **MkDocs**: Generación de documentación estática para proyectos de software.
 - **Zettlr**: Editor de Markdown orientado a la investigación académica.
 
-## Integración con Otros Lenguajes
+## Integración con otros lenguajes
 Markdown se combina con otros lenguajes para mejorar su funcionalidad:
 - **HTML**: Puede incluir etiquetas HTML dentro del texto Markdown.
 - **LaTeX**: Extensiones como MathJax permiten escribir ecuaciones matemáticas.
 - **Python**: Usado en Jupyter Notebooks para documentación.
 - **Gambas y otros IDEs**: Soportan Markdown en documentación integrada.
 
-## Estado Actual
+## Estado actual
 Hoy en día, Markdown es un estándar de facto en la documentación y escritura técnica. Existen múltiples variantes como GitHub Flavored Markdown (GFM), CommonMark y Pandoc Markdown, cada una con extensiones específicas.
 
-## Comparación con Otros Lenguajes de Marcas
-| Lenguaje   | Puntos Fuertes                                      | Puntos Débiles                                  |
+## Comparación con otros lenguajes de marcas
+| Lenguaje   | Puntos fuertes                                      | Puntos débiles                                  |
 |------------|-------------------------------------------------|----------------------------------------------|
 | **Markdown** | Sencillo, ampliamente adoptado, compatible con muchas plataformas | Limitado en funciones avanzadas como tablas complejas o referencias cruzadas |
 | **AsciiDoc** | Más potente que Markdown, soporta documentos estructurados y referencias | Sintaxis más compleja, menos soporte nativo en algunas plataformas |
