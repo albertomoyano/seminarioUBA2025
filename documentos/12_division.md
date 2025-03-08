@@ -11,7 +11,7 @@ LaTeX es un sistema de composición tipográfica ampliamente utilizado para la c
 En LaTeX, la estructura de un libro se divide en tres bloques principales, cada uno con una función específica:
 
 ### 1.1. Frontmatter (preliminares)
-- **Descripción**: Contiene elementos introductorios previos al contenido principal.
+- **Descripción**: contiene elementos introductorios previos al contenido principal.
 - **Elementos comunes**:
   - Portada (`\title`, `\author`, `\date`).
   - Página de créditos (editorial, ISBN, derechos de autor).
@@ -31,8 +31,8 @@ En LaTeX, la estructura de un libro se divide en tres bloques principales, cada 
   - Capítulos numerados (`\chapter`).
   - Secciones jerárquicas (`\section`, `\subsection`).
 - **Numeración**:
-  - Páginas: Números arábigos (1, 2, 3, ...).
-  - Capítulos y secciones: numeración arábiga jerárquica (Ej: Capítulo 1, Sección 1.1).
+  - Páginas: números arábigos (1, 2, 3, ...).
+  - Capítulos y secciones: numeración arábiga jerárquica (ej: Capítulo 1, Sección 1.1).
   - Las páginas en blanco no llevan numeración, aunque son tomadas por el contador.
 - **Comando en LaTeX**: `\mainmatter`.
 
@@ -78,26 +78,22 @@ Aunque `frontmatter`, `mainmatter` y `backmatter` utilizan la misma lógica de c
 ## 3. Errores comunes y recomendaciones
 
 Numeración en Frontmatter:
-- Error: Usar números romanos en minúscula (ii, iii) en español.
+- Error: usar números romanos en minúscula (ii, iii) en español.
 - Solución: Configurar LaTeX con \pagenumbering{Roman} después de \frontmatter.
 
 Apéndices:
-- Error: No reiniciar la numeración con \appendix.
+- Error: no reiniciar la numeración con \appendix.
 - Solución: Incluir \appendix antes de los apéndices para cambiar a letras.
 
 Uso de Partes:
-- Error: No utilizar \part para dividir bloques temáticos.
+- Error: no utilizar \part para dividir bloques temáticos.
 - Solución: Emplear \part en el mainmatter para organizar el contenido en secciones amplias.
 
 Índices y Listas:
-- Error: No actualizar el índice después de cambios en la estructura.
+- Error: no actualizar el índice después de cambios en la estructura.
 - Solución: Compilar el documento dos veces para asegurar que el índice refleje los cambios.
 
 ## Conclusión
 
 La división en frontmatter, mainmatter y backmatter en LaTeX permite estructurar un libro de manera coherente, adaptándose a las convenciones hispanohablantes (como números romanos en mayúscula). Mientras que los capítulos y secciones son elementos comunes a las tres partes, su tratamiento (numeración, contenido y propósito) varía según el bloque. Esta estructura garantiza claridad tanto para el autor como para el lector.
-
-Además, es fundamental evitar errores comunes, como la incorrecta numeración de páginas o la omisión de elementos en el índice. Siguiendo las recomendaciones y buenas prácticas, se puede aprovechar al máximo las capacidades de LaTeX para crear libros bien organizados y profesionalmente presentados.
-
-
 
