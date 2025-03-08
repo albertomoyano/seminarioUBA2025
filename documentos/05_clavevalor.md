@@ -4,7 +4,7 @@
 El modelo de asignación **clave=valor** es un paradigma ampliamente utilizado en diversos lenguajes de marcas. Su propósito principal es estructurar y organizar información de manera clara y legible. En este documento exploraremos cómo se aplica este concepto en distintos lenguajes como Markdown, LaTeX y XML, destacando sus similitudes y diferencias.
 
 ## ¿Qué es el modelo Clave=Valor?
-El modelo clave=valor consiste en una estructura en la que cada "clave" representa una categoría o identificador, y el "valor" es la información asignada a esa clave. Este modelo es esencial en la definición de metadatos, configuración y estructuración de documentos.
+El modelo clave=valor consiste en una estructura en la que cada "clave" representa una identificador, y el "valor" es la información asignada a esa clave. Este modelo es esencial en la definición de metadatos, referencias bibliograicas, índices y restantes posibles configuraciones y/o estructuración de documentos.
 
 Ejemplo general:
 ```
@@ -15,7 +15,7 @@ clave2 = valor2
 Este formato permite una fácil interpretación tanto por humanos como por máquinas, asegurando compatibilidad y flexibilidad en distintos sistemas.
 
 ## Uso en Markdown
-Markdown, aunque más simple y centrado en la estructuración de texto, permite la incorporación del modelo clave=valor a través de metadatos, especialmente en el formato **YAML front matter**.
+Markdown, aunque más simple y centrado principalmente en la estructuración de texto, permite la incorporación del modelo clave=valor a través de metadatos, especialmente en el formato **YAML front matter**.
 
 Ejemplo:
 ```yaml

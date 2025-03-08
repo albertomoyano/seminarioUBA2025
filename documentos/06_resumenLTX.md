@@ -2,7 +2,7 @@
 
 ## Introducción
 
-LaTeX es un sistema de composición de textos orientado a la producción de documentos científicos y técnicos de alta calidad tipográfica. Fue desarrollado en 1983 por Leslie Lamport como una capa sobre TeX, creado por Donald Knuth en 1978, con el objetivo de simplificar su uso.
+LaTeX es un sistema de composición de textos orientado a la producción de documentos científicos y técnicos de alta calidad tipográfica. Fue desarrollado en 1983 por Leslie Lamport como una capa sobre TeX, creado por Donald Knuth en 1978, con el objetivo de hacer más amigable su uso (TeX, puro y duro, es muy díficil de usar).
 
 ## Evolución de LaTeX
 
@@ -10,8 +10,9 @@ Desde su creación, LaTeX ha pasado por varias versiones y mejoras:
 
 - **1978**: Donald Knuth desarrolla TeX.
 - **1983**: Leslie Lamport introduce LaTeX, facilitando el uso de TeX.
-- **1994**: Se publica LaTeX2e, versión aún en uso.
-- **2000-presente**: Desarrollo de paquetes y extensiones como BibLaTeX, TikZ y Beamer.
+- **1994**: Se publica LaTeX2e, versión actual en uso.
+- **2000-presente**: Salto evolutivo con el desarrollo de extensiones como BibLaTeX y TikZ.
+- Para muchos este salto también representa un cambio de paradigma con relación al destinatario del sistema.
 
 ## Integración con Otras Plataformas
 
@@ -36,12 +37,13 @@ LaTeX puede combinarse con diversas herramientas para mejorar su funcionalidad:
 LaTeX puede interactuar con otros lenguajes y tecnologías:
 
 - **Markdown**: A través de Pandoc, es posible convertir documentos Markdown a LaTeX.
+- **Lua**: Automatización del flujo de comppilación.
 - **Python**: Uso de LaTeX en Jupyter Notebooks y con paquetes como Matplotlib para renderizar ecuaciones.
 - **HTML y CSS**: Conversión de documentos LaTeX a páginas web mediante herramientas como MathJax.
 
 ## Estado actual
 
-LaTeX sigue siendo el estándar en la redacción de documentos científicos y técnicos. Su comunidad activa mantiene paquetes y herramientas en constante evolución. Alternativas como LuaLaTeX han mejorado sus capacidades tipográficas y su compatibilidad con Unicode.
+LaTeX sigue siendo el estándar en la redacción de documentos científicos y técnicos (el motivo de su origen). Una comunidad activa mantiene paquetes y herramientas en constante evolución. Alternativas como LuaLaTeX han mejorado sus capacidades tipográficas y su compatibilidad con Unicode.
 
 ## Comparación con otros lenguajes de marcas
 
@@ -55,4 +57,4 @@ LaTeX sigue siendo el estándar en la redacción de documentos científicos y t�
 
 ## Conclusión
 
-LaTeX sigue siendo una de las mejores herramientas para la escritura científica y técnica. Su potencia y flexibilidad lo hacen único en múltiples disciplinas, aunque su curva de aprendizaje sigue siendo un desafío para usuarios novatos.
+LaTeX sigue siendo una de las mejores herramientas para la escritura y la edición científica y técnica. Su potencia y flexibilidad lo hacen único en múltiples disciplinas.
