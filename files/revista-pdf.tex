@@ -1,0 +1,265 @@
+%  archivo cabecera para revistas con LuaLaTeX
+
+% Deben cargarse temprano para parches de macros
+\usepackage{etoolbox}
+\usepackage{ifthen}
+
+% Paquetes báscos
+\usepackage{graphicx}             % Manejo de imágenes
+\usepackage{xcolor}               % Soporte para colores
+\usepackage{booktabs}             % Tablas de calidad
+\usepackage{multirow}             % Celdas que abarcan múltiples filas
+\usepackage{mathtools}            % Extensión de amsmath
+\usepackage{amsfonts,amssymb}     % Fuentes y símbolos matemáticos
+\usepackage{fancyhdr}             % Encabezados y pies de página avanzados
+\usepackage{titlesec}             % Personalización de títulos de sección
+\usepackage{abstract}             % Personalización de resúmenes
+\usepackage{authblk}              % Manejo avanzado de autores y afiliaciones
+\usepackage{tabularx}             % Tablas avanzadas
+\usepackage{mdframed}             % Marcos y cajas
+\usepackage{float}                % Control de posicionamiento de objetos flotantes
+\usepackage{caption}              % Personalización de leyendas
+\usepackage{subcaption}           % Subfiguras
+\usepackage{enumitem}             % Listas personalizadas
+\usepackage{fontawesome5}         % Iconos
+\usepackage{doi}                  % Formateo de DOIs
+\usepackage{orcidlink}            % Soporte para ORCID
+\usepackage{lastpage}             % Referencia a la última página
+\usepackage{textcomp}             % Símbolos de texto adicionales
+\usepackage{csquotes}             % Comillas contextuales
+\usepackage{siunitx}              % Unidades del SI
+\usepackage{marginnote}           % Notas al margen
+\usepackage{pdfpages}             % Inclusión de páginas PDF
+
+\usepackage{fontspec}% Soporte para fuentes OpenType
+\usepackage[final]{microtype}% Mejoras tipográficas micro
+\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+% solo trabajamos con protusion y sin expansion para Libertinus
+\SetProtrusion
+[ name=libertinus ]
+{ encoding = * }
+{ . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
+\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+\topskip=14pt
+
+% Fuente principal Libertinus con características tipográficas
+\setmainfont{Libertinus Serif}
+[Numbers={OldStyle,Proportional},
+Ligatures={TeX,Common,Discretionary},
+RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
+Scale=1.18]
+
+% Matemáticas con Libertinus Math
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+
+%% Configuración de fuentes para chino
+% \usepackage{luatexja-fontspec}
+% \setmainjfont{FandolSong}
+
+\setsansfont[Scale=MatchLowercase,
+Ligatures=TeX,
+Extension=.otf,
+UprightFont=*-Regular,
+ItalicFont=*-Italic,
+BoldFont=*-SemiBold,
+BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
+
+\setmonofont[Scale=0.91,
+Extension=.otf,
+UprightFont=*-Regular,
+ItalicFont = IBMPlexMono-Italic.otf,
+BoldFont = IBMPlexMono-Bold.otf,
+BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
+
+% Referencias
+\usepackage[style=apa,backend=biber]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}% no existe, lo tengo en desarrollo
+
+% Configuración de idioma
+\usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
+% Citas automáticas con estilo idiomático correcto
+\usepackage[autostyle=true]{csquotes}
+\frenchspacing% Espaciado uniforme después de puntos
+
+% CONFIGURACIÓN DE PÁGINA
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  top=2cm,
+  bottom=2cm,
+  left=2.5cm,
+  right=2cm,
+  headheight=14pt,
+  footskip=1cm
+}
+
+% CONFIGURACIÓN DE ENCABEZADOS Y PIES
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\textit{\journalshortitle}}
+\fancyhead[RE]{\textit{\articleheader}}
+\fancyfoot[LE,RO]{\textit{\articlefooter}}
+\fancyfoot[C]{\textit{\journalwebsite}}
+
+% DEFINICIÓN DEL ENTORNO ARTICLE
+\newenvironment{article}{%
+  \clearpage
+  \phantomsection
+  \stepcounter{article}
+  \refstepcounter{section}
+  \addcontentsline{toc}{section}{\articleauthorsshort{} - \articletitle{}}
+
+  % Encabezado del artículo
+  \begingroup
+  \centering
+  \vspace*{1em}
+
+  % Tipo de artículo
+  \textcolor{gray}{\textsc{\articletype}}\\[0.5em]
+
+  % Título
+  {\LARGE\bfseries\articletitle\par}
+  \ifdefempty{\articlesubtitle}{}{
+    \vspace{0.5em}
+    {\large\textit{\articlesubtitle}\par}
+  }
+  \vspace{1.5em}
+
+  % Autores
+  {\large\articleauthors\par}
+  \vspace{0.5em}
+
+  % Afiliaciones
+  {\footnotesize\articleaffiliations\par}
+  \vspace{1em}
+
+  % Historial del artículo
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}X}
+    \multicolumn{2}{c}{\textbf{\textit{Historial del artículo}}} \\
+    Recibido: & \articlereceived \\
+    Revisado: & \articlerevised \\
+    Aceptado: & \articleaccepted \\
+    Publicado en línea: & \articlepublishedonline \\
+  \end{tabularx}
+  \vspace{0.5em}
+
+  % DOI
+  \begin{center}
+    \footnotesize DOI: \href{https://doi.org/\articledoi}{\nolinkurl{\articledoi}}
+  \end{center}
+  \vspace{1em}
+  \endgroup
+
+  % Resumen en cuadro
+  \begin{mdframed}[linewidth=0.5pt, backgroundcolor=gray!5]
+    \begin{center}
+      \textbf{RESUMEN}
+    \end{center}
+    \articleabstract
+    \vspace{1em}
+    \noindent\textbf{Palabras clave:} \articlekeywords
+  \end{mdframed}
+  \vspace{1em}
+
+  % Abstract en inglés
+  \begin{mdframed}[linewidth=0.5pt, backgroundcolor=gray!5]
+    \begin{center}
+      \textbf{ABSTRACT}
+    \end{center}
+    \articleabstracten
+    \vspace{1em}
+    \noindent\textbf{Keywords:} \articlekeywordsen
+  \end{mdframed}
+  \vspace{1em}
+}{%
+  % Sección para contribuciones de autores, financiamiento, etc.
+  \clearpage
+  \section*{Información adicional}
+
+  \subsection*{Contribuciones de los autores}
+  \authorcontributions
+
+  \subsection*{Financiamiento}
+  \funding
+
+  \subsection*{Agradecimientos}
+  \acknowledgments
+
+  \subsection*{Conflictos de interés}
+  \conflictsofinterest
+
+  \subsection*{Disponibilidad de datos}
+  \dataavailability
+
+  \subsection*{Material suplementario}
+  \supplementarymaterials
+
+  \subsection*{Derechos de autor}
+  \copyrightinfo
+
+  % Bibliografía
+  \printbibliography[heading=bibintoc, title=Referencias]
+
+  \clearpage
+}
+
+% COMANDOS ESPECÍFICOS PARA METADATOS
+\newcounter{article}
+\newcommand{\articletitle}{}
+\newcommand{\articleauthors}{}
+\newcommand{\articleauthorsshort}{}
+\newcommand{\articleaffiliations}{}
+\newcommand{\articleabstract}{}
+\newcommand{\articlekeywords}{}
+\newcommand{\articledoi}{}
+\newcommand{\articleheader}{}
+\newcommand{\articlefooter}{}
+\newcommand{\articletype}{}
+\newcommand{\articlereceived}{}
+\newcommand{\articlerevised}{}
+\newcommand{\articleaccepted}{}
+\newcommand{\articlepublishedonline}{}
+\newcommand{\articlesubtitle}{}
+\newcommand{\articleabstracten}{}
+\newcommand{\articlekeywordsen}{}
+\newcommand{\authorcontributions}{}
+\newcommand{\funding}{}
+\newcommand{\acknowledgments}{}
+\newcommand{\conflictsofinterest}{}
+\newcommand{\dataavailability}{}
+\newcommand{\supplementarymaterials}{}
+\newcommand{\copyrightinfo}{}
+
+% CONFIGURACIÓN PARA FIGURAS Y TABLAS
+\captionsetup{font=small,labelfont=bf}
+\captionsetup[table]{position=top}
+\captionsetup[figure]{position=bottom}
+
+% FORMATEO DE SECCIONES
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\thesubsection.}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\itshape}{\thesubsubsection.}{1em}{}
+
+% CARGAR COMANDOS PERSONALIZADOS
+\input{files/custom-commands.tex}
+
+% Enlaces
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,
+  urlcolor=blue,
+  citecolor=green,
+  pdftitle={\journaltitle{} Vol. \journalvolume{}, No. \journalissue{}},
+  pdfauthor={\journaleditor{}},
+  pdfsubject={\journalsubject{}},
+  pdfkeywords={\journalkeywords{}}
+}
