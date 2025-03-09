@@ -63,12 +63,6 @@ Este seminario está dirigido a:
 - Imágenes, enlaces y bloques de código.
 - Práctica: escribir un documento utilizando marcas.
 
-### **Markdown avanzado y conversión de documentos**
-- Tablas y citas en Markdown.
-- Expresiones matemáticas con MathJax.
-- Conversión de documentos: Markdown a **HTML, PDF** y **LaTeX**.
-- Creación de documentos estructurados.
-
 ### **Instalación y primeros pasos en LaTeX con TeXstudio**
 - Configuración de **TeXstudio** y compiladores.
 - Creación del primer documento en LaTeX.
