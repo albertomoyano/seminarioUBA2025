@@ -1,0 +1,72 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,top=20mm,bottom=20mm,left=20mm,marginparsep=6mm,marginparwidth=44mm,textwidth=13cm,headsep=0pt,headheight=0pt,footskip=0pt,footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
+\usepackage[spanish,es-ucroman,es-noshorthands]{babel}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{microtype}
+\newfontfeature{Microtypography}{protrusion=default;expansion=default}
+\directlua{fonts.protrusions.setups.default.factor=.5}
+\renewcommand{\normalsize}{\fontsize{11pt}{14.5pt}\selectfont}
+\topskip=14.5pt
+\linespread{1.2}
+\setmainfont{Libertinus Serif}[Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.0]
+\setsansfont{IBMPlexSansCondensed}[Scale=0.92,Ligatures=TeX,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic]
+\setmonofont{IBMPlexMono.otf}[Scale=0.92,Extension=.otf,UprightFont=*-Regular,ItalicFont = IBMPlexMono-Italic.otf,BoldFont = IBMPlexMono-Bold.otf,BoldItalicFont = IBMPlexMono-BoldItalic.otf]
+\usepackage[absolute]{textpos}
+\newcommand\titulo[1]{\sf\Large{\textbf{#1}}}
+\newcommand\subtitulo[1]{\sf\large{#1}}
+\newcommand\texto[1]{\rm\normalsize{#1}}
+\newcommand\foot[1]{\sf\footnotesize{#1}}
+\usepackage{url}
+\def\UrlFont{\tt\footnotesize}
+\begin{document}
+\thispagestyle{empty}
+\noindent \titulo{Orden de Taller: seminarioUBA.tex}\\
+
+\noindent \subtitulo{Proveedor: Gráfica San Carlos}\\
+\noindent \subtitulo{Copias impresas: 1}\\
+
+\noindent \subtitulo{Título: \emph{Lorem Ipsum}}\\
+\noindent \subtitulo{Autor(es): Alberto Moyano}\\
+\noindent \subtitulo{Cantidad de páginas: 30}\\
+\noindent \subtitulo{Formato de corte: 15.5x23cm}\\
+\noindent \subtitulo{Tintas de interior: 1 color negro proceso}\\
+\noindent \subtitulo{Papel de interior: 70 gramos ahuesado}\\
+\noindent \subtitulo{Encuadernación: rústico (encolado)}\\
+\noindent \subtitulo{Tintas de tapa: 4 colores proceso (cmyk)}\\
+\noindent \subtitulo{Revestimiento: polipropileno mate a una cara (tapa)}\\
+\noindent \subtitulo{Archivo de tapa: \textbf{-}}\\
+\noindent \subtitulo{Archivo de interiores: \textbf{-}}\\
+
+
+\linespread{1.0}
+\noindent \subtitulo{\textbf{Observaciones}}\\
+\texto{}\\
+\begin{textblock*}{44mm}(152mm,20mm)
+\includegraphics[width=44mm]{/home/alberto/Disco2/00_Produccion/seminarioUBA2025/tapa/WEB-tapa-SEMINARIO.png}
+\end{textblock*}
+\begin{textblock*}{44mm}(152mm,90mm)
+\begin{minipage}{44mm}
+\noindent\foot{ISBN: \textbf{978-950-793-000-0}}\\
+\noindent\foot{Idioma: \textbf{es}}\\
+\end{minipage}
+\end{textblock*}
+\begin{textblock*}{44mm}(152mm,150mm)
+\begin{minipage}{44mm}
+\noindent \foot{Para consultas}\\
+\noindent \foot{contacto}\\
+\noindent \foot{\textbf{alberto moyano}}\\
+\noindent \foot{correo}\\
+\noindent \foot{\textbf{alberto.alejandro.moyano@gmail.com}}\\
+\noindent \foot{teléfono}\\
+\noindent \foot{\textbf{+54 11 6113-0328}}\\
+\end{minipage}
+\end{textblock*}
+\vfill
+\noindent\foot{\textbf{Disclaimer:} Esta página no forma parte del contenido oficial del libro. La misma se generó para proporcionar al taller de imprenta instrucciones y comentarios. Asegúrese de revisar las observaciones aquí indicadas antes de realizar la impresión y no dude en ponerse en contacto con la editorial si encuentra un problema en el trabajo.}
+
+\noindent\foot{\textbf{Fecha de emisión de esta OT:} \today}
+
+\end{document}
+
