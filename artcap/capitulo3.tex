@@ -45,8 +45,15 @@ Sed vehicula, felis sed sodales euismod, ligula mi ullamcorper nisl, sed dictum 
 \begin{figure}[!ht]
 \centering
 \begin{bchart}[step=200,max=1000]
-	\bcbar[text=Empresa A]{346}
-	\bcbar[text=Empresa B]{873}
+	\ifPDF
+	\bcbar[text=Empresa A,color=magenta!30]{346}
+	\bcbar[text=Empresa B,color=magenta!30]{873}
+		\else
+		\ifBNPDF
+		\bcbar[text=Empresa A,color=gray!30]{346}
+		\bcbar[text=Empresa B,color=gray!30]{873}
+	\fi
+\fi
 \end{bchart}
 \caption{Cantidad de empleados.}
 \end{figure}
