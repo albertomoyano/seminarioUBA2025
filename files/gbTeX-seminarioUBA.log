@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  11 MAR 2025 22:58
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  12 MAR 2025 09:44
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -1522,48 +1522,24 @@ Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
-
-(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen294
-\ESO@tempdimb=\dimen295
-)
-\AM@pagewidth=\dimen296
-\AM@pageheight=\dimen297
-\AM@fboxrule=\dimen298
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
-File: ppluatex.def 2024/01/21 v0.5y Pdfpages driver for LuaTeX (AM)
-)
-\pdfpages@includegraphics@status=\count371
-\AM@pagebox=\box68
-\AM@global@opts=\toks45
-\AM@pagecnt=\count372
-\AM@toc@title=\toks46
-\AM@lof@heading=\toks47
-\c@AM@survey=\count373
-\AM@templatesizebox=\box69
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen299
-\captionmargin=\dimen300
-\caption@leftmargin=\dimen301
-\caption@rightmargin=\dimen302
-\caption@width=\dimen303
-\caption@indent=\dimen304
-\caption@parindent=\dimen305
-\caption@hangindent=\dimen306
+\caption@tempdima=\dimen294
+\captionmargin=\dimen295
+\caption@leftmargin=\dimen296
+\caption@rightmargin=\dimen297
+\caption@width=\dimen298
+\caption@indent=\dimen299
+\caption@parindent=\dimen300
+\caption@hangindent=\dimen301
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count374
-\c@continuedfloat=\count375
+\c@caption@flags=\count371
+\c@continuedfloat=\count372
 Package caption Info: rotating package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -1590,7 +1566,7 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip76
-\c@mdf@globalstyle@cnt=\count376
+\c@mdf@globalstyle@cnt=\count373
 \mdf@skipabove@length=\skip77
 \mdf@skipbelow@length=\skip78
 \mdf@leftmargin@length=\skip79
@@ -1634,11 +1610,11 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box70
-\mdf@footnotebox=\box71
-\mdf@splitbox@one=\box72
-\mdf@splitbox@two=\box73
-\mdf@splitbox@save=\box74
+\mdf@frametitlebox=\box68
+\mdf@footnotebox=\box69
+\mdf@splitbox@one=\box70
+\mdf@splitbox@two=\box71
+\mdf@splitbox@save=\box72
 \mdfsplitboxwidth=\skip116
 \mdfsplitboxtotalwidth=\skip117
 \mdfsplitboxheight=\skip118
@@ -1666,16 +1642,16 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip140
 \mdfsubtitleheight=\skip141
 \mdfsubsubtitleheight=\skip142
-\c@mdfcountframes=\count377
+\c@mdfcountframes=\count374
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count378
-\c@mdf@env@i=\count379
-\c@mdf@env@ii=\count380
-\c@mdf@zref@counter=\count381
+\mdf@envdepth=\count375
+\c@mdf@env@i=\count376
+\c@mdf@env@ii=\count377
+\c@mdf@zref@counter=\count378
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bchart/bchart.sty
@@ -1693,33 +1669,33 @@ Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks48
-\verbatim@line=\toks49
+\every@verbatim=\toks45
+\verbatim@line=\toks46
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 )
-\tcb@titlebox=\box75
-\tcb@upperbox=\box76
-\tcb@lowerbox=\box77
-\tcb@phantombox=\box78
-\c@tcbbreakpart=\count382
-\c@tcblayer=\count383
-\c@tcolorbox@number=\count384
-\l__tcobox_tmpa_box=\box79
-\l__tcobox_tmpa_dim=\dimen307
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
+\c@tcbbreakpart=\count379
+\c@tcblayer=\count380
+\c@tcolorbox@number=\count381
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen302
+\tcb@temp=\box78
+\tcb@temp=\box79
 \tcb@temp=\box80
 \tcb@temp=\box81
-\tcb@temp=\box82
-\tcb@temp=\box83
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count385
-\c@tcbrasterrow=\count386
-\c@tcbrasternum=\count387
-\c@tcbraster=\count388
+\c@tcbrastercolumn=\count382
+\c@tcbrasterrow=\count383
+\c@tcbrasternum=\count384
+\c@tcbraster=\count385
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -1731,7 +1707,7 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
 x
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box84
+\l__tikzfill_img_box=\box82
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -1740,9 +1716,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
-\tcb@testbox=\box85
-\tcb@totalupperbox=\box86
-\tcb@totallowerbox=\box87
+\tcb@testbox=\box83
+\tcb@totalupperbox=\box84
+\tcb@totallowerbox=\box85
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
@@ -1753,33 +1729,33 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
-\tcbfitdim=\dimen308
-\tcb@lowerfitdim=\dimen309
-\tcb@upperfitdim=\dimen310
-\tcb@cur@hbadness=\count389
+\tcbfitdim=\dimen303
+\tcb@lowerfitdim=\dimen304
+\tcb@upperfitdim=\dimen305
+\tcb@cur@hbadness=\count386
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count390
-\lst@gtempboxa=\box88
-\lst@token=\toks50
-\lst@length=\count391
-\lst@currlwidth=\dimen311
-\lst@column=\count392
-\lst@pos=\count393
-\lst@lostspace=\dimen312
-\lst@width=\dimen313
-\lst@newlines=\count394
-\lst@lineno=\count395
-\lst@maxwidth=\dimen314
+\lst@mode=\count387
+\lst@gtempboxa=\box86
+\lst@token=\toks47
+\lst@length=\count388
+\lst@currlwidth=\dimen306
+\lst@column=\count389
+\lst@pos=\count390
+\lst@lostspace=\dimen307
+\lst@width=\dimen308
+\lst@newlines=\count391
+\lst@lineno=\count392
+\lst@maxwidth=\dimen309
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count396
-\lst@skipnumbers=\count397
-\lst@framebox=\box89
+\c@lstnumber=\count393
+\lst@skipnumbers=\count394
+\lst@framebox=\box87
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -1791,7 +1767,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count398
+\c@tcblisting=\count395
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1817,22 +1793,22 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip146
 \plitemsep=\skip147
 \plparsep=\skip148
-\pl@lab=\toks51
+\pl@lab=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip149
-\enit@outerparindent=\dimen315
-\enit@toks=\toks52
-\enit@inbox=\box90
-\enit@count@id=\count399
-\enitdp@description=\count400
+\enit@outerparindent=\dimen310
+\enit@toks=\toks49
+\enit@inbox=\box88
+\enit@count@id=\count396
+\enitdp@description=\count397
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks53
-\footnotemargin=\dimen316
-\@outputbox@depth=\dimen317
+\FN@temptoken=\toks50
+\footnotemargin=\dimen311
+\@outputbox@depth=\dimen312
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -1852,19 +1828,19 @@ asics and keyval usage)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen318
+\ttl@leftsep=\dimen313
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box91
+\ttl@box=\box89
 \beforetitleunit=\skip150
 \aftertitleunit=\skip151
-\ttl@plus=\dimen319
-\ttl@minus=\dimen320
-\ttl@toksa=\toks54
-\titlewidth=\dimen321
-\titlewidthlast=\dimen322
-\titlewidthfirst=\dimen323
+\ttl@plus=\dimen314
+\ttl@minus=\dimen315
+\ttl@toksa=\toks51
+\titlewidth=\dimen316
+\titlewidthlast=\dimen317
+\titlewidthfirst=\dimen318
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titleps.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/newfloat/newfloat.sty
@@ -1874,8 +1850,8 @@ Package newfloat Info: `rotating' package detected.
 )
 Package newfloat Info: New float `imagen' with options ` fileext=lop, listname=
 {Índice de imágenes}, name=Imagen, placement=ht, ' on input line 324.
-\c@imagen=\count401
-\newfloat@ftype=\count402
+\c@imagen=\count398
+\newfloat@ftype=\count399
 Package newfloat Info: float type `imagen'=8 on input line 324.
 
 (./files/biblatex-veronaAY-config.tex
@@ -1884,7 +1860,7 @@ Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count403
+\lrq@indent=\count400
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1893,49 +1869,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count404
-\c@listtotal=\count405
-\c@listcount=\count406
-\c@liststart=\count407
-\c@liststop=\count408
-\c@citecount=\count409
-\c@citetotal=\count410
-\c@multicitecount=\count411
-\c@multicitetotal=\count412
-\c@instcount=\count413
-\c@maxnames=\count414
-\c@minnames=\count415
-\c@maxitems=\count416
-\c@minitems=\count417
-\c@citecounter=\count418
-\c@maxcitecounter=\count419
-\c@savedcitecounter=\count420
-\c@uniquelist=\count421
-\c@uniquename=\count422
-\c@refsection=\count423
-\c@refsegment=\count424
-\c@maxextratitle=\count425
-\c@maxextratitleyear=\count426
-\c@maxextraname=\count427
-\c@maxextradate=\count428
-\c@maxextraalpha=\count429
-\c@abbrvpenalty=\count430
-\c@highnamepenalty=\count431
-\c@lownamepenalty=\count432
-\c@maxparens=\count433
-\c@parenlevel=\count434
-\blx@tempcnta=\count435
-\blx@tempcntb=\count436
-\blx@tempcntc=\count437
-\c@blx@maxsection=\count438
-\blx@maxsegment@0=\count439
-\blx@notetype=\count440
-\blx@parenlevel@text=\count441
-\blx@parenlevel@foot=\count442
-\blx@sectionciteorder@0=\count443
-\blx@sectionciteorderinternal@0=\count444
-\blx@entrysetcounter=\count445
-\blx@biblioinstance=\count446
+\c@tabx@nest=\count401
+\c@listtotal=\count402
+\c@listcount=\count403
+\c@liststart=\count404
+\c@liststop=\count405
+\c@citecount=\count406
+\c@citetotal=\count407
+\c@multicitecount=\count408
+\c@multicitetotal=\count409
+\c@instcount=\count410
+\c@maxnames=\count411
+\c@minnames=\count412
+\c@maxitems=\count413
+\c@minitems=\count414
+\c@citecounter=\count415
+\c@maxcitecounter=\count416
+\c@savedcitecounter=\count417
+\c@uniquelist=\count418
+\c@uniquename=\count419
+\c@refsection=\count420
+\c@refsegment=\count421
+\c@maxextratitle=\count422
+\c@maxextratitleyear=\count423
+\c@maxextraname=\count424
+\c@maxextradate=\count425
+\c@maxextraalpha=\count426
+\c@abbrvpenalty=\count427
+\c@highnamepenalty=\count428
+\c@lownamepenalty=\count429
+\c@maxparens=\count430
+\c@parenlevel=\count431
+\blx@tempcnta=\count432
+\blx@tempcntb=\count433
+\blx@tempcntc=\count434
+\c@blx@maxsection=\count435
+\blx@maxsegment@0=\count436
+\blx@notetype=\count437
+\blx@parenlevel@text=\count438
+\blx@parenlevel@foot=\count439
+\blx@sectionciteorder@0=\count440
+\blx@sectionciteorderinternal@0=\count441
+\blx@entrysetcounter=\count442
+\blx@biblioinstance=\count443
 \labelnumberwidth=\skip152
 \labelalphawidth=\skip153
 \biblabelsep=\skip154
@@ -1947,9 +1923,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language91
-\c@mincomprange=\count447
-\c@maxcomprange=\count448
-\c@mincompwidth=\count449
+\c@mincomprange=\count444
+\c@maxcomprange=\count445
+\c@mincompwidth=\count446
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1960,74 +1936,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'philosophy-modern.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count450
-\c@savedafterword=\count451
-\c@annotator=\count452
-\c@savedannotator=\count453
-\c@author=\count454
-\c@savedauthor=\count455
-\c@bookauthor=\count456
-\c@savedbookauthor=\count457
-\c@commentator=\count458
-\c@savedcommentator=\count459
-\c@editor=\count460
-\c@savededitor=\count461
-\c@editora=\count462
-\c@savededitora=\count463
-\c@editorb=\count464
-\c@savededitorb=\count465
-\c@editorc=\count466
-\c@savededitorc=\count467
-\c@foreword=\count468
-\c@savedforeword=\count469
-\c@holder=\count470
-\c@savedholder=\count471
-\c@introduction=\count472
-\c@savedintroduction=\count473
-\c@namea=\count474
-\c@savednamea=\count475
-\c@nameb=\count476
-\c@savednameb=\count477
-\c@namec=\count478
-\c@savednamec=\count479
-\c@translator=\count480
-\c@savedtranslator=\count481
-\c@shortauthor=\count482
-\c@savedshortauthor=\count483
-\c@shorteditor=\count484
-\c@savedshorteditor=\count485
-\c@labelname=\count486
-\c@savedlabelname=\count487
-\c@institution=\count488
-\c@savedinstitution=\count489
-\c@lista=\count490
-\c@savedlista=\count491
-\c@listb=\count492
-\c@savedlistb=\count493
-\c@listc=\count494
-\c@savedlistc=\count495
-\c@listd=\count496
-\c@savedlistd=\count497
-\c@liste=\count498
-\c@savedliste=\count499
-\c@listf=\count500
-\c@savedlistf=\count501
-\c@location=\count502
-\c@savedlocation=\count503
-\c@organization=\count504
-\c@savedorganization=\count505
-\c@origlocation=\count506
-\c@savedoriglocation=\count507
-\c@origpublisher=\count508
-\c@savedorigpublisher=\count509
-\c@publisher=\count510
-\c@savedpublisher=\count511
-\c@language=\count512
-\c@savedlanguage=\count513
-\c@origlanguage=\count514
-\c@savedoriglanguage=\count515
-\c@pageref=\count516
-\c@savedpageref=\count517
+\c@afterword=\count447
+\c@savedafterword=\count448
+\c@annotator=\count449
+\c@savedannotator=\count450
+\c@author=\count451
+\c@savedauthor=\count452
+\c@bookauthor=\count453
+\c@savedbookauthor=\count454
+\c@commentator=\count455
+\c@savedcommentator=\count456
+\c@editor=\count457
+\c@savededitor=\count458
+\c@editora=\count459
+\c@savededitora=\count460
+\c@editorb=\count461
+\c@savededitorb=\count462
+\c@editorc=\count463
+\c@savededitorc=\count464
+\c@foreword=\count465
+\c@savedforeword=\count466
+\c@holder=\count467
+\c@savedholder=\count468
+\c@introduction=\count469
+\c@savedintroduction=\count470
+\c@namea=\count471
+\c@savednamea=\count472
+\c@nameb=\count473
+\c@savednameb=\count474
+\c@namec=\count475
+\c@savednamec=\count476
+\c@translator=\count477
+\c@savedtranslator=\count478
+\c@shortauthor=\count479
+\c@savedshortauthor=\count480
+\c@shorteditor=\count481
+\c@savedshorteditor=\count482
+\c@labelname=\count483
+\c@savedlabelname=\count484
+\c@institution=\count485
+\c@savedinstitution=\count486
+\c@lista=\count487
+\c@savedlista=\count488
+\c@listb=\count489
+\c@savedlistb=\count490
+\c@listc=\count491
+\c@savedlistc=\count492
+\c@listd=\count493
+\c@savedlistd=\count494
+\c@liste=\count495
+\c@savedliste=\count496
+\c@listf=\count497
+\c@savedlistf=\count498
+\c@location=\count499
+\c@savedlocation=\count500
+\c@organization=\count501
+\c@savedorganization=\count502
+\c@origlocation=\count503
+\c@savedoriglocation=\count504
+\c@origpublisher=\count505
+\c@savedorigpublisher=\count506
+\c@publisher=\count507
+\c@savedpublisher=\count508
+\c@language=\count509
+\c@savedlanguage=\count510
+\c@origlanguage=\count511
+\c@savedoriglanguage=\count512
+\c@pageref=\count513
+\c@savedpageref=\count514
 \shorthandwidth=\skip160
 \shortjournalwidth=\skip161
 \shortserieswidth=\skip162
@@ -2057,19 +2033,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count518
-\c@textcitetotal=\count519
-\c@textcitemaxnames=\count520
-\c@biburlbigbreakpenalty=\count521
-\c@biburlbreakpenalty=\count522
-\c@biburlnumpenalty=\count523
-\c@biburlucpenalty=\count524
-\c@biburllcpenalty=\count525
+\c@textcitecount=\count515
+\c@textcitetotal=\count516
+\c@textcitemaxnames=\count517
+\c@biburlbigbreakpenalty=\count518
+\c@biburlbreakpenalty=\count519
+\c@biburlnumpenalty=\count520
+\c@biburlucpenalty=\count521
+\c@biburllcpenalty=\count522
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count526
+\c@smartand=\count523
 )
 Package biblatex Info: Trying to load bibliography style 'philosophy-modern'...
 
@@ -2099,8 +2075,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count527
-\c@bbx:relatedtotal=\count528
+\c@bbx:relatedcount=\count524
+\c@bbx:relatedtotal=\count525
 )))
 Package biblatex Info: Trying to load bibliography style 'philosophy-standard'.
 ..
@@ -2109,8 +2085,8 @@ Package biblatex Info: ... file 'philosophy-standard.bbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex-philosophy/philosophy-standar
 d.bbx
 File: philosophy-standard.bbx 2022/09/16 v1.9.8g A set of styles for biblatex
-\c@maxnamesincross=\count529
-\c@minnamesincross=\count530
+\c@maxnamesincross=\count526
+\c@minnamesincross=\count527
 ))
 \yeartitle=\skip174
 \postnamesep=\skip175
@@ -2177,28 +2153,30 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count531
-\mult@box=\box92
-\multicol@leftmargin=\dimen324
-\c@unbalance=\count532
-\c@collectmore=\count533
-\doublecol@number=\count534
-\multicoltolerance=\count535
-\multicolpretolerance=\count536
-\full@width=\dimen325
-\page@free=\dimen326
-\premulticols=\dimen327
-\postmulticols=\dimen328
+\c@tracingmulticols=\count528
+\mult@box=\box90
+\multicol@leftmargin=\dimen319
+\c@unbalance=\count529
+\c@collectmore=\count530
+\doublecol@number=\count531
+\multicoltolerance=\count532
+\multicolpretolerance=\count533
+\full@width=\dimen320
+\page@free=\dimen321
+\premulticols=\dimen322
+\postmulticols=\dimen323
 \multicolsep=\skip176
 \multicolbaselineskip=\skip177
-\partial@page=\box93
-\last@line=\box94
-\mc@boxedresult=\box95
-\maxbalancingoverflow=\dimen329
-\mult@rightbox=\box96
-\mult@grightbox=\box97
-\mult@firstbox=\box98
-\mult@gfirstbox=\box99
+\partial@page=\box91
+\last@line=\box92
+\mc@boxedresult=\box93
+\maxbalancingoverflow=\dimen324
+\mult@rightbox=\box94
+\mult@grightbox=\box95
+\mult@firstbox=\box96
+\mult@gfirstbox=\box97
+\@tempa=\box98
+\@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
@@ -2233,17 +2211,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box131
 \@tempa=\box132
 \@tempa=\box133
-\@tempa=\box134
-\@tempa=\box135
-\c@minrows=\count537
-\c@columnbadness=\count538
-\c@finalcolumnbadness=\count539
-\last@try=\dimen330
-\multicolovershoot=\dimen331
-\multicolundershoot=\dimen332
-\mult@nat@firstbox=\box136
-\colbreak@box=\box137
-\mc@col@check@num=\count540
+\c@minrows=\count534
+\c@columnbadness=\count535
+\c@finalcolumnbadness=\count536
+\last@try=\dimen325
+\multicolovershoot=\dimen326
+\multicolundershoot=\dimen327
+\mult@nat@firstbox=\box134
+\colbreak@box=\box135
+\mc@col@check@num=\count537
 ))
 \pdf-seminarioUBA@idxfile=\write5
 
@@ -2254,25 +2230,25 @@ Writing index file pdf-seminarioUBA.idx
 
 \openout6 = names.idx
 Writing index file names.idx
-\concepto@idxfile=\write7
+\conceptos@idxfile=\write7
 
-\openout7 = concepto.idx
-Writing index file concepto.idx
+\openout7 = conceptos.idx
+Writing index file conceptos.idx
 \onomastico@idxfile=\write8
 
 \openout8 = onomastico.idx
 Writing index file onomastico.idx
 (/usr/share/texlive/texmf-dist/tex/latex/esindex/esindex.sty
 Package: esindex 2019/10/10 v1.7 Spanish indexes (and more)
-\everyesindex=\toks55
+\everyesindex=\toks52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks56
-\@glsmrest=\toks57
+\@glsmfirst=\toks53
+\@glsmrest=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -2282,7 +2258,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count541
+\c@su@anzahl=\count538
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -2293,19 +2269,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count542
+\actioncount=\count539
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count543
-\FP@xia=\count544
-\FP@xib=\count545
-\FP@xfa=\count546
-\FP@xfb=\count547
-\FP@rega=\count548
-\FP@regb=\count549
-\FP@regs=\count550
-\FP@times=\count551
+\FP@xs=\count540
+\FP@xia=\count541
+\FP@xib=\count542
+\FP@xfa=\count543
+\FP@xfb=\count544
+\FP@rega=\count545
+\FP@regb=\count546
+\FP@regs=\count547
+\FP@times=\count548
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2324,7 +2300,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count552
+\FPseed=\count549
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2335,15 +2311,15 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks58
-\@dtl@tmpcount=\count553
+\@dtl@toks=\toks55
+\@dtl@tmpcount=\count550
 \dtl@tmplength=\skip178
-\dtl@sortresult=\count554
-\@dtl@numgrpsepcount=\count555
-\@dtl@datatype=\count556
-\dtl@codeA=\count557
-\dtl@codeB=\count558
-\@dtl@foreach@level=\count559
+\dtl@sortresult=\count551
+\@dtl@numgrpsepcount=\count552
+\@dtl@datatype=\count553
+\dtl@codeA=\count554
+\dtl@codeB=\count555
+\@dtl@foreach@level=\count556
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
@@ -2380,13 +2356,13 @@ s-noenc.ldf))
 f
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count560
-\@gls@tmpb=\toks59
+\gls@level=\count557
+\@gls@tmpb=\toks56
 \gls@tmplen=\skip179
-\glskeylisttok=\toks60
-\glslabeltok=\toks61
-\glsshorttok=\toks62
-\glslongtok=\toks63
+\glskeylisttok=\toks57
+\glslabeltok=\toks58
+\glsshorttok=\toks59
+\glslongtok=\toks60
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
@@ -2403,18 +2379,18 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip182
 \LTpre=\skip183
 \LTpost=\skip184
-\LTchunksize=\count561
-\LTcapwidth=\dimen333
-\LT@head=\box138
-\LT@firsthead=\box139
-\LT@foot=\box140
-\LT@lastfoot=\box141
-\LT@gbox=\box142
-\LT@cols=\count562
-\LT@rows=\count563
-\c@LT@tables=\count564
-\c@LT@chunks=\count565
-\LT@p@ftn=\toks64
+\LTchunksize=\count558
+\LTcapwidth=\dimen328
+\LT@head=\box136
+\LT@firsthead=\box137
+\LT@foot=\box138
+\LT@lastfoot=\box139
+\LT@gbox=\box140
+\LT@cols=\count559
+\LT@rows=\count560
+\c@LT@tables=\count561
+\c@LT@chunks=\count562
+\LT@p@ftn=\toks61
 )
 \glsdescwidth=\skip185
 \glspagelistwidth=\skip186
@@ -2424,21 +2400,21 @@ Package: glossary-super 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count566
-\ST@wd=\dimen334
+\c@tracingst=\count563
+\ST@wd=\dimen329
 \ST@rightskip=\skip187
 \ST@leftskip=\skip188
 \ST@parfillskip=\skip189
-\ST@pageleft=\dimen335
-\ST@headht=\dimen336
-\ST@tailht=\dimen337
-\ST@pagesofar=\dimen338
-\ST@pboxht=\dimen339
-\ST@lineht=\dimen340
-\ST@prevht=\dimen341
-\ST@toadd=\dimen342
-\ST@dimen=\dimen343
-\ST@pbox=\box143
+\ST@pageleft=\dimen330
+\ST@headht=\dimen331
+\ST@tailht=\dimen332
+\ST@pagesofar=\dimen333
+\ST@pboxht=\dimen334
+\ST@lineht=\dimen335
+\ST@prevht=\dimen336
+\ST@toadd=\dimen337
+\ST@dimen=\dimen338
+\ST@pbox=\box141
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2023/09/29 v4.53 (NLCT)
@@ -2446,48 +2422,48 @@ Package: glossary-tree 2023/09/29 v4.53 (NLCT)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count567
-\l__siunitx_number_exponent_fixed_int=\count568
-\l__siunitx_number_min_decimal_int=\count569
-\l__siunitx_number_min_integer_int=\count570
-\l__siunitx_number_round_precision_int=\count571
-\l__siunitx_number_lower_threshold_int=\count572
-\l__siunitx_number_upper_threshold_int=\count573
-\l__siunitx_number_group_first_int=\count574
-\l__siunitx_number_group_size_int=\count575
-\l__siunitx_number_group_minimum_int=\count576
-\l__siunitx_angle_tmp_dim=\dimen344
-\l__siunitx_angle_marker_box=\box144
-\l__siunitx_angle_unit_box=\box145
-\l__siunitx_compound_count_int=\count577
+\l__siunitx_number_uncert_offset_int=\count564
+\l__siunitx_number_exponent_fixed_int=\count565
+\l__siunitx_number_min_decimal_int=\count566
+\l__siunitx_number_min_integer_int=\count567
+\l__siunitx_number_round_precision_int=\count568
+\l__siunitx_number_lower_threshold_int=\count569
+\l__siunitx_number_upper_threshold_int=\count570
+\l__siunitx_number_group_first_int=\count571
+\l__siunitx_number_group_size_int=\count572
+\l__siunitx_number_group_minimum_int=\count573
+\l__siunitx_angle_tmp_dim=\dimen339
+\l__siunitx_angle_marker_box=\box142
+\l__siunitx_angle_unit_box=\box143
+\l__siunitx_compound_count_int=\count574
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box146
-\l__siunitx_table_tmp_dim=\dimen345
-\l__siunitx_table_column_width_dim=\dimen346
-\l__siunitx_table_integer_box=\box147
-\l__siunitx_table_decimal_box=\box148
-\l__siunitx_table_uncert_box=\box149
-\l__siunitx_table_before_box=\box150
-\l__siunitx_table_after_box=\box151
-\l__siunitx_table_before_dim=\dimen347
-\l__siunitx_table_carry_dim=\dimen348
-\l__siunitx_unit_tmp_int=\count578
-\l__siunitx_unit_position_int=\count579
-\l__siunitx_unit_total_int=\count580
+\l__siunitx_table_tmp_box=\box144
+\l__siunitx_table_tmp_dim=\dimen340
+\l__siunitx_table_column_width_dim=\dimen341
+\l__siunitx_table_integer_box=\box145
+\l__siunitx_table_decimal_box=\box146
+\l__siunitx_table_uncert_box=\box147
+\l__siunitx_table_before_box=\box148
+\l__siunitx_table_after_box=\box149
+\l__siunitx_table_before_dim=\dimen342
+\l__siunitx_table_carry_dim=\dimen343
+\l__siunitx_unit_tmp_int=\count575
+\l__siunitx_unit_position_int=\count576
+\l__siunitx_unit_total_int=\count577
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen349
-\ar@mcellbox=\box152
-\extrarowheight=\dimen350
-\NC@list=\toks65
+\col@sep=\dimen344
+\ar@mcellbox=\box150
+\extrarowheight=\dimen345
+\NC@list=\toks62
 \extratabsurround=\skip191
 \backup@length=\skip192
-\ar@cellbox=\box153
+\ar@cellbox=\box151
 ))
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
@@ -2500,16 +2476,18 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 
 
 (./files/gbTeXglo-seminarioUBA.tex) (./files/gbTeXseparata-seminarioUBA.tex
-\c@PrimPag=\count581
+\c@PrimPag=\count578
 \script=\write9
 
 \openout9 = separatas.sh
 )
-(/usr/share/texlive/texmf-dist/tex/latex/impnattypo/impnattypo.sty
-Package: impnattypo 2019/03/04 1.5 Typographic utilities inspired by the French
- Imprimerie Nationale
-Package: impnattypo 
-)
+(/usr/share/texlive/texmf-dist/tex/latex/crop/crop.sty
+Package: crop 2017/11/19 1.10 crop marks (mf)
+\CROP@index=\count579
+\CROP@offset=\count580
+Package crop Info: Local config file crop.cfg used on input line 622.
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetexconfig/crop.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
@@ -2528,21 +2506,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count582
+\c@section@level=\count581
 )
-\@linkdim=\dimen351
-\Hy@linkcounter=\count583
-\Hy@pagecounter=\count584
+\@linkdim=\dimen346
+\Hy@linkcounter=\count582
+\Hy@pagecounter=\count583
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count585
+\Hy@SavedSpaceFactor=\count584
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
 Package hyperref Info: Option `unicode' set `true' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
@@ -2551,21 +2528,21 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count586
+\c@Hy@tempcnt=\count585
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen352
+\XeTeXLinkMargin=\dimen347
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count587
-\Field@Width=\dimen353
-\Fld@charsize=\dimen354
+\Fld@menulength=\count586
+\Field@Width=\dimen348
+\Fld@charsize=\dimen349
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
 Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
 
@@ -2573,9 +2550,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count588
-\c@Item=\count589
-\c@Hfootnote=\count590
+\Hy@abspage=\count587
+\c@Item=\count588
+\c@Hfootnote=\count589
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -2586,77 +2563,23 @@ File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\Fld@listcount=\count591
-\c@bookmark@seq@number=\count592
+\Fld@listcount=\count590
+\c@bookmark@seq@number=\count591
 \Hy@SectionHShift=\skip193
 )
-(/usr/share/texlive/texmf-dist/tex/latex/easyreview/easyReview.sty
-Package: easyReview 2014/06/27 Package for Easy Review on LaTeX documents
-Package: easyReview 2013/12/09 Package for Easy Review on LaTeX documents
-
-(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks66
-\SOUL@lasttoken=\toks67
-\SOUL@syllable=\toks68
-\SOUL@cmds=\toks69
-\SOUL@buffer=\toks70
-\SOUL@token=\toks71
-\SOUL@syllgoal=\dimen355
-\SOUL@syllwidth=\dimen356
-\SOUL@charkern=\dimen357
-\SOUL@hyphkern=\dimen358
-\SOUL@dimen=\dimen359
-\SOUL@dimeni=\dimen360
-\SOUL@minus=\count593
-\SOUL@comma=\count594
-\SOUL@apo=\count595
-\SOUL@grave=\count596
-\SOUL@spaceskip=\skip194
-\SOUL@ttwidth=\dimen361
-\SOUL@uldp=\dimen362
-\SOUL@ulht=\dimen363
-))
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
-Package: todonotes 2024/01/05
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-\c@@todonotes@numberoftodonotes=\count597
-)
-
-! LaTeX Error: Command \comment already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 ...comment}[2]{\highlight{#1}\todo[inline]{#2}}
-                                                  %    \end{macrocode}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks72
+\hyxmp@aep@toks=\toks63
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
 (/usr/share/texlive/texmf-dist/tex/lualatex/luacode/luacode.sty
 Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
-\luacode@lines=\toks73
+\luacode@lines=\toks64
 \luacode@table@soft=\catcodetable18
 )
-\@hyxmp@count=\count598
+\@hyxmp@count=\count592
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
@@ -2718,29 +2641,34 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 29.
 
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 29.
 )
+! Extra \else.
+l.441 		\else
+           
+I'm ignoring this; it doesn't match any \if.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./pdf-seminarioUBA.aux
+(./pdf-seminarioUBA.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 
 <Reading QR code for "https://github.com/albertomoyano/seminarioUBA2025" at lev
 el 4-M from aux file.>
 (./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
-\c@pagesLTS.roman.1.local.cnt=\count599
+\c@pagesLTS.roman.1.local.cnt=\count593
 
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
 (./artcap/conclusiones.aux)
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
  (./artcap/indiceautores.aux)
-\c@pagesLTS.arabic.1.local.cnt=\count600
+\c@pagesLTS.arabic.1.local.cnt=\count594
 )
 \openout1 = pdf-seminarioUBA.aux
 
@@ -2833,25 +2761,19 @@ ne 447.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/b/n on input lin
 e 447.
-
-Package pageslts Warning: Package pdfpages detected.
-(pageslts)                Using hyperref with pdfpages can cause problems. See
-(pageslts)                https://www.ctan.org/pkg/pax
-(pageslts)                for the Pdf Annotations eXtractor, pax.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count601
-\scratchdimen=\dimen364
-\scratchbox=\box154
-\nofMPsegments=\count602
-\nofMParguments=\count603
-\everyMPshowfont=\toks74
-\MPscratchCnt=\count604
-\MPscratchDim=\dimen365
-\MPnumerator=\count605
-\makeMPintoPDFobject=\count606
-\everyMPtoPDFconversion=\toks75
+\scratchcounter=\count595
+\scratchdimen=\dimen350
+\scratchbox=\box152
+\nofMPsegments=\count596
+\nofMParguments=\count597
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count598
+\MPscratchDim=\dimen351
+\MPnumerator=\count599
+\makeMPintoPDFobject=\count600
+\everyMPtoPDFconversion=\toks66
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2860,18 +2782,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -2882,11 +2792,11 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: scrextend package is loaded.
-\caption@addmargin@hsize=\dimen366
-\caption@addmargin@linewidth=\dimen367
+\caption@addmargin@hsize=\dimen352
+\caption@addmargin@linewidth=\dimen353
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count607
+\c@lstlisting=\count601
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-philosophy
 '...
 Package biblatex Info: ... file 'spanish-philosophy.lbx' found.
@@ -3033,19 +2943,31 @@ lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `french'. on input line 447.
-Package hyperref Info: Link coloring ON on input line 447.
+Package crop Info: requested driver: `' on input line 447.
+Package crop Info: detected driver: `luatex' on input line 447.
+Package crop Info: using `luatex' graphics driver on input line 447.
+Package hyperref Info: Link coloring OFF on input line 447.
  (./pdf-seminarioUBA.out) (./pdf-seminarioUBA.out)
 \@outlinefile=\write10
 
 \openout10 = pdf-seminarioUBA.out
-\c@pagesLTS.pnc.roman=\count608
-\c@pagesLTS.double.roman=\count609
-\c@pagesLTS.current.local.roman=\count610
+\c@pagesLTS.pnc.roman=\count602
+\c@pagesLTS.double.roman=\count603
+\c@pagesLTS.current.local.roman=\count604
 
-(./artcap/inicio-frontmatter.tex [1
+(./artcap/inicio-frontmatter.tex
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 9.81033pt on input line 7.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `IBMPlexSansCondensed' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 7.84827pt on input line 7.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+] [2]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 20.39026pt on input line 19.
  [3] [4]
@@ -3055,13 +2977,13 @@ LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
 (Font)              scaled to size 14.15991pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 16.99188pt on input line 43.
-<./media/logo-imago-ByW.png, id=107, 85.2786pt x 42.1575pt>
+<./media/logo-imago-ByW.png, id=113, 85.2786pt x 42.1575pt>
 File: ./media/logo-imago-ByW.png Graphic file (type png)
 <use ./media/logo-imago-ByW.png>
 Package luatex.def Info: ./media/logo-imago-ByW.png  used on input line 50.
 (luatex.def)             Requested size: 56.9055pt x 28.1315pt.
  [5<./media/logo-imago-ByW.png>]
-<./media/desconocido.png, id=114, 85.2786pt x 98.0463pt>
+<./media/desconocido.png, id=120, 85.2786pt x 98.0463pt>
 File: ./media/desconocido.png Graphic file (type png)
 <use ./media/desconocido.png>
 Package luatex.def Info: ./media/desconocido.png  used on input line 59.
@@ -3084,23 +3006,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package biblatex Info: Resetting trackers on input line 453.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 (Font)              scaled to size 14.12686pt on input line 453.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `IBMPlexSansCondensed' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 (Font)              scaled to size 16.95224pt on input line 453.
  (./pdf-seminarioUBA.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 9.81033pt on input line 2.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 10.61993pt on input line 2.
-LaTeX Info: Redefining \sptext on input line 26.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
 LaTeX Info: Redefining \sptext on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -3110,6 +3023,9 @@ LaTeX Info: Redefining \% on input line 28.
 LaTeX Info: Redefining \sptext on input line 29.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \sptext on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 )
 \tf@toc=\write11
 
@@ -3196,10 +3112,10 @@ LaTeX Info: Redefining \% on input line 457.
 
 
 ]
-\c@pagesLTS.roman.1.local.count=\count611
-\c@pagesLTS.pnc.arabic=\count612
-\c@pagesLTS.double.arabic=\count613
-\c@pagesLTS.current.local.arabic=\count614
+\c@pagesLTS.roman.1.local.count=\count605
+\c@pagesLTS.pnc.arabic=\count606
+\c@pagesLTS.double.arabic=\count607
+\c@pagesLTS.current.local.arabic=\count608
 
 \openout2 = ./artcap/capitulo1.aux
 
@@ -3224,18 +3140,24 @@ LaTeX Info: Redefining \% on input line 20.
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 (Font)              scaled to size 11.7724pt on input line 23.
-<./media/letraA.png, id=222, 903.375pt x 255.95625pt>
-File: ./media/letraA.png Graphic file (type png)
-<use ./media/letraA.png>
-Package luatex.def Info: ./media/letraA.png  used on input line 32.
+<./media/letraa.png, id=229, 903.375pt x 255.95625pt>
+File: ./media/letraa.png Graphic file (type png)
+<use ./media/letraa.png>
+Package luatex.def Info: ./media/letraa.png  used on input line 39.
 (luatex.def)             Requested size: 312.9803pt x 88.67993pt.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 10.61993pt on input line 33.
+(Font)              scaled to size 10.61993pt on input line 40.
+
+! Extra \else.
+l.43 		\else
+          
+I'm ignoring this; it doesn't match any \if.
+
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
- [2<./media/letraA.png>])
+[2<./media/letraa.png>])
 LaTeX Info: Redefining \. on input line 461.
 LaTeX Info: Redefining \% on input line 461.
 LaTeX Info: Redefining \. on input line 461.
@@ -3250,8 +3172,6 @@ LaTeX Info: Redefining \% on input line 461.
  (./artcap/capitulo2.tex
 Capítulo 2.
 Package biblatex Info: Resetting trackers on input line 1.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 7.84827pt on input line 19.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
 (Font)              scaled to size 5.89996pt on input line 21.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
@@ -3306,16 +3226,22 @@ LaTeX Info: Redefining \% on input line 68.
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
  [10]
-<./media/avatar.png, id=298, 825.0825pt x 825.0825pt>
-File: ./media/avatar.png Graphic file (type png)
-<use ./media/avatar.png>
-Package luatex.def Info: ./media/avatar.png  used on input line 80.
+<./media/avatar2.png, id=304, 825.0825pt x 825.0825pt>
+File: ./media/avatar2.png Graphic file (type png)
+<use ./media/avatar2.png>
+Package luatex.def Info: ./media/avatar2.png  used on input line 87.
 (luatex.def)             Requested size: 156.49014pt x 156.49033pt.
+
+! Extra \else.
+l.91 \else
+        
+I'm ignoring this; it doesn't match any \if.
+
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [11<./media/avatar.png>])
+[11<./media/avatar2.png>])
 LaTeX Info: Redefining \. on input line 463.
 LaTeX Info: Redefining \% on input line 463.
 LaTeX Info: Redefining \. on input line 463.
@@ -3339,8 +3265,8 @@ LaTeX Info: Redefining \. on input line 467.
 LaTeX Info: Redefining \% on input line 467.
 LaTeX Info: Redefining \. on input line 467.
 LaTeX Info: Redefining \% on input line 467.
-
-[14] (./artcap/siglas.tex
+ [14]
+(./artcap/siglas.tex
 Using TeX to sort glossary entries---this may take a while
 Package biblatex Info: Resetting trackers on input line 5.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
@@ -3356,7 +3282,7 @@ LaTeX Info: Redefining \% on input line 6.
 
 ] [16
 
-]) (./artcap/onomastico.tex (./onomastico.ind
+]) (./artcap/conceptos.tex (./conceptos.ind
 Package biblatex Info: Resetting trackers on input line 1.
 )
 LaTeX Info: Redefining \. on input line 8.
@@ -3369,76 +3295,92 @@ LaTeX Info: Redefining \% on input line 8.
 ] [18
 
 ])
-(./artcap/glosario.tex
+(./artcap/onomastico.tex (./onomastico.ind
+Package biblatex Info: Resetting trackers on input line 1.
+)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [19
+
+
+] [20
+
+]) (./artcap/glosario.tex
 Using TeX to sort glossary entries---this may take a while
 Package biblatex Info: Resetting trackers on input line 5.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-[19
+[21
 
 
-] [20
+] [22
 
 ])
-Package biblatex Info: Resetting trackers on input line 474.
+Package biblatex Info: Resetting trackers on input line 475.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 10.61993pt on input line 476.
+(Font)              scaled to size 10.61993pt on input line 478.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 10.61993pt on input line 476.
-LaTeX Info: Redefining \sptext on input line 476.
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
-LaTeX Info: Redefining \sptext on input line 476.
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
-LaTeX Info: Redefining \sptext on input line 476.
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
-LaTeX Info: Redefining \sptext on input line 476.
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
-LaTeX Info: Redefining \. on input line 477.
-LaTeX Info: Redefining \% on input line 477.
-LaTeX Info: Redefining \. on input line 477.
-LaTeX Info: Redefining \% on input line 477.
- [21
+(Font)              scaled to size 10.61993pt on input line 478.
+LaTeX Info: Redefining \sptext on input line 478.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \sptext on input line 478.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \sptext on input line 478.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \sptext on input line 478.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+ [23
 
 ]
 \openout2 = ./artcap/indiceautores.aux
- (./artcap/indiceautores.tex [22
+ (./artcap/indiceautores.tex [24
 
 
 ] (./names.ind
 Package biblatex Info: Resetting trackers on input line 1.
 ))
-LaTeX Info: Redefining \. on input line 477.
-LaTeX Info: Redefining \% on input line 477.
-LaTeX Info: Redefining \. on input line 477.
-LaTeX Info: Redefining \% on input line 477.
- [23
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+ [25
 
 ]
-(./artcap/colofon.tex [24
+(./artcap/colofon.tex [26
 
 
 
 ]
 Package biblatex Info: Resetting trackers on input line 2.
 )
-LaTeX Info: Redefining \. on input line 487.
-LaTeX Info: Redefining \% on input line 487.
-LaTeX Info: Redefining \. on input line 487.
-LaTeX Info: Redefining \% on input line 487.
- [25] 
+LaTeX Info: Redefining \. on input line 492.
+LaTeX Info: Redefining \% on input line 492.
+LaTeX Info: Redefining \. on input line 492.
+LaTeX Info: Redefining \% on input line 492.
+ [27] 
 AED: pageslts setting LastPage 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [26]
+) [28]
+
+Package imakeidx Warning: Remember to run lualatex again after calling
+(imakeidx)                `\imki@messageconceptos '.
+
 
 Package imakeidx Warning: Remember to run lualatex again after calling
 (imakeidx)                `\imki@messageonomastico '.
@@ -3447,7 +3389,7 @@ Package imakeidx Warning: Remember to run lualatex again after calling
 Package imakeidx Warning: Remember to run lualatex again after calling
 (imakeidx)                `\imki@messagenames '.
 
-\c@pagesLTS.arabic.1.local.count=\count615
+\c@pagesLTS.arabic.1.local.count=\count609
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -3467,53 +3409,54 @@ el 4-M from aux file.>
 (./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
 (./artcap/conclusiones.aux)
-LaTeX Info: Redefining \sptext on input line 69.
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
 LaTeX Info: Redefining \sptext on input line 70.
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
-LaTeX Info: Redefining \sptext on input line 74.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \sptext on input line 71.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
 LaTeX Info: Redefining \sptext on input line 75.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \sptext on input line 76.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
  (./artcap/indiceautores.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `pdf-seminarioUBA.out' has not changed.
-(rerunfilecheck)             Checksum: 86823F9ACDFF31801E843EEE14237405;1860.
+(rerunfilecheck)             Checksum: C3406EEF89D6F21245A658FBD8EB58D0;2018.
 Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 
 \openout1 = pdf-seminarioUBA.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 67595 strings out of 476553
- 932394,2848258 words of node,token memory allocated
- 703245 words of node memory still in use:
-   5091 hlist, 29 vlist, 3933 rule, 6 ins, 1 adjust, 7481 disc, 569 local_par, 7
-2 math, 10302 glue, 4111 kern, 1164 penalty, 175 margin_kern, 50225 glyph, 32664
- attribute, 1403 glue_spec, 4678 attribute_list, 71 write, 388 pdf_literal, 112 
-pdf_start_link, 112 pdf_end_link, 12 pdf_dest, 51 pdf_action, 528 pdf_colorstack
-, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:15,2:263,3:151,4:51,5:94,6:13,7:1358,8:6,9:4608,10:15,11:154
- 87591 multiletter control sequences out of 65536+600000
- 96 fonts using 25729503 bytes
- 117i,10n,123p,2362b,3121s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66425 strings out of 476553
+ 1165553,2848258 words of node,token memory allocated
+ 1098313 words of node memory still in use:
+   11345 hlist, 125 vlist, 5679 rule, 6 ins, 1 adjust, 9419 disc, 1057 local_par
+, 72 math, 17407 glue, 12599 kern, 1658 penalty, 319 margin_kern, 70808 glyph, 5
+7402 attribute, 2187 glue_spec, 8212 attribute_list, 71 write, 388 pdf_literal, 
+116 pdf_start_link, 116 pdf_end_link, 12 pdf_dest, 53 pdf_action, 308 pdf_colors
+tack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
+   avail lists: 1:7,2:180,3:109,4:20,5:145,6:10,7:846,8:6,9:202,10:10,11:134
+ 86459 multiletter control sequences out of 65536+600000
+ 95 fonts using 25646807 bytes
+ 117i,11n,123p,2362b,3125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
 Serif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus
 -fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/ib
 m/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/fonts/op
-entype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/texlive/texmf-dist/
-fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf>
-Output written on pdf-seminarioUBA.pdf (46 pages, 721094 bytes).
+entype/public/libertinus-fonts/LibertinusSerif-Regular.otf></usr/share/texlive/t
+exmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on pdf-seminarioUBA.pdf (48 pages, 368330 bytes).
 
-PDF statistics: 444 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 91 named destinations out of 1000 (max. 131072)
- 357 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 462 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 94 named destinations out of 1000 (max. 131072)
+ 365 words of extra memory for PDF output out of 10000 (max. 100000000)
 
