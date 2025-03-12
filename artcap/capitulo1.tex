@@ -32,14 +32,13 @@ Maecenas sodales mi vel risus vehicula, non ultricies lorem iaculis. Nulla facil
 \includegraphics[width=\textwidth]{./media/letraA.png}
 \caption{Variaciones en la letra a. Fuente: tipografía Minion Pro.}\label{figura1-1}
 \end{figure}
-\else
-\ifBNPDF
-\begin{figure}[!ht]
+	\else
+	\ifBNPDF
+	\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{./media/letraa.png}
 	\caption{Variaciones en la letra a. Fuente: tipografía Minion Pro.}\label{figura1-1}
 	\end{figure}
-	\fi
 		\else
 		\ifPNGEPUB
 		\begin{figure}[!ht]
@@ -48,6 +47,7 @@ Maecenas sodales mi vel risus vehicula, non ultricies lorem iaculis. Nulla facil
 		\caption{Variaciones en la letra a. Fuente: tipografía Minion Pro.}\label{figura1-1}
 		\end{figure}
 		\fi
+	\fi
 \fi
 
 Maecenas sodales mi vel risus vehicula, non ultricies lorem iaculis. Nulla facilisi. Ut congue odio justo, at dapibus velit tincidunt id. Vivamus eget orci vitae urna aliquet dapibus sed sed eros. Integer gravida lacus id justo lacinia, ut faucibus lorem posuere. Curabitur sit amet erat eget nunc ultricies dignissim.

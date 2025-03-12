@@ -1,8 +1,16 @@
-\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de autoras y autores del aparato bibliográfico}
-\chaptermark{Índice de autoras y autores del aparato bibliográfico}
-\Author{Índice de autoras y autores del aparato bibliográfico}
 \raggedright
 {\small
 	\printindex[names]
 }
 
+\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de autoras y autores del aparato bibliográfico}
+\chaptermark{Índice de autoras y autores del aparato bibliográfico}
+\Author{Índice de autoras y autores del aparato bibliográfico}
+
+\ifPDF
+\cleardoublepage
+	\else
+	\ifBNPDF
+	\cleardoublepage
+	\fi
+\fi

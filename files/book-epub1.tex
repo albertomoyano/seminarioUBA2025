@@ -87,7 +87,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \usepackage{rotating}
 \usepackage{graphicx}
 \usepackage{svg}
-\usepackage[final]{pdfpages}
+%\usepackage[final]{pdfpages}
 \usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
 \usepackage{ragged2e}
 \usepackage{xcolor}
@@ -128,11 +128,6 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{4}
 
-% dibujo de caja contenedora, solo para desarrollo
-%\usepackage{showframe}
-%\renewcommand\ShowFrameLinethickness{0.1pt}
-%\renewcommand\ShowFrameColor{\color{blue}}
-
 % diseño del pie de página
 \usepackage[bottom,stable,hang]{footmisc}
 \setlength{\footnotesep}{10pt}% cambia el valor deseado en puntos (pt)
@@ -148,8 +143,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 
 % KOMA script
 \usepackage{scrextend}
-% \KOMAoptions{footnotes=multiple}% maybe you want to use this option?
-\newcommand*\footnotemarkspace{0em} % set distance of the footnote text from the margin
+\newcommand*\footnotemarkspace{2pc} % set distance of the footnote text from the margin
 \deffootnote{\footnotemarkspace}% use distance from above
 {\parindent}% paragraph indent in footnotes (footnotes should never have paragraphs!)
 {\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}} % footfont with period for footnote marks in footnote
@@ -343,17 +337,18 @@ placement=ht,
   {\endlist}
 
 % elegimos el estandar para las referencias
-\def\estandar{veronaAY}
-%\def\estandar{veronaFN}
-%\def\estandar{apa}
-%\def\estandar{chicago}
+%\def\estandar{veronaAY}
+%\def\estandar{VerboseIbid}
+\def\estandar{APA}
+%\def\estandar{ISO690}
+%\def\estandar{custom}
 \input{./files/biblatex-\estandar-config.tex}
 
 % generamos los índices
 \usepackage[xindy]{imakeidx}
 \makeindex
-\makeindex[name=names]
-\makeindex[name=concepto,title={Índice de conceptos}]
+\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
+\makeindex[name=conceptos,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
 \usepackage{esindex}
@@ -368,45 +363,15 @@ placement=ht,
 	{\indexnames{labelname}}
 	{}}
 
-% Esto inserta la entrada relacionada con el contenido como parte de las últimas cosas antes de que el índice se imprima realmente.
-\makeatletter
-\g@addto@macro{\theindex}{\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de autoras y autores del aparato bibliográfico}}
-\makeatother
-\renewcommand{\spanishindexname}{Índice de autoras y autores del aparato bibliográfico}
-
-%% generamos los glosarios
-\usepackage[acronym,sanitizesort,toc=true,nonumberlist]{glossaries}
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,toc=false]{glossaries}
 \preto\chapter{\glsresetall}
 \makenoidxglossaries
 \renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
-
-%% Diseño y estilo a glosario y acrónimo
-\newglossarystyle{crossreflist}%
-{% base it on list (adapt as required)
-	\renewcommand*{\glossentry}[2]{%
-		\item[\glsentryitem{##1}%
-		\glstarget{##1}{\glossentryname{##1}}]
-		\glossentrydesc{##1}\glspostdescription\space ##2%
-		% check if the user1 key has been supplied:
-		\ifglshasfield{useri}{##1}%
-		{% do cross-reference
-			\newline
-			\glsletentryfield{\crossrefs}{##1}{useri}%
-			\glsseeformat[\emph{Véase:}]{\crossrefs}{}%
-		}%
-		{}%
-	}%
-}
-\setglossarystyle{crossreflist}
-
-%% deshabilitamos mostrar el número de página
-%\renewcommand{\glossaryentrynumbers}[1]{Véase página #1.}
+% deshabilitamos mostrar el número de página
+\renewcommand{\glossaryentrynumbers}[1]{\ (Véase pág.~#1.)}
 \renewcommand{\delimN}{, }
 \renewcommand{\delimR}{--}
-
-%% Instrucciones de salida
-%\printnoidxglossary[type=\acronymtype,title={Índice de siglas}]
-%\printnoidxglossary[title={Glosario de términos}]
 
 \usepackage{url}%[allowmove]
 \Urlmuskip = 0mu plus 1mu

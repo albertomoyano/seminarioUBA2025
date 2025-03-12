@@ -1,6 +1,12 @@
+% imprimimos el listado de siglas
+\printnoidxglossary[title={Glosario de conceptos}]
 % colocamos el título en el sumario
 \addcontentsline{toc}{chapter}{\hspace{1.5pc}Glosario de conceptos}
 
-% imprimimos el listado de siglas
-\printnoidxglossary[title={Glosario de conceptos}]
+\ifPDF
 \cleardoublepage
+	\else
+	\ifBNPDF
+	\cleardoublepage
+	\fi
+\fi

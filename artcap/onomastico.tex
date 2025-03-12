@@ -1,10 +1,17 @@
-\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice onomástico}
-\chaptermark{Índice onomástico}
-\Author{Índice onomástico}
-
 \raggedright
 {\small
 	\printindex[onomastico]
 }
+
+\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice onomástico}
+\chaptermark{Índice onomástico}
+\Author{Índice onomástico}
+
+\ifPDF
 \cleardoublepage
+	\else
+	\ifBNPDF
+	\cleardoublepage
+	\fi
+\fi
 \justifying

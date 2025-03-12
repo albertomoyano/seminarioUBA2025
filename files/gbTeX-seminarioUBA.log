@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  12 MAR 2025 09:44
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  12 MAR 2025 14:08
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -2642,7 +2642,7 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 29.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 29.
 )
 ! Extra \else.
-l.441 		\else
+l.442 		\else
            
 I'm ignoring this; it doesn't match any \if.
 
@@ -2672,26 +2672,26 @@ LaTeX Info: Redefining \% on input line 76.
 )
 \openout1 = pdf-seminarioUBA.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 448.
+LaTeX Font Info:    ... okay on input line 448.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2729,22 +2729,22 @@ LaTeX Font Info:    ... okay on input line 447.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 447.
-LaTeX Info: Redefining \% on input line 447.
-LaTeX Info: Redefining \up on input line 447.
-LaTeX Info: Redefining \microtypecontext on input line 447.
-Package microtype Info: Applying patch `item' on input line 447.
-Package microtype Info: Applying patch `toc' on input line 447.
-Package microtype Info: Applying patch `eqnum' on input line 447.
-Package microtype Info: Applying patch `footnote' on input line 447.
-Package microtype Info: Applying patch `verbatim' on input line 447.
+LaTeX Info: Redefining \. on input line 448.
+LaTeX Info: Redefining \% on input line 448.
+LaTeX Info: Redefining \up on input line 448.
+LaTeX Info: Redefining \microtypecontext on input line 448.
+Package microtype Info: Applying patch `item' on input line 448.
+Package microtype Info: Applying patch `toc' on input line 448.
+Package microtype Info: Applying patch `eqnum' on input line 448.
+Package microtype Info: Applying patch `footnote' on input line 448.
+Package microtype Info: Applying patch `verbatim' on input line 448.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 447.
+LaTeX Info: Redefining \showhyphens on input line 448.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -2754,13 +2754,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/LibertinusMath(1)/m/n --> TU/LibertinusSerif(0)/m/n 
-on input line 447.
+on input line 448.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(0)/m/it on input li
-ne 447.
+ne 448.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/b/n on input lin
-e 447.
+e 448.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count595
@@ -2905,8 +2905,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 447.
-Package biblatex Info: Reference segment=0 on input line 447.
+Package biblatex Info: Reference section=0 on input line 448.
+Package biblatex Info: Reference segment=0 on input line 448.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-spanish.trsl
@@ -2914,7 +2914,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 447.
+or `spanish'. on input line 448.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-german.trsl
@@ -2922,7 +2922,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 447.
+or `german'. on input line 448.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -2930,11 +2930,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 447.
+or `english'. on input line 448.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 447.
+alian.trsl' found. on input line 448.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 447.
+rtuges.trsl' found. on input line 448.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-french.trsl
@@ -2942,11 +2942,11 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 447.
-Package crop Info: requested driver: `' on input line 447.
-Package crop Info: detected driver: `luatex' on input line 447.
-Package crop Info: using `luatex' graphics driver on input line 447.
-Package hyperref Info: Link coloring OFF on input line 447.
+or `french'. on input line 448.
+Package crop Info: requested driver: `' on input line 448.
+Package crop Info: detected driver: `luatex' on input line 448.
+Package crop Info: using `luatex' graphics driver on input line 448.
+Package hyperref Info: Link coloring OFF on input line 448.
  (./pdf-seminarioUBA.out) (./pdf-seminarioUBA.out)
 \@outlinefile=\write10
 
@@ -2977,13 +2977,13 @@ LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
 (Font)              scaled to size 14.15991pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 16.99188pt on input line 43.
-<./media/logo-imago-ByW.png, id=113, 85.2786pt x 42.1575pt>
+<./media/logo-imago-ByW.png, id=115, 85.2786pt x 42.1575pt>
 File: ./media/logo-imago-ByW.png Graphic file (type png)
 <use ./media/logo-imago-ByW.png>
 Package luatex.def Info: ./media/logo-imago-ByW.png  used on input line 50.
 (luatex.def)             Requested size: 56.9055pt x 28.1315pt.
  [5<./media/logo-imago-ByW.png>]
-<./media/desconocido.png, id=120, 85.2786pt x 98.0463pt>
+<./media/desconocido.png, id=122, 85.2786pt x 98.0463pt>
 File: ./media/desconocido.png Graphic file (type png)
 <use ./media/desconocido.png>
 Package luatex.def Info: ./media/desconocido.png  used on input line 59.
@@ -3003,11 +3003,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [6<./media/desconocido.png>]
-Package biblatex Info: Resetting trackers on input line 453.
+Package biblatex Info: Resetting trackers on input line 454.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 14.12686pt on input line 453.
+(Font)              scaled to size 14.12686pt on input line 454.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 16.95224pt on input line 453.
+(Font)              scaled to size 16.95224pt on input line 454.
  (./pdf-seminarioUBA.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
@@ -3030,10 +3030,10 @@ LaTeX Info: Redefining \% on input line 30.
 \tf@toc=\write11
 
 \openout11 = pdf-seminarioUBA.toc
-LaTeX Info: Redefining \. on input line 455.
-LaTeX Info: Redefining \% on input line 455.
-LaTeX Info: Redefining \. on input line 455.
-LaTeX Info: Redefining \% on input line 455.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
  [7
 
 ]
@@ -3044,22 +3044,22 @@ LaTeX Info: Redefining \% on input line 455.
 
 ]
 Package biblatex Info: Resetting trackers on input line 1.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
  [9]
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 9.69757pt on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+(Font)              scaled to size 9.69757pt on input line 44.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
  [10])
-LaTeX Info: Redefining \. on input line 455.
-LaTeX Info: Redefining \% on input line 455.
-LaTeX Info: Redefining \. on input line 455.
-LaTeX Info: Redefining \% on input line 455.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
  [11]
 \openout2 = ./artcap/prologo.aux
  (./artcap/prologo.tex [12
@@ -3069,21 +3069,21 @@ LaTeX Info: Redefining \% on input line 455.
 
 ]
 Package biblatex Info: Resetting trackers on input line 1.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 
 [13]
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
  [14])
-LaTeX Info: Redefining \. on input line 456.
-LaTeX Info: Redefining \% on input line 456.
-LaTeX Info: Redefining \. on input line 456.
-LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 457.
+LaTeX Info: Redefining \% on input line 457.
+LaTeX Info: Redefining \. on input line 457.
+LaTeX Info: Redefining \% on input line 457.
  [15]
 \openout2 = ./artcap/introduccion.aux
  (./artcap/introduccion.tex [16
@@ -3093,20 +3093,20 @@ LaTeX Info: Redefining \% on input line 456.
 
 ]
 Package biblatex Info: Resetting trackers on input line 1.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
  [17]
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
  [18])
-LaTeX Info: Redefining \. on input line 457.
-LaTeX Info: Redefining \% on input line 457.
-LaTeX Info: Redefining \. on input line 457.
-LaTeX Info: Redefining \% on input line 457.
+LaTeX Info: Redefining \. on input line 458.
+LaTeX Info: Redefining \% on input line 458.
+LaTeX Info: Redefining \. on input line 458.
+LaTeX Info: Redefining \% on input line 458.
  [19] [20
 
 
@@ -3140,33 +3140,27 @@ LaTeX Info: Redefining \% on input line 20.
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 (Font)              scaled to size 11.7724pt on input line 23.
-<./media/letraa.png, id=229, 903.375pt x 255.95625pt>
+<./media/letraa.png, id=231, 903.375pt x 255.95625pt>
 File: ./media/letraa.png Graphic file (type png)
 <use ./media/letraa.png>
 Package luatex.def Info: ./media/letraa.png  used on input line 39.
 (luatex.def)             Requested size: 312.9803pt x 88.67993pt.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
 (Font)              scaled to size 10.61993pt on input line 40.
-
-! Extra \else.
-l.43 		\else
-          
-I'm ignoring this; it doesn't match any \if.
-
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
-[2<./media/letraa.png>])
-LaTeX Info: Redefining \. on input line 461.
-LaTeX Info: Redefining \% on input line 461.
-LaTeX Info: Redefining \. on input line 461.
-LaTeX Info: Redefining \% on input line 461.
+ [2<./media/letraa.png>])
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
  [3]
-LaTeX Info: Redefining \. on input line 461.
-LaTeX Info: Redefining \% on input line 461.
-LaTeX Info: Redefining \. on input line 461.
-LaTeX Info: Redefining \% on input line 461.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
  [4]
 \openout2 = ./artcap/capitulo2.aux
  (./artcap/capitulo2.tex
@@ -3195,15 +3189,15 @@ LaTeX Info: Redefining \% on input line 46.
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
  [6])
-LaTeX Info: Redefining \. on input line 462.
-LaTeX Info: Redefining \% on input line 462.
-LaTeX Info: Redefining \. on input line 462.
-LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \. on input line 463.
+LaTeX Info: Redefining \% on input line 463.
+LaTeX Info: Redefining \. on input line 463.
+LaTeX Info: Redefining \% on input line 463.
  [7]
-LaTeX Info: Redefining \. on input line 462.
-LaTeX Info: Redefining \% on input line 462.
-LaTeX Info: Redefining \. on input line 462.
-LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \. on input line 463.
+LaTeX Info: Redefining \% on input line 463.
+LaTeX Info: Redefining \. on input line 463.
+LaTeX Info: Redefining \% on input line 463.
  [8]
 \openout2 = ./artcap/capitulo3.aux
  (./artcap/capitulo3.tex
@@ -3221,31 +3215,31 @@ LaTeX Info: Redefining \% on input line 37.
 
 
 ]
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
  [10]
-<./media/avatar2.png, id=304, 825.0825pt x 825.0825pt>
+<./media/avatar2.png, id=306, 825.0825pt x 825.0825pt>
 File: ./media/avatar2.png Graphic file (type png)
 <use ./media/avatar2.png>
-Package luatex.def Info: ./media/avatar2.png  used on input line 87.
+Package luatex.def Info: ./media/avatar2.png  used on input line 92.
 (luatex.def)             Requested size: 156.49014pt x 156.49033pt.
 
 ! Extra \else.
-l.91 \else
+l.96 \else
         
 I'm ignoring this; it doesn't match any \if.
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 [11<./media/avatar2.png>])
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
+LaTeX Info: Redefining \. on input line 464.
+LaTeX Info: Redefining \% on input line 464.
+LaTeX Info: Redefining \. on input line 464.
+LaTeX Info: Redefining \% on input line 464.
  [12]
 \openout2 = ./artcap/conclusiones.aux
  (./artcap/conclusiones.tex
@@ -3261,20 +3255,20 @@ LaTeX Info: Redefining \% on input line 19.
 
 
 ])
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
+LaTeX Info: Redefining \. on input line 468.
+LaTeX Info: Redefining \% on input line 468.
+LaTeX Info: Redefining \. on input line 468.
+LaTeX Info: Redefining \% on input line 468.
  [14]
 (./artcap/siglas.tex
 Using TeX to sort glossary entries---this may take a while
-Package biblatex Info: Resetting trackers on input line 5.
+Package biblatex Info: Resetting trackers on input line 2.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 11.79993pt on input line 5.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+(Font)              scaled to size 11.79993pt on input line 2.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 [15
 
 
@@ -3285,10 +3279,10 @@ LaTeX Info: Redefining \% on input line 6.
 ]) (./artcap/conceptos.tex (./conceptos.ind
 Package biblatex Info: Resetting trackers on input line 1.
 )
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
  [17
 
 
@@ -3298,10 +3292,10 @@ LaTeX Info: Redefining \% on input line 8.
 (./artcap/onomastico.tex (./onomastico.ind
 Package biblatex Info: Resetting trackers on input line 1.
 )
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
  [19
 
 
@@ -3309,38 +3303,38 @@ LaTeX Info: Redefining \% on input line 9.
 
 ]) (./artcap/glosario.tex
 Using TeX to sort glossary entries---this may take a while
-Package biblatex Info: Resetting trackers on input line 5.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+Package biblatex Info: Resetting trackers on input line 2.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 [21
 
 
 ] [22
 
 ])
-Package biblatex Info: Resetting trackers on input line 475.
+Package biblatex Info: Resetting trackers on input line 476.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 10.61993pt on input line 478.
+(Font)              scaled to size 10.61993pt on input line 479.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 10.61993pt on input line 478.
-LaTeX Info: Redefining \sptext on input line 478.
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
-LaTeX Info: Redefining \sptext on input line 478.
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
-LaTeX Info: Redefining \sptext on input line 478.
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
-LaTeX Info: Redefining \sptext on input line 478.
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
+(Font)              scaled to size 10.61993pt on input line 479.
+LaTeX Info: Redefining \sptext on input line 479.
 LaTeX Info: Redefining \. on input line 479.
 LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \sptext on input line 479.
 LaTeX Info: Redefining \. on input line 479.
 LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \sptext on input line 479.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \sptext on input line 479.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
  [23
 
 ]
@@ -3350,26 +3344,28 @@ LaTeX Info: Redefining \% on input line 479.
 
 ] (./names.ind
 Package biblatex Info: Resetting trackers on input line 1.
-))
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
+)
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
  [25
 
-]
-(./artcap/colofon.tex [26
+] [26
 
-
-
-]
+])
+(./artcap/colofon.tex
 Package biblatex Info: Resetting trackers on input line 2.
 )
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
- [27] 
+LaTeX Info: Redefining \. on input line 493.
+LaTeX Info: Redefining \% on input line 493.
+LaTeX Info: Redefining \. on input line 493.
+LaTeX Info: Redefining \% on input line 493.
+ [27
+
+
+
+] 
 AED: pageslts setting LastPage 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
@@ -3427,24 +3423,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `pdf-seminarioUBA.out' has not changed.
-(rerunfilecheck)             Checksum: C3406EEF89D6F21245A658FBD8EB58D0;2018.
+(rerunfilecheck)             Checksum: 000A4D683976B7F3D3F5215CF0BB55AA;2018.
 Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 
 \openout1 = pdf-seminarioUBA.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 66425 strings out of 476553
- 1165553,2848258 words of node,token memory allocated
- 1098313 words of node memory still in use:
-   11345 hlist, 125 vlist, 5679 rule, 6 ins, 1 adjust, 9419 disc, 1057 local_par
-, 72 math, 17407 glue, 12599 kern, 1658 penalty, 319 margin_kern, 70808 glyph, 5
-7402 attribute, 2187 glue_spec, 8212 attribute_list, 71 write, 388 pdf_literal, 
-116 pdf_start_link, 116 pdf_end_link, 12 pdf_dest, 53 pdf_action, 308 pdf_colors
+ 66427 strings out of 476553
+ 1165518,2848258 words of node,token memory allocated
+ 1101179 words of node memory still in use:
+   11355 hlist, 125 vlist, 5679 rule, 6 ins, 1 adjust, 9435 disc, 1061 local_par
+, 72 math, 17439 glue, 12613 kern, 1666 penalty, 319 margin_kern, 71086 glyph, 5
+7507 attribute, 2195 glue_spec, 8227 attribute_list, 71 write, 388 pdf_literal, 
+116 pdf_start_link, 116 pdf_end_link, 12 pdf_dest, 53 pdf_action, 316 pdf_colors
 tack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:7,2:180,3:109,4:20,5:145,6:10,7:846,8:6,9:202,10:10,11:134
- 86459 multiletter control sequences out of 65536+600000
- 95 fonts using 25646807 bytes
+   avail lists: 1:12,2:180,3:109,4:20,5:145,6:10,7:844,8:9,9:202,10:10,11:134
+ 86461 multiletter control sequences out of 65536+600000
+ 95 fonts using 25646583 bytes
  117i,11n,123p,2362b,3125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
 Serif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus
@@ -3453,7 +3449,7 @@ m/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/fonts/op
 entype/public/libertinus-fonts/LibertinusSerif-Regular.otf></usr/share/texlive/t
 exmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on pdf-seminarioUBA.pdf (48 pages, 368330 bytes).
+Output written on pdf-seminarioUBA.pdf (48 pages, 369209 bytes).
 
 PDF statistics: 462 PDF objects out of 1000 (max. 8388607)
  293 compressed objects within 3 object streams

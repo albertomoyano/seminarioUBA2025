@@ -1,8 +1,15 @@
+{\small
+	\printindex[conceptos]
+}
+
 \addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de conceptos}
 \chaptermark{Índice de conceptos}
 \Author{Índice de conceptos}
 
-{\small
-	\printindex[conceptos]
-}
+\ifPDF
 \cleardoublepage
+	\else
+	\ifBNPDF
+	\cleardoublepage
+	\fi
+\fi
