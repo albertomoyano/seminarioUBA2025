@@ -358,7 +358,7 @@ placement=ht,
 % generamos los índices
 \usepackage[xindy]{imakeidx}
 \makeindex
-\makeindex[name=names]
+\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
 \makeindex[name=concepto,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
@@ -369,50 +369,20 @@ placement=ht,
 	{\namepartgiven}
 	{\namepartprefix}
 	{\namepartsuffix}}
-  \renewbibmacro*{citeindex}{%
+	\renewbibmacro*{citeindex}{%
 	\ifciteindex
 	{\indexnames{labelname}}
 	{}}
 
-% Esto inserta la entrada relacionada con el contenido como parte de las últimas cosas antes de que el índice se imprima realmente.
-\makeatletter
-\g@addto@macro{\theindex}{\addcontentsline{toc}{chapter}{\hspace{1.5pc}Índice de autoras y autores del aparato bibliográfico}}
-\makeatother
-\renewcommand{\spanishindexname}{Índice de autoras y autores del aparato bibliográfico}
-
-%% generamos los glosarios
-\usepackage[acronym,sanitizesort,toc=false,nonumberlist]{glossaries}
+% generamos los glosarios
+\usepackage[acronym,sanitizesort,toc=false]{glossaries}
 \preto\chapter{\glsresetall}
 \makenoidxglossaries
 \renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
-
-%% Diseño y estilo a glosario y acrónimo
-\newglossarystyle{crossreflist}%
-{% base it on list (adapt as required)
-	\renewcommand*{\glossentry}[2]{%
-		\item[\glsentryitem{##1}%
-		\glstarget{##1}{\glossentryname{##1}}]
-		\glossentrydesc{##1}\glspostdescription\space ##2%
-		% check if the user1 key has been supplied:
-		\ifglshasfield{useri}{##1}%
-		{% do cross-reference
-			\newline
-			\glsletentryfield{\crossrefs}{##1}{useri}%
-			\glsseeformat[\emph{Véase:}]{\crossrefs}{}%
-		}%
-		{}%
-	}%
-}
-\setglossarystyle{crossreflist}
-
-%% deshabilitamos mostrar el número de página
-%\renewcommand{\glossaryentrynumbers}[1]{Véase página #1.}
+% deshabilitamos mostrar el número de página
+\renewcommand{\glossaryentrynumbers}[1]{\ (Véase pág.~#1.)}
 \renewcommand{\delimN}{, }
 \renewcommand{\delimR}{--}
-
-%% Instrucciones de salida
-%\printnoidxglossary[type=\acronymtype,title={Índice de siglas}]
-%\printnoidxglossary[title={Glosario de términos}]
 
 \usepackage{url}%[allowmove]
 \Urlmuskip = 0mu plus 1mu
