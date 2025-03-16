@@ -5,12 +5,12 @@
 % glosarios
 \input{./files/gbTeXglo-seminarioUBA.tex}
 
-% separata de capítulos
+% separata de capítulos solo en pdf de pantalla
 \input{./files/gbTeXseparata-seminarioUBA.tex}
 
 \ifPDF
 % control de inconsistencias de principio y fin de linea
-\usepackage[hyphenation, homeoarchy, homeoarchywordcolor=orange, homeoarchycharcolor=orange]{impnattypo}
+\usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange, homeoarchycharcolor=orange,draft]{impnattypo}
 \usepackage[allcolors=magenta, colorlinks, unicode]{hyperref}
 \usepackage{easyReview}
 \usepackage{hyperxmp}
