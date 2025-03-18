@@ -182,18 +182,18 @@ Para manejar efectivamente la transición tanto técnica como organizacional, la
 
 La elección entre LaTeX y los flujos de trabajo tradicionales implica considerar no solo aspectos técnicos sino también organizacionales. La decisión debe basarse en:
 
-1. **Tipo de contenido**: LaTeX brilla en contenido técnico estructurado, mientras que InDesign destaca en diseño visual creativo.
+1. **Tipo de contenido**: LaTeX brilla en contenido estructurado, mientras que InDesign/QuarkXPress destaca en manipulación visual.
 
 2. **Equipo humano**: La experiencia previa del personal y su disposición para adaptarse a nuevos roles condiciona la viabilidad de cada enfoque.
 
 3. **Estructura organizacional**: La claridad actual en la delimitación de roles y la capacidad de la organización para gestionar la transformación son factores críticos.
 
-4. **Escala temporal**: LaTeX ofrece mayores beneficios a largo plazo, pero con mayor inversión inicial en capacitación y reorganización.
+4. **Escala temporal**: LaTeX ofrece mayores beneficios a mediano plazo, pero con inversión inicial en capacitación y reorganización.
 
 5. **Consistencia vs. flexibilidad**: LaTeX favorece la consistencia rigurosa, mientras que los flujos tradicionales permiten mayor experimentación visual.
 
-6. **Automatización vs. control manual**: LaTeX automatiza procesos técnicos, mientras que InDesign ofrece control manual preciso sobre aspectos visuales.
+6. **Automatización vs. control manual**: LaTeX automatiza procesos, mientras que InDesign/QuarkXPress ofrece control manual sobre aspectos visuales.
 
-La adopción de LaTeX como base del flujo editorial no es simplemente un cambio técnico sino una transformación organizacional profunda que redefine fundamentalmente quién hace qué y cómo interactúan los diferentes profesionales en el proceso.
+La adopción de LaTeX como base del flujo editorial no es simplemente un cambio técnico sino una transformación organizacional profunda que redefine fundamentalmente quién hace qué y cómo interactúan los diferentes profesionales dentro del proceso.
 
-Las editoriales que logran navegar exitosamente esta transformación suelen desarrollar modelos híbridos que respetan ciertas delimitaciones tradicionales mientras aprovechan las ventajas técnicas de LaTeX, creando un nuevo equilibrio que potencia tanto las capacidades tecnológicas como las fortalezas de su equipo humano.
+Las editoriales que logran navegar exitosamente esta transformación suelen desarrollar modelos híbridos que respetan delimitaciones tradicionales mientras aprovechan las ventajas procedurales de LaTeX, creando un nuevo equilibrio que potencia tanto las capacidades tecnológicas como las fortalezas de su equipo humano.
