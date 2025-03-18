@@ -167,7 +167,6 @@ Para manejar efectivamente la transición tanto técnica como organizacional, la
 ### Escenarios híbridos posibles
 
 - **Word para autores + conversión a LaTeX para producción final**: Permite a autores trabajar en entornos familiares mientras el equipo editorial aprovecha las ventajas de LaTeX para producción.
-- **LaTeX para composición básica + InDesign para refinamiento visual**: Utilizar LaTeX para generar un PDF base con toda la estructura y refinarlo visualmente en InDesign.
 - **Divisón por tipos de publicaciones**: Usar LaTeX para publicaciones técnicas/académicas y el flujo tradicional para publicaciones más visuales dentro de la misma editorial.
 - **Desarrollar herramientas de conversión personalizadas**: Crear sistemas que permitan convertir eficientemente entre formatos según la fase del proyecto.
 
