@@ -111,7 +111,7 @@ El editor en un entorno LaTeX:
 El maquetador tradicional se transforma en un rol híbrido de programador-diseñador:
 
 - Su trabajo implica desarrollo de plantillas y clases LaTeX más que manipulación visual directa
-- Debe pensar en términos de lógica y no solo en términos visuales
+- Deja de pensar en términos visuales y debe pensar en términos globales y de lógica
 - Requiere conocimientos de programación, especialmente si se pretende explotar las capacidades de LuaLaTeX
 - Se convierte en un consultor técnico para todo el equipo editorial
 
