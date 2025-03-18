@@ -104,7 +104,7 @@ El editor en un entorno LaTeX:
 - Debe comprender aspectos técnicos para evaluar la implementabilidad de sus decisiones editoriales
 - Tiene mayor capacidad de intervención directa en aspectos estructurales sin intermediarios
 - Puede necesitar conocimientos de macros y estructura LaTeX para supervisar adecuadamente el proceso
-- Adquiere responsabilidades que tradicionalmente serían del ámbito técnico
+- Adquiere conocimientos que tradicionalmente serían del ámbito técnico
 
 ### 3. Reconfiguración del rol del maquetador
 
