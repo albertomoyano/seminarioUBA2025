@@ -111,9 +111,9 @@ El editor en un entorno LaTeX:
 El maquetador tradicional se transforma en un rol híbrido de programador-diseñador:
 
 - Su trabajo implica desarrollo de plantillas y clases LaTeX más que manipulación visual directa
-- Debe pensar en términos de lógica programática y no solo en términos visuales
-- Requiere conocimientos de programación (especialmente si se usa LuaLaTeX)
-- Se convierte en consultor técnico para el resto del equipo
+- Debe pensar en términos de lógica y no solo en términos visuales
+- Requiere conocimientos de programación, especialmente si se pretende explotar las capacidades de LuaLaTeX
+- Se convierte en un consultor técnico para todo el equipo editorial
 
 ### 4. Nuevos roles emergentes
 
@@ -138,26 +138,25 @@ Esta transformación de límites entre roles tiene profundas implicaciones organ
 
 1. **Resistencia al cambio**: Profesionales establecidos pueden resistirse a asumir competencias técnicas adicionales
 2. **Incertidumbre en responsabilidades**: La difuminación de límites puede generar confusión sobre quién es responsable de qué
-3. **Necesidad de recapacitación**: Inversión significativa en formación para adaptar profesionales existentes
-4. **Dificultad en contratación**: El perfil híbrido requerido es menos común en el mercado laboral
-5. **Problemas de escalabilidad**: Puede ser difícil encontrar suficientes profesionales con competencias híbridas
+3. **Necesidad de recapacitación**: Hay que invertir en formación para adaptar profesionales existentes
 
 ## Consideraciones según tipo de publicación
 
 ### LaTeX es claramente superior para:
 
-- **Publicaciones académicas y científicas**: Libros técnicos, tesis, papers, revistas científicas
-- **Textos con matemáticas complejas**: Libros de matemáticas, física, ingeniería
-- **Documentación técnica estructurada**: Manuales técnicos, especificaciones
+- **Publicaciones académicas y científicas**: Libros, revistas científicas, papers, tesis
+- **Textos con matemáticas complejas**: Libros de matemáticas, física, ingeniería, química
 - **Publicaciones con estructuras rigurosas**: Normativas, documentos legales
+- **Documentación técnica estructurada**: Manuales técnicos
 - **Documentos multilingües complejos**: Especialmente con alfabetos no latinos y composición bidireccional
+- **Documentación automatizada**: Documentos generados sin participación humana
 
 ### El flujo tradicional es preferible para:
 
-- **Publicaciones visuales creativas**: Revistas de moda, catálogos, libros ilustrados
-- **Libros con diseño variable**: Libros de arte, coffee table books
-- **Publicaciones con flujo de trabajo colaborativo no técnico**: Cuando participan múltiples personas sin conocimientos de LaTeX
-- **Editoriales con personal ya formado en estas herramientas**: Cuando el costo de transición sería excesivo
+- **Publicaciones visuales creativas**: Revistas con mucho arte visual, libros ilustrados
+- **Libros con diseño variable**: Libros de arte
+- **Publicaciones con flujo de trabajo colaborativo no técnico**: Cuando participan múltiples personas con conocimientos dispares
+- **Editoriales con personal ya formado en estas herramientas**: Cuando el costo de transición es imposible de asumir
 - **Publicaciones que requieren prototipado visual rápido**: Cuando se necesita visualización inmediata de cambios de diseño
 - **Equipos con roles profesionales muy especializados**: Donde la reestructuración organizacional sería complicada
 
@@ -165,14 +164,14 @@ Esta transformación de límites entre roles tiene profundas implicaciones organ
 
 Para manejar efectivamente la transición tanto técnica como organizacional, las editoriales pueden:
 
-### 1. Escenarios híbridos posibles
+### Escenarios híbridos posibles
 
 - **Word para autores + conversión a LaTeX para producción final**: Permite a autores trabajar en entornos familiares mientras el equipo editorial aprovecha las ventajas de LaTeX para producción.
 - **LaTeX para composición básica + InDesign para refinamiento visual**: Utilizar LaTeX para generar un PDF base con toda la estructura y refinarlo visualmente en InDesign.
 - **Divisón por tipos de publicaciones**: Usar LaTeX para publicaciones técnicas/académicas y el flujo tradicional para publicaciones más visuales dentro de la misma editorial.
 - **Desarrollar herramientas de conversión personalizadas**: Crear sistemas que permitan convertir eficientemente entre formatos según la fase del proyecto.
 
-### 2. Estrategias organizacionales
+### Estrategias organizacionales
 
 - **Desarrollar interfaces simplificadas**: Crear herramientas que permitan a correctores y editores trabajar con LaTeX sin necesidad de conocer toda su complejidad
 - **Establecer protocolos claros**: Definir con precisión las nuevas responsabilidades y puntos de intersección
