@@ -1,6 +1,7 @@
 # LaTeX vs flujos de trabajo tradicionales en editoriales
 
 ## Introducción
+
 Al comparar los flujos de trabajo basados en LaTeX con aquellos basados en herramientas estándar del mercado editorial como Word + InDesign o Word + QuarkXPress, emergen ventajas y desventajas significativas para cada enfoque. Este análisis examina ambos paradigmas desde múltiples perspectivas relevantes para la producción editorial, considerando tanto los aspectos técnicos como las transformaciones en la dinámica organizacional y profesional.
 
 ## Flujo de trabajo tradicional: Word + InDesign/QuarkXPress
@@ -27,13 +28,13 @@ Al comparar los flujos de trabajo basados en LaTeX con aquellos basados en herra
 
 2. **Problemas con documentos extensos**: El manejo de libros académicos extensos en Word puede volverse inestable y problemático.
 
-3. **Dificultad con referencias cruzadas**: La gestión de referencias bibliográficas, índices y referencias cruzadas es más propensa a errores.
+3. **Dificultad con referencias cruzadas**: La gestión de referencias bibliográficas, índices y referencias cruzadas es propensa a errores.
 
 4. **Menor automatización**: Muchos procesos requieren intervención manual que en LaTeX estarían automatizados.
 
 5. **Dependencia de software propietario**: Los costos de licenciamiento son recurrentes y existe riesgo de obsolescencia por cambios en las plataformas.
 
-6. **Problemas de versionado**: Es más difícil mantener control de versiones preciso, especialmente con múltiples revisores.
+6. **Problemas de versionado**: Es más difícil mantener un control de versiones preciso, especialmente con múltiples revisores.
 
 7. **Fórmulas matemáticas deficientes**: La representación de ecuaciones complejas es significativamente inferior a LaTeX.
 
@@ -53,7 +54,7 @@ Al comparar los flujos de trabajo basados en LaTeX con aquellos basados en herra
 
 6. **Economía a largo plazo**: Software gratuito y de código abierto, sin costos de licenciamiento recurrentes.
 
-7. **Flujo de trabajo basado en texto**: Permite mayor automatización mediante scripts y herramientas programáticas.
+7. **Flujo de trabajo basado en texto plano**: Permite mayor automatización mediante scripts y herramientas programáticas.
 
 8. **Estabilidad a largo plazo**: Los documentos LaTeX de hace décadas siguen siendo procesables con sistemas actuales.
 
@@ -61,19 +62,15 @@ Al comparar los flujos de trabajo basados en LaTeX con aquellos basados en herra
 
 ### Desventajas
 
-1. **Pronunciada curva de aprendizaje**: Requiere tiempo significativo para dominar, especialmente para personal no técnico.
+1. **Pronunciada curva de aprendizaje**: Requiere tiempo dominar todo el ecosistema, especialmente para personal no técnico.
 
 2. **Dificultad para visualizar mientras se edita**: El ciclo edición-compilación-visualización es menos inmediato que WYSIWYG.
 
-3. **Limitaciones en diseño creativo variable**: Aunque posible, implementar diseños altamente variables página a página es más laborioso.
+3. **Limitaciones en diseño creativo variable**: Aunque es posible, implementar diseños altamente variables página a página es más laborioso.
 
-4. **Barrera de entrada para autores**: La mayoría de autores no conocen LaTeX, requiriendo conversión de sus manuscritos.
+4. **Escasez de profesionales especializados**: Es más difícil encontrar disponibilidad de usuarios de LaTeX de nivel 3 (nivel 1: usuario básico, nivel 2: usuario avanzado, nivel 3: usuario profesional).
 
-5. **Escasez de profesionales especializados**: Es más difícil encontrar maquetadores con experiencia en LaTeX.
-
-6. **Menor integración con herramientas gráficas**: La manipulación de imágenes y elementos visuales complejos es menos directa.
-
-7. **Difuminación de roles profesionales**: Los límites entre corrector, editor y maquetador se vuelven menos claros, requiriendo reestructuración organizacional.
+5. **Difuminación de roles profesionales**: Los límites entre corrector, maquetador y editor se vuelven menos claros, requiriendo reestructuración organizacional.
 
 ## Transformación de roles profesionales en el modelo LaTeX
 
@@ -81,8 +78,8 @@ Un aspecto fundamental que diferencia ambos enfoques es cómo LaTeX transforma l
 
 - El **autor** produce el contenido inicial
 - El **corrector** revisa aspectos lingüísticos y estilísticos
-- El **editor** supervisa la coherencia global y realiza cambios estructurales 
 - El **maquetador/diseñador** implementa el diseño y la disposición visual
+- El **editor** supervisa la coherencia global y realiza cambios estructurales 
 
 Sin embargo, un flujo de trabajo basado en LaTeX transforma fundamentalmente estos límites:
 
@@ -90,30 +87,28 @@ Sin embargo, un flujo de trabajo basado en LaTeX transforma fundamentalmente est
 
 En el flujo LaTeX, el corrector que trabaja directamente sobre archivos .tex inevitablemente:
 
-- Debe comprender la sintaxis y comandos LaTeX para no romper la estructura del documento
-- Puede causar problemas de compilación al realizar correcciones si no entiende el código
-- Necesita verificar el resultado compilado para asegurar que sus cambios mantienen la integridad visual
+- Debe comprender la sintaxis y comandos de LaTeX para no romper la estructura del documento
+- Si no entiende el código puede causar problemas de compilación al realizar correcciones
 - Se ve obligado a tomar decisiones que tradicionalmente corresponderían al maquetador
 
 Esta fusión parcial de roles requiere que el corrector adquiera competencias técnicas significativas o que se establezca un nuevo proceso intermediario.
 
-### 2. Transformación del rol del editor
-
-El editor en un entorno LaTeX:
-
-- Debe comprender aspectos técnicos para evaluar la implementabilidad de sus decisiones editoriales
-- Tiene mayor capacidad de intervención directa en aspectos estructurales sin intermediarios
-- Puede necesitar conocimientos de macros y estructura LaTeX para supervisar adecuadamente el proceso
-- Adquiere conocimientos que tradicionalmente serían del ámbito técnico
-
-### 3. Reconfiguración del rol del maquetador
+### 2. Reconfiguración del rol del maquetador
 
 El maquetador tradicional se transforma en un rol híbrido de programador-diseñador:
 
-- Su trabajo implica desarrollo de plantillas y clases LaTeX más que manipulación visual directa
-- Deja de pensar en términos visuales y debe pensar en términos globales y de lógica
-- Requiere conocimientos de programación, especialmente si se pretende explotar las capacidades de LuaLaTeX
-- Se convierte en un consultor técnico para todo el equipo editorial
+- Su trabajo implica desarrollo de plantillas y clases LaTeX más que manipulación visual
+- Deja de pensar en términos visuales y debe pensar en términos de lógica
+- Requiere conocimientos mínimos de lógica y de programación, especialmente si pretende explotar las capacidades de LuaLaTeX
+- Se convierte en un consultor técnico para todo el equipo editorial (termina siendo la persona con mayor conocimiento dentro del equipo)
+
+### 3. Transformación del rol del editor
+
+El editor en un entorno LaTeX:
+
+- Debe comprender los aspectos técnicos para poder evaluar la implementabilidad de sus decisiones editoriales
+- Tiene mayor capacidad de intervención directa sobre aspectos estructurales sin intermediarios
+- Puede necesitar conocimientos de macros de LaTeX para hacer una supervisión integral
 
 ### 4. Nuevos roles emergentes
 
@@ -138,7 +133,7 @@ Esta transformación de límites entre roles tiene profundas implicaciones organ
 
 1. **Resistencia al cambio**: Profesionales establecidos pueden resistirse a asumir competencias técnicas adicionales
 2. **Incertidumbre en responsabilidades**: La difuminación de límites puede generar confusión sobre quién es responsable de qué
-3. **Necesidad de recapacitación**: Hay que invertir en formación para adaptar profesionales existentes
+3. **Necesidad de recapacitación**: Se hace necesario invertir en formación para adaptar a profesionales existentes
 
 ## Consideraciones según tipo de publicación
 
@@ -167,7 +162,7 @@ Para manejar efectivamente la transición tanto técnica como organizacional, la
 ### Escenarios híbridos posibles
 
 - **Word para autores + conversión a LaTeX para producción final**: Permite a autores trabajar en entornos familiares mientras el equipo editorial aprovecha las ventajas de LaTeX para producción.
-- **Divisón por tipos de publicaciones**: Usar LaTeX para publicaciones técnicas/académicas y el flujo tradicional para publicaciones más visuales dentro de la misma editorial.
+- **Divisón por tipos de publicaciones**: Usar LaTeX para publicaciones científicas y el flujo tradicional para publicaciones más visuales dentro de la misma editorial.
 - **Desarrollar herramientas de conversión personalizadas**: Crear sistemas que permitan convertir eficientemente entre formatos según la fase del proyecto.
 
 ### Estrategias organizacionales
