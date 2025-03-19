@@ -100,7 +100,7 @@ El maquetador tradicional se transforma en un rol híbrido de programador-diseñ
 - Su trabajo implica desarrollo de plantillas y clases LaTeX más que manipulación visual
 - Deja de pensar en términos visuales y debe pensar en términos de lógica
 - Requiere conocimientos mínimos de lógica y de programación, especialmente si pretende explotar las capacidades de LuaLaTeX
-- Se convierte en un consultor técnico para todo el equipo editorial (termina siendo la persona con mayor conocimiento dentro del equipo)
+- Se puede convertir en un consultor técnico para todo el equipo editorial (termina siendo la persona con mayor conocimiento técnico dentro de la organización)
 
 ### 3. Transformación del rol del editor
 
@@ -116,7 +116,8 @@ El flujo LaTeX puede crear la necesidad de nuevos roles especializados:
 
 - **Desarrollador de plantillas LaTeX**: Especialista técnico que crea y mantiene las clases y estilos
 - **Consultor de flujo LaTeX**: Experto que establece procesos y herramientas para facilitar la transición
-- **Editor técnico-lingüístico**: Profesional con competencias híbridas que puede manejar tanto aspectos de corrección como técnicos
+- **Editor técnico-lingüístico**: Profesional con competencias híbridas que puede manejar diferentes aspectos de la edición
+- **Administrador de sistemas**: Profesional con competencias informáticas específicas de la edición
 
 ## Implicaciones organizacionales de la transformación de roles
 
@@ -131,9 +132,9 @@ Esta transformación de límites entre roles tiene profundas implicaciones organ
 
 ### Desafíos organizacionales
 
-1. **Resistencia al cambio**: Profesionales establecidos pueden resistirse a asumir competencias técnicas adicionales
+1. **Resistencia al cambio**: Profesionales establecidos pueden resistirse a asumir nuevas competencias técnicas
 2. **Incertidumbre en responsabilidades**: La difuminación de límites puede generar confusión sobre quién es responsable de qué
-3. **Necesidad de recapacitación**: Se hace necesario invertir en formación para adaptar a profesionales existentes
+3. **Necesidad de capacitación**: Se debe invertir tiempo y dinero en formación para adaptar a profesionales existentes
 
 ## Consideraciones según tipo de publicación
 
@@ -153,7 +154,7 @@ Esta transformación de límites entre roles tiene profundas implicaciones organ
 - **Publicaciones con flujo de trabajo colaborativo no técnico**: Cuando participan múltiples personas con conocimientos dispares
 - **Editoriales con personal ya formado en estas herramientas**: Cuando el costo de transición es imposible de asumir
 - **Publicaciones que requieren prototipado visual rápido**: Cuando se necesita visualización inmediata de cambios de diseño
-- **Equipos con roles profesionales muy especializados**: Donde la reestructuración organizacional sería complicada
+- **Equipos con roles profesionales muy especializados**: Donde la reestructuración organizacional no es posible
 
 ## Estrategias para gestionar la transición a LaTeX
 
