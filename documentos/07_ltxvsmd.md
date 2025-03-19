@@ -1,9 +1,9 @@
-# LaTeX vs Markdown en la Producción Editorial
+# LaTeX vs Markdown en la producción editorial
 
 ## Introducción
 En el ámbito editorial, la elección de herramientas para la producción de libros y revistas es fundamental para optimizar los flujos de trabajo y garantizar la calidad tipográfica. Aunque en los últimos años la combinación de Markdown + Pandoc ha ganado popularidad, LaTeX sigue siendo la opción más robusta cuando se requiere un alto nivel de control sobre la estructura y presentación de los documentos.
 
-## Ventajas de LaTeX en la Producción de Libros
+## Ventajas de LaTeX en la producción de libros
 Para la producción de libros científicos y académicos, LaTeX es insuperable debido a las siguientes razones:
 
 - **Manejo avanzado de referencias y bibliografía**: LaTeX permite gestionar citas, bibliografías y referencias cruzadas de manera precisa con `biblatex`, `natbib` y otros paquetes especializados.
@@ -20,7 +20,7 @@ LaTeX sobresale en la composición de elementos visuales complejos, un área don
 - **Tablas científicas**: El paquete `siunitx` garantiza consistencia en las unidades de medida y alineación numérica, imposible de lograr en Markdown sin personalización extensa.
 - **Figuras flotantes**: Control preciso de la ubicación de imágenes y su relación con el texto circundante.
 
-## ¿Es Markdown una Alternativa Viable?
+## ¿Es Markdown una alternativa Viable?
 Markdown, combinado con Pandoc, ofrece una sintaxis ligera y una conversión rápida a múltiples formatos (PDF, EPUB, HTML, DOCX). Sin embargo, presenta limitaciones significativas:
 
 - **Falta de control tipográfico avanzado**: Pandoc usa LaTeX como backend para generar PDFs de calidad, lo que demuestra la dependencia de LaTeX en este proceso.
@@ -28,7 +28,7 @@ Markdown, combinado con Pandoc, ofrece una sintaxis ligera y una conversión rá
 - **Problemas con índices y glosarios**: No hay una solución nativa tan completa como la de LaTeX para gestionar estos elementos en libros técnicos y académicos.
 - **Integración limitada de lenguajes externos**: Aunque Markdown puede beneficiarse del uso de Lua para pulir los procesos de conversión en Pandoc, en LaTeX la integración de Lua es mucho más profunda y nativa a través de LuaLaTeX, permitiendo una personalización mucho mayor del flujo de trabajo y del procesamiento de documentos.
 
-## La Potencia de LuaLaTeX
+## La potencia de LuaLaTeX
 
 LuaLaTeX representa una evolución importante en el ecosistema LaTeX que amplía significativamente sus capacidades:
 
@@ -42,7 +42,8 @@ LuaLaTeX no solo permite programar macros, sino que ofrece acceso directo al mot
 
 Esta integración profunda de Lua en LaTeX supera con creces las capacidades de personalización que pueden lograrse con filtros Lua en Pandoc, reforzando la ventaja de LaTeX en entornos editoriales profesionales.
 
-## La Producción de Revistas: ¿Tiene Sentido Usar Markdown?
+## La producción de revistas: ¿tiene sentido usar Markdown?
+
 En un flujo de trabajo editorial donde todo el equipo ya maneja LaTeX, la incorporación de Markdown para la producción de revistas no parece aportar beneficios claros. Algunas razones para mantener LaTeX en la producción de revistas incluyen:
 
 1. **Unificación del flujo de trabajo**: Evita problemas de compatibilidad y conversiones innecesarias.
