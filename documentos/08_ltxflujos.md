@@ -115,9 +115,8 @@ El editor en un entorno LaTeX:
 El flujo LaTeX puede crear la necesidad de nuevos roles especializados:
 
 - **Desarrollador de plantillas LaTeX**: Especialista técnico que crea y mantiene las clases y estilos
-- **Consultor de flujo LaTeX**: Experto que establece procesos y herramientas para facilitar la transición
 - **Editor técnico-lingüístico**: Profesional con competencias híbridas que puede manejar diferentes aspectos de la edición
-- **Administrador de sistemas**: Profesional con competencias informáticas específicas de la edición
+- **Administrador de sistemas**: Profesional con competencias informáticas específicas aplicadas a la edición
 
 ## Implicaciones organizacionales de la transformación de roles
 
