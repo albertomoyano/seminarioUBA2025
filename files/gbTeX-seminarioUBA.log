@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  19 MAR 2025 20:37
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  20 MAR 2025 06:29
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -3472,15 +3472,15 @@ Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 Here is how much of LuaTeX's memory you used:
  66897 strings out of 476553
  932419,2848258 words of node,token memory allocated
- 722732 words of node memory still in use:
+ 722748 words of node memory still in use:
    5130 hlist, 29 vlist, 3951 rule, 6 ins, 1 adjust, 7745 disc, 587 local_par, 7
-2 math, 10580 glue, 4234 kern, 1203 penalty, 177 margin_kern, 51779 glyph, 33441
- attribute, 1443 glue_spec, 4789 attribute_list, 81 write, 390 pdf_literal, 126 
+2 math, 10582 glue, 4234 kern, 1203 penalty, 177 margin_kern, 51777 glyph, 33448
+ attribute, 1443 glue_spec, 4790 attribute_list, 81 write, 390 pdf_literal, 126 
 pdf_start_link, 126 pdf_end_link, 12 pdf_dest, 58 pdf_action, 572 pdf_colorstack
 , 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
    avail lists: 1:7,2:280,3:173,4:63,5:82,6:16,7:1831,8:4,9:4527,10:9,11:167
  86908 multiletter control sequences out of 65536+600000
- 96 fonts using 25729559 bytes
+ 96 fonts using 25729615 bytes
  117i,10n,123p,2362b,3125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
 Serif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus
