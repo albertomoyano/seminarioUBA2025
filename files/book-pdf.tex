@@ -1,3 +1,4 @@
+%  archivo cabecera para libros
 \documentclass{book}
 
 % Deben cargarse temprano para parches de macros
@@ -19,24 +20,20 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 % Definir el valor de página para este preámbulo
 \newcommand{\valorEspecifico}{15.5x23cm}
 
-%% Configuración de idioma
+% Configuración de idioma
 \usepackage[french,portuguese,italian,english,german,spanish,es-ucroman,es-noshorthands]{babel}
 % Citas automáticas con estilo idiomático correcto
 \usepackage[autostyle=true]{csquotes}
-% Espaciado uniforme después de puntos
-\frenchspacing
+\frenchspacing% Espaciado uniforme después de puntos
 % Personalización del nombre del índice
 \renewcommand{\spanishcontentsname}{Sumario}
 % cambiamos el nombre de sigla
 \newcommand{\acronymsname}{Índice de siglas}
 
-% Soporte para fuentes OpenType
-\usepackage{fontspec}
-% Mejoras tipográficas micro
-\usepackage[final]{microtype}
-% Mejora espaciado sin modificar el interletrado
-\microtypecontext{spacing=nonfrench}
-%% solo trabajamos con protusion y sin expansion para Libertinus
+\usepackage{fontspec}% Soporte para fuentes OpenType
+\usepackage[final]{microtype}% Mejoras tipográficas micro
+\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+% solo trabajamos con protusion y sin expansion para Libertinus
 \SetProtrusion
 [ name=libertinus ]
 { encoding = * }
@@ -48,14 +45,14 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 \setmainfont{Libertinus Serif}
 [Numbers={OldStyle,Proportional},
 Ligatures={TeX,Common,Discretionary},
-RawFeature={+cv01,+cv02},% Variantes de caracteres opcionales
+RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
 Scale=1.18]
 
 % Matemáticas con Libertinus Math
 \usepackage{unicode-math}
 \setmathfont{Libertinus Math}[Scale=MatchLowercase]
 
-%% Configuración de fuentes para chino
+% Configuración de fuentes para chino
 % \usepackage{luatexja-fontspec}
 % \setmainjfont{FandolSong}
 
@@ -93,7 +90,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 \usepackage{rotating}
 \usepackage{graphicx}
 \usepackage{svg}
-%\usepackage[final]{pdfpages}
+\usepackage[final]{pdfpages}
 \usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
 \usepackage{ragged2e}
 \usepackage{xcolor}
@@ -116,6 +113,10 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 	\hrule height 0.5pt width 0.4\columnwidth%
 	\kern 6pt%
 	}
+
+% aseguramos igualdad al valor de la raya del medio
+\newcommand{\rdm}[1]{--#1--}
+\newcommand{\rdmq}[2]{--#1--\penalty10000 #2}
 
 %% rediseño del epígrafe
 %% la columna superior es tratada como párrafo y
@@ -323,9 +324,21 @@ placement=ht,
 %chapterlistsgaps=on,% meaningful only if chapters exist
 ]{imagen}
 
-% aseguramos igualdad al valor de la raya del medio
-\newcommand{\rdm}[1]{--#1--}
-\newcommand{\rdmq}[2]{--#1--\penalty10000 #2}
+% DISEÑO DE RAYA DEL MEDIO
+\makeatletter
+\def\thinskip{\hskip 0.16667em\relax}
+\def\endash{--}
+\def\emdash{\endash-}
+\def\d@sh#1#2{\unskip#1\thinskip#2\thinskip\ignorespaces}
+\def\dash{\d@sh\nobreak\endash}
+\def\Dash{\d@sh\nobreak\emdash}
+\def\ldash{\d@sh\empty{\hbox{\endash}\nobreak}}
+\def\rdash{\d@sh\nobreak\endash}
+\def\Ldash{\d@sh\empty{\hbox{\emdash}\nobreak}}
+\def\Rdash{\d@sh\nobreak\emdash}
+\def\hyph{-\penalty\z@\hskip\z@skip}
+\def\slash{/\penalty\z@\hskip\z@skip}
+\makeatother
 
 % CENTRADO DEL AUTOR DE LOS CAPITULOS
 \newcommand\nombreautor[1]{\textsc{\MakeLowercase{#1}}}
@@ -337,10 +350,12 @@ placement=ht,
   {\endlist}
 
 % elegimos el estandar para las referencias
-\def\estandar{veronaAY}
+%\def\estandar{veronaC}
+\def\estandar{veronaM}
 %\def\estandar{VerboseIbid}
 %\def\estandar{APA}
 %\def\estandar{ISO690}
+%\def\estandar{numeric}
 %\def\estandar{custom}
 \input{./files/biblatex-\estandar-config.tex}
 
@@ -348,7 +363,7 @@ placement=ht,
 \usepackage[xindy]{imakeidx}
 \makeindex
 \makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
-\makeindex[name=conceptos,title={Índice de conceptos}]
+\makeindex[name=concepto,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
 \usepackage{esindex}
@@ -364,14 +379,18 @@ placement=ht,
 	{}}
 
 % generamos los glosarios
-\usepackage[acronym,sanitizesort,toc=false]{glossaries}
+\usepackage[acronym,sanitizesort,toc=false]{glossaries}%nonumberlist esta opción evita el contador de páginas
 \preto\chapter{\glsresetall}
 \makenoidxglossaries
 \renewcommand{\glsnamefont}[1]{\sf\textbf{\textup{#1}}}
-% deshabilitamos mostrar el número de página
+% mostramos el número de página
 \renewcommand{\glossaryentrynumbers}[1]{\ (Véase pág.~#1.)}
 \renewcommand{\delimN}{, }
 \renewcommand{\delimR}{--}
+
+%% Instrucciones de salida
+%\printnoidxglossary[type=\acronymtype,title={Índice de siglas}]
+%\printnoidxglossary[title={Glosario de términos}]
 
 \usepackage{url}%[allowmove]
 \Urlmuskip = 0mu plus 1mu
