@@ -3,6 +3,7 @@
 % Deben cargarse temprano para parches de macros
 \usepackage{etoolbox}
 \usepackage{ifthen}
+\usepackage{xparse}
 
 % Soporte para fuentes OpenType
 \usepackage{fontspec}
@@ -11,19 +12,21 @@
 \setmainlanguage{spanish}
 \usepackage{csquotes}
 
+% manejo de índices
 \usepackage{imakeidx}
 \makeindex[name=names,title=Índice de autores]
 \makeindex
 \makeindex[name=foo,title=Índice de conceptos]
 \makeindex[name=foo3,title=Índice onomástico]
 
+% manejo de glosarios
 \usepackage[acronym,sanitizesort]{glossaries}
 \makenoidxglossaries
 
+% volcamos las notas como capítulo separado
 \usepackage{endnotes,chngcntr}
 \def\notesname{Notas}
 \let\footnote=\endnote
-
 \makeatletter
 \renewcommand\enoteheading{%
     \setcounter{secnumdepth}{-2}
@@ -32,11 +35,7 @@
     \let\@afterindentfalse\@afterindenttrue
 }
 \makeatother
-
-\usepackage{xparse}
-
 \let\latexchapter\chapter
-
 \RenewDocumentCommand{\chapter}{som}{%
     \IfBooleanTF{#1}
     {\latexchapter*{#3}}
@@ -75,13 +74,23 @@
 \newcommand{\rdm}[1]{--#1--}
 \newcommand{\rdmq}[2]{--#1--\penalty10000 #2}
 
+% función para generar una raya de unión de palabras que habilita el corte de palabra
+% se usa entre llaves {\rdc}
+\makeatletter
+\def\thinskip{\hskip 0.01em\relax}
+\def\rdc{\thinskip--\thinskip}
+\makeatother
+
 \usepackage[allcolors=blue,colorlinks,hyperindex=true]{hyperref}
 
-% declaramos los condicionales
+% condicionales para los formatos de salida
 \newif\ifPDF
 \newif\ifBNPDF
 \newif\ifPNGEPUB
 \newif\ifHTMLEPUB
 \newif\ifHTML
+\newif\ifXML
 
-% fin del preambulo
+% fin del archivo de configuración
+
+

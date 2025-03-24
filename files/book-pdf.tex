@@ -114,10 +114,6 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 	\kern 6pt%
 	}
 
-% aseguramos igualdad al valor de la raya del medio
-\newcommand{\rdm}[1]{--#1--}
-\newcommand{\rdmq}[2]{--#1--\penalty10000 #2}
-
 %% rediseño del epígrafe
 %% la columna superior es tratada como párrafo y
 %% la inferior marginada a la derecha
@@ -400,22 +396,39 @@ placement=ht,
 % configuración de los valores decimales de los cuadros
 \usepackage{siunitx}
 \sisetup{output-decimal-marker={.},
-	group-separator={\hspace{0.15em}},
-	group-minimum-digits=3,
-	table-text-alignment=center,
-	detect-all,
-	per-mode=fraction}
+  group-separator={\hspace{0.15em}},
+  group-minimum-digits=3,
+  table-text-alignment=center,
+  detect-all,
+  per-mode=fraction}
 
-% Comando para insertar una página en blanco
+% comando para insertar una página en blanco
 \newcommand{\PaginaEnBlanco}{
     \newpage
     \thispagestyle{empty}
     {\textcolor{white}{.}} % Punto invisible para forzar la página
 }
 
-% declaramos los condicionales
+% aseguramos igualdad al valor de la raya del medio
+\newcommand{\rdm}[1]{--#1--}
+\newcommand{\rdmq}[2]{--#1--\penalty10000 #2}
+
+% función para generar una raya de unión de palabras que habilita el corte de palabra
+% se usa entre llaves {\rdc}
+\makeatletter
+\def\thinskip{\hskip 0.01em\relax}
+\def\rdc{\thinskip--\thinskip}
+\makeatother
+
+\usepackage[allcolors=blue,colorlinks,hyperindex=true]{hyperref}
+
+% condicionales para los formatos de salida
 \newif\ifPDF
 \newif\ifBNPDF
 \newif\ifPNGEPUB
 \newif\ifHTMLEPUB
 \newif\ifHTML
+\newif\ifXML
+
+% fin del archivo de configuración
+

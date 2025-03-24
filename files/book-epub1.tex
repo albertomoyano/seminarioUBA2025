@@ -347,8 +347,8 @@ placement=ht,
   {\endlist}
 
 % elegimos el estandar para las referencias
-\def\estandar{veronaC}
-%\def\estandar{veronaM}
+%\def\estandar{veronaC}
+\def\estandar{veronaM}
 %\def\estandar{VerboseIbid}
 %\def\estandar{APA}
 %\def\estandar{ISO690}
@@ -359,7 +359,7 @@ placement=ht,
 % generamos los índices
 \usepackage[xindy]{imakeidx}
 \makeindex
-\makeindex[name=names]
+\makeindex[name=names,title={Índice de autoras y autores del aparato bibliográfico}]
 \makeindex[name=concepto,title={Índice de conceptos}]
 \makeindex[name=onomastico,title={Índice onomástico}]
 
@@ -429,16 +429,24 @@ placement=ht,
 	detect-all,
 	per-mode=fraction}
 
-% Comando para insertar una página en blanco
+% comando para insertar una página en blanco
 \newcommand{\PaginaEnBlanco}{
     \newpage
     \thispagestyle{empty}
     {\textcolor{white}{.}} % Punto invisible para forzar la página
 }
 
-% declaramos los condicionales
+% función para generar una raya de unión de palabras que habilita el corte de palabra
+% se usa entre llaves {\rdc}
+\makeatletter
+\def\thinskip{\hskip 0.01em\relax}
+\def\rdc{\thinskip--\thinskip}
+\makeatother
+
+% condicionales para los formatos de salida
 \newif\ifPDF
 \newif\ifBNPDF
 \newif\ifPNGEPUB
 \newif\ifHTMLEPUB
 \newif\ifHTML
+\newif\ifXML
