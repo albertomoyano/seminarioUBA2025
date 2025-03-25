@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package unique-identifier='dcidid' version='2.0'
+xmlns='http://www.idpf.org/2007/opf'>
+  <metadata xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:opf='http://www.idpf.org/2007/opf'>
+    <dc:title>: Un estudio preliminar sobre las marcas</dc:title>
+    <dc:language>es</dc:language>
+    <dc:identifier id='dcidid' opf:scheme='URI'>
+    http://example.com/epub2-seminarioUBA</dc:identifier>
+    <dc:creator>Alberto Moyano</dc:creator>
+    <dc:date>2025-03-25T07:54:00Z</dc:date>
+    <dc:subject>Producción editorial, Fuente única, Automatización,
+    Gestión de contenidos, Publicación digital, Formatos múltiples,
+    Distribución eficiente, Edición estructurada, Herramientas
+    colaborativas, Coherencia editorial, Metodología editorial,
+    Optimización del flujo de trabajo, Diseño de publicaciones,
+    Transformación digital, Calidad de contenido.</dc:subject>
+    <dc:date>2024-09</dc:date>
+    <dc:created></dc:created>
+    <dc:modified></dc:modified>
+    <dc:rights>CC BY-NC-ND 4.0
+    Attribution-NonCommercial-NoDerivatives 4.0
+    International</dc:rights>
+    <dc:identifier id='uuid' opf:scheme='UUID'></dc:identifier>
+    <dc:publisher>Ediciones Imago Mundi</dc:publisher>
+    <dc:identifier id='bookid'>978-950-793-000-0</dc:identifier>
+    <dc:identifier id='bookid' opf:scheme='URI'></dc:identifier>
+    <dc:description></dc:description>
+    <dc:relation>Sin colección</dc:relation>
+    <dc:format>EPUB</dc:format>
+    <meta content='cover-image' name='cover' />
+  </metadata>
+  <manifest>
+    <item href='epub2-seminarioUBA.ncx' id='ncx'
+    media-type='application/x-dtbncx+xml'></item>
+    <item href='epub2-seminarioUBA.css' id='stylesheet'
+    media-type='text/css'></item>
+    <item href='epub2-seminarioUBA.html' id='file1'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch1.html' id='file2'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch2.html' id='file3'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch3.html' id='file4'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch4.html' id='file5'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch5.html' id='file6'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch6.html' id='file7'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAch7.html' id='file8'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAli1.html' id='file9'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAli2.html' id='file10'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAli3.html' id='file11'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAli4.html' id='file12'
+    media-type='application/xhtml+xml'></item>
+    <item href='epub2-seminarioUBAli5.html' id='file13'
+    media-type='application/xhtml+xml'></item>
+    <item href='./tapa/cover.png' id='cover-image'
+    media-type='image/png'></item>
+    <item href='IBMPlexSans-Regular.ttf'
+    id='IBMPlexSans-Regular_ttf'
+    media-type='application/font-sfnt'></item>
+    <item href='IBMPlexSans-Italic.ttf' id='IBMPlexSans-Italic_ttf'
+    media-type='application/font-sfnt'></item>
+    <item href='IBMPlexSans-SemiBold.ttf'
+    id='IBMPlexSans-SemiBold_ttf'
+    media-type='application/font-sfnt'></item>
+    <item href='IBMPlexSans-SemiBoldItalic.ttf'
+    id='IBMPlexSans-SemiBoldItalic_ttf'
+    media-type='application/font-sfnt'></item>
+    <item href='IBMPlexSans-Regular.woff'
+    id='IBMPlexSans-Regular_woff'
+    media-type='application/font-woff'></item>
+    <item href='IBMPlexSans-Italic.woff'
+    id='IBMPlexSans-Italic_woff'
+    media-type='application/font-woff'></item>
+    <item href='IBMPlexSans-SemiBold.woff'
+    id='IBMPlexSans-SemiBold_woff'
+    media-type='application/font-woff'></item>
+    <item href='IBMPlexSans-SemiBoldItalic.woff'
+    id='IBMPlexSans-SemiBoldItalic_woff'
+    media-type='application/font-woff'></item>
+    <item href='IBMPlexSans-Regular.woff2'
+    id='IBMPlexSans-Regular_woff2' media-type='font/woff2'></item>
+    <item href='IBMPlexSans-Italic.woff2'
+    id='IBMPlexSans-Italic_woff2' media-type='font/woff2'></item>
+    <item href='IBMPlexSans-SemiBold.woff2'
+    id='IBMPlexSans-SemiBold_woff2' media-type='font/woff2'></item>
+    <item href='IBMPlexSans-SemiBoldItalic.woff2'
+    id='IBMPlexSans-SemiBoldItalic_woff2' media-type='font/woff2'>
+    </item>
+    <item href='./media/letraa.png' id='medialetraa_png'
+    media-type='image/png'></item>
+    <item href='./media/avatar2.png' id='mediaavatar2_png'
+    media-type='image/png'></item>
+    <item href='epub2-seminarioUBA0x.svg'
+    id='epub2-seminarioUBA0x_svg' media-type='image/svg+xml'>
+    </item>
+  </manifest>
+  <spine toc='ncx'>
+    <itemref idref='file1'></itemref>
+    <itemref idref='file2'></itemref>
+    <itemref idref='file3'></itemref>
+    <itemref idref='file4'></itemref>
+    <itemref idref='file5'></itemref>
+    <itemref idref='file6'></itemref>
+    <itemref idref='file7'></itemref>
+    <itemref idref='file8'></itemref>
+    <itemref idref='file9'></itemref>
+    <itemref idref='file10'></itemref>
+    <itemref idref='file11'></itemref>
+    <itemref idref='file12'></itemref>
+    <itemref idref='file13'></itemref>
+  </spine>
+</package>

@@ -1,3 +1,4 @@
+\ifPDF
 \raggedright
 {\small
 	\printindex[names]
@@ -7,10 +8,13 @@
 \chaptermark{Índice de autoras y autores del aparato bibliográfico}
 \Author{Índice de autoras y autores del aparato bibliográfico}
 
-\ifPDF
 \cleardoublepage
 	\else
 	\ifBNPDF
 	\cleardoublepage
 	\fi
+\fi
+
+\ifHTMLEPUB
+\printindex[names]
 \fi

@@ -12,6 +12,31 @@
 \setmainlanguage{spanish}
 \usepackage{csquotes}
 
+% paquetes varios
+\usepackage{calc}
+\usepackage{nccfoots}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{graphicx}
+% \usepackage{svg}
+% \usepackage[final]{pdfpages}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{bchart}
+\usepackage[most]{tcolorbox}
+
+% diseño de listas (opcion 1) con paralist
+\usepackage{paralist}
+\setdefaultenum{1)}{a)}{i)}{}
+\pltopsep=0.5mm
+\plitemsep=0mm
+
+% diseño de listas (opcion 2) con enumitem
+\usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
+
 % manejo de índices
 \usepackage{imakeidx}
 \makeindex[name=names,title=Índice de autores]
@@ -59,7 +84,7 @@
 %\def\estandar{ISO690}
 %\def\estandar{numeric}
 %\def\estandar{custom}
-\input{biblatex-\estandar-config.tex}
+\input{./files/biblatex-\estandar-config.tex}
 
 % configuración de los valores decimales de los cuadros
 \usepackage{siunitx}
@@ -81,8 +106,6 @@
 \def\rdc{\thinskip--\thinskip}
 \makeatother
 
-\usepackage[allcolors=blue,colorlinks,hyperindex=true]{hyperref}
-
 % condicionales para los formatos de salida
 \newif\ifPDF
 \newif\ifBNPDF
@@ -92,5 +115,3 @@
 \newif\ifXML
 
 % fin del archivo de configuración
-
-

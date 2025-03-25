@@ -1,3 +1,4 @@
+\ifPDF
 % imprimimos el listado de siglas
 \printnoidxglossary[type=\acronymtype,title=Índice de siglas]
 % colocamos el título en el sumario
@@ -5,10 +6,13 @@
 \chaptermark{Índice de siglas}
 \Author{Índice de siglas}
 
-\ifPDF
 \cleardoublepage
 	\else
 	\ifBNPDF
 	\cleardoublepage
 	\fi
+\fi
+
+\ifHTMLEPUB
+\printnoidxglossary[type=\acronymtype,title=Índice de siglas]
 \fi

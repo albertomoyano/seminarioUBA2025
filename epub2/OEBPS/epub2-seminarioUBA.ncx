@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version='2005-1' xmlns='http://www.daisy.org/z3986/2005/ncx/'>
+  <head>
+    <meta content='http://example.com/epub2-seminarioUBA'
+    name='dtb:uid' />
+    <meta content='3' name='dtb:depth' />
+    <meta content='0' name='dtb:totalPageCount' />
+    <meta content='0' name='dtb:maxPageNumber' />
+  </head>
+  <docTitle>
+    <text>: Un estudio preliminar sobre las marcas</text>
+  </docTitle>
+  <navMap>
+    <navPoint id='navPoint-1' playOrder='1'>
+      <navLabel>
+        <text>Imagen de tapa</text>
+      </navLabel>
+      <content src='epub2-seminarioUBA.html#Q1-1-1'></content>
+    </navPoint>
+    <navPoint id='navPoint-2' playOrder='2'>
+      <navLabel>
+        <text>Presentación</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch1.html#x2-1000'></content>
+    </navPoint>
+    <navPoint id='navPoint-3' playOrder='3'>
+      <navLabel>
+        <text>Prólogo</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch2.html#x3-2000'></content>
+    </navPoint>
+    <navPoint id='navPoint-4' playOrder='4'>
+      <navLabel>
+        <text>Introducción</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch3.html#x4-3000'></content>
+    </navPoint>
+    <navPoint id='navPoint-5' playOrder='5'>
+      <navLabel>
+        <text>1 Lorem Ipsum Dolor Sit Amet</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch4.html#x5-40001'></content>
+      <navPoint id='navPoint-6' playOrder='6'>
+        <navLabel>
+          <text>1.1 Introducción al Lorem Ipsum</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch4.html#x5-50001.1'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-7' playOrder='7'>
+        <navLabel>
+          <text>1.2 Historia y evolución</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch4.html#x5-60001.2'>
+        </content>
+        <navPoint id='navPoint-8' playOrder='8'>
+          <navLabel>
+            <text>1.2.1 Uso en la tipografía</text>
+          </navLabel>
+          <content src='epub2-seminarioUBAch4.html#x5-70001.2.1'>
+          </content>
+        </navPoint>
+      </navPoint>
+      <navPoint id='navPoint-9' playOrder='9'>
+        <navLabel>
+          <text>1.3 Aplicaciones modernas</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch4.html#x5-80001.3'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-10' playOrder='10'>
+        <navLabel>
+          <text>1.4 Conclusiones</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch4.html#x5-90001.4'>
+        </content>
+      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-11' playOrder='11'>
+      <navLabel>
+        <text>2 Consectetur Adipiscing Elit</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch5.html#x6-100002'>
+      </content>
+      <navPoint id='navPoint-12' playOrder='12'>
+        <navLabel>
+          <text>2.1 La estructura del texto simulado</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch5.html#x6-110002.1'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-13' playOrder='13'>
+        <navLabel>
+          <text>2.2 Variaciones y uso en diseño</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch5.html#x6-120002.2'>
+        </content>
+        <navPoint id='navPoint-14' playOrder='14'>
+          <navLabel>
+            <text>2.2.1 Aplicaciones en la industria
+            editorial</text>
+          </navLabel>
+          <content src='epub2-seminarioUBAch5.html#x6-130002.2.1'>
+          </content>
+        </navPoint>
+      </navPoint>
+      <navPoint id='navPoint-15' playOrder='15'>
+        <navLabel>
+          <text>2.3 Conclusiones</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch5.html#x6-140002.3'>
+        </content>
+      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-16' playOrder='16'>
+      <navLabel>
+        <text>3 Vestibulum Eget Nisi</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch6.html#x7-150003'>
+      </content>
+      <navPoint id='navPoint-17' playOrder='17'>
+        <navLabel>
+          <text>3.1 Origen y evolución</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch6.html#x7-160003.1'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-18' playOrder='18'>
+        <navLabel>
+          <text>3.2 Aplicaciones y relevancia en la
+          tipografía</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch6.html#x7-170003.2'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-19' playOrder='19'>
+        <navLabel>
+          <text>3.3 El impacto en la industria</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch6.html#x7-180003.3'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-20' playOrder='20'>
+        <navLabel>
+          <text>3.4 Conclusiones</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAch6.html#x7-190003.4'>
+        </content>
+      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-21' playOrder='21'>
+      <navLabel>
+        <text>Conclusiones</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAch7.html#x8-20000'></content>
+    </navPoint>
+    <navPoint id='navPoint-22' playOrder='22'>
+      <navLabel>
+        <text>Notas</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAli1.html#x9-21000'></content>
+      <navPoint id='navPoint-23' playOrder='23'>
+        <navLabel>
+          <text>1 Lorem Ipsum Dolor Sit Amet</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAli1.html#x9-22000'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-24' playOrder='24'>
+        <navLabel>
+          <text>3 Vestibulum Eget Nisi</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAli1.html#x9-23000'>
+        </content>
+      </navPoint>
+      <navPoint id='navPoint-25' playOrder='25'>
+        <navLabel>
+          <text>Conclusiones</text>
+        </navLabel>
+        <content src='epub2-seminarioUBAli1.html#x9-24000'>
+        </content>
+      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-26' playOrder='26'>
+      <navLabel>
+        <text>Índice de siglas</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAli2.html#x10-25000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-27' playOrder='27'>
+      <navLabel>
+        <text>Glosario de conceptos</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAli3.html#x11-26000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-28' playOrder='28'>
+      <navLabel>
+        <text>Referencias</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAli4.html#x12-27000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-29' playOrder='29'>
+      <navLabel>
+        <text>Colofón</text>
+      </navLabel>
+      <content src='epub2-seminarioUBAli5.html#x13-28000'>
+      </content>
+    </navPoint>
+  </navMap>
+</ncx>

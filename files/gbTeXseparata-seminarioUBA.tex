@@ -1,0 +1,7 @@
+\newcounter{PrimPag}
+\setcounter{PrimPag}{1}
+\setcounter{PrimPag}{\theCurrentPage+1}
+\newwrite\script
+\immediate\openout\script=separatas.sh
+\immediate\write\script{\string#!/bin/bash}
+\newcommand{\separata}[1]{\immediate\write\script{pdftk ./pdf/\jobname.pdf cat \thePrimPag-\theCurrentPage\space output ./docs/#1-\jobname.pdf}}

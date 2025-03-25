@@ -1,5 +1,11 @@
+\ifPDF
 \chapter{Consectetur Adipiscing Elit}
 \setcounter{PrimPag}{\theCurrentPage}
+	\else
+	\ifHTMLEPUB
+	\chapter{Consectetur Adipiscing Elit}
+	\fi
+\fi
 
 \section{La estructura del texto simulado}
 
@@ -60,4 +66,6 @@ Nunc malesuada feugiat risus, a pellentesque libero tincidunt ut. Ut eget metus 
 
 Curabitur ut massa et metus blandit tincidunt. Fusce convallis fringilla diam, sed suscipit ex dapibus vel. Nam vel nisl nunc. Morbi feugiat mauris sed venenatis tincidunt. Donec at arcu nec quam facilisis interdum ut eget felis.
 
+\ifPDF
 \separata{capitulo2}
+\fi
