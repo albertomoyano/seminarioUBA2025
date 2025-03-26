@@ -52,10 +52,26 @@
 
 \ifPDF
 \input{./artcap/inicio-frontmatter.tex}
-
 \Author{Sumario}
-\fi
 \tableofcontents
+	\else
+	\ifBNPDF
+	\input{./artcap/inicio-frontmatter.tex}
+	\Author{Sumario}
+	\tableofcontents
+		\else
+		\ifPNGEPUB
+		\input{./artcap/inicio-frontmatter.tex}
+		\Author{Sumario}
+		\tableofcontents
+		\fi
+	\fi
+\fi
+
+\ifHTMLEPUB
+\tableofcontents
+\fi
+
 
 \include{./artcap/presentacion.tex}
 \include{./artcap/prologo.tex}
