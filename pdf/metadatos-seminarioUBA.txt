@@ -1,0 +1,53 @@
+ExifTool Version Number         : 12.76
+File Name                       : pdf-seminarioUBA.pdf
+Directory                       : /home/alberto/Disco2/00_Produccion/seminarioUBA2025/pdf
+File Size                       : 730 kB
+File Modification Date/Time     : 2025:03:26 19:50:51-03:00
+File Access Date/Time           : 2025:03:26 19:50:18-03:00
+File Inode Change Date/Time     : 2025:03:26 19:50:51-03:00
+File Permissions                : -rwxrwx---
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+Linearized                      : No
+Page Count                      : 50
+Page Mode                       : UseOutlines
+Schemas Schema                  : Adobe PDF Schema
+Schemas Prefix                  : pdf
+Schemas Namespace URI           : http://ns.adobe.com/pdf/1.3/
+Schemas Property Name           : Trapped
+Schemas Property Value Type     : Text
+Schemas Property Category       : internal
+Schemas Property Description    : Indication if the document has been modified to include trapping information
+Producer                        : Ecosistema de LaTeX
+Keywords                        : Producción editorial, Fuente única, Automatización, Gestión de contenidos, Publicación digital, Formatos múltiples, Distribución eficiente, Edición estructurada, Herramientas colaborativas, Coherencia editorial, Metodología editorial, Optimización del flujo de trabajo, Diseño de publicaciones, Transformación digital, Calidad de contenido.
+PDF Version                     : 1.5
+Web Statement                   : https://es.wikipedia.org/wiki/Copyright
+Format                          : application/pdf
+Title (es)                      : Lorem Ipsum
+Description (es)                : Exploración de la producción editorial basada en fuente única, optimizando la gestión y distribución de contenidos en múltiples formatos.
+Publisher                       : Ediciones Imago Mundi
+Date                            : 2024:09
+Type                            : Text
+Creator                         : Alberto Moyano
+Subject                         : Producción editorial, Fuente única, Automatización, Gestión de contenidos, Publicación digital, Formatos múltiples, Distribución eficiente, Edición estructurada, Herramientas colaborativas, Coherencia editorial, Metodología editorial, Optimización del flujo de trabajo, Diseño de publicaciones, Transformación digital, Calidad de contenido.
+Source                          : pdf-seminarioUBA.tex
+Language                        : es
+Identifier                      : urn:ISBN:978-950-793-000-0
+Authors Position                : Editor
+Caption Writer                  : Alberto Moyano
+Create Date                     : 2025:03:26 19:50:45-03:00
+Modify Date                     : 2025:03:26 19:50:45-03:00
+Metadata Date                   : 2025:03:26 19:50:45-03:00
+Creator Tool                    : gbTeXpublisher
+Document ID                     : uuid:54ce4626-c9b1-4d7f-913e-f7f7aef75fd7
+Instance ID                     : uuid:7a8d1d75-4c90-4000-8aea-339059b67a39
+Version ID                      : 1
+Rendition Class                 : default
+Compliance Profile              : Three
+Subtitle                        : Un estudio preliminar sobre las marcas
+Aggregation Type                : book
+Page Range                      : 50
+ISBN                            : 978-950-793-000-0
+Byte Count                      : 2421
+Journal article version         : AO

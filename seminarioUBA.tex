@@ -32,23 +32,17 @@
 	\fi
 \fi
 
-\ifHTMLEPUB
-\title{Lorem Ipsum}
-\author{Alberto Moyano}
-\date{}
-\fi
-
 \begin{document}
 \frontmatter
 
 \ifHTMLEPUB
 	\ifdefined\HCode
 	\phantomsection
-	\addcontentsline{toc}{chapter}{Imagen de tapa}
+%	\addcontentsline{toc}{chapter}{Imagen de tapa}
 	\coverimage[natwidth=\paperwidth,natheight=\paperheight]{./tapa/cover.png}
+	\newpage
 	\fi
 \fi
-\clearpage
 
 \ifPDF
 \input{./artcap/inicio-frontmatter.tex}

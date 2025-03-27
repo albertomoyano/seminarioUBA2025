@@ -3,12 +3,13 @@
 xmlns='http://www.idpf.org/2007/opf'>
   <metadata xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:opf='http://www.idpf.org/2007/opf'>
-    <dc:title>: Un estudio preliminar sobre las marcas</dc:title>
+    <dc:title>Lorem Ipsum: Un estudio preliminar sobre las
+    marcas</dc:title>
     <dc:language>es</dc:language>
     <dc:identifier id='dcidid' opf:scheme='URI'>
     http://example.com/epub2-seminarioUBA</dc:identifier>
     <dc:creator>Alberto Moyano</dc:creator>
-    <dc:date>2025-03-25T21:11:00Z</dc:date>
+    <dc:date>2025-03-26T23:46:00Z</dc:date>
     <dc:subject>Producción editorial, Fuente única, Automatización,
     Gestión de contenidos, Publicación digital, Formatos múltiples,
     Distribución eficiente, Edición estructurada, Herramientas
@@ -18,14 +19,14 @@ xmlns='http://www.idpf.org/2007/opf'>
     <dc:date>2024-09</dc:date>
     <dc:created></dc:created>
     <dc:modified></dc:modified>
-    <dc:rights>CC BY-NC-ND 4.0
-    Attribution-NonCommercial-NoDerivatives 4.0
-    International</dc:rights>
-    <dc:identifier id='uuid' opf:scheme='UUID'></dc:identifier>
+    <dc:rights>Copyright</dc:rights>
     <dc:publisher>Ediciones Imago Mundi</dc:publisher>
-    <dc:identifier id='bookid'>978-950-793-000-0</dc:identifier>
-    <dc:identifier id='bookid' opf:scheme='URI'></dc:identifier>
-    <dc:description></dc:description>
+    <dc:identifier id='isbn' opf:scheme='ISBN'>
+    ISBN:978-950-793-000-0</dc:identifier>
+    <dc:identifier id='url' opf:scheme='URL'>
+    https://www.edicionesimagomundi.com/</dc:identifier>
+    <dc:identifier id='uuid' opf:scheme='uuid'>
+    urn:uuid:gbTeXpublisher-26marzo2025-23:45:57</dc:identifier>
     <dc:relation>Sin colección</dc:relation>
     <dc:format>EPUB</dc:format>
     <meta content='cover-image' name='cover' />
