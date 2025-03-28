@@ -1,0 +1,33 @@
+ExifTool Version Number         : 12.76
+File Name                       : epub2-seminarioUBA.epub
+Directory                       : /home/alberto/Disco2/00_Produccion/seminarioUBA2025/epub2
+File Size                       : 1897 kB
+File Modification Date/Time     : 2025:03:27 18:32:41-03:00
+File Access Date/Time           : 2025:03:27 18:32:41-03:00
+File Inode Change Date/Time     : 2025:03:27 18:32:41-03:00
+File Permissions                : -rwxrwx---
+File Type                       : EPUB
+File Type Extension             : epub
+MIME Type                       : application/epub+zip
+Title                           : Lorem Ipsum: Un estudio preliminar sobre las.    marcas
+Language                        : es
+Identifier Id                   : dcidid
+Identifier Scheme               : URI
+Creator                         : Alberto Moyano
+Date                            : 2025:03:27 18:32:00Z, 2024:09
+Subject                         : Producción editorial, Fuente única, Automatización,.    Gestión de contenidos, Publicación digital, Formatos múltiples,.    Distribución eficiente, Edición estructurada, Herramientas.    colaborativas, Coherencia editorial, Metodología editorial,.    Optimización del flujo de trabajo, Diseño de publicaciones,.    Transformación digital, Calidad de contenido.
+Created                         : 
+Modified                        : 
+Rights                          : Copyright
+Publisher                       : Ediciones Imago Mundi
+Identifier                      : .    urn:uuid:gbTeXpublisher-27marzo2025-18:32:22
+Relation                        : Sin colección
+Format                          : EPUB
+Meta Content                    : cover-image
+Meta Name                       : cover
+Manifest Item Href              : epub2-seminarioUBA.ncx
+Manifest Item Id                : ncx
+Manifest Item Media-type        : application/x-dtbncx+xml
+Manifest Item                   : .
+Spine Toc                       : ncx
+Spine Itemref Idref             : file1

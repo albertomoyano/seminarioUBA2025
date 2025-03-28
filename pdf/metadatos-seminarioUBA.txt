@@ -2,9 +2,9 @@ ExifTool Version Number         : 12.76
 File Name                       : pdf-seminarioUBA.pdf
 Directory                       : /home/alberto/Disco2/00_Produccion/seminarioUBA2025/pdf
 File Size                       : 730 kB
-File Modification Date/Time     : 2025:03:26 19:50:51-03:00
-File Access Date/Time           : 2025:03:26 19:50:18-03:00
-File Inode Change Date/Time     : 2025:03:26 19:50:51-03:00
+File Modification Date/Time     : 2025:03:27 08:18:01-03:00
+File Access Date/Time           : 2025:03:27 08:17:29-03:00
+File Inode Change Date/Time     : 2025:03:27 08:18:02-03:00
 File Permissions                : -rwxrwx---
 File Type                       : PDF
 File Type Extension             : pdf
@@ -36,12 +36,12 @@ Language                        : es
 Identifier                      : urn:ISBN:978-950-793-000-0
 Authors Position                : Editor
 Caption Writer                  : Alberto Moyano
-Create Date                     : 2025:03:26 19:50:45-03:00
-Modify Date                     : 2025:03:26 19:50:45-03:00
-Metadata Date                   : 2025:03:26 19:50:45-03:00
+Create Date                     : 2025:03:27 08:17:55-03:00
+Modify Date                     : 2025:03:27 08:17:55-03:00
+Metadata Date                   : 2025:03:27 08:17:55-03:00
 Creator Tool                    : gbTeXpublisher
 Document ID                     : uuid:54ce4626-c9b1-4d7f-913e-f7f7aef75fd7
-Instance ID                     : uuid:7a8d1d75-4c90-4000-8aea-339059b67a39
+Instance ID                     : uuid:c413eaea-ea82-4b6c-afd1-33e4c9b67f7a
 Version ID                      : 1
 Rendition Class                 : default
 Compliance Profile              : Three
