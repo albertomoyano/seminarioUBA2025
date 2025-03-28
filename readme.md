@@ -43,11 +43,7 @@ Este seminario está dirigido a:
 - Flujo de trabajo en GitHub: repositorios, commits y ramas.
 - Subida y mantenimiento de proyectos en GitHub.
 
-### **Introducción a los lenguajes de marcas y elección de software**
-- ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
-- Aplicaciones y ventajas de Markdown y LaTeX.
-
-#### Instalación del software
+### Instalación del software
   - **[Oracle Virtual Machine](https://www.virtualbox.org/)**
   - **[Linux Mint](https://linuxmint.com/)**
   - **[Git](https://git-scm.com/)**
@@ -57,6 +53,10 @@ Este seminario está dirigido a:
   - **[TeXstudio](https://www.texstudio.org/)**
   - **[JabRef](https://www.jabref.org/)**
   - **[gbTeXpublisher](https://github.com/albertomoyano/gbtexpublisher)**
+  
+### **Introducción a los lenguajes de marcas y elección de software**
+- ¿Qué es un lenguaje de marcas? Diferencias con lenguajes de programación.
+- Aplicaciones y ventajas de Markdown y LaTeX.
 
 ### **Markdown – Sintaxis básica y primeros pasos**
 - Sintaxis de Markdown: encabezados, negritas, itálicas, listas.
