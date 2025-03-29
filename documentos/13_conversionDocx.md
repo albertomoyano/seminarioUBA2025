@@ -1,4 +1,4 @@
-# Problemas en la Interpretación y Conversión de Archivos Word
+# Problemas en la interpretación y conversión de archivos Word
 
 ## Introducción
 Los archivos `.docx` creados con Microsoft Word utilizan el formato **Office Open XML (OOXML)**. Aunque es un estándar, la interpretación exacta de sus estructuras XML varía entre diferentes programas ofimáticos. Esto genera dificultades para leer y representar fielmente documentos `.docx` en aplicaciones como LibreOffice, OnlyOffice o Apache OpenOffice.
