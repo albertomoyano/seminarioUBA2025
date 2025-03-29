@@ -18,7 +18,7 @@ Aunque OOXML es un estándar, Microsoft Word tiene implementaciones particulares
 
 ---
 
-## 2. Conversión de `.docx` a Otros Formatos con Pandoc
+## 2. Conversión de `.docx` a otros formatos con Pandoc
 
 ### **2.1. Problemas en la Conversión**
 Pandoc es una herramienta que convierte documentos entre diferentes formatos, pero su conversión de `.docx` a LaTeX o Markdown no siempre es perfecta. Algunas razones incluyen:
