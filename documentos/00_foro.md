@@ -1,6 +1,6 @@
 # Foro de consultas del seminarioUBA2025
 
-En este espacio vamos a manejar las consultas del trabajo práctico del **seminarioUBA2025**. Al igual que en el Campus Virtual, usaremos los **Issues** de este repositorio.
+En este espacio vamos a manejar las consultas del trabajo práctico del **seminarioUBA2025**. Al igual que en el Campus Virtual de la Facultad, aquí usaremos los **Issues** de este repositorio.
 
 ## Cómo usarlo
 
@@ -11,7 +11,6 @@ En este espacio vamos a manejar las consultas del trabajo práctico del **semina
 2. **Si aún no resolviste tu duda, creá un nuevo issue con el botón verde "New Issue".**
    - Escribí un título descriptivo.
    - Explayate en el mensaje con todos los detalles necesarios.
-   - Cada tipo de consulta tiene su propio **issue template**, que te guiará en la redacción.
 
 3. **Si tenés varias dudas, creá varios issues en lugar de poner todo en uno solo.** Esto facilita la comprensión y el seguimiento de cada pregunta.
 
