@@ -1,4 +1,4 @@
-# Análisis Comparativo entre la Curva de Inversión y el Plan de Trabajo en la Gerencia Editorial
+# Análisis comparativo entre la Curva de Inversión y el Plan de Trabajo en la gerencia editorial
 
 ## Introducción
 En la gerencia editorial, el análisis comparativo entre la curva de inversión y el plan de trabajo es una herramienta clave para evaluar la evolución de una empresa del sector. Este análisis permite a los editores y gestores tomar decisiones informadas sobre la asignación de recursos, la eficiencia operativa y el cumplimiento de los objetivos estratégicos relacionados con la producción y distribución de contenido.
