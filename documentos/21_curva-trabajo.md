@@ -23,7 +23,7 @@ El plan de trabajo en una editorial detalla las actividades, los tiempos y los r
 Un plan de trabajo bien estructurado permite optimizar la producción editorial y garantizar el cumplimiento de los plazos de publicación.
 
 ## Comparación y análisis
-El análisis comparativo entre la curva de inversión y el plan de trabajo permite evaluar:
+El análisis cruzado y comparativo entre la curva de inversión y el plan de trabajo permite evaluar:
 1. **Consistencia financiera:** Verificar si la inversión estimada en cada proyecto editorial coincide con las necesidades de producción y distribución.
 2. **Eficiencia operativa:** Determinar si los recursos asignados (humanos y tecnológicos) están siendo utilizados de manera efectiva para cumplir con los tiempos de publicación.
 3. **Cumplimiento de plazos:** Analizar si los tiempos de inversión coinciden con los plazos definidos en el calendario editorial.
