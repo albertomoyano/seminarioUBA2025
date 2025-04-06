@@ -44,7 +44,7 @@ Con el diseño digital, los signos de puntuación ahora suelen incluir versiones
 ---
 
 ## 4. Recomendaciones actuales  
-- **Para libros académicos, científico o clásicos**: Seguir el estilo tradicional (redondo).  
+- **Para libros académicos, científicos o clásicos**: Seguir el estilo tradicional (redondo).  
 - **Para diseño web o publicaciones modernas**: Usar itálica en todos los caracteres.  
 
 ---
