@@ -38,7 +38,7 @@ Con el diseño digital, los signos de puntuación ahora suelen incluir versiones
 **Ejemplo comparativo**:  
 | Estilo          | Ejemplo                          |  
 |-----------------|----------------------------------|  
-| **Tradicional** | *La teoría* (*cf. Smith, 1995*) *  |  
+| **Tradicional** | *La teoría* (*cf. Smith, 1995*)  |  
 | **Moderno**     | *La teoría (cf. Smith, 1995)* |  
 
 ---
