@@ -16,7 +16,7 @@ Durante la era de los tipos móviles de metal, era común que ciertos glifos no 
 
 **Ejemplo clásico**:  
 > *El autor afirma* [*en su obra de 1923*] *que...*  
-(Los paréntesis quedan en redondo aunque el texto esté en itálica).
+Los corchetes quedan en redondo aunque el texto esté en itálica.
 
 ---
 
