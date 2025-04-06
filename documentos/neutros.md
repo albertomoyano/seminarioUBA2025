@@ -54,11 +54,5 @@ La elección depende del contexto:
 - **Legibilidad y tradición** → Redondo.  
 - **Uniformidad y diseño** → Itálica.  
 
-En la era digital, ambas prácticas son válidas, pero es crucial mantener consistencia dentro de un mismo proyecto.  
+En la era digital, ambas prácticas son válidas, pero es crucial mantener consistencia dentro del estilo editorial.
 
----  
-
-### Bibliografía  
-- Bringhurst, R. (2004). *The Elements of Typographic Style*.  
-- Chicago Manual of Style (17ª ed.).  
-- Lupton, E. (2010). *Thinking with Type*.  
