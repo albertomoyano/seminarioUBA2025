@@ -52,7 +52,7 @@ Con el diseño digital, los signos de puntuación ahora suelen incluir versiones
 ## 5. Conclusión  
 La elección depende del contexto:  
 - **Legibilidad y tradición** → Redondo.  
-- **Uniformidad y diseño* → Itálica.  
+- **Uniformidad y diseño** → Itálica.  
 
 En la era digital, ambas prácticas son válidas, pero es crucial mantener consistencia dentro de un mismo proyecto.  
 
