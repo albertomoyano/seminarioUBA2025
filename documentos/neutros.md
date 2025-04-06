@@ -15,7 +15,7 @@ Durante la era de los tipos móviles de metal, era común que ciertos glifos no 
 - **Convención editorial**: Se consideraba que estos símbolos debían mantenerse **neutros** (en redondo) para preservar legibilidad.  
 
 **Ejemplo clásico**:  
-> *El autor afirma* (*en su obra de 1923*)* que...*  
+> *El autor afirma* [*en su obra de 1923*] *que...*  
 (Los paréntesis quedan en redondo aunque el texto esté en itálica).
 
 ---
@@ -27,7 +27,7 @@ Con el diseño digital, los signos de puntuación ahora suelen incluir versiones
 - **Defiende**: Mantener paréntesis/corchetes en redondo en textos itálicos.  
 - **Argumentos**:  
   - Mayor claridad visual.  
-  - Respeto por la tradición editorial (common en derecho, humanidades).  
+  - Respeto por la tradición editorial.
 
 ### **B. Postura moderna**  
 - **Defiende**: Usar versión itálica para todos los caracteres.  
@@ -38,17 +38,14 @@ Con el diseño digital, los signos de puntuación ahora suelen incluir versiones
 **Ejemplo comparativo**:  
 | Estilo          | Ejemplo                          |  
 |-----------------|----------------------------------|  
-| **Tradicional** | *"La teoría (cf. Smith, 1995)"*  |  
-| **Moderno**     | *"La teoría (*cf. Smith, 1995*)"* |  
+| **Tradicional** | *La teoría* (*cf. Smith, 1995*) *  |  
+| **Moderno**     | *La teoría (cf. Smith, 1995)* |  
 
 ---
 
 ## 4. Recomendaciones actuales  
-- **Para libros académicos/clásicos**: Seguir el estilo tradicional (redondo).  
+- **Para libros académicos, científico o clásicos**: Seguir el estilo tradicional (redondo).  
 - **Para diseño web o publicaciones modernas**: Usar itálica en todos los caracteres.  
-- **Consultar manuales de estilo**:  
-  - *Chicago Manual of Style* → Itálica.  
-  - *APA (versiones antiguas)* → Permite redondo.  
 
 ---
 
