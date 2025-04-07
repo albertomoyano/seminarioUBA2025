@@ -33,35 +33,42 @@ else
     exit 1
 fi
 
+# Función para instalar componentes si no están instalados
+instalar_si_faltan() {
+    local comando_check=$1
+    local comando_instalar=$2
+
+    for comp in "${COMPONENTES[@]}"; do
+        if ! eval "$comando_check $comp" &>/dev/null; then
+            echo "Instalando $comp..."
+            eval "$comando_instalar $comp"
+        else
+            echo "$comp ya está instalado. Omitiendo."
+        fi
+    done
+}
+
 # Instalar según distribución
 case "$DISTRO" in
     ubuntu|debian|linuxmint)
-        echo "Distribución Debian/Ubuntu/Mint detectada. Instalando componentes..."
+        echo "Distribución Debian/Ubuntu/Mint detectada."
         sudo apt update
-        for comp in "${COMPONENTES[@]}"; do
-            sudo apt install -y "$comp"
-        done
+        instalar_si_faltan "dpkg -s" "sudo apt install -y"
         ;;
 
     opensuse*|suse)
-        echo "Distribución openSUSE detectada. Instalando componentes..."
-        for comp in "${COMPONENTES[@]}"; do
-            sudo zypper install -y "$comp"
-        done
+        echo "Distribución openSUSE detectada."
+        instalar_si_faltan "rpm -q" "sudo zypper install -y"
         ;;
 
     fedora)
-        echo "Distribución Fedora detectada. Instalando componentes..."
-        for comp in "${COMPONENTES[@]}"; do
-            sudo dnf install -y "$comp"
-        done
+        echo "Distribución Fedora detectada."
+        instalar_si_faltan "rpm -q" "sudo dnf install -y"
         ;;
 
     arch|manjaro)
-        echo "Distribución Arch/Manjaro detectada. Instalando componentes..."
-        for comp in "${COMPONENTES[@]}"; do
-            sudo pacman -S --noconfirm "$comp"
-        done
+        echo "Distribución Arch/Manjaro detectada."
+        instalar_si_faltan "pacman -Q" "sudo pacman -S --noconfirm"
         ;;
 
     *)
@@ -72,4 +79,4 @@ case "$DISTRO" in
         ;;
 esac
 
-echo "Todos los componentes de Gambas han sido instalados correctamente."
+echo "Todos los componentes de Gambas han sido verificados e instalados según necesidad."
