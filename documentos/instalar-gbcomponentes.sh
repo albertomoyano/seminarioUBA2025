@@ -21,6 +21,7 @@ COMPONENTES=(
 	gambas3-gb-settings
 	gambas3-gb-term
 	gambas3-gb-util
+	gambas3-gb-util-web
 )
 
 echo "Detectando distribución..."
