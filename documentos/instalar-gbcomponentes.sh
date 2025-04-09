@@ -17,6 +17,7 @@ COMPONENTES=(
 	gambas3-gb-net-curl
 	gambas3-gb-qt5
 	gambas3-gb-qt5-ext
+	gambas3-gb-qt5-webview
 	gambas3-gb-settings
 	gambas3-gb-term
 	gambas3-gb-util
