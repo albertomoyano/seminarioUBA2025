@@ -54,7 +54,7 @@ instalar_si_faltan() {
 case "$DISTRO" in
     ubuntu|debian|linuxmint)
         echo "Distribución Debian/Ubuntu/Mint detectada."
-        sudo apt update
+        apt update
         instalar_si_faltan "dpkg -s" "sudo apt install -y"
         ;;
 
