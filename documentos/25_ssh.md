@@ -122,7 +122,7 @@ Resultado:
 a3b34e0123456789abcd9876fedcba1234567890abc123456defabc987654321  libro_final.pdf
 ```
 
-Podés **publicar esta huella digital** en tu sitio web, redes o en un archivo `hash.txt` en tu repo. Cualquier cambio en el contenido cambia también el hash.
+Podés **publicar esta huella digital** en tu sitio web, redes o en un archivo `hash.txt` en tu repositorio. Cualquier cambio en el contenido cambia también el hash.
 
 ---
 
