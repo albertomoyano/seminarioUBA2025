@@ -1,81 +1,161 @@
-# ¿Qué es una clave SSH y para qué se utiliza en GitHub?
-
-## Introducción
-
-Cuando trabajamos con repositorios remotos, como los de GitHub, necesitamos una forma segura de autenticar nuestra identidad. Una de las maneras más comunes de hacerlo es mediante **claves SSH**. Este trabajo práctico tiene como objetivo explicar qué es una clave SSH, cómo funciona y cuál es su contexto de uso en GitHub.
-
----
+# Claves SSH y su uso en GitHub
 
 ## ¿Qué es una clave SSH?
 
-SSH significa **Secure Shell**, un protocolo de red que permite la conexión segura entre computadoras a través de redes inseguras. Las **claves SSH** son un par de archivos criptográficos que se utilizan para autenticarse sin necesidad de ingresar una contraseña cada vez.
+Una clave SSH es un par de archivos que permiten autenticarse de forma segura con servidores remotos. El par consiste en:
 
-El par de claves se compone de:
+- **Clave pública**: se comparte con servicios externos.
+- **Clave privada**: se guarda de forma segura y nunca se comparte.
 
-- **Clave privada** (`id_rsa`): se guarda localmente y **nunca** debe compartirse.
-- **Clave pública** (`id_rsa.pub`): puede compartirse con servidores o servicios como GitHub.
-
----
-
-## ¿Cómo funciona?
-
-Cuando queremos conectarnos a un servidor (por ejemplo, GitHub), este verifica si la clave pública que le dimos previamente coincide con la clave privada que estamos usando desde nuestra máquina. Si hay coincidencia, nos permite acceder sin pedir usuario ni contraseña.
-
-Este proceso es seguro porque:
-
-- Las claves están cifradas.
-- El servidor nunca recibe la clave privada.
-- Solo se puede autenticar quien posea la clave privada correspondiente a la clave pública registrada.
+SSH significa *Secure Shell*, un protocolo para conexiones cifradas entre computadoras.
 
 ---
 
-## ¿Por qué usar claves SSH en GitHub?
+## ¿Para qué se usan en GitHub?
 
-GitHub permite autenticarse de dos formas principales:
+GitHub permite usar claves SSH para:
 
-1. Mediante HTTPS (usando usuario y contraseña o token personal).
-2. Mediante SSH (con claves SSH).
+- Clonar repositorios privados.
+- Hacer *push* a repositorios (subir cambios).
+- Autenticarse sin necesidad de ingresar usuario y contraseña cada vez.
 
-Las claves SSH ofrecen ventajas como:
-
-- **Mayor seguridad**: no hay necesidad de compartir contraseñas.
-- **Comodidad**: no hace falta escribir usuario/contraseña cada vez que se hace `git push` o `git pull`.
-- **Automatización**: ideales para scripts, servidores y CI/CD sin intervención humana.
+En lugar de escribir tu contraseña de GitHub, el sistema usa tu clave privada para demostrar que sos vos.
 
 ---
 
-## Cómo se usan las claves SSH en GitHub
+## ¿Cómo se configuran?
 
-### 1. Generar una clave SSH (si aún no tenés una)
+### 1. Generar un par de claves:
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "tu-email@ejemplo.com"
+ssh-keygen -t ed25519 -C "tu@email.com"
 ```
 
-Esto crea los archivos `id_rsa` y `id_rsa.pub` en tu carpeta `~/.ssh/`.
+Esto genera dos archivos:
 
-### 2. Agregar tu clave pública a GitHub
+- `~/.ssh/id_ed25519` (clave privada)
+- `~/.ssh/id_ed25519.pub` (clave pública)
 
-1. Copiá el contenido de `id_rsa.pub`:
+### 2. Agregar la clave pública a GitHub:
 
-   ```bash
-   cat ~/.ssh/id_rsa.pub
-   ```
+- Ir a **GitHub → Settings → SSH and GPG keys**
+- Hacer clic en “New SSH key”
+- Pegar el contenido de `id_ed25519.pub`
 
-2. En GitHub, andá a **Settings > SSH and GPG keys**.
-3. Hacé clic en **New SSH key**, pegá la clave y guardá.
-
-### 3. Probar la conexión
+### 3. Probar la conexión:
 
 ```bash
 ssh -T git@github.com
 ```
 
-Deberías recibir un mensaje de bienvenida de GitHub si todo está configurado correctamente.
+---
+
+## Limitaciones de las claves SSH
+
+Aunque las claves SSH autentican tu conexión con GitHub, **no garantizan que vos seas el autor del contenido**. Solo indican que tenés permiso para hacer cambios en un repositorio.
+
+Esto significa que cualquiera podría:
+
+- Clonar tu repositorio público
+- Hacerle cambios
+- Publicarlo en otro lugar como si fuera propio
+
+---
+
+# Protección de autoría en repositorios públicos
+
+## Problema: ¿cómo demostrar que sos el autor/editor original?
+
+Cuando tu proyecto (en nuestro caso un libro o revista) está alojado en un repositorio público:
+
+- Cualquiera puede copiarlo
+- Cualquiera puede cambiar detalles y publicarlo como propio
+- No hay forma automática de demostrar que sos el autor/editor original
+
+---
+
+## Soluciones para demostrar autoría
+
+### ✅ 1. Firmar commits o tags con GPG o SSH
+
+Git permite **firmar digitalmente los commits y etiquetas**, lo que permite a otros verificar que los hiciste vos.
+
+#### Ventajas:
+
+- La firma no puede falsificarse sin tu clave privada (que está almacenada en tu computadora)
+- GitHub muestra un sello **Verified** en los commits firmados
+
+#### Cómo hacerlo:
+
+```bash
+# Firmar automáticamente cada commit
+git config --global commit.gpgsign true
+
+# Asociar tu clave GPG (previamente creada)
+git config --global user.signingkey <ID_CLAVE_GPG>
+```
+
+También podés firmar una etiqueta específica:
+
+```bash
+git tag -s v1.0 -m "Versión final del libro"
+```
+
+> Asegurate de subir la clave pública a GitHub.
+
+Más información:  
+[https://docs.github.com/en/authentication/managing-commit-signature-verification](https://docs.github.com/en/authentication/managing-commit-signature-verification)
+
+---
+
+### ✅ 2. Generar una huella digital (hash)
+
+Calculá un hash SHA-256 del archivo final (por ejemplo, el PDF del libro):
+
+```bash
+sha256sum libro_final.pdf
+```
+
+Resultado:
+
+```
+a3b34e0123456789abcd9876fedcba1234567890abc123456defabc987654321  libro_final.pdf
+```
+
+Podés **publicar esta huella digital** en tu sitio web, redes o en un archivo `hash.txt` en tu repo. Cualquier cambio en el contenido cambia también el hash.
+
+---
+
+### ✅ 3. Añadir licencia y nota de autoría
+
+Incluir un archivo `LICENSE` (por ejemplo, CC-BY o GPL) y una sección en el `README.md` que diga algo como:
+
+```markdown
+Este libro fue escrito por [Tu Nombre].
+Publicado bajo la licencia Creative Commons Attribution 4.0.
+La versión oficial está firmada digitalmente con GPG.
+```
+
+---
+
+## Resumen
+
+| Acción                           | ¿Protege autoría? | ¿Visible en GitHub? |
+|----------------------------------|-------------------|----------------------|
+| Usar clave SSH                   | ❌ No              | 🔐 Para conexión     |
+| Firmar commits/tags              | ✅ Sí              | ✅ “Verified”         |
+| Calcular y publicar hash         | ✅ Sí              | 📁 Manualmente       |
+| Agregar licencia y autoría       | ✅ Legalmente      | ✅ Sí                |
 
 ---
 
 ## Conclusión
 
-Las claves SSH son una herramienta esencial para trabajar de forma segura y eficiente con GitHub. Permiten autenticarte sin contraseñas, simplifican el flujo de trabajo y son altamente recomendadas para cualquier desarrollador que use Git.
+Si sos autor/editor y querés demostrar que el contenido de un repositorio público en GitHub fue escrito/editado por vos:
 
+1. **Firmá tus commits y tags**.
+2. **Publicá huellas digitales del contenido**.
+3. **Incluí una licencia clara y un aviso de autoría**.
+4. (Opcional) Guardá una copia de respaldo firmada localmente o en otra red.
+
+Así podés demostrar técnica y legalmente que tu trabajo es el original, incluso si alguien lo copia o modifica.
