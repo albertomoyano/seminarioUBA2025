@@ -1,4 +1,4 @@
-# Trabajo Práctico: Introducción al Entorno de Máquinas Virtuales
+# Introducción al Entorno de Máquinas Virtuales
 
 ## 1. ¿Qué es una máquina virtual (VM)?
 
