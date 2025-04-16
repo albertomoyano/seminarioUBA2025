@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  16 APR 2025 07:08
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  16 APR 2025 07:46
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -3580,7 +3580,7 @@ pdf_start_link, 128 pdf_end_link, 18 pdf_dest, 60 pdf_action, 578 pdf_colorstack
 , 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
    avail lists: 1:8,2:313,3:173,4:63,5:94,6:16,7:1839,8:4,9:4632,10:17,11:167
  87498 multiletter control sequences out of 65536+600000
- 97 fonts using 25839215 bytes
+ 97 fonts using 25839327 bytes
  117i,10n,123p,2362b,3129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Ital
 ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Lib
