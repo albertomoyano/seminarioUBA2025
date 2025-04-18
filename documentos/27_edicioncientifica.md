@@ -1,12 +1,4 @@
-Entiendo perfectamente. Aquí tienes un **Trabajo Práctico (TP) completo en formato Markdown**, sintetizando el análisis *sin incluir los diálogos previos*, listo para que lo descargues, edites y adaptes:
-
-```markdown
-# Trabajo Práctico:  
-## ¿Por qué las revistas científicas privilegian el PDF sobre el HTML?  
-
-**Autor**: [Tu nombre]  
-**Asignatura**: [Nombre de la materia]  
-**Fecha**: [Fecha]  
+# ¿Por qué las revistas científicas privilegian el PDF sobre el HTML?  
 
 ---
 
