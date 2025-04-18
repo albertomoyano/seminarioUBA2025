@@ -14,7 +14,7 @@
 ---  
 
 ## Introducción  
-El formato PDF domina la comunicación científica pese a las ventajas del HTML (accesibilidad, enlazado semántico, dinamismo). Este trabajo analiza las causas de esta persistencia, explorando:  
+El formato PDF domina la comunicación científica pese a las ventajas del HTML (accesibilidad, enlazado semántico, dinamismo). Este trabajo intenta analizar las posibles causas de esta persistencia, explorando:  
 - **Factores estructurales** (técnicos, económicos).  
 - **Resistencias humanas** (editores, autores, diseñadores).  
 - **El conflicto con modelos emergentes** (edición ramificada).  
@@ -27,12 +27,12 @@ El formato PDF domina la comunicación científica pese a las ventajas del HTML 
 ## Factores técnicos y culturales  
 
 ### 1. Inercia del sistema académico  
-- **Símbolo de autoridad**: El PDF replica la estética del papel, asociada a rigor ("documento definitivo").  
+- **Símbolo de autoridad**: El PDF replica la estética del papel, asociada a rigor («documento definitivo»).  
 - **Compatibilidad**: Es universalmente legible, incluso con contenido complejo (fórmulas matemáticas en LaTeX).  
 
 ```mermaid  
 graph TD  
-    A[Herramientas tradicionales] --> B(LaTeX/InDesign)  
+    A[Herramientas tradicionales] --> B(InDesign/QXPress)  
     B --> C[PDF de alta calidad]  
     B --> D[HTML] -.Requiere transformación adicional.-> E[XML/JATS]  
 ```  
