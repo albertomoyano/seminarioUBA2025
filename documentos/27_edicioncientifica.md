@@ -39,8 +39,8 @@ graph TD
 
 ### 2. Limitaciones económicas  
 - Migrar a HTML exigiría:  
-  - Inversión en nuevas plataformas (ej: PubPub, Janeway).  
-  - Capacitación en estándares semánticos (MathML, WCAG).  
+  - Inversión en nuevas plataformas.  
+  - Capacitación en estándares semánticos (W3C, MathML, WCAG).  
 
 ---  
 
@@ -49,9 +49,9 @@ graph TD
 ### 1. Roles clave y sus resistencias  
 | **Rol**           | **Dolor principal**                  | **Ejemplo**                          |  
 |--------------------|--------------------------------------|--------------------------------------|  
-| Editores           | Miedo a perder control editorial     | "¿Cómo citar versiones dinámicas?"   |  
+| Editores           | Miedo a perder control editorial     | ¿Cómo citar versiones dinámicas?   |  
 | Diseñadores        | Dominio de herramientas para PDF     | Adobe InDesign vs. CSS/HTML          |  
-| Autores senior     | Desconfianza hacia formatos "vivos"  | "Prefiero revisar pruebas en PDF"    |  
+| Autores senior     | Desconfianza hacia formatos «dinámicos»  | Prefiero revisar pruebas en PDF    |  
 
 ### 2. Formación profesional  
 - Los programas de edición científica rara vez incluyen:  
@@ -63,7 +63,7 @@ graph TD
 ## El desafío de la edición ramificada  
 
 ### 1. ¿Qué es?  
-Modelo donde los artículos se actualizan constantemente (como en GitHub), en lugar de publicarse como "versiones finales".  
+Modelo donde los artículos se actualizan constantemente (como en GitHub), en lugar de publicarse como «versiones finales».  
 
 ### 2. Conflictos con el PDF  
 | **Parámetro**       | **PDF**               | **Edición ramificada**         |  
