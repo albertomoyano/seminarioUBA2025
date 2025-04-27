@@ -39,7 +39,7 @@ Define la fecha. Se puede dejar vacío (`\date{}`) para no mostrarla.
 Genera automáticamente la portada utilizando el título, autor y fecha.
 
 - `\frontmatter`  
-Inicia la parte preliminar del libro (índice, prólogo), numerada en romanos (i, ii, iii, ...).
+Inicia la parte preliminar del libro (índice, prólogo), numerada en romanos (I, II, III, ...).
 
 - `\tableofcontents`  
 Genera el índice automático de contenidos.
@@ -57,7 +57,7 @@ Crea una nueva sección dentro de un capítulo.
 Crea una subsección dentro de una sección.
 
 - `\backmatter`  
-Inicia la parte final del libro (apéndices, bibliografía, índice).
+Inicia la parte final del libro (apéndices, glosario, bibliografía, índices).
 
 ## Formato de texto
 
@@ -67,6 +67,9 @@ Pone el texto en **negrita**.
 - `\textit{texto}`  
 Pone el texto en *cursiva*.
 
+- `\emph{texto}`  
+Pone el texto en el valor complementario al antecesor.
+
 - `\underline{texto}`  
 Subraya el texto.
 
@@ -74,6 +77,9 @@ Subraya el texto.
 Inserta una nota al pie.
 
 ## Inclusión de elementos gráficos
+
+- `\begin{quote}...\end{quote}`  
+Crea un entorno para citas.
 
 - `\begin{figure}...\end{figure}`  
 Crea un entorno para insertar figuras.
@@ -94,9 +100,6 @@ Crea una etiqueta para hacer referencia interna.
 
 - `\ref{etiqueta}`  
 Hace referencia al número de capítulo, sección, figura o tabla.
-
-- `\hyperref[label]{Texto}`  
-Crea un hipervínculo hacia una etiqueta específica.
 
 - `\url{https://www.ejemplo.com}`  
 Inserta un enlace web.
