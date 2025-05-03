@@ -23,46 +23,64 @@ jobs:
     - name: Find PDF file and calculate hash
       id: pdf-finder
       run: |
+        # Establecer zona horaria (UTC por defecto)
+        export TZ="UTC"  # Puedes cambiar a tu zona horaria preferida
+        
         REPO_NAME=$(echo "$GITHUB_REPOSITORY" | cut -d'/' -f2)
         echo "Nombre del repositorio: $REPO_NAME"
         
+        # Approach más flexible: primero verificar si existe el PDF esperado
         EXPECTED_PDF="pdf/pdf-$REPO_NAME.pdf"
-        echo "Buscando PDF en: $EXPECTED_PDF"
+        echo "Buscando PDF esperado en: $EXPECTED_PDF"
         
-        # Verificación más robusta de la existencia del archivo
+        # Verificar existencia del archivo esperado o buscar cualquier PDF
         if [ -f "$EXPECTED_PDF" ]; then
-          echo "PDF encontrado: $EXPECTED_PDF"
-          PDF_SIZE=$(du -h "$EXPECTED_PDF" | cut -f1)
+          FOUND_PDF="$EXPECTED_PDF"
+          echo "PDF encontrado (formato estándar): $FOUND_PDF"
+        else
+          # Si no existe el archivo esperado, buscar cualquier PDF en el directorio
+          FOUND_PDF=$(find pdf/ -name "*.pdf" -type f | head -1)
+          
+          if [ -n "$FOUND_PDF" ]; then
+            echo "PDF encontrado (formato alternativo): $FOUND_PDF"
+          else
+            echo "::warning::No se encontró ningún PDF en la carpeta pdf/"
+            echo "name=" >> $GITHUB_OUTPUT  # Variable vacía para skipear el release
+            exit 0
+          fi
+        fi
+        
+        # Procesar el PDF encontrado
+        if [ -f "$FOUND_PDF" ]; then
+          # Obtener el nombre base del PDF (sin extensión y sin ruta)
+          PDF_BASENAME=$(basename "$FOUND_PDF" .pdf)
+          echo "Nombre base del PDF: $PDF_BASENAME"
+          
+          PDF_SIZE=$(du -h "$FOUND_PDF" | cut -f1)
           echo "Tamaño del PDF: $PDF_SIZE"
           
           # Calcular un hash para el contenido del PDF
-          PDF_HASH=$(sha256sum "$EXPECTED_PDF" | cut -d' ' -f1 | head -c 8)
+          PDF_HASH=$(sha256sum "$FOUND_PDF" | cut -d' ' -f1 | head -c 8)
           echo "Hash del PDF: $PDF_HASH"
           
-          # Crear fecha y hora de versión con hash (UTC)
+          # Crear fecha y hora de versión con hash
           RELEASE_DATE=$(date +"%Y.%m.%d")
           RELEASE_DATETIME=$(date +"%Y.%m.%d-%H.%M")
           DISPLAY_DATETIME=$(date +"%d/%m/%Y a las %H:%M UTC")
           
           # Añadir hash corto al tag para garantizar unicidad
-          UNIQUE_TAG="pdf-${RELEASE_DATETIME}-${PDF_HASH}"
+          UNIQUE_TAG="${PDF_BASENAME}-${RELEASE_DATETIME}-${PDF_HASH}"
           
-          echo "name=$EXPECTED_PDF" >> $GITHUB_OUTPUT
+          echo "name=$FOUND_PDF" >> $GITHUB_OUTPUT
+          echo "basename=$PDF_BASENAME" >> $GITHUB_OUTPUT
           echo "version=$RELEASE_DATE" >> $GITHUB_OUTPUT
           echo "unique_tag=$UNIQUE_TAG" >> $GITHUB_OUTPUT
           echo "display_datetime=$DISPLAY_DATETIME" >> $GITHUB_OUTPUT
           echo "hash=$PDF_HASH" >> $GITHUB_OUTPUT
           echo "size=$PDF_SIZE" >> $GITHUB_OUTPUT
         else
-          echo "::warning::No se encontró el PDF esperado: $EXPECTED_PDF"
-          echo "name=" >> $GITHUB_OUTPUT
-          
-          # Buscar cualquier PDF en el directorio
-          FOUND_PDF=$(find pdf/ -name "*.pdf" -type f | head -1)
-          if [ -n "$FOUND_PDF" ]; then
-            echo "Se encontró otro PDF: $FOUND_PDF"
-            echo "alt_pdf=$FOUND_PDF" >> $GITHUB_OUTPUT
-          fi
+          echo "::warning::No se pudo procesar el PDF"
+          echo "name=" >> $GITHUB_OUTPUT  # Variable vacía para skipear el release
         fi
         
     - name: Create Release
@@ -72,8 +90,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         files: ${{ steps.pdf-finder.outputs.name }}
-        tag_name: "${{ steps.pdf-finder.outputs.unique_tag }}"
-        name: "PDF Document ${{ steps.pdf-finder.outputs.version }} (${{ steps.pdf-finder.outputs.hash }})"
+        tag_name: "${{ steps.pdf-finder.outputs.basename }}-${{ steps.pdf-finder.outputs.version }}"
+        name: "${{ steps.pdf-finder.outputs.basename }} - ${{ steps.pdf-finder.outputs.version }}"
         body: |
           📄 PDF compilado automáticamente
           
