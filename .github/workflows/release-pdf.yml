@@ -1,0 +1,82 @@
+name: PDF Release
+on:
+  push:
+    paths:
+      - 'pdf/*.pdf'
+  workflow_dispatch:
+jobs:
+  release-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Debug - List PDF directory
+      run: |
+        echo "Contenido del directorio pdf:"
+        ls -la pdf/ || echo "Directorio pdf no existe"
+        
+    - name: Find PDF file and calculate hash
+      id: pdf-finder
+      run: |
+        REPO_NAME=$(echo "$GITHUB_REPOSITORY" | cut -d'/' -f2)
+        echo "Nombre del repositorio: $REPO_NAME"
+        
+        EXPECTED_PDF="pdf/pdf-$REPO_NAME.pdf"
+        echo "Buscando PDF en: $EXPECTED_PDF"
+        
+        # Verificación más robusta de la existencia del archivo
+        if [ -f "$EXPECTED_PDF" ]; then
+          echo "PDF encontrado: $EXPECTED_PDF"
+          PDF_SIZE=$(du -h "$EXPECTED_PDF" | cut -f1)
+          echo "Tamaño del PDF: $PDF_SIZE"
+          
+          # Calcular un hash para el contenido del PDF
+          PDF_HASH=$(sha256sum "$EXPECTED_PDF" | cut -d' ' -f1 | head -c 8)
+          echo "Hash del PDF: $PDF_HASH"
+          
+          # Crear fecha y hora de versión con hash (UTC)
+          RELEASE_DATE=$(date +"%Y.%m.%d")
+          RELEASE_DATETIME=$(date +"%Y.%m.%d-%H.%M")
+          DISPLAY_DATETIME=$(date +"%d/%m/%Y a las %H:%M UTC")
+          
+          # Añadir hash corto al tag para garantizar unicidad
+          UNIQUE_TAG="pdf-${RELEASE_DATETIME}-${PDF_HASH}"
+          
+          echo "name=$EXPECTED_PDF" >> $GITHUB_OUTPUT
+          echo "version=$RELEASE_DATE" >> $GITHUB_OUTPUT
+          echo "unique_tag=$UNIQUE_TAG" >> $GITHUB_OUTPUT
+          echo "display_datetime=$DISPLAY_DATETIME" >> $GITHUB_OUTPUT
+          echo "hash=$PDF_HASH" >> $GITHUB_OUTPUT
+          echo "size=$PDF_SIZE" >> $GITHUB_OUTPUT
+        else
+          echo "::warning::No se encontró el PDF esperado: $EXPECTED_PDF"
+          echo "name=" >> $GITHUB_OUTPUT
+          
+          # Buscar cualquier PDF en el directorio
+          FOUND_PDF=$(find pdf/ -name "*.pdf" -type f | head -1)
+          if [ -n "$FOUND_PDF" ]; then
+            echo "Se encontró otro PDF: $FOUND_PDF"
+            echo "alt_pdf=$FOUND_PDF" >> $GITHUB_OUTPUT
+          fi
+        fi
+        
+    - name: Create Release
+      if: steps.pdf-finder.outputs.name != ''
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        files: ${{ steps.pdf-finder.outputs.name }}
+        tag_name: "${{ steps.pdf-finder.outputs.unique_tag }}"
+        name: "PDF Document ${{ steps.pdf-finder.outputs.version }} (${{ steps.pdf-finder.outputs.hash }})"
+        body: |
+          📄 PDF compilado automáticamente
+          
+          📊 Tamaño: ${{ steps.pdf-finder.outputs.size }}
+          🗓️ Fecha: ${{ steps.pdf-finder.outputs.display_datetime }}
+          🔄 Hash: ${{ steps.pdf-finder.outputs.hash }}

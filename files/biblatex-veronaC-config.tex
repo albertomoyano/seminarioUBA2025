@@ -224,3 +224,22 @@ uniquelist=minyear]{biblatex}
 			{\bibstring{translationas}}}\nopunct}%
 	{\printtext{\bibstring{reprint}}}\nopunct}
 \makeatother
+
+% redefino el comando citeyearpar para obtener más de una cita
+\DeclareCiteCommand{\citeyearpar}
+{}
+{%
+	\ifnumequal{\value{citetotal}}{1}
+	{(\bibhyperref{\printdate})}
+	{%
+		\ifnumequal{\value{citecount}}{1}
+		{(\bibhyperref{\printdate}}
+		{%
+			\ifnumequal{\value{citecount}}{\value{citetotal}}
+			{\addcomma\addspace\bibhyperref{\printdate})}
+			{\addcomma\addspace\bibhyperref{\printdate}}%
+		}%
+	}%
+}
+{}
+{}
