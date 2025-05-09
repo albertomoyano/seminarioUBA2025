@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,top=20mm,bottom=20mm,left=20mm,right=20mm,headsep=0pt,headheight=0pt,footskip=0pt,marginparsep=0pt,marginparwidth=0pt,footnotesep=13.5pt plus 0.1pt minus 0.1pt]{geometry}
+\usepackage[spanish,es-ucroman,es-noshorthands]{babel}
+\usepackage[autostyle=true]{csquotes}
+\tracinglostchars=2
+\usepackage{fontspec}
+\usepackage{microtype}
+\newfontfeature{Microtypography}{protrusion=default;expansion=default}
+\directlua{fonts.protrusions.setups.default.factor=.5}
+\renewcommand{\normalsize}{\fontsize{10pt}{13.5pt}\selectfont}
+\topskip=13.5pt
+\setmainfont{Libertinus Serif}[Numbers={OldStyle,Proportional},Ligatures=TeX,Scale=1.2]
+\setsansfont{IBMPlexSansCondensed}[Scale=MatchLowercase,Ligatures=TeX,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic]
+\setmonofont{IBMPlexMono.otf}[Scale=0.91,Extension=.otf,UprightFont=*-Regular,ItalicFont = IBMPlexMono-Italic.otf,BoldFont = IBMPlexMono-Bold.otf,BoldItalicFont = IBMPlexMono-BoldItalic.otf]
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\definecolor{color2}{RGB}{144,12,63}
+\pagecolor{color2!1}
+\usepackage[absolute]{textpos}
+\newcommand\cabecera[1]{\sf\normalsize{#1}}
+\newcommand\titulo[1]{\sf\LARGE{\textbf{#1}}}
+\newcommand\subtitulo[1]{\sf\Large{#1}}
+\newcommand\autoria[1]{\color{color2}\sf\Large{#1}}
+\newcommand\legales[1]{\sf\normalsize{#1}}
+\newcommand\texto[1]{\normalsize{#1}}
+\newcommand\biografia[1]{\sf\small{#1}}
+\usepackage{url}
+\def\UrlFont{\tt\footnotesize}
+\begin{document}
+\thispagestyle{empty}
+\begin{textblock*}{45mm}(15mm,20mm)
+\includegraphics[width=45mm]{/home/alberto/Disco2/00_Produccion/seminarioUBA2025/tapa/WEB-tapa-SEMINARIO.png}
+\end{textblock*}
+\begin{textblock*}{45mm}(15mm,100mm)
+\begin{minipage}{45mm}
+\noindent\legales{ISBN: \textbf{978-950-793-000-0}}\\
+\noindent\legales{Formato: \textbf{15.5x23cm}}\\
+\noindent\legales{Páginas: \textbf{50}}\\
+\noindent\legales{Idioma: \textbf{es}}\\
+\noindent\legales{Fecha: \textbf{21-03-2025}}\\
+\end{minipage}
+\end{textblock*}
+\begin{textblock*}{11cm}(75mm,20mm)
+\begin{minipage}{11cm}
+\noindent\cabecera{Colección {\color{color2}\textbf{Sin colección}}}\\
+\noindent\cabecera{Dirigida por \textbf{}}\\
+\end{minipage}
+\end{textblock*}
+\begin{textblock*}{11cm}(75mm,45mm)
+\begin{minipage}{11cm}
+\raggedright \titulo{Lorem Ipsum}\\
+\raggedright \subtitulo{Un estudio preliminar sobre las marcas}
+\end{minipage}
+\end{textblock*}
+\begin{textblock*}{11cm}(75mm,100mm)
+\begin{minipage}{11cm}
+\noindent\texto{}
+\end{minipage}
+\end{textblock*}
+\begin{textblock*}{11cm}(75mm,77mm)
+\begin{minipage}{11cm}
+\noindent\autoria{Alberto Moyano}
+\end{minipage}
+\end{textblock*}
+\end{document}
+
