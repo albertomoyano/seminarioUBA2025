@@ -49,7 +49,7 @@ Tanto Morison como De Sousa partían de un principio radical: **el impreso es un
 | **Caso**                | **Morison**                          | **De Sousa**                        |  
 |--------------------------|--------------------------------------|--------------------------------------|  
 | **Prioridad**           | Legibilidad en condiciones reales (papel barato, tinta que mancha). | Claridad en textos técnicos (evitar ambigüedades en leyes o manuales). |  
-| **Enemigo común**       | El diseño que distrae (ej.: tipografías Art Nouveau en noticias). | Las normas que obstaculizan (ej.: puntos en abreviaturas como "Sr."). |  
+| **Enemigo común**       | El diseño que distrae. | Normas que obstaculizan la lectura. |  
 
 ---
 
