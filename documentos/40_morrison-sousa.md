@@ -25,34 +25,30 @@ Este trabajo explora las contribuciones de **Stanley Morison** (tipógrafo brit�
 
 ---
 
-## 3. Diseño, legibilidad y sentido común  
+## 3.3 El soporte como herramienta: diseño al servicio del contenido  
+Tanto Morison como De Sousa partían de un principio radical: **el impreso es un vehículo, no un objeto decorativo**.  
 
-### 3.1 Principios compartidos  
-| **Concepto**       | **Morison (Tipografía)**               | **De Sousa (Ortotipografía)**        |  
-|--------------------|----------------------------------------|---------------------------------------|  
-| **Legibilidad**    | "La letra existe para leerse, no para admirarse". Optimizó *Times New Roman* para impresión. | Defendía normas que eviten ambigüedades (ej.: tildes en "solo"). |  
-| **Adaptación**     | Adaptó tipografías clásicas a tecnología moderna (linotipia). | Aceptó cambios digitales (negritas, espaciado flexible). |  
-| **Crítica**       | Rechazó tipografías decorativas sin función. | Cuestionó reglas de la RAE sin base práctica. |  
+### **Perspectiva de Morison**  
+- **Función sobre forma**:  
+  - Diseñó *Times New Roman* para que *The Times* ahorrara espacio *sin sacrificar legibilidad*, priorizando la eficiencia informativa.  
+  - Criticaba a los tipógrafos que creaban fuentes "para exposiciones" en lugar de para lectura prolongada.  
 
-### 3.2 Ejemplos concretos  
-- **Morison**:  
-  - *Times New Roman*: Serifas finas y alto de x elevado para mejor lectura en periódicos.  
-  - Uso de *versalitas* en lugar de mayúsculas para jerarquía visual.  
+- **Frase clave**:  
+  > *"Un periódico es un instrumento de comunicación, no un cuadro para colgar en la pared"*.  
 
-- **De Sousa**:  
-  - Defendió el **interlineado 1.5** en libros para reducir fatiga visual.  
-  - Propuso simplificar signos redundantes (ej.: punto tras comillas de cierre).  
+### **Perspectiva de De Sousa**  
+- **Normas al servicio del lector**:  
+  - Insistía en que las reglas ortotipográficas debían facilitar la **comprensión rápida** (ej.: puntuación lógica en textos jurídicos).  
+  - Rechazaba convenciones arbitrarias que añadieran "ruido" al mensaje (como abreviaturas innecesarias).  
 
----
+- **Frase clave**:  
+  > *"La ortografía no es dogma: es el andamio que sostiene el edificio del sentido"*.  
 
-## 4. Autodidactismo y legado  
-### 4.1 Impacto sin formación formal  
-- **Morison**: Asesoró a la *Cambridge University Press* y escribió tratados teóricos.  
-- **De Sousa**: Sus obras son referencia en universidades y editoriales.  
-
-### 4.2 Lecciones para el diseño actual  
-- **Pantallas digitales**: Morison habría optimizado fuentes para resoluciones bajas.  
-- **Redes sociales**: De Sousa habría corregido el mal uso de puntos suspensivos (" . . . ").  
+### **Ejemplo comparativo**  
+| **Caso**                | **Morison**                          | **De Sousa**                        |  
+|--------------------------|--------------------------------------|--------------------------------------|  
+| **Prioridad**           | Legibilidad en condiciones reales (papel barato, tinta que mancha). | Claridad en textos técnicos (evitar ambigüedades en leyes o manuales). |  
+| **Enemigo común**       | El diseño que distrae (ej.: tipografías Art Nouveau en noticias). | Las normas que obstaculizan (ej.: puntos en abreviaturas como "Sr."). |  
 
 ---
 
@@ -62,9 +58,4 @@ Tanto Morison como De Sousa demostraron que el **diseño efectivo** requiere:
 2. **Adaptabilidad** (contexto tecnológico).  
 3. **Sentido común** (reglas basadas en evidencia, no tradición).  
 
----
-
-## 6. Bibliografía  
-- Morison, S. (1936). *First Principles of Typography*.  
-- Martínez de Sousa, J. (2012). *Ortografía y ortotipografía del español*.  
-- [Otros recursos relevantes].  
+Sus legados van más allá de lo estético: demostraron que el **diseño editorial es un acto ético**. Cuando un texto se vuelve ilegible o confuso por culpa de elecciones tipográficas o normativas, se traiciona su fin primario: **documentar e informar**. Hoy, sus principios resuenan en desafíos como la lectura en pantallas o la accesibilidad digital.  
