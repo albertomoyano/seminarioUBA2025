@@ -25,7 +25,8 @@ Este trabajo explora las contribuciones de **Stanley Morison** (tipógrafo brit�
 
 ---
 
-## 3.3 El soporte como herramienta: diseño al servicio del contenido  
+## 3 El soporte como herramienta: diseño al servicio del contenido
+
 Tanto Morison como De Sousa partían de un principio radical: **el impreso es un vehículo, no un objeto decorativo**.  
 
 ### **Perspectiva de Morison**  
@@ -52,7 +53,7 @@ Tanto Morison como De Sousa partían de un principio radical: **el impreso es un
 
 ---
 
-## 5. Conclusión  
+## 4. Conclusión  
 Tanto Morison como De Sousa demostraron que el **diseño efectivo** requiere:  
 1. **Funcionalidad** (legibilidad).  
 2. **Adaptabilidad** (contexto tecnológico).  
