@@ -30,57 +30,65 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 % cambiamos el nombre de sigla
 \newcommand{\acronymsname}{Índice de siglas}
 
-\usepackage{fontspec}% Soporte para fuentes OpenType
-\usepackage[final]{microtype}% Mejoras tipográficas micro
-\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
-% solo trabajamos con protusion y sin expansion para Libertinus
-% \SetProtrusion
-% [ name=libertinus ]
-% { encoding = * }
-% { . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
-\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
-\topskip=14pt
+% configuración para usar la tipografía Brill
+\usepackage{fontspec}
+\protrudechars=2 %    \pdfprotrudechars=2 and
+\adjustspacing=2 %    \pdfadjustspacing=2 with luatex < v0.85
+\newfontfeature{Microtypography}{protrusion=default;expansion=default}
+\directlua{fonts.protrusions.setups.default.factor=.5}
+\setmainfont[Microtypography,
+Numbers={OldStyle, Proportional},
+Ligatures=TeX]{Brill}
 
-% Fuente principal Libertinus con características tipográficas
+%\usepackage{fontspec}% Soporte para fuentes OpenType
+%\usepackage[final,babel=true]{microtype}% Mejoras tipográficas micro
+%\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+%% solo trabajamos con protusion y sin expansion para Libertinus
+%% \SetProtrusion
+%% [ name=libertinus ]
+%% { encoding = * }
+%% { . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
+%\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+%\topskip=14pt
+
+% Libertinus Serif
 % \setmainfont{Libertinus Serif}
+%\newfontfeature{Microtypography}{protrusion=default;expansion=default}
+%\directlua{fonts.protrusions.setups.default.factor=.5}
 % [Numbers={OldStyle,Proportional},
 % Ligatures={TeX,Common,Discretionary},
 % RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
 % Scale=1.18]
 
-% Matemáticas con Libertinus Math
-\usepackage{unicode-math}
-\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+%% Minion Pro
+%\usepackage{fontspec}% Soporte para fuentes OpenType
+%\usepackage[final,babel=true]{microtype}% Mejoras tipográficas micro
+%\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
+%\setmainfont{Minion Pro}
+%[Numbers={OldStyle,Proportional},Ligatures=TeX,
+%Scale=1.2,
+%SizeFeatures={
+%        {Size={-8.40},Font=* Capt},
+%        {Size={8.41-14.0},Font=*},
+%        {Size={14.01-24.0},Font=* Subh},
+%        {Size={24.01-},Font=* Disp}},
+%UprightFont=*-Regular,
+%ItalicFont=*-It,
+%BoldFont=*-Semibold,
+%BoldItalicFont=*-SemiboldIt]
 
-% Configuración de fuentes para chino
-% \usepackage{luatexja-fontspec}
-% \setmainjfont{FandolSong}
-
-\setmainfont{Minion Pro}
-[Numbers={OldStyle,Proportional},Ligatures=TeX,
-Scale=1.2,
-SizeFeatures={
-        {Size={-8.40},Font=* Capt},
-        {Size={8.41-14.0},Font=*},
-        {Size={14.01-24.0},Font=* Subh},
-        {Size={24.01-},Font=* Disp}},
-UprightFont=*-Regular,
-ItalicFont=*-It,
-BoldFont=*-Semibold,
-BoldItalicFont=*-SemiboldIt]
-
-\newfontfamily\minionCond{Minion Pro}
-[Numbers={OldStyle,Proportional},Ligatures=TeX,
-Scale=1.2,
-SizeFeatures={
-        {Size={-8.40},Font=* CnCapt},
-        {Size={8.41-14.0},Font=* Cn},
-        {Size={14.01-24.0},Font=* CnSubh},
-        {Size={24.01-},Font=* CnDisp}},
-UprightFont=*-Cn,
-ItalicFont=*-CnIt,
-BoldFont=*-SemiboldCn,
-BoldItalicFont=*-SemiboldCnIt]
+%\newfontfamily\minionCond{Minion Pro}
+%[Numbers={OldStyle,Proportional},Ligatures=TeX,
+%Scale=1.2,
+%SizeFeatures={
+%        {Size={-8.40},Font=* CnCapt},
+%        {Size={8.41-14.0},Font=* Cn},
+%        {Size={14.01-24.0},Font=* CnSubh},
+%        {Size={24.01-},Font=* CnDisp}},
+%UprightFont=*-Cn,
+%ItalicFont=*-CnIt,
+%BoldFont=*-SemiboldCn,
+%BoldItalicFont=*-SemiboldCnIt]
 
 \setsansfont[Scale=MatchLowercase,
 Ligatures=TeX,
@@ -96,6 +104,14 @@ UprightFont=*-Regular,
 ItalicFont = IBMPlexMono-Italic.otf,
 BoldFont = IBMPlexMono-Bold.otf,
 BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
+
+% Matemáticas con Libertinus Math
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+
+% Configuración de fuentes para chino
+% \usepackage{luatexja-fontspec}
+% \setmainjfont{FandolSong}
 
 % control de ruptura de linea
 \usepackage{linebreaker}
@@ -280,7 +296,7 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
     \ifnum\value{chapter}>0
       \begin{center}
         \begin{tikzpicture}
-          \node[circle, draw=none, fill=chaptercircle, minimum size=2cm, inner sep=0pt] 
+          \node[circle, draw=none, fill=chaptercircle, minimum size=2cm, inner sep=0pt]
             {\makebox[2cm][c]{\color{black!70}\bfseries\fontsize{48pt}{60pt}\selectfont\thechapter}};
         \end{tikzpicture}
       \end{center}
