@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  23 MAY 2025 19:14
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  23 MAY 2025 22:46
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -2771,14 +2771,14 @@ el 4-M from aux file.>
 
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
 (./artcap/conclusiones.aux)
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
  (./artcap/indiceautores.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count598
 )
@@ -4082,18 +4082,18 @@ el 4-M from aux file.>
 (./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
 (./artcap/conclusiones.aux)
-LaTeX Info: Redefining \sptext on input line 87.
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-LaTeX Info: Redefining \sptext on input line 88.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
-LaTeX Info: Redefining \sptext on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-LaTeX Info: Redefining \sptext on input line 93.
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \sptext on input line 79.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \sptext on input line 80.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \sptext on input line 84.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \sptext on input line 85.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
  (./artcap/indiceautores.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -4107,17 +4107,17 @@ Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 65868 strings out of 476553
+ 65860 strings out of 476553
  932463,2848258 words of node,token memory allocated
- 792537 words of node memory still in use:
-   5183 hlist, 27 vlist, 3946 rule, 10 ins, 1 adjust, 8505 disc, 613 local_par, 
-76 math, 11192 glue, 8311 kern, 1276 penalty, 179 margin_kern, 56600 glyph, 3387
-5 attribute, 1475 glue_spec, 4851 attribute_list, 113 write, 372 pdf_literal, 15
-7 pdf_start_link, 157 pdf_end_link, 18 pdf_dest, 74 pdf_action, 688 pdf_colorsta
-ck, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:4,2:313,3:195,4:115,5:179,6:31,7:1911,8:3,9:4443,10:14,11:171
- 85868 multiletter control sequences out of 65536+600000
- 83 fonts using 37645807 bytes
+ 783540 words of node memory still in use:
+   5158 hlist, 27 vlist, 3946 rule, 10 ins, 1 adjust, 8417 disc, 600 local_par, 
+76 math, 11089 glue, 8194 kern, 1237 penalty, 178 margin_kern, 56063 glyph, 3310
+5 attribute, 1447 glue_spec, 4741 attribute_list, 89 write, 372 pdf_literal, 133
+ pdf_start_link, 133 pdf_end_link, 18 pdf_dest, 62 pdf_action, 636 pdf_colorstac
+k, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
+   avail lists: 1:4,2:313,3:167,4:63,5:183,6:15,7:1732,8:3,9:4492,10:14,11:154
+ 85861 multiletter control sequences out of 65536+600000
+ 83 fonts using 37645863 bytes
  117i,10n,122p,2362b,3119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Ital
 ic.otf></usr/share/fonts/truetype/Brill_Typeface_4.0/Brill-Italic.ttf></usr/shar
@@ -4125,10 +4125,10 @@ e/fonts/truetype/Brill_Typeface_4.0/Brill-Bold.ttf></usr/share/texlive/texmf-dis
 t/fonts/opentype/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/
 texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/
 fonts/truetype/Brill_Typeface_4.0/Brill-Roman.ttf>
-Output written on pdf-seminarioUBA.pdf (42 pages, 850531 bytes).
+Output written on pdf-seminarioUBA.pdf (42 pages, 849090 bytes).
 
-PDF statistics: 470 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 131072)
+PDF statistics: 455 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 90 named destinations out of 1000 (max. 131072)
  365 words of extra memory for PDF output out of 10000 (max. 100000000)
 
