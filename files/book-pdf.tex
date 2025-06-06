@@ -30,65 +30,25 @@ footnotesep=14pt plus 0.1pt minus 0.1pt]{geometry}
 % cambiamos el nombre de sigla
 \newcommand{\acronymsname}{Índice de siglas}
 
-% configuración para usar la tipografía Brill
-\usepackage{fontspec}
-\protrudechars=2 %    \pdfprotrudechars=2 and
-\adjustspacing=2 %    \pdfadjustspacing=2 with luatex < v0.85
-\newfontfeature{Microtypography}{protrusion=default;expansion=default}
-\directlua{fonts.protrusions.setups.default.factor=.5}
-\setmainfont[Microtypography,
-Numbers={OldStyle, Proportional},
-Ligatures=TeX]{Brill}
+% configuración para usar la tipografía Libertinus Serif
+\usepackage{fontspec}% Soporte para fuentes OpenType
+\usepackage[final,babel=true]{microtype}% Mejoras tipográficas micro
+\microtypecontext{spacing=nonfrench}
+% solo trabajamos con protusion y sin expansion para Libertinus
+\SetProtrusion
+[ name=libertinus ]
+{ encoding = * }
+{ . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
+\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+\topskip=14pt
 
-%\usepackage{fontspec}% Soporte para fuentes OpenType
-%\usepackage[final,babel=true]{microtype}% Mejoras tipográficas micro
-%\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
-%% solo trabajamos con protusion y sin expansion para Libertinus
-%% \SetProtrusion
-%% [ name=libertinus ]
-%% { encoding = * }
-%% { . = {50,50}, , = {40,40}, - = {30,30}, " = {50,50}, ( = {40,50}, ) = {50,40} }
-%\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
-%\topskip=14pt
-
-% Libertinus Serif
-% \setmainfont{Libertinus Serif}
-%\newfontfeature{Microtypography}{protrusion=default;expansion=default}
-%\directlua{fonts.protrusions.setups.default.factor=.5}
-% [Numbers={OldStyle,Proportional},
-% Ligatures={TeX,Common,Discretionary},
-% RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
-% Scale=1.18]
-
-%% Minion Pro
-%\usepackage{fontspec}% Soporte para fuentes OpenType
-%\usepackage[final,babel=true]{microtype}% Mejoras tipográficas micro
-%\microtypecontext{spacing=nonfrench}% Mejora espaciado sin modificar el interletrado
-%\setmainfont{Minion Pro}
-%[Numbers={OldStyle,Proportional},Ligatures=TeX,
-%Scale=1.2,
-%SizeFeatures={
-%        {Size={-8.40},Font=* Capt},
-%        {Size={8.41-14.0},Font=*},
-%        {Size={14.01-24.0},Font=* Subh},
-%        {Size={24.01-},Font=* Disp}},
-%UprightFont=*-Regular,
-%ItalicFont=*-It,
-%BoldFont=*-Semibold,
-%BoldItalicFont=*-SemiboldIt]
-
-%\newfontfamily\minionCond{Minion Pro}
-%[Numbers={OldStyle,Proportional},Ligatures=TeX,
-%Scale=1.2,
-%SizeFeatures={
-%        {Size={-8.40},Font=* CnCapt},
-%        {Size={8.41-14.0},Font=* Cn},
-%        {Size={14.01-24.0},Font=* CnSubh},
-%        {Size={24.01-},Font=* CnDisp}},
-%UprightFont=*-Cn,
-%ItalicFont=*-CnIt,
-%BoldFont=*-SemiboldCn,
-%BoldItalicFont=*-SemiboldCnIt]
+% Fuente principal Libertinus con características tipográficas
+\setmainfont{Libertinus Serif}
+[Microtypography,
+Numbers={OldStyle,Proportional},
+Ligatures={TeX,Common,Discretionary},
+RawFeature={+cv01,+cv02}, % Variantes de caracteres opcionales
+Scale=1.18]
 
 \setsansfont[Scale=MatchLowercase,
 Ligatures=TeX,
@@ -279,49 +239,18 @@ BoldItalicFont = IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 	\@endpart}
 \makeatother
 
-%diseño de capitulo
-% \titleformat{\chapter}[display]
+%% diseño de capitulo
+\titleformat{\chapter}[display]
 % {\sf \LARGE}
 % {\filleft {\chaptertitlename} \thechapter}
 % {2ex}{\filright}[]
-% {\Large}
-% {\vspace{-2.5cm}\centering{\textsc{\MakeLowercase\chaptertitlename}}~\thechapter}
-% {1.5cm}
-% {\filright\sf\LARGE}
+{\Large}
+{\vspace{-2.5cm}\centering{\textsc{\MakeLowercase\chaptertitlename}}~\thechapter}
+{1.5cm}
+{\filright\sf\LARGE}
+[]
 
-% Formato simple y directo con titleformat
-\titleformat{\chapter}[display]
-  {\normalfont} % Formato del título
-  {% Formato del número (etiqueta)
-    \ifnum\value{chapter}>0
-      \begin{center}
-        \begin{tikzpicture}
-          \node[circle, draw=none, fill=chaptercircle, minimum size=2cm, inner sep=0pt]
-            {\makebox[2cm][c]{\color{black!70}\bfseries\fontsize{48pt}{60pt}\selectfont\thechapter}};
-        \end{tikzpicture}
-      \end{center}
-    \else
-      % Para capítulos no numerados, crear un espacio del mismo tamaño
-      \begin{center}
-        \rule{0pt}{2cm} % Altura aproximada del círculo con número
-      \end{center}
-    \fi
-  }
-  {0.5cm} % Espacio entre el número/etiqueta y el título
-  {\filright\LARGE} % Formato aplicado al título
-
-% Control adicional del espaciado
-\titlespacing*{\chapter}
-  {} % Espacio izquierdo
-  {} % Espacio vertical antes del capítulo
-  {2.5cm} % Espacio vertical después del capítulo
-
-
-
-
-
-
-%diseño de seccion
+%% diseño de seccion
 \titleformat{\section}[hang]
 {\sf\bfseries\large\raggedright}
 {\thesection}{.5em}{}[]

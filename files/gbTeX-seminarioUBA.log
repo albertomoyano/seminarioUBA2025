@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  23 MAY 2025 22:46
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  6 JUN 2025 15:01
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -361,192 +361,237 @@ eX
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks22
+\MT@tempbox=\box52
+\MT@count=\count294
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks23
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen161
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count295
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2023/03/13 v3.1a Definitions specific to luatex (RS)
+
+Lua module: microtype 2023/03/13 3.1a microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 688.
+LaTeX Info: Redefining \lslig on input line 688.
+\MT@outer@space=\skip50
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+
+Package microtype Warning: protrusion codes list `libertinus' will
+(microtype)                override list `T1-default' for 
+(microtype)                font `TU////' on input line 41.
+
 luaotfload | cache : Lookup cache loaded from /home/alberto/.texlive2023/texmf-v
 ar/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 18 (nil) does not define feature onum for script latn
- with language dflt
 
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
 
-luaotfload | aux : font no 18 (nil) does not define feature pnum for script latn
- with language dflt
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
 
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 23 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 23 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 23 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 23 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 24 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/B' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 24 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/B' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 24 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/B' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 24 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/B' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 25 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/I' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 25 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/I' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 25 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/I' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 25 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/I' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 26 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/BI' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 26 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/BI' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 26 (nil) does not define feature onum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (onum) not
-(fontspec)                available for font 'Brill/BI' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-luaotfload | aux : font no 26 (nil) does not define feature pnum for script latn
- with language dflt
-
-Package fontspec Warning: OpenType feature 'Numbers=Lowercase' (pnum) not
-(fontspec)                available for font 'Brill/BI' with script
-(fontspec)                'CustomDefault' and language 'Default'.
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
 
 
-Package fontspec Info: Font family 'Brill(0)' created for font 'Brill' with
-(fontspec)             options
-(fontspec)             [Ligatures=TeX,Microtypography,Numbers={OldStyle,
-(fontspec)             Proportional},Ligatures=TeX].
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
+(LaTeX)        being ignored.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.51 Scale=1.18]
+              
+
+The module 'fontspec-opentype' does not have a key called
+'fontspec-opentype/Microtypography'.
+Check that you have spelled the key name correctly.
+
+
+
+Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
+(fontspec)             'Libertinus Serif' with options
+(fontspec)             [Ligatures=TeX,Microtypography,Numbers={OldStyle,Proport
+ional},Ligatures={TeX,Common,Discretionary},RawFeature={+cv01,+cv02},Scale=1.18
+].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Brill:mode=node;script=latn;language=dflt;protrusion
-=default;expansion=default;+tlig;"
+(fontspec)             <->s*[1.18]"LibertinusSerif:mode=node;script=latn;langua
+ge=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"Brill:mode=node;script=latn;language=dflt;protrusion
-=default;expansion=default;+tlig;+smcp;"
+(fontspec)             <->s*[1.18]"LibertinusSerif:mode=node;script=latn;langua
+ge=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Brill/B:mode=node;script=latn;language=dflt;protrusi
-on=default;expansion=default;+tlig;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/B:mode=node;script=latn;lang
+uage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"Brill/B:mode=node;script=latn;language=dflt;protrusi
-on=default;expansion=default;+tlig;+smcp;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/B:mode=node;script=latn;lang
+uage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Brill/I:mode=node;script=latn;language=dflt;protrusi
-on=default;expansion=default;+tlig;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/I:mode=node;script=latn;lang
+uage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Brill/I:mode=node;script=latn;language=dflt;protrusi
-on=default;expansion=default;+tlig;+smcp;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/I:mode=node;script=latn;lang
+uage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;+smcp;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Brill/BI:mode=node;script=latn;language=dflt;protrus
-ion=default;expansion=default;+tlig;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/BI:mode=node;script=latn;lan
+guage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Brill/BI:mode=node;script=latn;language=dflt;protrus
-ion=default;expansion=default;+tlig;+smcp;"
+(fontspec)             <->s*[1.18]"LibertinusSerif/BI:mode=node;script=latn;lan
+guage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 11.79993pt on input line 51.
+
+Package fontspec Info: IBMPlexSansCondensed-Regular scale =
+(fontspec)             0.9810359970073957.
 
 
 Package fontspec Info: IBMPlexSansCondensed-Regular scale =
-(fontspec)             0.7868183471480067.
-
-
-Package fontspec Info: IBMPlexSansCondensed-Regular scale =
-(fontspec)             0.7868183471480067.
+(fontspec)             0.9810359970073957.
 
 luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: IBMPlexSansCondensed-SemiBold scale =
-(fontspec)             0.7777748546473389.
+(fontspec)             0.9697602156101011.
 
 luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
  with language dflt
 
-Package fontspec Info: IBMPlexSansCondensed-Italic scale = 0.7868183471480067.
+Package fontspec Info: IBMPlexSansCondensed-Italic scale = 0.9810359970073957.
 
 luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: IBMPlexSansCondensed-SemiBoldItalic scale =
-(fontspec)             0.7777748546473389.
+(fontspec)             0.9697602156101011.
 
 luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
  with language dflt
@@ -561,19 +606,19 @@ icFont=*-SemiBoldItalic].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.7868183471480067]"[IBMPlexSansCondensed-Regular.
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Regular.
 otf]:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.7777748546473389]"[IBMPlexSansCondensed-SemiBold
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
 .otf]:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.7868183471480067]"[IBMPlexSansCondensed-Italic.o
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Italic.o
 tf]:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.7777748546473389]"[IBMPlexSansCondensed-SemiBold
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
 Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
@@ -653,7 +698,7 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -661,61 +706,61 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen161
+\@emptytoks=\toks24
+\ex@=\dimen162
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen162
+\pmbraise@=\dimen163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count294
+\inf@bad=\count296
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count295
-\leftroot@=\count296
+\uproot@=\count297
+\leftroot@=\count298
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count297
-\DOTSCASE@=\count298
+\classnum@=\count299
+\DOTSCASE@=\count300
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen163
+\big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count299
+\macc@depth=\count301
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count300
+\c@MaxMatrixCols=\count302
 \dotsspace@=\muskip16
-\c@parentequation=\count301
-\dspbrk@lvl=\count302
-\tag@help=\toks23
-\row@=\count303
-\column@=\count304
-\maxfields@=\count305
-\andhelp@=\toks24
-\eqnshift@=\dimen164
-\alignsep@=\dimen165
-\tagshift@=\dimen166
-\tagwidth@=\dimen167
-\totwidth@=\dimen168
-\lineht@=\dimen169
-\@envbody=\toks25
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks26
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks25
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks26
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks27
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -724,21 +769,21 @@ Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
 h LuaLaTeX
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
 h LuaLaTeX)
-\g__um_fam_int=\count306
-\g__um_fonts_used_int=\count307
-\l__um_primecount_int=\count308
+\g__um_fam_int=\count308
+\g__um_fonts_used_int=\count309
+\l__um_primecount_int=\count310
 \g__um_primekern_muskip=\muskip17
 
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Could not resolve font "LibertinusMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Font family 'LibertinusMath(0)' created for font
@@ -750,27 +795,27 @@ sFont={},Script=Math,RawFeature={mathfontdimen=xetex},Scale={MatchLowercase}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9463844922639161]"LibertinusMath:mode=base;scrip
-t=math;language=dflt;mathfontdimen=xetex;"
+(fontspec)             <->s*[1.179989329539392]"LibertinusMath:mode=base;script
+=math;language=dflt;mathfontdimen=xetex;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(0)/m/n' will be
-(Font)              scaled to size 9.4638pt on input line 110.
+(Font)              scaled to size 11.79993pt on input line 70.
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Could not resolve font "LibertinusMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Font family 'LibertinusMath(1)' created for font
@@ -785,41 +830,40 @@ xetex},Scale={MatchLowercase}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9->s*[0.9463844922639161]"LibertinusMath:mode=base;scri
-pt=math;language=dflt;mathfontdimen=xetex;"<7-9>s*[0.9463844922639161]"Libertin
-usMath:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-7>s*[
-0.9463844922639161]"LibertinusMath:mode=base;script=math;language=dflt;mathfont
-dimen=xetex;+ssty=1;"
+(fontspec)             <9->s*[1.179989329539392]"LibertinusMath:mode=base;scrip
+t=math;language=dflt;mathfontdimen=xetex;"<7-9>s*[1.179989329539392]"Libertinus
+Math:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-7>s*[1.
+179989329539392]"LibertinusMath:mode=base;script=math;language=dflt;mathfontdim
+en=xetex;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 9.4638pt on input line 110.
+(Font)              scaled to size 11.79993pt on input line 70.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 110.
-
+(Font)              `operators' in the math version `normal' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 
-110.
+70.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 110.
+(Font)              `operators' in the math version `bold' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line
- 110.
+ 70.
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Could not resolve font "LibertinusMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Font family 'LibertinusMath(2)' created for font
@@ -834,38 +878,38 @@ xetex},Scale={MatchLowercase},RawFeature={mathfontdimen=tex2}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9->s*[0.9463844922639161]"LibertinusMath:mode=base;scri
-pt=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<7-9>s*[0.9463844
-922639161]"LibertinusMath:mode=base;script=math;language=dflt;mathfontdimen=xet
-ex;mathfontdimen=tex2;+ssty=0;"<-7>s*[0.9463844922639161]"LibertinusMath:mode=b
-ase;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
+(fontspec)             <9->s*[1.179989329539392]"LibertinusMath:mode=base;scrip
+t=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<7-9>s*[1.17998932
+9539392]"LibertinusMath:mode=base;script=math;language=dflt;mathfontdimen=xetex
+;mathfontdimen=tex2;+ssty=0;"<-7>s*[1.179989329539392]"LibertinusMath:mode=base
+;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 110.
+(Font)              `symbols' in the math version `normal' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line
- 110.
+ 70.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 110.
+(Font)              `symbols' in the math version `bold' on input line 70.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line
- 110.
+ 70.
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Could not resolve font "LibertinusMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
-Package fontspec Info: LibertinusMath scale = 0.9463844922639161.
+Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
 
 Package fontspec Info: Font family 'LibertinusMath(3)' created for font
@@ -880,41 +924,41 @@ xetex},Scale={MatchLowercase},RawFeature={mathfontdimen=tex3}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9->s*[0.9463844922639161]"LibertinusMath:mode=base;scri
-pt=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<7-9>s*[0.9463844
-922639161]"LibertinusMath:mode=base;script=math;language=dflt;mathfontdimen=xet
-ex;mathfontdimen=tex3;+ssty=0;"<-7>s*[0.9463844922639161]"LibertinusMath:mode=b
-ase;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
+(fontspec)             <9->s*[1.179989329539392]"LibertinusMath:mode=base;scrip
+t=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<7-9>s*[1.17998932
+9539392]"LibertinusMath:mode=base;script=math;language=dflt;mathfontdimen=xetex
+;mathfontdimen=tex3;+ssty=0;"<-7>s*[1.179989329539392]"LibertinusMath:mode=base
+;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-10.
+(Font)              `largesymbols' in the math version `normal' on input line 7
+0.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line
- 110.
+ 70.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 110
-.
+(Font)              `largesymbols' in the math version `bold' on input line 70.
+
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line
- 110.
+ 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 7.57104pt on input line 110.
+(Font)              scaled to size 9.43994pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 5.67828pt on input line 110.
+(Font)              scaled to size 7.07996pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 9.4638pt on input line 110.
+(Font)              scaled to size 11.79993pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 7.57104pt on input line 110.
+(Font)              scaled to size 9.43994pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 5.67828pt on input line 110.
+(Font)              scaled to size 7.07996pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 9.4638pt on input line 110.
+(Font)              scaled to size 11.79993pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 7.57104pt on input line 110.
+(Font)              scaled to size 9.43994pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 5.67828pt on input line 110.
+(Font)              scaled to size 7.07996pt on input line 70.
 (/usr/share/texlive/texmf-dist/tex/lualatex/linebreaker/linebreaker.sty
 Package: linebreaker 
 
@@ -923,7 +967,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count309
+\@catcodetablestackcnt=\count311
 )
 \CatcodeTableOther=\catcodetable16
 \CatcodeTableExpl=\catcodetable17
@@ -955,7 +999,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks27
+\pdftexcmds@toks=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -969,7 +1013,7 @@ Package zref Info: New property: page on input line 769.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
-\c@abspage=\count310
+\c@abspage=\count312
 Package zref Info: New property: abspage on input line 67.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-lastpage.sty
@@ -1048,23 +1092,23 @@ Package pageslts Info: Option fnsymbolmult enabled
 (pageslts)             If you do not want this, call pageslts with option
 (pageslts)             fnsymbolmult=false.
 (pageslts)              on input line 322.
-\c@CurrentPage=\count311
-\c@pagesLTS.pagenr=\count312
-\c@pagesLTS.current.local.0=\count313
-\c@pagesLTS.pnc.0=\count314
+\c@CurrentPage=\count313
+\c@pagesLTS.pagenr=\count314
+\c@pagesLTS.current.local.0=\count315
+\c@pagesLTS.pnc.0=\count316
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count315
-\calc@Bcount=\count316
-\calc@Adimen=\dimen170
-\calc@Bdimen=\dimen171
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Acount=\count317
+\calc@Bcount=\count318
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count317
-\calc@Cskip=\skip55
+\calc@Ccount=\count319
+\calc@Cskip=\skip56
 )
 (/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty
 Package: qrcode 2015/01/08 v1.51 QR code generation
@@ -1096,37 +1140,37 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count318
+\XKV@depth=\count320
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@qr@i=\count319
-\c@qr@j=\count320
-\qr@a=\count321
-\qr@b=\count322
-\qr@c=\count323
-\qr@for@depth=\count324
-\qr@for@maxdepth=\count325
-\qr@for@start=\count326
-\qr@for@end=\count327
-\qr@for@step=\count328
-\qr@newforcount=\count329
-\qr@newforcount=\count330
-\qr@desiredheight=\skip56
-\qr@modulesize=\skip57
-\qr@minipagewidth=\skip58
-\c@maski=\count331
-\c@maskj=\count332
-\c@totalones=\count333
-\c@penaltyi=\count334
-\c@penaltyii=\count335
-\c@penaltyiii=\count336
-\c@penaltyiv=\count337
-\c@qr@hexchars=\count338
-\qr@newforcount=\count339
-\c@qr@divisionsremaining=\count340
+\c@qr@i=\count321
+\c@qr@j=\count322
+\qr@a=\count323
+\qr@b=\count324
+\qr@c=\count325
+\qr@for@depth=\count326
+\qr@for@maxdepth=\count327
+\qr@for@start=\count328
+\qr@for@end=\count329
+\qr@for@step=\count330
+\qr@newforcount=\count331
+\qr@newforcount=\count332
+\qr@desiredheight=\skip57
+\qr@modulesize=\skip58
+\qr@minipagewidth=\skip59
+\c@maski=\count333
+\c@maskj=\count334
+\c@totalones=\count335
+\c@penaltyi=\count336
+\c@penaltyii=\count337
+\c@penaltyiii=\count338
+\c@penaltyiv=\count339
+\c@qr@hexchars=\count340
+\qr@newforcount=\count341
+\c@qr@divisionsremaining=\count342
 )
 (/usr/share/texlive/texmf-dist/tex/latex/froufrou/froufrou.sty
 Package: froufrou 2021/05/06 1.4.0 Visual section separator
@@ -1135,12 +1179,12 @@ Package: froufrou 2021/05/06 1.4.0 Visual section separator
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen172
-\pgfutil@tempdimb=\dimen173
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen173
+\pgfutil@tempdimb=\dimen174
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box54
+\pgfutil@abb=\box55
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -1163,41 +1207,41 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
 )
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks33
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen176
-\pgf@y=\dimen177
-\pgf@xa=\dimen178
-\pgf@ya=\dimen179
-\pgf@xb=\dimen180
-\pgf@yb=\dimen181
-\pgf@xc=\dimen182
-\pgf@yc=\dimen183
-\pgf@xd=\dimen184
-\pgf@yd=\dimen185
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count341
-\c@pgf@countb=\count342
-\c@pgf@countc=\count343
-\c@pgf@countd=\count344
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count345
+\c@pgf@counta=\count343
+\c@pgf@countb=\count344
+\c@pgf@countc=\count345
+\c@pgf@countd=\count346
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count347
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -1212,8 +1256,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count346
-\pgfsyssoftpath@bigbuffer@items=\count347
+\pgfsyssoftpath@smallbuffer@items=\count348
+\pgfsyssoftpath@bigbuffer@items=\count349
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1225,12 +1269,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen186
-\pgfmath@count=\count348
-\pgfmath@box=\box55
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@dimen=\dimen187
+\pgfmath@count=\count350
+\pgfmath@box=\box56
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1251,58 +1295,58 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count349
+\c@pgfmathroundto@lastzeros=\count351
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen187
-\pgf@picmaxx=\dimen188
-\pgf@picminy=\dimen189
-\pgf@picmaxy=\dimen190
-\pgf@pathminx=\dimen191
-\pgf@pathmaxx=\dimen192
-\pgf@pathminy=\dimen193
-\pgf@pathmaxy=\dimen194
-\pgf@xx=\dimen195
-\pgf@xy=\dimen196
-\pgf@yx=\dimen197
-\pgf@yy=\dimen198
-\pgf@zx=\dimen199
-\pgf@zy=\dimen256
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen257
-\pgf@path@lasty=\dimen258
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen259
-\pgf@shorten@start@additional=\dimen260
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box56
-\pgf@hbox=\box57
-\pgf@layerbox@main=\box58
-\pgf@picture@serial@count=\count350
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count352
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen261
+\pgflinewidth=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen262
-\pgf@pt@y=\dimen263
-\pgf@pt@temp=\dimen264
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1318,13 +1362,13 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen265
+\pgfarrowsep=\dimen266
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen266
-\pgf@sys@shading@range@num=\count351
-\pgf@shadingcount=\count352
+\pgf@max=\dimen267
+\pgf@sys@shading@range@num=\count353
+\pgf@shadingcount=\count354
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1332,7 +1376,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box59
+\pgfexternal@startupbox=\box60
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1351,15 +1395,15 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box60
+\pgfnodeparttextbox=\box61
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen267
-\pgf@nodesepend=\dimen268
+\pgf@nodesepstart=\dimen268
+\pgf@nodesepend=\dimen269
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1371,10 +1415,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen269
-\pgffor@skip=\dimen270
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@iter=\dimen270
+\pgffor@skip=\dimen271
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1382,33 +1426,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count353
-\pgfplotmarksize=\dimen271
+\pgf@plot@mark@count=\count355
+\pgfplotmarksize=\dimen272
 )
-\tikz@lastx=\dimen272
-\tikz@lasty=\dimen273
-\tikz@lastxsaved=\dimen274
-\tikz@lastysaved=\dimen275
-\tikz@lastmovetox=\dimen276
-\tikz@lastmovetoy=\dimen277
-\tikzleveldistance=\dimen278
-\tikzsiblingdistance=\dimen279
-\tikz@figbox=\box61
-\tikz@figbox@bg=\box62
-\tikz@tempbox=\box63
-\tikz@tempbox@bg=\box64
-\tikztreelevel=\count354
-\tikznumberofchildren=\count355
-\tikznumberofcurrentchild=\count356
-\tikz@fig@count=\count357
+\tikz@lastx=\dimen273
+\tikz@lasty=\dimen274
+\tikz@lastxsaved=\dimen275
+\tikz@lastysaved=\dimen276
+\tikz@lastmovetox=\dimen277
+\tikz@lastmovetoy=\dimen278
+\tikzleveldistance=\dimen279
+\tikzsiblingdistance=\dimen280
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count356
+\tikznumberofchildren=\count357
+\tikznumberofcurrentchild=\count358
+\tikz@fig@count=\count359
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count358
-\pgfmatrixcurrentcolumn=\count359
-\pgf@matrix@numberofcolumns=\count360
+\pgfmatrixcurrentrow=\count360
+\pgfmatrixcurrentcolumn=\count361
+\pgf@matrix@numberofcolumns=\count362
 )
-\tikz@expandcount=\count361
+\tikz@expandcount=\count363
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1447,31 +1491,31 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen280
-\lightrulewidth=\dimen281
-\cmidrulewidth=\dimen282
-\belowrulesep=\dimen283
-\belowbottomsep=\dimen284
-\aboverulesep=\dimen285
-\abovetopsep=\dimen286
-\cmidrulesep=\dimen287
-\cmidrulekern=\dimen288
-\defaultaddspace=\dimen289
-\@cmidla=\count362
-\@cmidlb=\count363
-\@aboverulesep=\dimen290
-\@belowrulesep=\dimen291
-\@thisruleclass=\count364
-\@lastruleclass=\count365
-\@thisrulewidth=\dimen292
+\heavyrulewidth=\dimen281
+\lightrulewidth=\dimen282
+\cmidrulewidth=\dimen283
+\belowrulesep=\dimen284
+\belowbottomsep=\dimen285
+\aboverulesep=\dimen286
+\abovetopsep=\dimen287
+\cmidrulesep=\dimen288
+\cmidrulekern=\dimen289
+\defaultaddspace=\dimen290
+\@cmidla=\count364
+\@cmidlb=\count365
+\@aboverulesep=\dimen291
+\@belowrulesep=\dimen292
+\@thisruleclass=\count366
+\@lastruleclass=\count367
+\@thisrulewidth=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count366
-\rotFPtop=\skip59
-\rotFPbot=\skip60
-\rot@float@box=\box65
-\rot@mess@toks=\toks42
+\c@r@tfl@t=\count368
+\rotFPtop=\skip60
+\rotFPbot=\skip61
+\rot@float@box=\box66
+\rot@mess@toks=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
@@ -1501,9 +1545,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count367
-\svg@box=\box66
-\c@svg@param@currpage=\count368
+\c@svg@param@lastpage=\count369
+\svg@box=\box67
+\c@svg@param@currpage=\count370
 )
 (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -1516,61 +1560,61 @@ Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen293
-\ESO@tempdimb=\dimen294
+\ESO@tempdima=\dimen294
+\ESO@tempdimb=\dimen295
 )
-\AM@pagewidth=\dimen295
-\AM@pageheight=\dimen296
-\AM@fboxrule=\dimen297
+\AM@pagewidth=\dimen296
+\AM@pageheight=\dimen297
+\AM@fboxrule=\dimen298
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2024/01/21 v0.5y Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count369
-\AM@pagebox=\box67
-\AM@global@opts=\toks43
-\AM@pagecnt=\count370
-\AM@toc@title=\toks44
-\AM@lof@heading=\toks45
-\c@AM@survey=\count371
-\AM@templatesizebox=\box68
+\pdfpages@includegraphics@status=\count371
+\AM@pagebox=\box68
+\AM@global@opts=\toks45
+\AM@pagecnt=\count372
+\AM@toc@title=\toks46
+\AM@lof@heading=\toks47
+\c@AM@survey=\count373
+\AM@templatesizebox=\box69
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen298
-\captionmargin=\dimen299
-\caption@leftmargin=\dimen300
-\caption@rightmargin=\dimen301
-\caption@width=\dimen302
-\caption@indent=\dimen303
-\caption@parindent=\dimen304
-\caption@hangindent=\dimen305
+\caption@tempdima=\dimen299
+\captionmargin=\dimen300
+\caption@leftmargin=\dimen301
+\caption@rightmargin=\dimen302
+\caption@width=\dimen303
+\caption@indent=\dimen304
+\caption@parindent=\dimen305
+\caption@hangindent=\dimen306
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count372
-\c@continuedfloat=\count373
+\c@caption@flags=\count374
+\c@continuedfloat=\count375
 Package caption Info: rotating package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip61
-\RaggedLeftLeftskip=\skip62
-\RaggedRightLeftskip=\skip63
-\CenteringRightskip=\skip64
-\RaggedLeftRightskip=\skip65
-\RaggedRightRightskip=\skip66
-\CenteringParfillskip=\skip67
-\RaggedLeftParfillskip=\skip68
-\RaggedRightParfillskip=\skip69
-\JustifyingParfillskip=\skip70
-\CenteringParindent=\skip71
-\RaggedLeftParindent=\skip72
-\RaggedRightParindent=\skip73
-\JustifyingParindent=\skip74
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -1578,93 +1622,93 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip75
-\c@mdf@globalstyle@cnt=\count374
-\mdf@skipabove@length=\skip76
-\mdf@skipbelow@length=\skip77
-\mdf@leftmargin@length=\skip78
-\mdf@rightmargin@length=\skip79
-\mdf@innerleftmargin@length=\skip80
-\mdf@innerrightmargin@length=\skip81
-\mdf@innertopmargin@length=\skip82
-\mdf@innerbottommargin@length=\skip83
-\mdf@splittopskip@length=\skip84
-\mdf@splitbottomskip@length=\skip85
-\mdf@outermargin@length=\skip86
-\mdf@innermargin@length=\skip87
-\mdf@linewidth@length=\skip88
-\mdf@innerlinewidth@length=\skip89
-\mdf@middlelinewidth@length=\skip90
-\mdf@outerlinewidth@length=\skip91
-\mdf@roundcorner@length=\skip92
-\mdf@footenotedistance@length=\skip93
-\mdf@userdefinedwidth@length=\skip94
-\mdf@needspace@length=\skip95
-\mdf@frametitleaboveskip@length=\skip96
-\mdf@frametitlebelowskip@length=\skip97
-\mdf@frametitlerulewidth@length=\skip98
-\mdf@frametitleleftmargin@length=\skip99
-\mdf@frametitlerightmargin@length=\skip100
-\mdf@shadowsize@length=\skip101
-\mdf@extratopheight@length=\skip102
-\mdf@subtitleabovelinewidth@length=\skip103
-\mdf@subtitlebelowlinewidth@length=\skip104
-\mdf@subtitleaboveskip@length=\skip105
-\mdf@subtitlebelowskip@length=\skip106
-\mdf@subtitleinneraboveskip@length=\skip107
-\mdf@subtitleinnerbelowskip@length=\skip108
-\mdf@subsubtitleabovelinewidth@length=\skip109
-\mdf@subsubtitlebelowlinewidth@length=\skip110
-\mdf@subsubtitleaboveskip@length=\skip111
-\mdf@subsubtitlebelowskip@length=\skip112
-\mdf@subsubtitleinneraboveskip@length=\skip113
-\mdf@subsubtitleinnerbelowskip@length=\skip114
+\mdf@templength=\skip76
+\c@mdf@globalstyle@cnt=\count376
+\mdf@skipabove@length=\skip77
+\mdf@skipbelow@length=\skip78
+\mdf@leftmargin@length=\skip79
+\mdf@rightmargin@length=\skip80
+\mdf@innerleftmargin@length=\skip81
+\mdf@innerrightmargin@length=\skip82
+\mdf@innertopmargin@length=\skip83
+\mdf@innerbottommargin@length=\skip84
+\mdf@splittopskip@length=\skip85
+\mdf@splitbottomskip@length=\skip86
+\mdf@outermargin@length=\skip87
+\mdf@innermargin@length=\skip88
+\mdf@linewidth@length=\skip89
+\mdf@innerlinewidth@length=\skip90
+\mdf@middlelinewidth@length=\skip91
+\mdf@outerlinewidth@length=\skip92
+\mdf@roundcorner@length=\skip93
+\mdf@footenotedistance@length=\skip94
+\mdf@userdefinedwidth@length=\skip95
+\mdf@needspace@length=\skip96
+\mdf@frametitleaboveskip@length=\skip97
+\mdf@frametitlebelowskip@length=\skip98
+\mdf@frametitlerulewidth@length=\skip99
+\mdf@frametitleleftmargin@length=\skip100
+\mdf@frametitlerightmargin@length=\skip101
+\mdf@shadowsize@length=\skip102
+\mdf@extratopheight@length=\skip103
+\mdf@subtitleabovelinewidth@length=\skip104
+\mdf@subtitlebelowlinewidth@length=\skip105
+\mdf@subtitleaboveskip@length=\skip106
+\mdf@subtitlebelowskip@length=\skip107
+\mdf@subtitleinneraboveskip@length=\skip108
+\mdf@subtitleinnerbelowskip@length=\skip109
+\mdf@subsubtitleabovelinewidth@length=\skip110
+\mdf@subsubtitlebelowlinewidth@length=\skip111
+\mdf@subsubtitleaboveskip@length=\skip112
+\mdf@subsubtitlebelowskip@length=\skip113
+\mdf@subsubtitleinneraboveskip@length=\skip114
+\mdf@subsubtitleinnerbelowskip@length=\skip115
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box69
-\mdf@footnotebox=\box70
-\mdf@splitbox@one=\box71
-\mdf@splitbox@two=\box72
-\mdf@splitbox@save=\box73
-\mdfsplitboxwidth=\skip115
-\mdfsplitboxtotalwidth=\skip116
-\mdfsplitboxheight=\skip117
-\mdfsplitboxdepth=\skip118
-\mdfsplitboxtotalheight=\skip119
-\mdfframetitleboxwidth=\skip120
-\mdfframetitleboxtotalwidth=\skip121
-\mdfframetitleboxheight=\skip122
-\mdfframetitleboxdepth=\skip123
-\mdfframetitleboxtotalheight=\skip124
-\mdffootnoteboxwidth=\skip125
-\mdffootnoteboxtotalwidth=\skip126
-\mdffootnoteboxheight=\skip127
-\mdffootnoteboxdepth=\skip128
-\mdffootnoteboxtotalheight=\skip129
-\mdftotallinewidth=\skip130
-\mdfboundingboxwidth=\skip131
-\mdfboundingboxtotalwidth=\skip132
-\mdfboundingboxheight=\skip133
-\mdfboundingboxdepth=\skip134
-\mdfboundingboxtotalheight=\skip135
-\mdf@freevspace@length=\skip136
-\mdf@horizontalwidthofbox@length=\skip137
-\mdf@verticalmarginwhole@length=\skip138
-\mdf@horizontalspaceofbox=\skip139
-\mdfsubtitleheight=\skip140
-\mdfsubsubtitleheight=\skip141
-\c@mdfcountframes=\count375
+\mdf@frametitlebox=\box70
+\mdf@footnotebox=\box71
+\mdf@splitbox@one=\box72
+\mdf@splitbox@two=\box73
+\mdf@splitbox@save=\box74
+\mdfsplitboxwidth=\skip116
+\mdfsplitboxtotalwidth=\skip117
+\mdfsplitboxheight=\skip118
+\mdfsplitboxdepth=\skip119
+\mdfsplitboxtotalheight=\skip120
+\mdfframetitleboxwidth=\skip121
+\mdfframetitleboxtotalwidth=\skip122
+\mdfframetitleboxheight=\skip123
+\mdfframetitleboxdepth=\skip124
+\mdfframetitleboxtotalheight=\skip125
+\mdffootnoteboxwidth=\skip126
+\mdffootnoteboxtotalwidth=\skip127
+\mdffootnoteboxheight=\skip128
+\mdffootnoteboxdepth=\skip129
+\mdffootnoteboxtotalheight=\skip130
+\mdftotallinewidth=\skip131
+\mdfboundingboxwidth=\skip132
+\mdfboundingboxtotalwidth=\skip133
+\mdfboundingboxheight=\skip134
+\mdfboundingboxdepth=\skip135
+\mdfboundingboxtotalheight=\skip136
+\mdf@freevspace@length=\skip137
+\mdf@horizontalwidthofbox@length=\skip138
+\mdf@verticalmarginwhole@length=\skip139
+\mdf@horizontalspaceofbox=\skip140
+\mdfsubtitleheight=\skip141
+\mdfsubsubtitleheight=\skip142
+\c@mdfcountframes=\count377
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count376
-\c@mdf@env@i=\count377
-\c@mdf@env@ii=\count378
-\c@mdf@zref@counter=\count379
+\mdf@envdepth=\count378
+\c@mdf@env@i=\count379
+\c@mdf@env@ii=\count380
+\c@mdf@zref@counter=\count381
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bchart/bchart.sty
@@ -1674,41 +1718,41 @@ Package: bchart
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\bcpos=\skip142
-\bcwidth=\skip143
+\bcpos=\skip143
+\bcwidth=\skip144
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks46
-\verbatim@line=\toks47
+\every@verbatim=\toks48
+\verbatim@line=\toks49
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 )
-\tcb@titlebox=\box74
-\tcb@upperbox=\box75
-\tcb@lowerbox=\box76
-\tcb@phantombox=\box77
-\c@tcbbreakpart=\count380
-\c@tcblayer=\count381
-\c@tcolorbox@number=\count382
-\l__tcobox_tmpa_box=\box78
-\l__tcobox_tmpa_dim=\dimen306
-\tcb@temp=\box79
+\tcb@titlebox=\box75
+\tcb@upperbox=\box76
+\tcb@lowerbox=\box77
+\tcb@phantombox=\box78
+\c@tcbbreakpart=\count382
+\c@tcblayer=\count383
+\c@tcolorbox@number=\count384
+\l__tcobox_tmpa_box=\box79
+\l__tcobox_tmpa_dim=\dimen307
 \tcb@temp=\box80
 \tcb@temp=\box81
 \tcb@temp=\box82
+\tcb@temp=\box83
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count383
-\c@tcbrasterrow=\count384
-\c@tcbrasternum=\count385
-\c@tcbraster=\count386
+\c@tcbrastercolumn=\count385
+\c@tcbrasterrow=\count386
+\c@tcbrasternum=\count387
+\c@tcbraster=\count388
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -1720,7 +1764,7 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
 x
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box83
+\l__tikzfill_img_box=\box84
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -1729,9 +1773,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
-\tcb@testbox=\box84
-\tcb@totalupperbox=\box85
-\tcb@totallowerbox=\box86
+\tcb@testbox=\box85
+\tcb@totalupperbox=\box86
+\tcb@totallowerbox=\box87
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
@@ -1742,33 +1786,33 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
-\tcbfitdim=\dimen307
-\tcb@lowerfitdim=\dimen308
-\tcb@upperfitdim=\dimen309
-\tcb@cur@hbadness=\count387
+\tcbfitdim=\dimen308
+\tcb@lowerfitdim=\dimen309
+\tcb@upperfitdim=\dimen310
+\tcb@cur@hbadness=\count389
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count388
-\lst@gtempboxa=\box87
-\lst@token=\toks48
-\lst@length=\count389
-\lst@currlwidth=\dimen310
-\lst@column=\count390
-\lst@pos=\count391
-\lst@lostspace=\dimen311
-\lst@width=\dimen312
-\lst@newlines=\count392
-\lst@lineno=\count393
-\lst@maxwidth=\dimen313
+\lst@mode=\count390
+\lst@gtempboxa=\box88
+\lst@token=\toks50
+\lst@length=\count391
+\lst@currlwidth=\dimen311
+\lst@column=\count392
+\lst@pos=\count393
+\lst@lostspace=\dimen312
+\lst@width=\dimen313
+\lst@newlines=\count394
+\lst@lineno=\count395
+\lst@maxwidth=\dimen314
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count394
-\lst@skipnumbers=\count395
-\lst@framebox=\box88
+\c@lstnumber=\count396
+\lst@skipnumbers=\count397
+\lst@framebox=\box89
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -1780,7 +1824,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count396
+\c@tcblisting=\count398
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1802,26 +1846,26 @@ File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 )) (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip144
-\plpartopsep=\skip145
-\plitemsep=\skip146
-\plparsep=\skip147
-\pl@lab=\toks49
+\pltopsep=\skip145
+\plpartopsep=\skip146
+\plitemsep=\skip147
+\plparsep=\skip148
+\pl@lab=\toks51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip148
-\enit@outerparindent=\dimen314
-\enit@toks=\toks50
-\enit@inbox=\box89
-\enit@count@id=\count397
-\enitdp@description=\count398
+\labelindent=\skip149
+\enit@outerparindent=\dimen315
+\enit@toks=\toks52
+\enit@inbox=\box90
+\enit@count@id=\count399
+\enitdp@description=\count400
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks51
-\footnotemargin=\dimen315
-\@outputbox@depth=\dimen316
+\FN@temptoken=\toks53
+\footnotemargin=\dimen316
+\@outputbox@depth=\dimen317
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -1841,19 +1885,19 @@ asics and keyval usage)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen317
+\ttl@leftsep=\dimen318
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box90
-\beforetitleunit=\skip149
-\aftertitleunit=\skip150
-\ttl@plus=\dimen318
-\ttl@minus=\dimen319
-\ttl@toksa=\toks52
-\titlewidth=\dimen320
-\titlewidthlast=\dimen321
-\titlewidthfirst=\dimen322
+\ttl@box=\box91
+\beforetitleunit=\skip150
+\aftertitleunit=\skip151
+\ttl@plus=\dimen319
+\ttl@minus=\dimen320
+\ttl@toksa=\toks54
+\titlewidth=\dimen321
+\titlewidthlast=\dimen322
+\titlewidthfirst=\dimen323
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titleps.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/newfloat/newfloat.sty
@@ -1862,10 +1906,10 @@ Package newfloat Info: Document class `book' detected (original).
 Package newfloat Info: `rotating' package detected.
 )
 Package newfloat Info: New float `imagen' with options ` fileext=lop, listname=
-{Índice de imágenes}, name=Imagen, placement=ht, ' on input line 393.
-\c@imagen=\count399
-\newfloat@ftype=\count400
-Package newfloat Info: float type `imagen'=8 on input line 393.
+{Índice de imágenes}, name=Imagen, placement=ht, ' on input line 322.
+\c@imagen=\count401
+\newfloat@ftype=\count402
+Package newfloat Info: float type `imagen'=8 on input line 322.
 
 (./files/biblatex-veronaM-config.tex
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1873,7 +1917,7 @@ Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count401
+\lrq@indent=\count403
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1882,63 +1926,63 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count402
-\c@listtotal=\count403
-\c@listcount=\count404
-\c@liststart=\count405
-\c@liststop=\count406
-\c@citecount=\count407
-\c@citetotal=\count408
-\c@multicitecount=\count409
-\c@multicitetotal=\count410
-\c@instcount=\count411
-\c@maxnames=\count412
-\c@minnames=\count413
-\c@maxitems=\count414
-\c@minitems=\count415
-\c@citecounter=\count416
-\c@maxcitecounter=\count417
-\c@savedcitecounter=\count418
-\c@uniquelist=\count419
-\c@uniquename=\count420
-\c@refsection=\count421
-\c@refsegment=\count422
-\c@maxextratitle=\count423
-\c@maxextratitleyear=\count424
-\c@maxextraname=\count425
-\c@maxextradate=\count426
-\c@maxextraalpha=\count427
-\c@abbrvpenalty=\count428
-\c@highnamepenalty=\count429
-\c@lownamepenalty=\count430
-\c@maxparens=\count431
-\c@parenlevel=\count432
-\blx@tempcnta=\count433
-\blx@tempcntb=\count434
-\blx@tempcntc=\count435
-\c@blx@maxsection=\count436
-\blx@maxsegment@0=\count437
-\blx@notetype=\count438
-\blx@parenlevel@text=\count439
-\blx@parenlevel@foot=\count440
-\blx@sectionciteorder@0=\count441
-\blx@sectionciteorderinternal@0=\count442
-\blx@entrysetcounter=\count443
-\blx@biblioinstance=\count444
-\labelnumberwidth=\skip151
-\labelalphawidth=\skip152
-\biblabelsep=\skip153
-\bibitemsep=\skip154
-\bibnamesep=\skip155
-\bibinitsep=\skip156
-\bibparsep=\skip157
-\bibhang=\skip158
+\c@tabx@nest=\count404
+\c@listtotal=\count405
+\c@listcount=\count406
+\c@liststart=\count407
+\c@liststop=\count408
+\c@citecount=\count409
+\c@citetotal=\count410
+\c@multicitecount=\count411
+\c@multicitetotal=\count412
+\c@instcount=\count413
+\c@maxnames=\count414
+\c@minnames=\count415
+\c@maxitems=\count416
+\c@minitems=\count417
+\c@citecounter=\count418
+\c@maxcitecounter=\count419
+\c@savedcitecounter=\count420
+\c@uniquelist=\count421
+\c@uniquename=\count422
+\c@refsection=\count423
+\c@refsegment=\count424
+\c@maxextratitle=\count425
+\c@maxextratitleyear=\count426
+\c@maxextraname=\count427
+\c@maxextradate=\count428
+\c@maxextraalpha=\count429
+\c@abbrvpenalty=\count430
+\c@highnamepenalty=\count431
+\c@lownamepenalty=\count432
+\c@maxparens=\count433
+\c@parenlevel=\count434
+\blx@tempcnta=\count435
+\blx@tempcntb=\count436
+\blx@tempcntc=\count437
+\c@blx@maxsection=\count438
+\blx@maxsegment@0=\count439
+\blx@notetype=\count440
+\blx@parenlevel@text=\count441
+\blx@parenlevel@foot=\count442
+\blx@sectionciteorder@0=\count443
+\blx@sectionciteorderinternal@0=\count444
+\blx@entrysetcounter=\count445
+\blx@biblioinstance=\count446
+\labelnumberwidth=\skip152
+\labelalphawidth=\skip153
+\biblabelsep=\skip154
+\bibitemsep=\skip155
+\bibnamesep=\skip156
+\bibinitsep=\skip157
+\bibparsep=\skip158
+\bibhang=\skip159
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language91
-\c@mincomprange=\count445
-\c@maxcomprange=\count446
-\c@mincompwidth=\count447
+\c@mincomprange=\count447
+\c@maxcomprange=\count448
+\c@mincompwidth=\count449
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1949,88 +1993,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'philosophy-modern.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count448
-\c@savedafterword=\count449
-\c@annotator=\count450
-\c@savedannotator=\count451
-\c@author=\count452
-\c@savedauthor=\count453
-\c@bookauthor=\count454
-\c@savedbookauthor=\count455
-\c@commentator=\count456
-\c@savedcommentator=\count457
-\c@editor=\count458
-\c@savededitor=\count459
-\c@editora=\count460
-\c@savededitora=\count461
-\c@editorb=\count462
-\c@savededitorb=\count463
-\c@editorc=\count464
-\c@savededitorc=\count465
-\c@foreword=\count466
-\c@savedforeword=\count467
-\c@holder=\count468
-\c@savedholder=\count469
-\c@introduction=\count470
-\c@savedintroduction=\count471
-\c@namea=\count472
-\c@savednamea=\count473
-\c@nameb=\count474
-\c@savednameb=\count475
-\c@namec=\count476
-\c@savednamec=\count477
-\c@translator=\count478
-\c@savedtranslator=\count479
-\c@shortauthor=\count480
-\c@savedshortauthor=\count481
-\c@shorteditor=\count482
-\c@savedshorteditor=\count483
-\c@labelname=\count484
-\c@savedlabelname=\count485
-\c@institution=\count486
-\c@savedinstitution=\count487
-\c@lista=\count488
-\c@savedlista=\count489
-\c@listb=\count490
-\c@savedlistb=\count491
-\c@listc=\count492
-\c@savedlistc=\count493
-\c@listd=\count494
-\c@savedlistd=\count495
-\c@liste=\count496
-\c@savedliste=\count497
-\c@listf=\count498
-\c@savedlistf=\count499
-\c@location=\count500
-\c@savedlocation=\count501
-\c@organization=\count502
-\c@savedorganization=\count503
-\c@origlocation=\count504
-\c@savedoriglocation=\count505
-\c@origpublisher=\count506
-\c@savedorigpublisher=\count507
-\c@publisher=\count508
-\c@savedpublisher=\count509
-\c@language=\count510
-\c@savedlanguage=\count511
-\c@origlanguage=\count512
-\c@savedoriglanguage=\count513
-\c@pageref=\count514
-\c@savedpageref=\count515
-\shorthandwidth=\skip159
-\shortjournalwidth=\skip160
-\shortserieswidth=\skip161
-\shorttitlewidth=\skip162
-\shortauthorwidth=\skip163
-\shorteditorwidth=\skip164
-\locallabelnumberwidth=\skip165
-\locallabelalphawidth=\skip166
-\localshorthandwidth=\skip167
-\localshortjournalwidth=\skip168
-\localshortserieswidth=\skip169
-\localshorttitlewidth=\skip170
-\localshortauthorwidth=\skip171
-\localshorteditorwidth=\skip172
+\c@afterword=\count450
+\c@savedafterword=\count451
+\c@annotator=\count452
+\c@savedannotator=\count453
+\c@author=\count454
+\c@savedauthor=\count455
+\c@bookauthor=\count456
+\c@savedbookauthor=\count457
+\c@commentator=\count458
+\c@savedcommentator=\count459
+\c@editor=\count460
+\c@savededitor=\count461
+\c@editora=\count462
+\c@savededitora=\count463
+\c@editorb=\count464
+\c@savededitorb=\count465
+\c@editorc=\count466
+\c@savededitorc=\count467
+\c@foreword=\count468
+\c@savedforeword=\count469
+\c@holder=\count470
+\c@savedholder=\count471
+\c@introduction=\count472
+\c@savedintroduction=\count473
+\c@namea=\count474
+\c@savednamea=\count475
+\c@nameb=\count476
+\c@savednameb=\count477
+\c@namec=\count478
+\c@savednamec=\count479
+\c@translator=\count480
+\c@savedtranslator=\count481
+\c@shortauthor=\count482
+\c@savedshortauthor=\count483
+\c@shorteditor=\count484
+\c@savedshorteditor=\count485
+\c@labelname=\count486
+\c@savedlabelname=\count487
+\c@institution=\count488
+\c@savedinstitution=\count489
+\c@lista=\count490
+\c@savedlista=\count491
+\c@listb=\count492
+\c@savedlistb=\count493
+\c@listc=\count494
+\c@savedlistc=\count495
+\c@listd=\count496
+\c@savedlistd=\count497
+\c@liste=\count498
+\c@savedliste=\count499
+\c@listf=\count500
+\c@savedlistf=\count501
+\c@location=\count502
+\c@savedlocation=\count503
+\c@organization=\count504
+\c@savedorganization=\count505
+\c@origlocation=\count506
+\c@savedoriglocation=\count507
+\c@origpublisher=\count508
+\c@savedorigpublisher=\count509
+\c@publisher=\count510
+\c@savedpublisher=\count511
+\c@language=\count512
+\c@savedlanguage=\count513
+\c@origlanguage=\count514
+\c@savedoriglanguage=\count515
+\c@pageref=\count516
+\c@savedpageref=\count517
+\shorthandwidth=\skip160
+\shortjournalwidth=\skip161
+\shortserieswidth=\skip162
+\shorttitlewidth=\skip163
+\shortauthorwidth=\skip164
+\shorteditorwidth=\skip165
+\locallabelnumberwidth=\skip166
+\locallabelalphawidth=\skip167
+\localshorthandwidth=\skip168
+\localshortjournalwidth=\skip169
+\localshortserieswidth=\skip170
+\localshorttitlewidth=\skip171
+\localshortauthorwidth=\skip172
+\localshorteditorwidth=\skip173
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -2046,19 +2090,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count516
-\c@textcitetotal=\count517
-\c@textcitemaxnames=\count518
-\c@biburlbigbreakpenalty=\count519
-\c@biburlbreakpenalty=\count520
-\c@biburlnumpenalty=\count521
-\c@biburlucpenalty=\count522
-\c@biburllcpenalty=\count523
+\c@textcitecount=\count518
+\c@textcitetotal=\count519
+\c@textcitemaxnames=\count520
+\c@biburlbigbreakpenalty=\count521
+\c@biburlbreakpenalty=\count522
+\c@biburlnumpenalty=\count523
+\c@biburlucpenalty=\count524
+\c@biburllcpenalty=\count525
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count524
+\c@smartand=\count526
 )
 Package biblatex Info: Trying to load bibliography style 'philosophy-modern'...
 
@@ -2088,8 +2132,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count525
-\c@bbx:relatedtotal=\count526
+\c@bbx:relatedcount=\count527
+\c@bbx:relatedtotal=\count528
 )))
 Package biblatex Info: Trying to load bibliography style 'philosophy-standard'.
 ..
@@ -2098,11 +2142,11 @@ Package biblatex Info: ... file 'philosophy-standard.bbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex-philosophy/philosophy-standar
 d.bbx
 File: philosophy-standard.bbx 2022/09/16 v1.9.8g A set of styles for biblatex
-\c@maxnamesincross=\count527
-\c@minnamesincross=\count528
+\c@maxnamesincross=\count529
+\c@minnamesincross=\count530
 ))
-\yeartitle=\skip173
-\postnamesep=\skip174
+\yeartitle=\skip174
+\postnamesep=\skip175
 Package biblatex Info: Redefining '\bbx@crossref@inbook'.
 Package biblatex Info: Redefining '\bbx@crossref@incollection'.
 )
@@ -2166,29 +2210,28 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count529
-\mult@box=\box91
-\multicol@leftmargin=\dimen323
-\c@unbalance=\count530
-\c@collectmore=\count531
-\doublecol@number=\count532
-\multicoltolerance=\count533
-\multicolpretolerance=\count534
-\full@width=\dimen324
-\page@free=\dimen325
-\premulticols=\dimen326
-\postmulticols=\dimen327
-\multicolsep=\skip175
-\multicolbaselineskip=\skip176
-\partial@page=\box92
-\last@line=\box93
-\mc@boxedresult=\box94
-\maxbalancingoverflow=\dimen328
-\mult@rightbox=\box95
-\mult@grightbox=\box96
-\mult@firstbox=\box97
-\mult@gfirstbox=\box98
-\@tempa=\box99
+\c@tracingmulticols=\count531
+\mult@box=\box92
+\multicol@leftmargin=\dimen324
+\c@unbalance=\count532
+\c@collectmore=\count533
+\doublecol@number=\count534
+\multicoltolerance=\count535
+\multicolpretolerance=\count536
+\full@width=\dimen325
+\page@free=\dimen326
+\premulticols=\dimen327
+\postmulticols=\dimen328
+\multicolsep=\skip176
+\multicolbaselineskip=\skip177
+\partial@page=\box93
+\last@line=\box94
+\mc@boxedresult=\box95
+\maxbalancingoverflow=\dimen329
+\mult@rightbox=\box96
+\mult@grightbox=\box97
+\mult@firstbox=\box98
+\mult@gfirstbox=\box99
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
@@ -2224,15 +2267,16 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box132
 \@tempa=\box133
 \@tempa=\box134
-\c@minrows=\count535
-\c@columnbadness=\count536
-\c@finalcolumnbadness=\count537
-\last@try=\dimen329
-\multicolovershoot=\dimen330
-\multicolundershoot=\dimen331
-\mult@nat@firstbox=\box135
-\colbreak@box=\box136
-\mc@col@check@num=\count538
+\@tempa=\box135
+\c@minrows=\count537
+\c@columnbadness=\count538
+\c@finalcolumnbadness=\count539
+\last@try=\dimen330
+\multicolovershoot=\dimen331
+\multicolundershoot=\dimen332
+\mult@nat@firstbox=\box136
+\colbreak@box=\box137
+\mc@col@check@num=\count540
 ))
 \pdf-seminarioUBA@idxfile=\write5
 
@@ -2253,15 +2297,15 @@ Writing index file concepto.idx
 Writing index file onomastico.idx
 (/usr/share/texlive/texmf-dist/tex/latex/esindex/esindex.sty
 Package: esindex 2019/10/10 v1.7 Spanish indexes (and more)
-\everyesindex=\toks53
+\everyesindex=\toks55
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks54
-\@glsmrest=\toks55
+\@glsmfirst=\toks56
+\@glsmrest=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -2271,7 +2315,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count539
+\c@su@anzahl=\count541
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -2282,19 +2326,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count540
+\actioncount=\count542
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count541
-\FP@xia=\count542
-\FP@xib=\count543
-\FP@xfa=\count544
-\FP@xfb=\count545
-\FP@rega=\count546
-\FP@regb=\count547
-\FP@regs=\count548
-\FP@times=\count549
+\FP@xs=\count543
+\FP@xia=\count544
+\FP@xib=\count545
+\FP@xfa=\count546
+\FP@xfb=\count547
+\FP@rega=\count548
+\FP@regb=\count549
+\FP@regs=\count550
+\FP@times=\count551
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2313,7 +2357,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count550
+\FPseed=\count552
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2324,15 +2368,15 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks56
-\@dtl@tmpcount=\count551
-\dtl@tmplength=\skip177
-\dtl@sortresult=\count552
-\@dtl@numgrpsepcount=\count553
-\@dtl@datatype=\count554
-\dtl@codeA=\count555
-\dtl@codeB=\count556
-\@dtl@foreach@level=\count557
+\@dtl@toks=\toks58
+\@dtl@tmpcount=\count553
+\dtl@tmplength=\skip178
+\dtl@sortresult=\count554
+\@dtl@numgrpsepcount=\count555
+\@dtl@datatype=\count556
+\dtl@codeA=\count557
+\dtl@codeB=\count558
+\@dtl@foreach@level=\count559
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
@@ -2369,114 +2413,114 @@ s-noenc.ldf))
 f
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count558
-\@gls@tmpb=\toks57
-\gls@tmplen=\skip178
-\glskeylisttok=\toks58
-\glslabeltok=\toks59
-\glsshorttok=\toks60
-\glslongtok=\toks61
+\gls@level=\count560
+\@gls@tmpb=\toks59
+\gls@tmplen=\skip179
+\glskeylisttok=\toks60
+\glslabeltok=\toks61
+\glsshorttok=\toks62
+\glslongtok=\toks63
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
 Package: glossary-hypernav 2023/09/29 v4.53 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2023/09/29 v4.53 (NLCT)
-\glslistdottedwidth=\skip179
+\glslistdottedwidth=\skip180
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip180
-\LTright=\skip181
-\LTpre=\skip182
-\LTpost=\skip183
-\LTchunksize=\count559
-\LTcapwidth=\dimen332
-\LT@head=\box137
-\LT@firsthead=\box138
-\LT@foot=\box139
-\LT@lastfoot=\box140
-\LT@gbox=\box141
-\LT@cols=\count560
-\LT@rows=\count561
-\c@LT@tables=\count562
-\c@LT@chunks=\count563
-\LT@p@ftn=\toks62
+\LTleft=\skip181
+\LTright=\skip182
+\LTpre=\skip183
+\LTpost=\skip184
+\LTchunksize=\count561
+\LTcapwidth=\dimen333
+\LT@head=\box138
+\LT@firsthead=\box139
+\LT@foot=\box140
+\LT@lastfoot=\box141
+\LT@gbox=\box142
+\LT@cols=\count562
+\LT@rows=\count563
+\c@LT@tables=\count564
+\c@LT@chunks=\count565
+\LT@p@ftn=\toks64
 )
-\glsdescwidth=\skip184
-\glspagelistwidth=\skip185
+\glsdescwidth=\skip185
+\glspagelistwidth=\skip186
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count564
-\ST@wd=\dimen333
-\ST@rightskip=\skip186
-\ST@leftskip=\skip187
-\ST@parfillskip=\skip188
-\ST@pageleft=\dimen334
-\ST@headht=\dimen335
-\ST@tailht=\dimen336
-\ST@pagesofar=\dimen337
-\ST@pboxht=\dimen338
-\ST@lineht=\dimen339
-\ST@prevht=\dimen340
-\ST@toadd=\dimen341
-\ST@dimen=\dimen342
-\ST@pbox=\box142
+\c@tracingst=\count566
+\ST@wd=\dimen334
+\ST@rightskip=\skip187
+\ST@leftskip=\skip188
+\ST@parfillskip=\skip189
+\ST@pageleft=\dimen335
+\ST@headht=\dimen336
+\ST@tailht=\dimen337
+\ST@pagesofar=\dimen338
+\ST@pboxht=\dimen339
+\ST@lineht=\dimen340
+\ST@prevht=\dimen341
+\ST@toadd=\dimen342
+\ST@dimen=\dimen343
+\ST@pbox=\box143
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2023/09/29 v4.53 (NLCT)
-\glstreeindent=\skip189
+\glstreeindent=\skip190
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count565
-\l__siunitx_number_exponent_fixed_int=\count566
-\l__siunitx_number_min_decimal_int=\count567
-\l__siunitx_number_min_integer_int=\count568
-\l__siunitx_number_round_precision_int=\count569
-\l__siunitx_number_lower_threshold_int=\count570
-\l__siunitx_number_upper_threshold_int=\count571
-\l__siunitx_number_group_first_int=\count572
-\l__siunitx_number_group_size_int=\count573
-\l__siunitx_number_group_minimum_int=\count574
-\l__siunitx_angle_tmp_dim=\dimen343
-\l__siunitx_angle_marker_box=\box143
-\l__siunitx_angle_unit_box=\box144
-\l__siunitx_compound_count_int=\count575
+\l__siunitx_number_uncert_offset_int=\count567
+\l__siunitx_number_exponent_fixed_int=\count568
+\l__siunitx_number_min_decimal_int=\count569
+\l__siunitx_number_min_integer_int=\count570
+\l__siunitx_number_round_precision_int=\count571
+\l__siunitx_number_lower_threshold_int=\count572
+\l__siunitx_number_upper_threshold_int=\count573
+\l__siunitx_number_group_first_int=\count574
+\l__siunitx_number_group_size_int=\count575
+\l__siunitx_number_group_minimum_int=\count576
+\l__siunitx_angle_tmp_dim=\dimen344
+\l__siunitx_angle_marker_box=\box144
+\l__siunitx_angle_unit_box=\box145
+\l__siunitx_compound_count_int=\count577
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box145
-\l__siunitx_table_tmp_dim=\dimen344
-\l__siunitx_table_column_width_dim=\dimen345
-\l__siunitx_table_integer_box=\box146
-\l__siunitx_table_decimal_box=\box147
-\l__siunitx_table_uncert_box=\box148
-\l__siunitx_table_before_box=\box149
-\l__siunitx_table_after_box=\box150
-\l__siunitx_table_before_dim=\dimen346
-\l__siunitx_table_carry_dim=\dimen347
-\l__siunitx_unit_tmp_int=\count576
-\l__siunitx_unit_position_int=\count577
-\l__siunitx_unit_total_int=\count578
+\l__siunitx_table_tmp_box=\box146
+\l__siunitx_table_tmp_dim=\dimen345
+\l__siunitx_table_column_width_dim=\dimen346
+\l__siunitx_table_integer_box=\box147
+\l__siunitx_table_decimal_box=\box148
+\l__siunitx_table_uncert_box=\box149
+\l__siunitx_table_before_box=\box150
+\l__siunitx_table_after_box=\box151
+\l__siunitx_table_before_dim=\dimen347
+\l__siunitx_table_carry_dim=\dimen348
+\l__siunitx_unit_tmp_int=\count578
+\l__siunitx_unit_position_int=\count579
+\l__siunitx_unit_total_int=\count580
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen348
-\ar@mcellbox=\box151
-\extrarowheight=\dimen349
-\NC@list=\toks63
-\extratabsurround=\skip190
-\backup@length=\skip191
-\ar@cellbox=\box152
+\col@sep=\dimen349
+\ar@mcellbox=\box152
+\extrarowheight=\dimen350
+\NC@list=\toks65
+\extratabsurround=\skip191
+\backup@length=\skip192
+\ar@cellbox=\box153
 ))
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
@@ -2506,16 +2550,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count579
+\c@section@level=\count581
 )
-\@linkdim=\dimen350
-\Hy@linkcounter=\count580
-\Hy@pagecounter=\count581
+\@linkdim=\dimen351
+\Hy@linkcounter=\count582
+\Hy@pagecounter=\count583
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count582
+\Hy@SavedSpaceFactor=\count584
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -2529,16 +2573,16 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count583
+\c@Hy@tempcnt=\count585
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen351
+\XeTeXLinkMargin=\dimen352
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count584
-\Field@Width=\dimen352
-\Fld@charsize=\dimen353
+\Fld@menulength=\count586
+\Field@Width=\dimen353
+\Fld@charsize=\dimen354
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -2551,9 +2595,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count585
-\c@Item=\count586
-\c@Hfootnote=\count587
+\Hy@abspage=\count587
+\c@Item=\count588
+\c@Hfootnote=\count589
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -2564,12 +2608,12 @@ File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\Fld@listcount=\count588
-\c@bookmark@seq@number=\count589
-\Hy@SectionHShift=\skip192
+\Fld@listcount=\count590
+\c@bookmark@seq@number=\count591
+\Hy@SectionHShift=\skip193
 )
 (./files/gbTeXglo-seminarioUBA.tex) (./files/gbTeXseparata-seminarioUBA.tex
-\c@PrimPag=\count590
+\c@PrimPag=\count592
 \script=\write9
 
 \openout9 = separatas.sh
@@ -2581,7 +2625,7 @@ Package: impnattypo
 
 (/usr/share/texlive/texmf-dist/tex/lualatex/luacode/luacode.sty
 Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
-\luacode@lines=\toks64
+\luacode@lines=\toks66
 \luacode@table@soft=\catcodetable18
 )
 Inserting `homeoarchy' in `post_linebreak_filter'.
@@ -2593,7 +2637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.521 \usepackage
+l.450 \usepackage
                {easyReview}
 The package hyperref has already been loaded with options:
   [allcolors=blue,colorlinks,hyperindex=true]
@@ -2614,26 +2658,26 @@ Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks65
-\SOUL@lasttoken=\toks66
-\SOUL@syllable=\toks67
-\SOUL@cmds=\toks68
-\SOUL@buffer=\toks69
-\SOUL@token=\toks70
-\SOUL@syllgoal=\dimen354
-\SOUL@syllwidth=\dimen355
-\SOUL@charkern=\dimen356
-\SOUL@hyphkern=\dimen357
-\SOUL@dimen=\dimen358
-\SOUL@dimeni=\dimen359
-\SOUL@minus=\count591
-\SOUL@comma=\count592
-\SOUL@apo=\count593
-\SOUL@grave=\count594
-\SOUL@spaceskip=\skip193
-\SOUL@ttwidth=\dimen360
-\SOUL@uldp=\dimen361
-\SOUL@ulht=\dimen362
+\SOUL@word=\toks67
+\SOUL@lasttoken=\toks68
+\SOUL@syllable=\toks69
+\SOUL@cmds=\toks70
+\SOUL@buffer=\toks71
+\SOUL@token=\toks72
+\SOUL@syllgoal=\dimen355
+\SOUL@syllwidth=\dimen356
+\SOUL@charkern=\dimen357
+\SOUL@hyphkern=\dimen358
+\SOUL@dimen=\dimen359
+\SOUL@dimeni=\dimen360
+\SOUL@minus=\count593
+\SOUL@comma=\count594
+\SOUL@apo=\count595
+\SOUL@grave=\count596
+\SOUL@spaceskip=\skip194
+\SOUL@ttwidth=\dimen361
+\SOUL@uldp=\dimen362
+\SOUL@ulht=\dimen363
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
@@ -2643,7 +2687,7 @@ Package: todonotes 2024/01/05
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count595
+\c@@todonotes@numberoftodonotes=\count597
 )
 
 ! LaTeX Error: Command \comment already defined.
@@ -2661,12 +2705,12 @@ or  <return>  to continue without it.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks71
+\hyxmp@aep@toks=\toks73
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
-\@hyxmp@count=\count596
+\@hyxmp@count=\count598
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
@@ -2767,7 +2811,7 @@ LaTeX Info: Redefining \% on input line 20.
 <Reading QR code for "https://github.com/albertomoyano/seminarioUBA2025" at lev
 el 4-M from aux file.>
 (./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
-\c@pagesLTS.roman.1.local.cnt=\count597
+\c@pagesLTS.roman.1.local.cnt=\count599
 
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
 (./artcap/conclusiones.aux)
@@ -2780,30 +2824,30 @@ LaTeX Info: Redefining \% on input line 84.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
  (./artcap/indiceautores.aux)
-\c@pagesLTS.arabic.1.local.cnt=\count598
+\c@pagesLTS.arabic.1.local.cnt=\count600
 )
 \openout1 = pdf-seminarioUBA.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 546.
-LaTeX Font Info:    ... okay on input line 546.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 475.
+LaTeX Font Info:    ... okay on input line 475.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2826,7 +2870,7 @@ LaTeX Font Info:    ... okay on input line 546.
 * \topmargin=-37.26999pt
 * \headheight=12.0pt
 * \headsep=14.0pt
-* \topskip=10.0pt
+* \topskip=14.0pt
 * \footskip=0.0pt
 * \marginparwidth=125.0pt
 * \marginparsep=7.0pt
@@ -2841,28 +2885,51 @@ LaTeX Font Info:    ... okay on input line 546.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
-LaTeX Info: Redefining \up on input line 546.
+LaTeX Info: Redefining \. on input line 475.
+LaTeX Info: Redefining \% on input line 475.
+LaTeX Info: Redefining \up on input line 475.
+LaTeX Info: Redefining \microtypecontext on input line 475.
+Package microtype Info: Applying patch `item' on input line 475.
+Package microtype Info: Applying patch `toc' on input line 475.
+Package microtype Info: Applying patch `eqnum' on input line 475.
+Package microtype Info: Applying patch `footnote' on input line 475.
+Package microtype Info: Applying patch `verbatim' on input line 475.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 475.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Redefining babel's language switching commands.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/LibertinusMath(1)/m/n --> TU/Brill(0)/m/n on input l
-ine 546.
+(Font)                  TU/LibertinusMath(1)/m/n --> TU/LibertinusSerif(0)/m/n 
+on input line 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Brill(0)/m/it on input line 546.
+(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(0)/m/it on input li
+ne 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Brill(0)/b/n on input line 546.
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/b/n on input lin
+e 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/IBMPlexSansCondensed(0)/m/n on inpu
-t line 546.
+t line 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/IBMPlexSansCondensed(0)/b/n on inp
-ut line 546.
+ut line 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(0)/m/n on input lin
-e 546.
+e 475.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(0)/b/n on input lin
-e 546.
+e 475.
 
 Package pageslts Warning: Package pdfpages detected.
 (pageslts)                Using hyperref with pdfpages can cause problems. See
@@ -2871,17 +2938,17 @@ Package pageslts Warning: Package pdfpages detected.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count599
-\scratchdimen=\dimen363
-\scratchbox=\box153
-\nofMPsegments=\count600
-\nofMParguments=\count601
-\everyMPshowfont=\toks72
-\MPscratchCnt=\count602
-\MPscratchDim=\dimen364
-\MPnumerator=\count603
-\makeMPintoPDFobject=\count604
-\everyMPtoPDFconversion=\toks73
+\scratchcounter=\count601
+\scratchdimen=\dimen364
+\scratchbox=\box154
+\nofMPsegments=\count602
+\nofMParguments=\count603
+\everyMPshowfont=\toks74
+\MPscratchCnt=\count604
+\MPscratchDim=\dimen365
+\MPnumerator=\count605
+\makeMPintoPDFobject=\count606
+\everyMPtoPDFconversion=\toks75
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2912,11 +2979,11 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: scrextend package is loaded.
-\caption@addmargin@hsize=\dimen365
-\caption@addmargin@linewidth=\dimen366
+\caption@addmargin@hsize=\dimen366
+\caption@addmargin@linewidth=\dimen367
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count605
+\c@lstlisting=\count607
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-philosophy
 '...
 Package biblatex Info: ... file 'spanish-philosophy.lbx' found.
@@ -3025,8 +3092,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 546.
-Package biblatex Info: Reference segment=0 on input line 546.
+Package biblatex Info: Reference section=0 on input line 475.
+Package biblatex Info: Reference segment=0 on input line 475.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-spanish.trsl
@@ -3034,7 +3101,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 546.
+or `spanish'. on input line 475.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-german.trsl
@@ -3042,7 +3109,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 546.
+or `german'. on input line 475.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -3050,11 +3117,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 546.
+or `english'. on input line 475.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 546.
+alian.trsl' found. on input line 475.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 546.
+rtuges.trsl' found. on input line 475.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-french.trsl
@@ -3062,20 +3129,29 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 546.
-Package hyperref Info: Link coloring ON on input line 546.
+or `french'. on input line 475.
+Package hyperref Info: Link coloring ON on input line 475.
  (./pdf-seminarioUBA.out) (./pdf-seminarioUBA.out)
 \@outlinefile=\write10
 
 \openout10 = pdf-seminarioUBA.out
-\c@pagesLTS.pnc.roman=\count606
-\c@pagesLTS.double.roman=\count607
-\c@pagesLTS.current.local.roman=\count608
+\c@pagesLTS.pnc.roman=\count608
+\c@pagesLTS.double.roman=\count609
+\c@pagesLTS.current.local.roman=\count610
 
 (./artcap/inicio-frontmatter.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 20.39026pt on input line 19.
+ [3] [4]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 11.79993pt on input line 35.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 14.15991pt on input line 35.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 16.99188pt on input line 43.
 <./media/logo-imago-ByW.png, id=113, 85.2786pt x 42.1575pt>
 File: ./media/logo-imago-ByW.png Graphic file (type png)
 <use ./media/logo-imago-ByW.png>
@@ -3087,6 +3163,8 @@ File: ./media/desconocido.png Graphic file (type png)
 <use ./media/desconocido.png>
 Package luatex.def Info: ./media/desconocido.png  used on input line 59.
 (luatex.def)             Requested size: 56.9055pt x 65.42586pt.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 9.43994pt on input line 63.
 
 
 
@@ -3095,57 +3173,28 @@ ersion 0-M.>
 
 <Copying the QR code for "https://github.com/albertomoyano/seminarioUBA2025" in
  version 4-M as previously calculated.>
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusMath' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 ) [6<./media/desconocido.png>]
-Package biblatex Info: Resetting trackers on input line 561.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.561 \tableofcontents
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.561 \tableofcontents
-                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.561 \tableofcontents
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.561 \tableofcontents
-                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-(./pdf-seminarioUBA.toc
+Package biblatex Info: Resetting trackers on input line 490.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 14.12686pt on input line 490.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `IBMPlexSansCondensed' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 16.95224pt on input line 490.
+ (./pdf-seminarioUBA.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 7.8682pt on input line 2.
+(Font)              scaled to size 9.81033pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 10.61993pt on input line 2.
 LaTeX Info: Redefining \sptext on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -3162,251 +3211,118 @@ LaTeX Info: Redefining \% on input line 30.
 \tf@toc=\write11
 
 \openout11 = pdf-seminarioUBA.toc
-LaTeX Info: Redefining \. on input line 581.
-LaTeX Info: Redefining \% on input line 581.
-LaTeX Info: Redefining \. on input line 581.
-LaTeX Info: Redefining \% on input line 581.
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
  [7
 
 ]
 \openout2 = ./artcap/presentacion.aux
- (./artcap/presentacion.tex [8
+
+(./artcap/presentacion.tex [8
 
 
 ]
 Package biblatex Info: Resetting trackers on input line 2.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Presentación]{Presentación}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Presentación]{Presentación}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Presentación]{Presentación}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Presentación]{Presentación}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
-[9])
-LaTeX Info: Redefining \. on input line 581.
-LaTeX Info: Redefining \% on input line 581.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 7.84827pt on input line 20.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 22.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 22.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 22.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 7.77771pt on input line 581.
-LaTeX Info: Redefining \. on input line 581.
-LaTeX Info: Redefining \% on input line 581.
- [10]
+(Font)              scaled to size 7.75806pt on input line 24.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 10.61993pt on input line 35.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+ [9]
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
+(Font)              scaled to size 9.69757pt on input line 66.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+ [10])
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
+ [11]
 \openout2 = ./artcap/prologo.aux
- (./artcap/prologo.tex
+ (./artcap/prologo.tex [12
+
+
+
+
+]
 Package biblatex Info: Resetting trackers on input line 2.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter[\hspace{1.5pc}Prólogo]{Prólogo}
-                                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter[\hspace{1.5pc}Prólogo]{Prólogo}
-                                            
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter[\hspace{1.5pc}Prólogo]{Prólogo}
-                                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter[\hspace{1.5pc}Prólogo]{Prólogo}
-                                            
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-[11
-
-
-
-
-])
-LaTeX Info: Redefining \. on input line 582.
-LaTeX Info: Redefining \% on input line 582.
-LaTeX Info: Redefining \. on input line 582.
-LaTeX Info: Redefining \% on input line 582.
- [12]
+[13]
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+ [14])
+LaTeX Info: Redefining \. on input line 511.
+LaTeX Info: Redefining \% on input line 511.
+LaTeX Info: Redefining \. on input line 511.
+LaTeX Info: Redefining \% on input line 511.
+ [15]
 \openout2 = ./artcap/introduccion.aux
- (./artcap/introduccion.tex
+ (./artcap/introduccion.tex [16
+
+
+
+
+]
 Package biblatex Info: Resetting trackers on input line 2.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Introducción]{Introducción}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Introducción]{Introducción}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Introducción]{Introducción}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...r[\hspace{1.5pc}Introducción]{Introducción}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-[13
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [17]
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+ [18])
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+ [19] [20
 
 
 
-
-])
-LaTeX Info: Redefining \. on input line 583.
-LaTeX Info: Redefining \% on input line 583.
-LaTeX Info: Redefining \. on input line 583.
-LaTeX Info: Redefining \% on input line 583.
- [14]
-\c@pagesLTS.roman.1.local.count=\count609
-\c@pagesLTS.pnc.arabic=\count610
-\c@pagesLTS.double.arabic=\count611
-\c@pagesLTS.current.local.arabic=\count612
+]
+\c@pagesLTS.roman.1.local.count=\count611
+\c@pagesLTS.pnc.arabic=\count612
+\c@pagesLTS.double.arabic=\count613
+\c@pagesLTS.current.local.arabic=\count614
 
 \openout2 = ./artcap/capitulo1.aux
- (./artcap/capitulo1.tex
+
+(./artcap/capitulo1.tex
 Capítulo 1.
 Package biblatex Info: Resetting trackers on input line 2.
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Lorem Ipsum Dolor Sit Amet}
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Lorem Ipsum Dolor Sit Amet}
-                                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Lorem Ipsum Dolor Sit Amet}
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Lorem Ipsum Dolor Sit Amet}
-                                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 16.99188pt on input line 2.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 9.33325pt on input line 11.
+(Font)              scaled to size 11.63708pt on input line 11.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 8.25995pt on input line 13.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 5.50774pt on input line 13.
+(Font)              scaled to size 6.86723pt on input line 13.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 24.
@@ -3414,631 +3330,224 @@ LaTeX Info: Redefining \% on input line 24.
 [1
 
 
-
-
-
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 9.44183pt on input line 29.
-<./media/letraA.png, id=207, 903.375pt x 255.95625pt>
+(Font)              scaled to size 11.7724pt on input line 29.
+<./media/letraA.png, id=233, 903.375pt x 255.95625pt>
 File: ./media/letraA.png Graphic file (type png)
 <use ./media/letraA.png>
 Package luatex.def Info: ./media/letraA.png  used on input line 38.
 (luatex.def)             Requested size: 312.9803pt x 88.67993pt.
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
- [2<./media/letraA.png>])
-LaTeX Info: Redefining \. on input line 587.
-LaTeX Info: Redefining \% on input line 587.
-LaTeX Info: Redefining \. on input line 587.
-LaTeX Info: Redefining \% on input line 587.
- [3]
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [2<./media/letraA.png>]
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+ [3])
+LaTeX Info: Redefining \. on input line 516.
+LaTeX Info: Redefining \% on input line 516.
+LaTeX Info: Redefining \. on input line 516.
+LaTeX Info: Redefining \% on input line 516.
+ [4]
 \openout2 = ./artcap/capitulo2.aux
- (./artcap/capitulo2.tex [4
-
-
-
-
-]
+ (./artcap/capitulo2.tex
 Capítulo 2.
 Package biblatex Info: Resetting trackers on input line 2.
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Consectetur Adipiscing Elit}
-                                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Consectetur Adipiscing Elit}
-                                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Consectetur Adipiscing Elit}
-                                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Consectetur Adipiscing Elit}
-                                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 6.29456pt on input line 25.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 4.7319pt on input line 27.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 4.7319pt on input line 27.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 4.7319pt on input line 27.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-[5]
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
- [6])
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
- [7]
-\openout2 = ./artcap/capitulo3.aux
- (./artcap/capitulo3.tex [8
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+[5
 
 
 
 
 ]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 11.79993pt on input line 41.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+ [6])
+LaTeX Info: Redefining \. on input line 517.
+LaTeX Info: Redefining \% on input line 517.
+LaTeX Info: Redefining \. on input line 517.
+LaTeX Info: Redefining \% on input line 517.
+ [7]
+LaTeX Info: Redefining \. on input line 517.
+LaTeX Info: Redefining \% on input line 517.
+LaTeX Info: Redefining \. on input line 517.
+LaTeX Info: Redefining \% on input line 517.
+ [8]
+\openout2 = ./artcap/capitulo3.aux
+ (./artcap/capitulo3.tex
 Capítulo 3.
 Package biblatex Info: Resetting trackers on input line 2.
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Vestibulum Eget Nisi}
-                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Vestibulum Eget Nisi}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter{Vestibulum Eget Nisi}
-                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter{Vestibulum Eget Nisi}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 7.8682pt on input line 13.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 6.22217pt on input line 23.
+(Font)              scaled to size 9.81033pt on input line 13.
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
-[9]
-<./media/avatar.png, id=282, 825.0825pt x 825.0825pt>
+[9
+
+
+
+
+]
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+ [10]
+<./media/avatar.png, id=314, 825.0825pt x 825.0825pt>
 File: ./media/avatar.png Graphic file (type png)
 <use ./media/avatar.png>
 Package luatex.def Info: ./media/avatar.png  used on input line 88.
 (luatex.def)             Requested size: 156.49014pt x 156.49033pt.
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
- [10])
-LaTeX Info: Redefining \. on input line 589.
-LaTeX Info: Redefining \% on input line 589.
-LaTeX Info: Redefining \. on input line 589.
-LaTeX Info: Redefining \% on input line 589.
- [11<./media/avatar.png>] [12
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [11<./media/avatar.png>])
+LaTeX Info: Redefining \. on input line 518.
+LaTeX Info: Redefining \% on input line 518.
+LaTeX Info: Redefining \. on input line 518.
+LaTeX Info: Redefining \% on input line 518.
+ [12]
+\openout2 = ./artcap/conclusiones.aux
+ (./artcap/conclusiones.tex
+Package biblatex Info: Resetting trackers on input line 2.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+ [13
+
+
 
 
 
 ]
-\openout2 = ./artcap/conclusiones.aux
- (./artcap/conclusiones.tex
-Package biblatex Info: Resetting trackers on input line 2.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...ter[\hspace{1.5pc}Conclusiones]{Conclusiones}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...ter[\hspace{1.5pc}Conclusiones]{Conclusiones}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 ...ter[\hspace{1.5pc}Conclusiones]{Conclusiones}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 ...ter[\hspace{1.5pc}Conclusiones]{Conclusiones}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
-[13
-
-
-])
-LaTeX Info: Redefining \. on input line 593.
-LaTeX Info: Redefining \% on input line 593.
-LaTeX Info: Redefining \. on input line 593.
-LaTeX Info: Redefining \% on input line 593.
- [14] (./artcap/siglas.tex
+[14])
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
+ [15] (./artcap/siglas.tex
 Using TeX to sort glossary entries---this may take a while
+[16
+
+
+
+]
 Package biblatex Info: Resetting trackers on input line 3.
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.3 ...ry[type=\acronymtype,title=Índice de siglas]
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.3 ...ry[type=\acronymtype,title=Índice de siglas]
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.3 ...ry[type=\acronymtype,title=Índice de siglas]
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.3 ...ry[type=\acronymtype,title=Índice de siglas]
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 11.79993pt on input line 3.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
-[15
-
-
-
-
-] [16
-
-]) (./artcap/conceptos.tex (./concepto.ind
-Package biblatex Info: Resetting trackers on input line 1.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-)
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
  [17
-
 
 ] [18
 
-]) (./artcap/onomastico.tex (./onomastico.ind
+]) (./artcap/conceptos.tex (./concepto.ind
 Package biblatex Info: Resetting trackers on input line 1.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 )
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
  [19
 
 
 ] [20
 
-]) (./artcap/glosario.tex
-Using TeX to sort glossary entries---this may take a while
-Package biblatex Info: Resetting trackers on input line 3.
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.3 ...tnoidxglossary[title={Glosario de conceptos}]
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.3 ...tnoidxglossary[title={Glosario de conceptos}]
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.3 ...tnoidxglossary[title={Glosario de conceptos}]
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.3 ...tnoidxglossary[title={Glosario de conceptos}]
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-[21
+])
+(./artcap/onomastico.tex (./onomastico.ind
+Package biblatex Info: Resetting trackers on input line 1.
+)
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+ [21
 
 
 ] [22
 
-])
-Package biblatex Info: Resetting trackers on input line 611.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.611 ...ter[\hspace{1.5pc}Referencias]{Referencias}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.611 ...ter[\hspace{1.5pc}Referencias]{Referencias}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.611 ...ter[\hspace{1.5pc}Referencias]{Referencias}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.611 ...ter[\hspace{1.5pc}Referencias]{Referencias}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-LaTeX Info: Redefining \sptext on input line 614.
-LaTeX Info: Redefining \. on input line 614.
-LaTeX Info: Redefining \% on input line 614.
-LaTeX Info: Redefining \sptext on input line 614.
-LaTeX Info: Redefining \. on input line 614.
-LaTeX Info: Redefining \% on input line 614.
-LaTeX Info: Redefining \sptext on input line 614.
-LaTeX Info: Redefining \. on input line 614.
-LaTeX Info: Redefining \% on input line 614.
-LaTeX Info: Redefining \sptext on input line 614.
-LaTeX Info: Redefining \. on input line 614.
-LaTeX Info: Redefining \% on input line 614.
-LaTeX Info: Redefining \. on input line 615.
-LaTeX Info: Redefining \% on input line 615.
-LaTeX Info: Redefining \. on input line 615.
-LaTeX Info: Redefining \% on input line 615.
+]) (./artcap/glosario.tex
+Using TeX to sort glossary entries---this may take a while
+Package biblatex Info: Resetting trackers on input line 3.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 [23
+
+
+] [24
+
+])
+Package biblatex Info: Resetting trackers on input line 540.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 10.61993pt on input line 543.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 10.61993pt on input line 543.
+LaTeX Info: Redefining \sptext on input line 543.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \sptext on input line 543.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \sptext on input line 543.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \sptext on input line 543.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \. on input line 544.
+LaTeX Info: Redefining \% on input line 544.
+LaTeX Info: Redefining \. on input line 544.
+LaTeX Info: Redefining \% on input line 544.
+ [25
 
 ]
 \openout2 = ./artcap/indiceautores.aux
- (./artcap/indiceautores.tex [24
+ (./artcap/indiceautores.tex [26
 
 
 ] (./names.ind
 Package biblatex Info: Resetting trackers on input line 1.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.1 \begin{theindex}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 )
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [25
-
-] [26
-
-]) (./artcap/colofon.tex
-Package biblatex Info: Resetting trackers on input line 2.
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter*{Colofón}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter*{Colofón}
-                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-!
-l.2 \chapter*{Colofón}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-!
-l.2 \chapter*{Colofón}
-                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-)
-LaTeX Info: Redefining \. on input line 634.
-LaTeX Info: Redefining \% on input line 634.
-LaTeX Info: Redefining \. on input line 634.
-LaTeX Info: Redefining \% on input line 634.
  [27
+
+] [28
+
+])
+(./artcap/colofon.tex
+Package biblatex Info: Resetting trackers on input line 2.
+)
+LaTeX Info: Redefining \. on input line 563.
+LaTeX Info: Redefining \% on input line 563.
+LaTeX Info: Redefining \. on input line 563.
+LaTeX Info: Redefining \% on input line 563.
+ [29
 
 
 
@@ -4049,7 +3558,7 @@ File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [28]
+) [30]
 
 Package imakeidx Warning: Remember to run lualatex again after calling
 (imakeidx)                `\imki@messageconcepto '.
@@ -4062,7 +3571,7 @@ Package imakeidx Warning: Remember to run lualatex again after calling
 Package imakeidx Warning: Remember to run lualatex again after calling
 (imakeidx)                `\imki@messagenames '.
 
-\c@pagesLTS.arabic.1.local.count=\count613
+\c@pagesLTS.arabic.1.local.count=\count615
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -4100,35 +3609,36 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `pdf-seminarioUBA.out' has not changed.
-(rerunfilecheck)             Checksum: 13AEF90B1301441762D4836B68062506;2018.
+(rerunfilecheck)             Checksum: 4D4AC6BB9320A5DB653556CC85E2F87B;2018.
 Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 
 \openout1 = pdf-seminarioUBA.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 65860 strings out of 476553
- 932463,2848258 words of node,token memory allocated
- 783540 words of node memory still in use:
-   5158 hlist, 27 vlist, 3946 rule, 10 ins, 1 adjust, 8417 disc, 600 local_par, 
-76 math, 11089 glue, 8194 kern, 1237 penalty, 178 margin_kern, 56063 glyph, 3310
-5 attribute, 1447 glue_spec, 4741 attribute_list, 89 write, 372 pdf_literal, 133
- pdf_start_link, 133 pdf_end_link, 18 pdf_dest, 62 pdf_action, 636 pdf_colorstac
+ 67492 strings out of 476553
+ 932389,2848258 words of node,token memory allocated
+ 820734 words of node memory still in use:
+   6985 hlist, 38 vlist, 4415 rule, 10 ins, 1 adjust, 8303 disc, 617 local_par, 
+112 math, 15217 glue, 5371 kern, 1277 penalty, 180 margin_kern, 56318 glyph, 338
+89 attribute, 1473 glue_spec, 4853 attribute_list, 84 write, 26 pdf_literal, 131
+ pdf_start_link, 131 pdf_end_link, 18 pdf_dest, 62 pdf_action, 584 pdf_colorstac
 k, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:4,2:313,3:167,4:63,5:183,6:15,7:1732,8:3,9:4492,10:14,11:154
- 85861 multiletter control sequences out of 65536+600000
- 83 fonts using 37645863 bytes
- 117i,10n,122p,2362b,3119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:9,2:313,3:173,4:63,5:94,6:16,7:1839,8:4,9:2198,10:17,11:167
+ 87469 multiletter control sequences out of 65536+600000
+ 85 fonts using 24186191 bytes
+ 117i,10n,122p,2362b,3212s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Ital
-ic.otf></usr/share/fonts/truetype/Brill_Typeface_4.0/Brill-Italic.ttf></usr/shar
-e/fonts/truetype/Brill_Typeface_4.0/Brill-Bold.ttf></usr/share/texlive/texmf-dis
-t/fonts/opentype/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/
-texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/
-fonts/truetype/Brill_Typeface_4.0/Brill-Roman.ttf>
-Output written on pdf-seminarioUBA.pdf (42 pages, 849090 bytes).
+ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Lib
+ertinusSerif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lib
+ertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/open
+type/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/f
+onts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/texlive/texm
+f-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf>
+Output written on pdf-seminarioUBA.pdf (50 pages, 725465 bytes).
 
-PDF statistics: 455 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 90 named destinations out of 1000 (max. 131072)
+PDF statistics: 490 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 99 named destinations out of 1000 (max. 131072)
  365 words of extra memory for PDF output out of 10000 (max. 100000000)
 
