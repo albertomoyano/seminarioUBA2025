@@ -2,7 +2,7 @@
 
 ## Índices habituales en libros académicos o técnicos
 
-- Índice general o tabla de contenido
+- Índice general o sumario
 
         Orden secuencial de capítulos, secciones, subsecciones.
 
