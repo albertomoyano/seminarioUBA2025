@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  6 JUN 2025 20:37
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  6 JUN 2025 18:52
  restricted system commands enabled.
-**pdf-seminarioUBA.tex
-(./pdf-seminarioUBA.tex
+**pdf-20250518TPUMAUROB.tex
+(./pdf-20250518TPUMAUROB.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -392,151 +392,15 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 
 Package microtype Warning: protrusion codes list `libertinus' will
 (microtype)                override list `T1-default' for 
-(microtype)                font `TU////' on input line 41.
+(microtype)                font `TU////' on input line 40.
 
 luaotfload | cache : Lookup cache loaded from /home/alberto/.texlive2023/texmf-v
 ar/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
-! LaTeX Error: The key 'fontspec-opentype/Microtypography' is unknown and is
-(LaTeX)        being ignored.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.51 Scale=1.18]
-              
-
-The module 'fontspec-opentype' does not have a key called
-'fontspec-opentype/Microtypography'.
-Check that you have spelled the key name correctly.
-
-
-
 Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
 (fontspec)             'Libertinus Serif' with options
-(fontspec)             [Ligatures=TeX,Microtypography,Numbers={OldStyle,Proport
-ional},Ligatures={TeX,Common,Discretionary},RawFeature={+cv01,+cv02},Scale=1.18
-].
+(fontspec)             [Ligatures=TeX,Numbers={OldStyle,Proportional},Ligatures
+={TeX,Common,Discretionary},RawFeature={+cv01,+cv02},Scale=1.18].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -567,118 +431,7 @@ guage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;"
 guage=dflt;+onum;+pnum;+tlig;+liga;+dlig;+cv01,+cv02;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 11.79993pt on input line 51.
-
-Package fontspec Info: IBMPlexSansCondensed-Regular scale =
-(fontspec)             0.9810359970073957.
-
-
-Package fontspec Info: IBMPlexSansCondensed-Regular scale =
-(fontspec)             0.9810359970073957.
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: IBMPlexSansCondensed-SemiBold scale =
-(fontspec)             0.9697602156101011.
-
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: IBMPlexSansCondensed-Italic scale = 0.9810359970073957.
-
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: IBMPlexSansCondensed-SemiBoldItalic scale =
-(fontspec)             0.9697602156101011.
-
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'IBMPlexSansCondensed(0)' created for font
-(fontspec)             'IBMPlexSansCondensed' with options
-(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,Ligatures=TeX,Extens
-ion=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItal
-icFont=*-SemiBoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Regular.
-otf]:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
-.otf]:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Italic.o
-tf]:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'IBMPlexMono.otf(0)' created for font
-(fontspec)             'IBMPlexMono.otf' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space,Scale=0.91,Extension=.otf,UprightFont=*-Regular,ItalicFont
-(fontspec)             = IBMPlexMono-Italic.otf,BoldFont =
-(fontspec)             IBMPlexMono-Bold.otf,BoldItalicFont =
-(fontspec)             IBMPlexMono-BoldItalic.otf].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.91]"[IBMPlexMono-Regular.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.91]"[IBMPlexMono-Bold.otf]:mode=node;script=latn
-;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.91]"[IBMPlexMono-Italic.otf]:mode=node;script=la
-tn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.91]"[IBMPlexMono-BoldItalic.otf]:mode=node;scrip
-t=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
+(Font)              scaled to size 11.79993pt on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -800,7 +553,7 @@ sFont={},Script=Math,RawFeature={mathfontdimen=xetex},Scale={MatchLowercase}].
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(0)/m/n' will be
-(Font)              scaled to size 11.79993pt on input line 70.
+(Font)              scaled to size 11.79993pt on input line 53.
 
 Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
@@ -838,17 +591,17 @@ en=xetex;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 11.79993pt on input line 70.
+(Font)              scaled to size 11.79993pt on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 70.
+(Font)              `operators' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 
-70.
+53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 70.
+(Font)              `operators' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line
- 70.
+ 53.
 
 Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
@@ -886,15 +639,15 @@ t=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<7-9>s*[1.17998932
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 70.
+(Font)              `symbols' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line
- 70.
+ 53.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 70.
+(Font)              `symbols' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line
- 70.
+ 53.
 
 Package fontspec Info: LibertinusMath scale = 1.179989329539392.
 
@@ -932,33 +685,247 @@ t=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<7-9>s*[1.17998932
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 7
-0.
+(Font)              `largesymbols' in the math version `normal' on input line 5
+3.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line
- 70.
+ 53.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 70.
+(Font)              `largesymbols' in the math version `bold' on input line 53.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line
- 70.
+ 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 9.43994pt on input line 70.
+(Font)              scaled to size 9.43994pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 7.07996pt on input line 70.
+(Font)              scaled to size 7.07996pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 11.79993pt on input line 70.
+(Font)              scaled to size 11.79993pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 9.43994pt on input line 70.
+(Font)              scaled to size 9.43994pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 7.07996pt on input line 70.
+(Font)              scaled to size 7.07996pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 11.79993pt on input line 70.
+(Font)              scaled to size 11.79993pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 9.43994pt on input line 70.
+(Font)              scaled to size 9.43994pt on input line 53.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 7.07996pt on input line 70.
+(Font)              scaled to size 7.07996pt on input line 53.
+
+Package fontspec Info: IBMPlexSansCondensed-Regular scale =
+(fontspec)             0.9810359970073957.
+
+
+Package fontspec Info: IBMPlexSansCondensed-Regular scale =
+(fontspec)             0.9810359970073957.
+
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-SemiBold scale =
+(fontspec)             0.9697602156101011.
+
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-Italic scale = 0.9810359970073957.
+
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-SemiBoldItalic scale =
+(fontspec)             0.9697602156101011.
+
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexSansCondensed(0)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,Ligatures=TeX,Extens
+ion=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItal
+icFont=*-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Regular.
+otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
+.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Italic.o
+tf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
+Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: IBMPlexSansCondensed-Regular scale =
+(fontspec)             0.9810359970073957.
+
+
+Package fontspec Info: IBMPlexSansCondensed-Regular scale =
+(fontspec)             0.9810359970073957.
+
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-SemiBold scale =
+(fontspec)             0.9697602156101011.
+
+luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-Italic scale = 0.9810359970073957.
+
+luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: IBMPlexSansCondensed-SemiBoldItalic scale =
+(fontspec)             0.9697602156101011.
+
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexSansCondensed(1)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Renderer=Basic,Scale=MatchLowercase,Ligatures=TeX,Exten
+sion=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldIta
+licFont=*-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Regular.
+otf]:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
+.otf]:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9810359970073957]"[IBMPlexSansCondensed-Italic.o
+tf]:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9697602156101011]"[IBMPlexSansCondensed-SemiBold
+Italic.otf]:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/IBMPlexSansCondensed(1)/m/n on inpu
+t line 66.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/IBMPlexSansCondensed(1)/b/n on inp
+ut line 66.
+luaotfload | aux : font no 58 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 59 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 60 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexMono.otf(0)' created for font
+(fontspec)             'IBMPlexMono.otf' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Scale=0.91,Extension=.otf,UprightFont=*-Regular,ItalicFont
+(fontspec)             = IBMPlexMono-Italic.otf,BoldFont =
+(fontspec)             IBMPlexMono-Bold.otf,BoldItalicFont =
+(fontspec)             IBMPlexMono-BoldItalic.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Regular.otf]:mode=node;script=l
+atn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Bold.otf]:mode=node;script=latn
+;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Italic.otf]:mode=node;script=la
+tn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-BoldItalic.otf]:mode=node;scrip
+t=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+luaotfload | aux : font no 64 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 65 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 66 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexMono.otf(1)' created for font
+(fontspec)             'IBMPlexMono.otf' with options
+(fontspec)             [Renderer=Basic,Scale=0.91,Extension=.otf,UprightFont=*-
+Regular,ItalicFont
+(fontspec)             = IBMPlexMono-Italic.otf,BoldFont =
+(fontspec)             IBMPlexMono-Bold.otf,BoldItalicFont =
+(fontspec)             IBMPlexMono-BoldItalic.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Regular.otf]:mode=base;script=l
+atn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Bold.otf]:mode=base;script=latn
+;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-Italic.otf]:mode=base;script=la
+tn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.91]"[IBMPlexMono-BoldItalic.otf]:mode=base;scrip
+t=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(1)/m/n on input lin
+e 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(1)/b/n on input lin
+e 73.
 (/usr/share/texlive/texmf-dist/tex/lualatex/linebreaker/linebreaker.sty
 Package: linebreaker 
 
@@ -1460,8 +1427,8 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier-orns.sty
 Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
-luaotfload | aux : font no 57 (nil) defines no feature for script latn
-luaotfload | aux : font no 57 (nil) defines no feature for script dflt
+luaotfload | aux : font no 69 (nil) defines no feature for script latn
+luaotfload | aux : font no 69 (nil) defines no feature for script dflt
 
 Package fontspec Info: Font family 'FourierOrns-Regular.otf(0)' created for
 (fontspec)             font 'FourierOrns-Regular.otf' with options [BoldFont =
@@ -1906,10 +1873,10 @@ Package newfloat Info: Document class `book' detected (original).
 Package newfloat Info: `rotating' package detected.
 )
 Package newfloat Info: New float `imagen' with options ` fileext=lop, listname=
-{Índice de imágenes}, name=Imagen, placement=ht, ' on input line 322.
+{Índice de imágenes}, name=Imagen, placement=ht, ' on input line 321.
 \c@imagen=\count401
 \newfloat@ftype=\count402
-Package newfloat Info: float type `imagen'=8 on input line 322.
+Package newfloat Info: float type `imagen'=8 on input line 321.
 
 (./files/biblatex-veronaM-config.tex
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2278,11 +2245,11 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \colbreak@box=\box137
 \mc@col@check@num=\count540
 ))
-\pdf-seminarioUBA@idxfile=\write5
+\pdf-20250518TPUMAUROB@idxfile=\write5
 
-\openout5 = pdf-seminarioUBA.idx
+\openout5 = pdf-20250518TPUMAUROB.idx
 
-Writing index file pdf-seminarioUBA.idx
+Writing index file pdf-20250518TPUMAUROB.idx
 \names@idxfile=\write6
 
 \openout6 = names.idx
@@ -2295,10 +2262,6 @@ Writing index file concepto.idx
 
 \openout8 = onomastico.idx
 Writing index file onomastico.idx
-\corriente@idxfile=\write9
-
-\openout9 = corriente.idx
-Writing index file corriente.idx
 (/usr/share/texlive/texmf-dist/tex/latex/esindex/esindex.sty
 Package: esindex 2019/10/10 v1.7 Spanish indexes (and more)
 \everyesindex=\toks55
@@ -2535,323 +2498,33 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             text-family-to-math = true, text-series-to-math = true"
 (siunitx)             as a replacement.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count581
-)
-\@linkdim=\dimen351
-\Hy@linkcounter=\count582
-\Hy@pagecounter=\count583
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count584
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
-Package hyperref Info: Option `hyperindex' set `true' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count585
-LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen352
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-)
-\Fld@menulength=\count586
-\Field@Width=\dimen353
-\Fld@charsize=\dimen354
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring ON on input line 6081.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count587
-\c@Item=\count588
-\c@Hfootnote=\count589
-)
-Package hyperref Info: Driver (autodetected): hluatex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\Fld@listcount=\count590
-\c@bookmark@seq@number=\count591
-\Hy@SectionHShift=\skip193
-)
-(./files/gbTeXglo-seminarioUBA.tex) (./files/gbTeXseparata-seminarioUBA.tex
-\c@PrimPag=\count592
-\script=\write10
-
-\openout10 = separatas.sh
-)
-(/usr/share/texlive/texmf-dist/tex/latex/impnattypo/impnattypo.sty
-Package: impnattypo 2019/03/04 1.5 Typographic utilities inspired by the French
- Imprimerie Nationale
-Package: impnattypo 
-
-(/usr/share/texlive/texmf-dist/tex/lualatex/luacode/luacode.sty
-Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
-\luacode@lines=\toks66
-\luacode@table@soft=\catcodetable18
-)
-Inserting `homeoarchy' in `post_linebreak_filter'.
-Inserting `homoioteleuton' in `post_linebreak_filter'.)
-
-! LaTeX Error: Option clash for package hyperref.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.451 \usepackage
-               {easyReview}
-The package hyperref has already been loaded with options:
-  [allcolors=blue,colorlinks,hyperindex=true]
-There has now been an attempt to load it with options
-  [allcolors=magenta, colorlinks, unicode]
-Adding the global options:
-  allcolors=blue,colorlinks,hyperindex=true,allcolors=magenta, colorlinks, unic
-ode
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(/usr/share/texlive/texmf-dist/tex/latex/easyreview/easyReview.sty
-Package: easyReview 2014/06/27 Package for Easy Review on LaTeX documents
-Package: easyReview 2013/12/09 Package for Easy Review on LaTeX documents
-
-(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks67
-\SOUL@lasttoken=\toks68
-\SOUL@syllable=\toks69
-\SOUL@cmds=\toks70
-\SOUL@buffer=\toks71
-\SOUL@token=\toks72
-\SOUL@syllgoal=\dimen355
-\SOUL@syllwidth=\dimen356
-\SOUL@charkern=\dimen357
-\SOUL@hyphkern=\dimen358
-\SOUL@dimen=\dimen359
-\SOUL@dimeni=\dimen360
-\SOUL@minus=\count593
-\SOUL@comma=\count594
-\SOUL@apo=\count595
-\SOUL@grave=\count596
-\SOUL@spaceskip=\skip194
-\SOUL@ttwidth=\dimen361
-\SOUL@uldp=\dimen362
-\SOUL@ulht=\dimen363
-))
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
-Package: todonotes 2024/01/05
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-\c@@todonotes@numberoftodonotes=\count597
-)
-
-! LaTeX Error: Command \comment already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 ...comment}[2]{\highlight{#1}\todo[inline]{#2}}
-                                                  %    \end{macrocode}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
-Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks73
-
-(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
-Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)
-\@hyxmp@count=\count598
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
-Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-)
-\hyxmp@cct=\catcodetable19
-)
-(./files/gbTeXmeta-seminarioUBA.tex
-
-! Package kvsetkeys Error: Undefined key `pdfcopyrightstatus'.
-
-See the kvsetkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-    
-The keyval family of the key `pdfcopyrightstatus' is `Hyp'.
-The setting of the key is ignored because of the error.
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package kvsetkeys Error: Undefined key `pdfrightsinformationurl'.
-
-See the kvsetkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-    
-The keyval family of the key `pdfrightsinformationurl' is `Hyp'.
-The setting of the key is ignored because of the error.
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package kvsetkeys Error: Undefined key `pdfcountry'.
-
-See the kvsetkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-    
-The keyval family of the key `pdfcountry' is `Hyp'.
-The setting of the key is ignored because of the error.
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package kvsetkeys Error: Undefined key `pdfcity'.
-
-See the kvsetkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-    
-The keyval family of the key `pdfcity' is `Hyp'.
-The setting of the key is ignored because of the error.
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package kvsetkeys Error: Undefined key `pdfcopyrightstatustype'.
-
-See the kvsetkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-    
-The keyval family of the key `pdfcopyrightstatustype' is `Hyp'.
-The setting of the key is ignored because of the error.
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package hyperref Info: Option `unicode' set `true' on input line 30.
-
-Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 30.
-
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 30.
-
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 30.
-)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./pdf-seminarioUBA.aux
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
 
-<Reading QR code for "https://github.com/albertomoyano/seminarioUBA2025" at lev
-el 4-M from aux file.>
-(./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
-\c@pagesLTS.roman.1.local.cnt=\count599
-
-(./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
-(./artcap/conclusiones.aux)
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
- (./artcap/indiceautores.aux)
-\c@pagesLTS.arabic.1.local.cnt=\count600
+(./pdf-20250518TPUMAUROB.aux
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+\c@pagesLTS.roman.1.local.cnt=\count581
+\c@pagesLTS.arabic.1.local.cnt=\count582
 )
-\openout1 = pdf-seminarioUBA.aux
+\openout1 = pdf-20250518TPUMAUROB.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2889,70 +2562,59 @@ LaTeX Font Info:    ... okay on input line 476.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
-LaTeX Info: Redefining \up on input line 476.
-LaTeX Info: Redefining \microtypecontext on input line 476.
-Package microtype Info: Applying patch `item' on input line 476.
-Package microtype Info: Applying patch `toc' on input line 476.
-Package microtype Info: Applying patch `eqnum' on input line 476.
-Package microtype Info: Applying patch `footnote' on input line 476.
-Package microtype Info: Applying patch `verbatim' on input line 476.
+LaTeX Info: Redefining \. on input line 435.
+LaTeX Info: Redefining \% on input line 435.
+LaTeX Info: Redefining \up on input line 435.
+LaTeX Info: Redefining \microtypecontext on input line 435.
+Package microtype Info: Applying patch `item' on input line 435.
+Package microtype Info: Applying patch `toc' on input line 435.
+Package microtype Info: Applying patch `eqnum' on input line 435.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 435.
+
+Package microtype Info: Applying patch `verbatim' on input line 435.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 476.
+LaTeX Info: Redefining \showhyphens on input line 435.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-Package microtype Info: Redefining babel's language switching commands.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/LibertinusMath(1)/m/n --> TU/LibertinusSerif(0)/m/n 
-on input line 476.
+on input line 435.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(0)/m/it on input li
-ne 476.
+ne 435.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/b/n on input lin
-e 476.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/IBMPlexSansCondensed(0)/m/n on inpu
-t line 476.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/IBMPlexSansCondensed(0)/b/n on inp
-ut line 476.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(0)/m/n on input lin
-e 476.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono.otf(0)/b/n on input lin
-e 476.
+e 435.
 
-Package pageslts Warning: Package pdfpages detected.
-(pageslts)                Using hyperref with pdfpages can cause problems. See
-(pageslts)                https://www.ctan.org/pkg/pax
-(pageslts)                for the Pdf Annotations eXtractor, pax.
+Package pageslts Warning: Package hyperref NOT detected.
+(pageslts)                pageslts would support hyperref. The page references
+(pageslts)                will NOT be hyperlinked!
+(pageslts)                 on input line 435.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count601
-\scratchdimen=\dimen364
+\scratchcounter=\count583
+\scratchdimen=\dimen351
 \scratchbox=\box154
-\nofMPsegments=\count602
-\nofMParguments=\count603
-\everyMPshowfont=\toks74
-\MPscratchCnt=\count604
-\MPscratchDim=\dimen365
-\MPnumerator=\count605
-\makeMPintoPDFobject=\count606
-\everyMPtoPDFconversion=\toks75
+\nofMPsegments=\count584
+\nofMParguments=\count585
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count586
+\MPscratchDim=\dimen352
+\MPnumerator=\count587
+\makeMPintoPDFobject=\count588
+\everyMPtoPDFconversion=\toks67
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2975,7 +2637,6 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -2983,11 +2644,11 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: scrextend package is loaded.
-\caption@addmargin@hsize=\dimen366
-\caption@addmargin@linewidth=\dimen367
+\caption@addmargin@hsize=\dimen353
+\caption@addmargin@linewidth=\dimen354
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count607
+\c@lstlisting=\count589
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-philosophy
 '...
 Package biblatex Info: ... file 'spanish-philosophy.lbx' found.
@@ -3076,28 +2737,13 @@ Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
 
-\openout4 = pdf-seminarioUBA.bcf
+\openout4 = pdf-20250518TPUMAUROB.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'pdf-seminarioUBA.bbl' found.
+Package biblatex Info: ... file 'pdf-20250518TPUMAUROB.bbl' found.
 
-(./pdf-seminarioUBA.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                236b62277b64048cc40ac3c97824ab11
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                d2ca9cceb345d90e151f761fff8d7dae
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 476.
-Package biblatex Info: Reference segment=0 on input line 476.
+(./pdf-20250518TPUMAUROB.bbl)
+Package biblatex Info: Reference section=0 on input line 435.
+Package biblatex Info: Reference segment=0 on input line 435.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-spanish.trsl
@@ -3105,7 +2751,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 476.
+or `spanish'. on input line 435.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-german.trsl
@@ -3113,7 +2759,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 476.
+or `german'. on input line 435.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -3121,11 +2767,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 476.
+or `english'. on input line 435.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 476.
+alian.trsl' found. on input line 435.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 476.
+rtuges.trsl' found. on input line 435.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-french.trsl
@@ -3133,533 +2779,1567 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 476.
-Package hyperref Info: Link coloring ON on input line 476.
- (./pdf-seminarioUBA.out) (./pdf-seminarioUBA.out)
-\@outlinefile=\write11
-
-\openout11 = pdf-seminarioUBA.out
-\c@pagesLTS.pnc.roman=\count608
-\c@pagesLTS.double.roman=\count609
-\c@pagesLTS.current.local.roman=\count610
-
-(./artcap/inicio-frontmatter.tex [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+or `french'. on input line 435.
+\c@pagesLTS.pnc.roman=\count590
+\c@pagesLTS.double.roman=\count591
+\c@pagesLTS.current.local.roman=\count592
+Package biblatex Info: Resetting trackers on input line 573.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 20.39026pt on input line 19.
- [3] [4]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 11.79993pt on input line 35.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 14.15991pt on input line 35.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 16.99188pt on input line 43.
-<./media/logo-imago-ByW.png, id=117, 85.2786pt x 42.1575pt>
-File: ./media/logo-imago-ByW.png Graphic file (type png)
-<use ./media/logo-imago-ByW.png>
-Package luatex.def Info: ./media/logo-imago-ByW.png  used on input line 50.
-(luatex.def)             Requested size: 56.9055pt x 28.1315pt.
- [5<./media/logo-imago-ByW.png>]
-<./media/desconocido.png, id=124, 85.2786pt x 98.0463pt>
-File: ./media/desconocido.png Graphic file (type png)
-<use ./media/desconocido.png>
-Package luatex.def Info: ./media/desconocido.png  used on input line 59.
-(luatex.def)             Requested size: 56.9055pt x 65.42586pt.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 9.43994pt on input line 63.
-
-
-
-<QR code requested for "https://github.com/albertomoyano/seminarioUBA2025" in v
-ersion 0-M.>
-
-<Copying the QR code for "https://github.com/albertomoyano/seminarioUBA2025" in
- version 4-M as previously calculated.>
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusMath' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [6<./media/desconocido.png>]
-Package biblatex Info: Resetting trackers on input line 491.
+(Font)              scaled to size 16.99188pt on input line 573.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 14.12686pt on input line 491.
+(Font)              scaled to size 14.12686pt on input line 573.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSansCondensed' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 16.95224pt on input line 491.
- (./pdf-seminarioUBA.toc
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+(Font)              scaled to size 16.95224pt on input line 573.
+LaTeX Info: Redefining \. on input line 583.
+LaTeX Info: Redefining \% on input line 583.
+LaTeX Info: Redefining \. on input line 583.
+LaTeX Info: Redefining \% on input line 583.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+]
+Package biblatex Info: Resetting trackers on input line 583.
+LaTeX Info: Redefining \. on input line 590.
+LaTeX Info: Redefining \% on input line 590.
+LaTeX Info: Redefining \. on input line 590.
+LaTeX Info: Redefining \% on input line 590.
+ [3]
+LaTeX Info: Redefining \. on input line 591.
+LaTeX Info: Redefining \% on input line 591.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 9.81033pt on input line 2.
+(Font)              scaled to size 9.81033pt on input line 591.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
+(Font)              scaled to size 9.69757pt on input line 591.
+LaTeX Info: Redefining \. on input line 591.
+LaTeX Info: Redefining \% on input line 591.
+ [4]
+\c@pagesLTS.roman.1.local.count=\count593
+\c@pagesLTS.pnc.arabic=\count594
+\c@pagesLTS.double.arabic=\count595
+\c@pagesLTS.current.local.arabic=\count596
+Package biblatex Info: Resetting trackers on input line 594.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 10.61993pt on input line 2.
-LaTeX Info: Redefining \sptext on input line 28.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
-LaTeX Info: Redefining \sptext on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \sptext on input line 30.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
-LaTeX Info: Redefining \sptext on input line 31.
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
-)
-\tf@toc=\write12
-
-\openout12 = pdf-seminarioUBA.toc
-LaTeX Info: Redefining \. on input line 511.
-LaTeX Info: Redefining \% on input line 511.
-LaTeX Info: Redefining \. on input line 511.
-LaTeX Info: Redefining \% on input line 511.
- [7
-
-]
-\openout2 = ./artcap/presentacion.aux
-
-(./artcap/presentacion.tex [8
-
-
-]
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 7.84827pt on input line 20.
+(Font)              scaled to size 10.61993pt on input line 605.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 22.
+(Font)              scaled to size 10.61993pt on input line 605.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusMath' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 605.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 22.
+(Font)              scaled to size 10.61993pt on input line 605.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 605.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 22.
+(Font)              scaled to size 10.61993pt on input line 605.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 5.89996pt on input line 605.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 10.61993pt on input line 605.
+LaTeX Info: Redefining \. on input line 607.
+LaTeX Info: Redefining \% on input line 607.
+LaTeX Info: Redefining \. on input line 607.
+LaTeX Info: Redefining \% on input line 607.
+ [1
+
+
+] [2
+
+]
+Capítulo 1.
+Package biblatex Info: Resetting trackers on input line 607.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
+(Font)              scaled to size 16.99188pt on input line 607.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 7.75806pt on input line 24.
+(Font)              scaled to size 11.63708pt on input line 610.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 9.43994pt on input line 612.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 8.25995pt on input line 612.
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 6.86723pt on input line 612.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 11.79993pt on input line 616.
+LaTeX Info: Redefining \. on input line 619.
+LaTeX Info: Redefining \% on input line 619.
+LaTeX Info: Redefining \. on input line 619.
+LaTeX Info: Redefining \% on input line 619.
+[3]
+LaTeX Info: Redefining \. on input line 629.
+LaTeX Info: Redefining \% on input line 629.
+LaTeX Info: Redefining \. on input line 629.
+LaTeX Info: Redefining \% on input line 629.
+ [4]
+LaTeX Info: Redefining \. on input line 649.
+LaTeX Info: Redefining \% on input line 649.
+LaTeX Info: Redefining \. on input line 649.
+LaTeX Info: Redefining \% on input line 649.
+ [5]
+! Undefined control sequence.
+l.656 ...vos} de Walter Vargas. \protect\hypertarget
+                                                  {_Toc50463137}{}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.656 ...s} de Walter Vargas. \protect\hypertarget{_
+                                                  Toc50463137}{}{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.656 ... Vargas. \protect\hypertarget{_Toc50463137}
+                                                  {}{}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.657 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Info: Redefining \. on input line 657.
+LaTeX Info: Redefining \% on input line 657.
+LaTeX Info: Redefining \. on input line 657.
+LaTeX Info: Redefining \% on input line 657.
+[6]
+! Argument of \textbf  has an extra }.
+<inserted text> 
+\par 
+l.661 \textbf
+           {Objetivos y supuestos de la investigación}%1.2
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+\par 
+l.661 \textbf
+           {Objetivos y supuestos de la investigación}%1.2
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \textbf  has an extra }.
+<inserted text> 
+\par 
+l.661 \textbf
+           {Objetivos y supuestos de la investigación}%1.2
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+\par 
+l.661 \textbf
+           {Objetivos y supuestos de la investigación}%1.2
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+LaTeX Info: Redefining \. on input line 670.
+LaTeX Info: Redefining \% on input line 670.
+LaTeX Info: Redefining \. on input line 670.
+LaTeX Info: Redefining \% on input line 670.
+[7]
+LaTeX Info: Redefining \. on input line 682.
+LaTeX Info: Redefining \% on input line 682.
+LaTeX Info: Redefining \. on input line 682.
+LaTeX Info: Redefining \% on input line 682.
+ [8]
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 11.7724pt on input line 695.
+
+! Too many }'s.
+l.695 ...tecnoluxf3gico-y-crisis-de-financiamiento}}
+                                                  %1.3.1
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 698.
+LaTeX Info: Redefining \% on input line 698.
+LaTeX Info: Redefining \. on input line 698.
+LaTeX Info: Redefining \% on input line 698.
+[9]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 10.61993pt on input line 35.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [9]
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 9.69757pt on input line 66.
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
- [10])
-LaTeX Info: Redefining \. on input line 511.
-LaTeX Info: Redefining \% on input line 511.
-LaTeX Info: Redefining \. on input line 511.
-LaTeX Info: Redefining \% on input line 511.
- [11]
-\openout2 = ./artcap/prologo.aux
- (./artcap/prologo.tex [12
+(Font)              scaled to size 11.79993pt on input line 705.
+LaTeX Info: Redefining \. on input line 706.
+LaTeX Info: Redefining \% on input line 706.
+LaTeX Info: Redefining \. on input line 706.
+LaTeX Info: Redefining \% on input line 706.
+ [10]
+! Undefined control sequence.
+\ul ->\ERROR 
+             
+l.709 \ul
+       {Fuente}: Cámara Argentina de Agencias de Medios
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
+[11]
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
+(Font)              scaled to size 9.81033pt on input line 729.
+LaTeX Info: Redefining \. on input line 736.
+LaTeX Info: Redefining \% on input line 736.
+LaTeX Info: Redefining \. on input line 736.
+LaTeX Info: Redefining \% on input line 736.
+ [12]
+! Too many }'s.
+l.747 ...ríodo dorado}\label{el-peruxedodo-dorado}}
+                                                  %1.3.2
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-
-
-]
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
-
+LaTeX Info: Redefining \. on input line 752.
+LaTeX Info: Redefining \% on input line 752.
+LaTeX Info: Redefining \. on input line 752.
+LaTeX Info: Redefining \% on input line 752.
 [13]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [14])
-LaTeX Info: Redefining \. on input line 512.
-LaTeX Info: Redefining \% on input line 512.
-LaTeX Info: Redefining \. on input line 512.
-LaTeX Info: Redefining \% on input line 512.
- [15]
-\openout2 = ./artcap/introduccion.aux
- (./artcap/introduccion.tex [16
+LaTeX Info: Redefining \. on input line 766.
+LaTeX Info: Redefining \% on input line 766.
+LaTeX Info: Redefining \. on input line 766.
+LaTeX Info: Redefining \% on input line 766.
+ [14]
+! Too many }'s.
+l.766 ...a dorada}\label{fin-de-la-uxe9poca-dorada}}
+                                                  %1.3.3
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+! Undefined control sequence.
+<argument> ...es ~Fuente: Columbia Journalism Review y \href 
+                                                  {http://www.wan-ifra.org/}...
+l.768 ... of Newspapers and News Publishers}~(WAN).}
+                                                  . Actualmente, la producci...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+LaTeX Info: Redefining \. on input line 775.
+LaTeX Info: Redefining \% on input line 775.
+LaTeX Info: Redefining \. on input line 775.
+LaTeX Info: Redefining \% on input line 775.
+[15]
+LaTeX Info: Redefining \. on input line 788.
+LaTeX Info: Redefining \% on input line 788.
+LaTeX Info: Redefining \. on input line 788.
+LaTeX Info: Redefining \% on input line 788.
+ [16]
+! Too many }'s.
+l.809 ...dológico}\label{abordaje-metodoluxf3gico}}
+                                                  %1.4
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+LaTeX Info: Redefining \. on input line 814.
+LaTeX Info: Redefining \% on input line 814.
+LaTeX Info: Redefining \. on input line 814.
+LaTeX Info: Redefining \% on input line 814.
+[17]
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.822 ...ibro (CAL), lo que permitió obtener un \hl
+                                                  {universo compuesto por tr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- [17]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [18])
-LaTeX Info: Redefining \. on input line 513.
-LaTeX Info: Redefining \% on input line 513.
-LaTeX Info: Redefining \. on input line 513.
-LaTeX Info: Redefining \% on input line 513.
+LaTeX Info: Redefining \. on input line 825.
+LaTeX Info: Redefining \% on input line 825.
+LaTeX Info: Redefining \. on input line 825.
+LaTeX Info: Redefining \% on input line 825.
+[18]
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
  [19] [20
 
-
-
 ]
-\c@pagesLTS.roman.1.local.count=\count611
-\c@pagesLTS.pnc.arabic=\count612
-\c@pagesLTS.double.arabic=\count613
-\c@pagesLTS.current.local.arabic=\count614
-
-\openout2 = ./artcap/capitulo1.aux
-
-(./artcap/capitulo1.tex
-Capítulo 1.
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 16.99188pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
-(Font)              scaled to size 11.63708pt on input line 11.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 8.25995pt on input line 36.
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 6.86723pt on input line 36.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-[1
-
-
-]
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 11.7724pt on input line 52.
-<./media/letraA.png, id=239, 903.375pt x 255.95625pt>
-File: ./media/letraA.png Graphic file (type png)
-<use ./media/letraA.png>
-Package luatex.def Info: ./media/letraA.png  used on input line 61.
-(luatex.def)             Requested size: 312.9803pt x 88.67993pt.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
- [2]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
- [3<./media/letraA.png>])
-LaTeX Info: Redefining \. on input line 517.
-LaTeX Info: Redefining \% on input line 517.
-LaTeX Info: Redefining \. on input line 517.
-LaTeX Info: Redefining \% on input line 517.
- [4]
-\openout2 = ./artcap/capitulo2.aux
- (./artcap/capitulo2.tex
 Capítulo 2.
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-[5
+Package biblatex Info: Resetting trackers on input line 834.
+! Too many }'s.
+l.834 ...nsideraciones-teuxf3rico-metodoluxf3gicas}}
+                                                  % 2
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+! Too many }'s.
+l.837 ...}\label{antecedentes-sobre-la-temuxe1tica}}
+                                                  %2.1
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+LaTeX Info: Redefining \. on input line 846.
+LaTeX Info: Redefining \% on input line 846.
+LaTeX Info: Redefining \. on input line 846.
+LaTeX Info: Redefining \% on input line 846.
+[21]
+LaTeX Info: Redefining \. on input line 854.
+LaTeX Info: Redefining \% on input line 854.
+LaTeX Info: Redefining \. on input line 854.
+LaTeX Info: Redefining \% on input line 854.
+ [22]
+LaTeX Info: Redefining \. on input line 862.
+LaTeX Info: Redefining \% on input line 862.
+LaTeX Info: Redefining \. on input line 862.
+LaTeX Info: Redefining \% on input line 862.
+ [23]
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.863 ...ongado del conflicto entre periodistas. \hl
+                                                  {En 2012, Baldoni} percibe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.865 Unos meses más tarde\hl
+                            {, Arrueta (2012)} aborda también este conflict...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 11.79993pt on input line 41.
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
- [6])
-LaTeX Info: Redefining \. on input line 518.
-LaTeX Info: Redefining \% on input line 518.
-LaTeX Info: Redefining \. on input line 518.
-LaTeX Info: Redefining \% on input line 518.
- [7]
-LaTeX Info: Redefining \. on input line 518.
-LaTeX Info: Redefining \% on input line 518.
-LaTeX Info: Redefining \. on input line 518.
-LaTeX Info: Redefining \% on input line 518.
- [8]
-\openout2 = ./artcap/capitulo3.aux
- (./artcap/capitulo3.tex
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.867 \hl
+       {En 2013, Stefoni} publica un trabajo que pretende vincular el confli...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 871.
+LaTeX Info: Redefining \% on input line 871.
+LaTeX Info: Redefining \. on input line 871.
+LaTeX Info: Redefining \% on input line 871.
+[24]
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.873 Por último, \hl
+                    {Ure y Schwarz (2014)} proponen un estudio cualitativo d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 882.
+LaTeX Info: Redefining \% on input line 882.
+LaTeX Info: Redefining \. on input line 882.
+LaTeX Info: Redefining \% on input line 882.
+[25]
+LaTeX Info: Redefining \. on input line 898.
+LaTeX Info: Redefining \% on input line 898.
+LaTeX Info: Redefining \. on input line 898.
+LaTeX Info: Redefining \% on input line 898.
+ [26]
+! Too many }'s.
+l.902 ...odístico}\label{el-campo-perioduxedstico}}
+                                                  %2.2.1
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 907.
+LaTeX Info: Redefining \% on input line 907.
+LaTeX Info: Redefining \. on input line 907.
+LaTeX Info: Redefining \% on input line 907.
+[27]
+LaTeX Info: Redefining \. on input line 926.
+LaTeX Info: Redefining \% on input line 926.
+LaTeX Info: Redefining \. on input line 926.
+LaTeX Info: Redefining \% on input line 926.
+ [28]
+! Too many }'s.
+l.929 ...on{La credibilidad}\label{la-credibilidad}}
+                                                  %2. 2. 2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.939 \hl
+       {Manuel Castells (1998: 48) apunta:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 951.
+LaTeX Info: Redefining \% on input line 951.
+LaTeX Info: Redefining \. on input line 951.
+LaTeX Info: Redefining \% on input line 951.
+[29]
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.961 \hl
+       {Definiremos la \emph{credibilidad} para la prensa, como la capacidad...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 962.
+LaTeX Info: Redefining \% on input line 962.
+LaTeX Info: Redefining \. on input line 962.
+LaTeX Info: Redefining \% on input line 962.
+[30]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/it' will be
+(Font)              scaled to size 11.79993pt on input line 965.
+LaTeX Info: Redefining \. on input line 977.
+LaTeX Info: Redefining \% on input line 977.
+LaTeX Info: Redefining \. on input line 977.
+LaTeX Info: Redefining \% on input line 977.
+ [31]
+LaTeX Info: Redefining \. on input line 999.
+LaTeX Info: Redefining \% on input line 999.
+LaTeX Info: Redefining \. on input line 999.
+LaTeX Info: Redefining \% on input line 999.
+ [32]
+LaTeX Info: Redefining \. on input line 1022.
+LaTeX Info: Redefining \% on input line 1022.
+LaTeX Info: Redefining \. on input line 1022.
+LaTeX Info: Redefining \% on input line 1022.
+ [33]
+LaTeX Info: Redefining \. on input line 1031.
+LaTeX Info: Redefining \% on input line 1031.
+LaTeX Info: Redefining \. on input line 1031.
+LaTeX Info: Redefining \% on input line 1031.
+ [34]
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
+ [35]
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
+ [36]
+! Too many }'s.
+l.1088 ...la-legitimidad-del-campo-perioduxedstico}}
+                                                  % 2. 2. 3.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1091.
+LaTeX Info: Redefining \% on input line 1091.
+LaTeX Info: Redefining \. on input line 1091.
+LaTeX Info: Redefining \% on input line 1091.
+[37]
+LaTeX Info: Redefining \. on input line 1097.
+LaTeX Info: Redefining \% on input line 1097.
+LaTeX Info: Redefining \. on input line 1097.
+LaTeX Info: Redefining \% on input line 1097.
+ [38]
+! Too many }'s.
+l.1101 ...onomizaciuxf3n-del-campo-perioduxedstico}}
+                                                  % 2. 2. 4.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1109.
+LaTeX Info: Redefining \% on input line 1109.
+LaTeX Info: Redefining \. on input line 1109.
+LaTeX Info: Redefining \% on input line 1109.
+[39]
+LaTeX Info: Redefining \. on input line 1117.
+LaTeX Info: Redefining \% on input line 1117.
+LaTeX Info: Redefining \. on input line 1117.
+LaTeX Info: Redefining \% on input line 1117.
+ [40]
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
+ [41]
+LaTeX Info: Redefining \. on input line 1137.
+LaTeX Info: Redefining \% on input line 1137.
+LaTeX Info: Redefining \. on input line 1137.
+LaTeX Info: Redefining \% on input line 1137.
+ [42]
+LaTeX Info: Redefining \. on input line 1148.
+LaTeX Info: Redefining \% on input line 1148.
+LaTeX Info: Redefining \. on input line 1148.
+LaTeX Info: Redefining \% on input line 1148.
+ [43]
+LaTeX Info: Redefining \. on input line 1152.
+LaTeX Info: Redefining \% on input line 1152.
+LaTeX Info: Redefining \. on input line 1152.
+LaTeX Info: Redefining \% on input line 1152.
+ [44]
 Capítulo 3.
-Package biblatex Info: Resetting trackers on input line 2.
+Package biblatex Info: Resetting trackers on input line 1152.
+LaTeX Info: Redefining \. on input line 1164.
+LaTeX Info: Redefining \% on input line 1164.
+LaTeX Info: Redefining \. on input line 1164.
+LaTeX Info: Redefining \% on input line 1164.
+[45
+
+]
+! Undefined control sequence.
+l.1167 ...ción de otra realidad}, editado por \href
+                                                  {http://www.lecturalia.com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Too many }'s.
+l.1170 ...-del-conflicto-en-la-mirada-de-la-prensa}}
+                                                  % 3.2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1175.
+LaTeX Info: Redefining \% on input line 1175.
+LaTeX Info: Redefining \. on input line 1175.
+LaTeX Info: Redefining \% on input line 1175.
+[46]
+LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
+(Font)              scaled to size 7.84827pt on input line 1187.
+LaTeX Info: Redefining \. on input line 1188.
+LaTeX Info: Redefining \% on input line 1188.
+LaTeX Info: Redefining \. on input line 1188.
+LaTeX Info: Redefining \% on input line 1188.
+ [47]
+LaTeX Info: Redefining \. on input line 1209.
+LaTeX Info: Redefining \% on input line 1209.
+LaTeX Info: Redefining \. on input line 1209.
+LaTeX Info: Redefining \% on input line 1209.
+ [48]
+LaTeX Info: Redefining \. on input line 1222.
+LaTeX Info: Redefining \% on input line 1222.
+LaTeX Info: Redefining \. on input line 1222.
+LaTeX Info: Redefining \% on input line 1222.
+ [49]
+! Too many }'s.
+l.1225 ...}\label{acerca-del-campo-perioduxedstico}}
+                                                  % 3. 3.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1232.
+LaTeX Info: Redefining \% on input line 1232.
+LaTeX Info: Redefining \. on input line 1232.
+LaTeX Info: Redefining \% on input line 1232.
+[50]
+! Undefined control sequence.
+l.1235 ...cen y valoran: María Julia Oliván, \href
+                                                  {http://www.tematika.com/b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1235 ...leccionada=Autor\&idSeccionPropia=1}{\href
+                                                  {http://www.tematika.com/b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1235 ...blo Sirvén, Edi Zunino, Luis Majul, \href
+                                                  {http://www.edhasa.com.ar/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1235 ...Muchnik}, Eduardo Blaustein, Gabriel \href
+                                                  {http://www.edicionesb-arg...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1235 ...or/levinas-daniel/}{Levinas}, Darío \href
+                                                  {http://www.cuspide.com/re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1235 ...43\&orden=fecha}{Villarruel}, ~Jorge \href
+                                                  {http://www.cuspide.com/re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 1236.
+LaTeX Info: Redefining \% on input line 1236.
+LaTeX Info: Redefining \. on input line 1236.
+LaTeX Info: Redefining \% on input line 1236.
+[51]
+! Too many }'s.
+l.1240 ...eriodistas-seguxfan-su-lugar-en-el-campo}}
+                                                  % 3. 3. 1.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1259.
+LaTeX Info: Redefining \% on input line 1259.
+LaTeX Info: Redefining \. on input line 1259.
+LaTeX Info: Redefining \% on input line 1259.
+[52]
+! Undefined control sequence.
+\ul ->\ERROR 
+             
+l.1265 \ul
+        {Categorías de periodistas:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ul ->\ERROR 
+             
+l.1276 \ul
+        {Pseudoperiodistas}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Too many }'s.
+l.1288 ...stas}\label{categoruxedas-de-periodistas}}
+                                                  % 3. 3. 2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1293.
+LaTeX Info: Redefining \% on input line 1293.
+LaTeX Info: Redefining \. on input line 1293.
+LaTeX Info: Redefining \% on input line 1293.
+[53]
+! Undefined control sequence.
+l.1302 ...: Pablo Sirvén, Luis Majul, Gabriel \href
+                                                  {http://www.edicionesb-arg...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 1304.
+LaTeX Info: Redefining \% on input line 1304.
+LaTeX Info: Redefining \. on input line 1304.
+LaTeX Info: Redefining \% on input line 1304.
+[54]
+! Undefined control sequence.
+l.1320 ...Entre ellos señalamos a Edi Zunino, \href
+                                                  {http://www.tematika.com/b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 1325.
+LaTeX Info: Redefining \% on input line 1325.
+LaTeX Info: Redefining \. on input line 1325.
+LaTeX Info: Redefining \% on input line 1325.
+[55]
+! Too many }'s.
+l.1329 ...eudoperiodistas}\label{pseudoperiodistas}}
+                                                  % 3. 3. 3.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1337.
+LaTeX Info: Redefining \% on input line 1337.
+LaTeX Info: Redefining \. on input line 1337.
+LaTeX Info: Redefining \% on input line 1337.
+[56]
+LaTeX Info: Redefining \. on input line 1341.
+LaTeX Info: Redefining \% on input line 1341.
+LaTeX Info: Redefining \. on input line 1341.
+LaTeX Info: Redefining \% on input line 1341.
+ [57] [58
+
+]
+Capítulo 4.
+Package biblatex Info: Resetting trackers on input line 1341.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 9.81033pt on input line 13.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-[9
+(Font)              scaled to size 16.95224pt on input line 1341.
+! Too many }'s.
+l.1344 ...e Análisis}\label{corpus-de-anuxe1lisis}}
+                                                  % 4.1.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+! Too many }'s.
+l.1454 ...n{Periodización}\label{periodizaciuxf3n}}
+                                                  % 4. 2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+LaTeX Info: Redefining \. on input line 1465.
+LaTeX Info: Redefining \% on input line 1465.
+LaTeX Info: Redefining \. on input line 1465.
+LaTeX Info: Redefining \% on input line 1465.
+[59]
+! Too many }'s.
+l.1465 ...a Preparatoria}\label{etapa-preparatoria}}
+                                                  % 4. 2. 1.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 1479.
+LaTeX Info: Redefining \% on input line 1479.
+LaTeX Info: Redefining \. on input line 1479.
+LaTeX Info: Redefining \% on input line 1479.
+[60
+Missing character: There is no ʹ (U+02B9) in font [IBMPlexSansCondensed-Italic.
+otf]:mode=node;script=latn;language=dflt;+tlig;!
+]
+LaTeX Info: Redefining \. on input line 1494.
+LaTeX Info: Redefining \% on input line 1494.
+LaTeX Info: Redefining \. on input line 1494.
+LaTeX Info: Redefining \% on input line 1494.
+ [61]
+LaTeX Info: Redefining \. on input line 1500.
+LaTeX Info: Redefining \% on input line 1500.
+LaTeX Info: Redefining \. on input line 1500.
+LaTeX Info: Redefining \% on input line 1500.
+ [62]
+LaTeX Info: Redefining \. on input line 1514.
+LaTeX Info: Redefining \% on input line 1514.
+LaTeX Info: Redefining \. on input line 1514.
+LaTeX Info: Redefining \% on input line 1514.
+ [63]
+Overfull \vbox (0.20837pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1535.
+LaTeX Info: Redefining \% on input line 1535.
+LaTeX Info: Redefining \. on input line 1535.
+LaTeX Info: Redefining \% on input line 1535.
+
+[64]
+LaTeX Info: Redefining \. on input line 1547.
+LaTeX Info: Redefining \% on input line 1547.
+LaTeX Info: Redefining \. on input line 1547.
+LaTeX Info: Redefining \% on input line 1547.
+ [65]
+LaTeX Info: Redefining \. on input line 1561.
+LaTeX Info: Redefining \% on input line 1561.
+LaTeX Info: Redefining \. on input line 1561.
+LaTeX Info: Redefining \% on input line 1561.
+ [66]
+LaTeX Info: Redefining \. on input line 1571.
+LaTeX Info: Redefining \% on input line 1571.
+LaTeX Info: Redefining \. on input line 1571.
+LaTeX Info: Redefining \% on input line 1571.
+ [67]
+LaTeX Info: Redefining \. on input line 1589.
+LaTeX Info: Redefining \% on input line 1589.
+LaTeX Info: Redefining \. on input line 1589.
+LaTeX Info: Redefining \% on input line 1589.
+ [68]
+LaTeX Info: Redefining \. on input line 1601.
+LaTeX Info: Redefining \% on input line 1601.
+LaTeX Info: Redefining \. on input line 1601.
+LaTeX Info: Redefining \% on input line 1601.
+ [69]
+LaTeX Info: Redefining \. on input line 1617.
+LaTeX Info: Redefining \% on input line 1617.
+LaTeX Info: Redefining \. on input line 1617.
+LaTeX Info: Redefining \% on input line 1617.
+ [70]
+LaTeX Info: Redefining \. on input line 1632.
+LaTeX Info: Redefining \% on input line 1632.
+LaTeX Info: Redefining \. on input line 1632.
+LaTeX Info: Redefining \% on input line 1632.
+ [71]
+LaTeX Info: Redefining \. on input line 1642.
+LaTeX Info: Redefining \% on input line 1642.
+LaTeX Info: Redefining \. on input line 1642.
+LaTeX Info: Redefining \% on input line 1642.
+ [72]
+LaTeX Info: Redefining \. on input line 1659.
+LaTeX Info: Redefining \% on input line 1659.
+LaTeX Info: Redefining \. on input line 1659.
+LaTeX Info: Redefining \% on input line 1659.
+ [73]
+LaTeX Info: Redefining \. on input line 1671.
+LaTeX Info: Redefining \% on input line 1671.
+LaTeX Info: Redefining \. on input line 1671.
+LaTeX Info: Redefining \% on input line 1671.
+ [74]
+LaTeX Info: Redefining \. on input line 1691.
+LaTeX Info: Redefining \% on input line 1691.
+LaTeX Info: Redefining \. on input line 1691.
+LaTeX Info: Redefining \% on input line 1691.
+ [75]
+LaTeX Info: Redefining \. on input line 1700.
+LaTeX Info: Redefining \% on input line 1700.
+LaTeX Info: Redefining \. on input line 1700.
+LaTeX Info: Redefining \% on input line 1700.
+ [76]
+LaTeX Info: Redefining \. on input line 1714.
+LaTeX Info: Redefining \% on input line 1714.
+LaTeX Info: Redefining \. on input line 1714.
+LaTeX Info: Redefining \% on input line 1714.
+ [77]
+LaTeX Info: Redefining \. on input line 1730.
+LaTeX Info: Redefining \% on input line 1730.
+LaTeX Info: Redefining \. on input line 1730.
+LaTeX Info: Redefining \% on input line 1730.
+ [78]
+LaTeX Info: Redefining \. on input line 1737.
+LaTeX Info: Redefining \% on input line 1737.
+LaTeX Info: Redefining \. on input line 1737.
+LaTeX Info: Redefining \% on input line 1737.
+
+[79]
+LaTeX Info: Redefining \. on input line 1748.
+LaTeX Info: Redefining \% on input line 1748.
+LaTeX Info: Redefining \. on input line 1748.
+LaTeX Info: Redefining \% on input line 1748.
+ [80]
+LaTeX Info: Redefining \. on input line 1760.
+LaTeX Info: Redefining \% on input line 1760.
+LaTeX Info: Redefining \. on input line 1760.
+LaTeX Info: Redefining \% on input line 1760.
+ [81]
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.1765 \hl
+        {En síntesis, durante el año 2012, encontramos un único producto ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.1769 \hl
+        {Llamativamente, por tratarse del libro biográfico de un periodista...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 1769.
+LaTeX Info: Redefining \% on input line 1769.
+LaTeX Info: Redefining \. on input line 1769.
+LaTeX Info: Redefining \% on input line 1769.
+[82]
+LaTeX Info: Redefining \. on input line 1778.
+LaTeX Info: Redefining \% on input line 1778.
+LaTeX Info: Redefining \. on input line 1778.
+LaTeX Info: Redefining \% on input line 1778.
+ [83]
+LaTeX Info: Redefining \. on input line 1794.
+LaTeX Info: Redefining \% on input line 1794.
+LaTeX Info: Redefining \. on input line 1794.
+LaTeX Info: Redefining \% on input line 1794.
+ [84]
+LaTeX Info: Redefining \. on input line 1811.
+LaTeX Info: Redefining \% on input line 1811.
+LaTeX Info: Redefining \. on input line 1811.
+LaTeX Info: Redefining \% on input line 1811.
+ [85]
+LaTeX Info: Redefining \. on input line 1827.
+LaTeX Info: Redefining \% on input line 1827.
+LaTeX Info: Redefining \. on input line 1827.
+LaTeX Info: Redefining \% on input line 1827.
+ [86]
+LaTeX Info: Redefining \. on input line 1833.
+LaTeX Info: Redefining \% on input line 1833.
+LaTeX Info: Redefining \. on input line 1833.
+LaTeX Info: Redefining \% on input line 1833.
+ [87]
+LaTeX Info: Redefining \. on input line 1841.
+LaTeX Info: Redefining \% on input line 1841.
+LaTeX Info: Redefining \. on input line 1841.
+LaTeX Info: Redefining \% on input line 1841.
+ [88]
+LaTeX Info: Redefining \. on input line 1853.
+LaTeX Info: Redefining \% on input line 1853.
+LaTeX Info: Redefining \. on input line 1853.
+LaTeX Info: Redefining \% on input line 1853.
+ [89]
+LaTeX Info: Redefining \. on input line 1869.
+LaTeX Info: Redefining \% on input line 1869.
+LaTeX Info: Redefining \. on input line 1869.
+LaTeX Info: Redefining \% on input line 1869.
+ [90]
+LaTeX Info: Redefining \. on input line 1894.
+LaTeX Info: Redefining \% on input line 1894.
+LaTeX Info: Redefining \. on input line 1894.
+LaTeX Info: Redefining \% on input line 1894.
+ [91]
+! Undefined control sequence.
+l.1905 ...h{periodistas de lujo}: \protect\hyperlink
+                                                  {_bookmark8}{Gelman, Urond...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1905 ...periodistas de lujo}: \protect\hyperlink{_
+                                                  bookmark8}{Gelman, Urondo ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1905 ...s de lujo}: \protect\hyperlink{_bookmark8}
+                                                  {Gelman, Urondo y Walsh}:
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1906 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Info: Redefining \. on input line 1909.
+LaTeX Info: Redefining \% on input line 1909.
+LaTeX Info: Redefining \. on input line 1909.
+LaTeX Info: Redefining \% on input line 1909.
+[92]
+LaTeX Info: Redefining \. on input line 1913.
+LaTeX Info: Redefining \% on input line 1913.
+LaTeX Info: Redefining \. on input line 1913.
+LaTeX Info: Redefining \% on input line 1913.
+ [93]
+LaTeX Info: Redefining \. on input line 1933.
+LaTeX Info: Redefining \% on input line 1933.
+LaTeX Info: Redefining \. on input line 1933.
+LaTeX Info: Redefining \% on input line 1933.
+ [94]
+LaTeX Info: Redefining \. on input line 1947.
+LaTeX Info: Redefining \% on input line 1947.
+LaTeX Info: Redefining \. on input line 1947.
+LaTeX Info: Redefining \% on input line 1947.
+ [95]
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
+ [96]
+LaTeX Info: Redefining \. on input line 1973.
+LaTeX Info: Redefining \% on input line 1973.
+LaTeX Info: Redefining \. on input line 1973.
+LaTeX Info: Redefining \% on input line 1973.
+ [97]
+LaTeX Info: Redefining \. on input line 1985.
+LaTeX Info: Redefining \% on input line 1985.
+LaTeX Info: Redefining \. on input line 1985.
+LaTeX Info: Redefining \% on input line 1985.
+ [98]
+LaTeX Info: Redefining \. on input line 1991.
+LaTeX Info: Redefining \% on input line 1991.
+LaTeX Info: Redefining \. on input line 1991.
+LaTeX Info: Redefining \% on input line 1991.
+ [99]
+LaTeX Info: Redefining \. on input line 2004.
+LaTeX Info: Redefining \% on input line 2004.
+LaTeX Info: Redefining \. on input line 2004.
+LaTeX Info: Redefining \% on input line 2004.
+ [100]
+LaTeX Info: Redefining \. on input line 2015.
+LaTeX Info: Redefining \% on input line 2015.
+LaTeX Info: Redefining \. on input line 2015.
+LaTeX Info: Redefining \% on input line 2015.
+ [101]
+LaTeX Info: Redefining \. on input line 2027.
+LaTeX Info: Redefining \% on input line 2027.
+LaTeX Info: Redefining \. on input line 2027.
+LaTeX Info: Redefining \% on input line 2027.
+ [102]
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
+ [103]
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
+ [104]
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
+ [105]
+LaTeX Info: Redefining \. on input line 2057.
+LaTeX Info: Redefining \% on input line 2057.
+LaTeX Info: Redefining \. on input line 2057.
+LaTeX Info: Redefining \% on input line 2057.
+
+[106]
+! Undefined control sequence.
+l.2071 ...h{Nuevos desafíos del periodismo} y \href
+                                                  {http://www.cuspide.com/97...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \. on input line 2072.
+LaTeX Info: Redefining \% on input line 2072.
+LaTeX Info: Redefining \. on input line 2072.
+LaTeX Info: Redefining \% on input line 2072.
+[107]
+LaTeX Info: Redefining \. on input line 2083.
+LaTeX Info: Redefining \% on input line 2083.
+LaTeX Info: Redefining \. on input line 2083.
+LaTeX Info: Redefining \% on input line 2083.
+ [108]
+LaTeX Info: Redefining \. on input line 2091.
+LaTeX Info: Redefining \% on input line 2091.
+LaTeX Info: Redefining \. on input line 2091.
+LaTeX Info: Redefining \% on input line 2091.
+ [109]
+LaTeX Info: Redefining \. on input line 2115.
+LaTeX Info: Redefining \% on input line 2115.
+LaTeX Info: Redefining \. on input line 2115.
+LaTeX Info: Redefining \% on input line 2115.
+ [110]
+LaTeX Info: Redefining \. on input line 2129.
+LaTeX Info: Redefining \% on input line 2129.
+LaTeX Info: Redefining \. on input line 2129.
+LaTeX Info: Redefining \% on input line 2129.
+ [111]
+LaTeX Info: Redefining \. on input line 2141.
+LaTeX Info: Redefining \% on input line 2141.
+LaTeX Info: Redefining \. on input line 2141.
+LaTeX Info: Redefining \% on input line 2141.
+ [112]
+LaTeX Info: Redefining \. on input line 2147.
+LaTeX Info: Redefining \% on input line 2147.
+LaTeX Info: Redefining \. on input line 2147.
+LaTeX Info: Redefining \% on input line 2147.
+ [113]
+LaTeX Info: Redefining \. on input line 2171.
+LaTeX Info: Redefining \% on input line 2171.
+LaTeX Info: Redefining \. on input line 2171.
+LaTeX Info: Redefining \% on input line 2171.
+ [114]
+LaTeX Info: Redefining \. on input line 2183.
+LaTeX Info: Redefining \% on input line 2183.
+LaTeX Info: Redefining \. on input line 2183.
+LaTeX Info: Redefining \% on input line 2183.
+ [115]
+LaTeX Info: Redefining \. on input line 2201.
+LaTeX Info: Redefining \% on input line 2201.
+LaTeX Info: Redefining \. on input line 2201.
+LaTeX Info: Redefining \% on input line 2201.
+ [116]
+LaTeX Info: Redefining \. on input line 2215.
+LaTeX Info: Redefining \% on input line 2215.
+LaTeX Info: Redefining \. on input line 2215.
+LaTeX Info: Redefining \% on input line 2215.
+ [117]
+LaTeX Info: Redefining \. on input line 2231.
+LaTeX Info: Redefining \% on input line 2231.
+LaTeX Info: Redefining \. on input line 2231.
+LaTeX Info: Redefining \% on input line 2231.
+ [118]
+LaTeX Info: Redefining \. on input line 2242.
+LaTeX Info: Redefining \% on input line 2242.
+LaTeX Info: Redefining \. on input line 2242.
+LaTeX Info: Redefining \% on input line 2242.
+
+[119]
+LaTeX Info: Redefining \. on input line 2259.
+LaTeX Info: Redefining \% on input line 2259.
+LaTeX Info: Redefining \. on input line 2259.
+LaTeX Info: Redefining \% on input line 2259.
+ [120]
+LaTeX Info: Redefining \. on input line 2273.
+LaTeX Info: Redefining \% on input line 2273.
+LaTeX Info: Redefining \. on input line 2273.
+LaTeX Info: Redefining \% on input line 2273.
+ [121]
+LaTeX Info: Redefining \. on input line 2290.
+LaTeX Info: Redefining \% on input line 2290.
+LaTeX Info: Redefining \. on input line 2290.
+LaTeX Info: Redefining \% on input line 2290.
+ [122]
+LaTeX Info: Redefining \. on input line 2297.
+LaTeX Info: Redefining \% on input line 2297.
+LaTeX Info: Redefining \. on input line 2297.
+LaTeX Info: Redefining \% on input line 2297.
+ [123]
+LaTeX Info: Redefining \. on input line 2303.
+LaTeX Info: Redefining \% on input line 2303.
+LaTeX Info: Redefining \. on input line 2303.
+LaTeX Info: Redefining \% on input line 2303.
+ [124]
+LaTeX Info: Redefining \. on input line 2316.
+LaTeX Info: Redefining \% on input line 2316.
+LaTeX Info: Redefining \. on input line 2316.
+LaTeX Info: Redefining \% on input line 2316.
+ [125]
+LaTeX Info: Redefining \. on input line 2331.
+LaTeX Info: Redefining \% on input line 2331.
+LaTeX Info: Redefining \. on input line 2331.
+LaTeX Info: Redefining \% on input line 2331.
+ [126]
+LaTeX Info: Redefining \. on input line 2349.
+LaTeX Info: Redefining \% on input line 2349.
+LaTeX Info: Redefining \. on input line 2349.
+LaTeX Info: Redefining \% on input line 2349.
+ [127]
+LaTeX Info: Redefining \. on input line 2361.
+LaTeX Info: Redefining \% on input line 2361.
+LaTeX Info: Redefining \. on input line 2361.
+LaTeX Info: Redefining \% on input line 2361.
+ [128]
+LaTeX Info: Redefining \. on input line 2367.
+LaTeX Info: Redefining \% on input line 2367.
+LaTeX Info: Redefining \. on input line 2367.
+LaTeX Info: Redefining \% on input line 2367.
+ [129]
+LaTeX Info: Redefining \. on input line 2373.
+LaTeX Info: Redefining \% on input line 2373.
+LaTeX Info: Redefining \. on input line 2373.
+LaTeX Info: Redefining \% on input line 2373.
+ [130]
+LaTeX Info: Redefining \. on input line 2391.
+LaTeX Info: Redefining \% on input line 2391.
+LaTeX Info: Redefining \. on input line 2391.
+LaTeX Info: Redefining \% on input line 2391.
+
+[131]
+LaTeX Info: Redefining \. on input line 2408.
+LaTeX Info: Redefining \% on input line 2408.
+LaTeX Info: Redefining \. on input line 2408.
+LaTeX Info: Redefining \% on input line 2408.
+ [132]
+LaTeX Info: Redefining \. on input line 2413.
+LaTeX Info: Redefining \% on input line 2413.
+LaTeX Info: Redefining \. on input line 2413.
+LaTeX Info: Redefining \% on input line 2413.
+ [133]
+LaTeX Info: Redefining \. on input line 2437.
+LaTeX Info: Redefining \% on input line 2437.
+LaTeX Info: Redefining \. on input line 2437.
+LaTeX Info: Redefining \% on input line 2437.
+ [134]
+LaTeX Info: Redefining \. on input line 2457.
+LaTeX Info: Redefining \% on input line 2457.
+LaTeX Info: Redefining \. on input line 2457.
+LaTeX Info: Redefining \% on input line 2457.
+ [135]
+LaTeX Info: Redefining \. on input line 2465.
+LaTeX Info: Redefining \% on input line 2465.
+LaTeX Info: Redefining \. on input line 2465.
+LaTeX Info: Redefining \% on input line 2465.
+ [136]
+LaTeX Info: Redefining \. on input line 2483.
+LaTeX Info: Redefining \% on input line 2483.
+LaTeX Info: Redefining \. on input line 2483.
+LaTeX Info: Redefining \% on input line 2483.
+ [137]
+LaTeX Info: Redefining \. on input line 2495.
+LaTeX Info: Redefining \% on input line 2495.
+LaTeX Info: Redefining \. on input line 2495.
+LaTeX Info: Redefining \% on input line 2495.
+ [138]
+LaTeX Info: Redefining \. on input line 2507.
+LaTeX Info: Redefining \% on input line 2507.
+LaTeX Info: Redefining \. on input line 2507.
+LaTeX Info: Redefining \% on input line 2507.
+ [139]
+LaTeX Info: Redefining \. on input line 2516.
+LaTeX Info: Redefining \% on input line 2516.
+LaTeX Info: Redefining \. on input line 2516.
+LaTeX Info: Redefining \% on input line 2516.
+ [140]
+LaTeX Info: Redefining \. on input line 2521.
+LaTeX Info: Redefining \% on input line 2521.
+LaTeX Info: Redefining \. on input line 2521.
+LaTeX Info: Redefining \% on input line 2521.
+ [141]
+LaTeX Info: Redefining \. on input line 2531.
+LaTeX Info: Redefining \% on input line 2531.
+LaTeX Info: Redefining \. on input line 2531.
+LaTeX Info: Redefining \% on input line 2531.
+ [142]
+LaTeX Info: Redefining \. on input line 2543.
+LaTeX Info: Redefining \% on input line 2543.
+LaTeX Info: Redefining \. on input line 2543.
+LaTeX Info: Redefining \% on input line 2543.
+
+[143]
+LaTeX Info: Redefining \. on input line 2549.
+LaTeX Info: Redefining \% on input line 2549.
+LaTeX Info: Redefining \. on input line 2549.
+LaTeX Info: Redefining \% on input line 2549.
+ [144]
+LaTeX Info: Redefining \. on input line 2559.
+LaTeX Info: Redefining \% on input line 2559.
+LaTeX Info: Redefining \. on input line 2559.
+LaTeX Info: Redefining \% on input line 2559.
+ [145]
+LaTeX Info: Redefining \. on input line 2574.
+LaTeX Info: Redefining \% on input line 2574.
+LaTeX Info: Redefining \. on input line 2574.
+LaTeX Info: Redefining \% on input line 2574.
+ [146]
+LaTeX Info: Redefining \. on input line 2581.
+LaTeX Info: Redefining \% on input line 2581.
+LaTeX Info: Redefining \. on input line 2581.
+LaTeX Info: Redefining \% on input line 2581.
+ [147]
+LaTeX Info: Redefining \. on input line 2593.
+LaTeX Info: Redefining \% on input line 2593.
+LaTeX Info: Redefining \. on input line 2593.
+LaTeX Info: Redefining \% on input line 2593.
+ [148]
+LaTeX Info: Redefining \. on input line 2605.
+LaTeX Info: Redefining \% on input line 2605.
+LaTeX Info: Redefining \. on input line 2605.
+LaTeX Info: Redefining \% on input line 2605.
+ [149]
+LaTeX Info: Redefining \. on input line 2617.
+LaTeX Info: Redefining \% on input line 2617.
+LaTeX Info: Redefining \. on input line 2617.
+LaTeX Info: Redefining \% on input line 2617.
+ [150]
+LaTeX Info: Redefining \. on input line 2617.
+LaTeX Info: Redefining \% on input line 2617.
+LaTeX Info: Redefining \. on input line 2617.
+LaTeX Info: Redefining \% on input line 2617.
+ [151]
+LaTeX Info: Redefining \. on input line 2631.
+LaTeX Info: Redefining \% on input line 2631.
+LaTeX Info: Redefining \. on input line 2631.
+LaTeX Info: Redefining \% on input line 2631.
+ [152]
+LaTeX Info: Redefining \. on input line 2645.
+LaTeX Info: Redefining \% on input line 2645.
+LaTeX Info: Redefining \. on input line 2645.
+LaTeX Info: Redefining \% on input line 2645.
+ [153]
+LaTeX Info: Redefining \. on input line 2655.
+LaTeX Info: Redefining \% on input line 2655.
+LaTeX Info: Redefining \. on input line 2655.
+LaTeX Info: Redefining \% on input line 2655.
+ [154]
+LaTeX Info: Redefining \. on input line 2667.
+LaTeX Info: Redefining \% on input line 2667.
+LaTeX Info: Redefining \. on input line 2667.
+LaTeX Info: Redefining \% on input line 2667.
+
+[155]
+LaTeX Info: Redefining \. on input line 2675.
+LaTeX Info: Redefining \% on input line 2675.
+LaTeX Info: Redefining \. on input line 2675.
+LaTeX Info: Redefining \% on input line 2675.
+ [156]
+LaTeX Info: Redefining \. on input line 2691.
+LaTeX Info: Redefining \% on input line 2691.
+LaTeX Info: Redefining \. on input line 2691.
+LaTeX Info: Redefining \% on input line 2691.
+ [157]
+LaTeX Info: Redefining \. on input line 2696.
+LaTeX Info: Redefining \% on input line 2696.
+LaTeX Info: Redefining \. on input line 2696.
+LaTeX Info: Redefining \% on input line 2696.
+ [158]
+Package biblatex Info: Resetting trackers on input line 2699.
+
+! Argument of \label has an extra }.
+<inserted text> 
+\par 
+l.2699 \Chapter{Conclusiones}\label
+                                 {conclusiones}} %5
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \label was complete.
+<to be read again> 
+\par 
+l.2699 \Chapter{Conclusiones}\label
+                                 {conclusiones}} %5
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \label has an extra }.
+<inserted text> 
+\par 
+l.2699 \Chapter{Conclusiones}\label
+                                 {conclusiones}} %5
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \label was complete.
+<to be read again> 
+\par 
+l.2699 \Chapter{Conclusiones}\label
+                                 {conclusiones}} %5
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Too many }'s.
+l.2702 ...ion{Presentación}\label{presentaciuxf3n}}
+                                                   % 5.1.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+LaTeX Info: Redefining \. on input line 2709.
+LaTeX Info: Redefining \% on input line 2709.
+LaTeX Info: Redefining \. on input line 2709.
+LaTeX Info: Redefining \% on input line 2709.
+[159
 
 
 ]
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
- [10]
-<./media/avatar.png, id=321, 825.0825pt x 825.0825pt>
-File: ./media/avatar.png Graphic file (type png)
-<use ./media/avatar.png>
-Package luatex.def Info: ./media/avatar.png  used on input line 88.
-(luatex.def)             Requested size: 156.49014pt x 156.49033pt.
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [11<./media/avatar.png>])
-LaTeX Info: Redefining \. on input line 519.
-LaTeX Info: Redefining \% on input line 519.
-LaTeX Info: Redefining \. on input line 519.
-LaTeX Info: Redefining \% on input line 519.
- [12]
-\openout2 = ./artcap/conclusiones.aux
- (./artcap/conclusiones.tex
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [13
+LaTeX Info: Redefining \. on input line 2719.
+LaTeX Info: Redefining \% on input line 2719.
+LaTeX Info: Redefining \. on input line 2719.
+LaTeX Info: Redefining \% on input line 2719.
+ [160]
+! Too many }'s.
+l.2721 ...el campo}\label{composiciuxf3n-del-campo}}
+                                                   %5. 2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+LaTeX Info: Redefining \. on input line 2731.
+LaTeX Info: Redefining \% on input line 2731.
+LaTeX Info: Redefining \. on input line 2731.
+LaTeX Info: Redefining \% on input line 2731.
+[161]
+LaTeX Info: Redefining \. on input line 2742.
+LaTeX Info: Redefining \% on input line 2742.
+LaTeX Info: Redefining \. on input line 2742.
+LaTeX Info: Redefining \% on input line 2742.
+ [162]
+LaTeX Info: Redefining \. on input line 2747.
+LaTeX Info: Redefining \% on input line 2747.
+LaTeX Info: Redefining \. on input line 2747.
+LaTeX Info: Redefining \% on input line 2747.
+ [163]
+LaTeX Info: Redefining \. on input line 2753.
+LaTeX Info: Redefining \% on input line 2753.
+LaTeX Info: Redefining \. on input line 2753.
+LaTeX Info: Redefining \% on input line 2753.
+ [164]
+! Too many }'s.
+l.2756 ...la-legitimidad-del-campo-perioduxedstico}}
+                                                   % 5. 3.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
+! Too many }'s.
+l.2767 ...idad-del-campo.-libertad-de-expresiuxf3n}}
+                                                   %5 . 3.1.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-
-
-]
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-
-[14])
-LaTeX Info: Redefining \. on input line 523.
-LaTeX Info: Redefining \% on input line 523.
-LaTeX Info: Redefining \. on input line 523.
-LaTeX Info: Redefining \% on input line 523.
- [15] (./artcap/siglas.tex
-Using TeX to sort glossary entries---this may take a while
-[16
-
-
-
-]
-Package biblatex Info: Resetting trackers on input line 3.
+LaTeX Info: Redefining \. on input line 2770.
+LaTeX Info: Redefining \% on input line 2770.
+LaTeX Info: Redefining \. on input line 2770.
+LaTeX Info: Redefining \% on input line 2770.
+[165]
+LaTeX Info: Redefining \. on input line 2788.
+LaTeX Info: Redefining \% on input line 2788.
+LaTeX Info: Redefining \. on input line 2788.
+LaTeX Info: Redefining \% on input line 2788.
+ [166]
+LaTeX Info: Redefining \. on input line 2799.
+LaTeX Info: Redefining \% on input line 2799.
+LaTeX Info: Redefining \. on input line 2799.
+LaTeX Info: Redefining \% on input line 2799.
+ [167]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 11.79993pt on input line 3.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [17
+(Font)              scaled to size 10.61993pt on input line 2803.
 
-] [18
+! Too many }'s.
+l.2808 ...-campo-perioduxedstico.-la-independencia}}
+                                                   % 5. 3. 2.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-]) (./artcap/conceptos.tex (./concepto.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [19
+LaTeX Info: Redefining \. on input line 2811.
+LaTeX Info: Redefining \% on input line 2811.
+LaTeX Info: Redefining \. on input line 2811.
+LaTeX Info: Redefining \% on input line 2811.
+[168]
+LaTeX Info: Redefining \. on input line 2823.
+LaTeX Info: Redefining \% on input line 2823.
+LaTeX Info: Redefining \. on input line 2823.
+LaTeX Info: Redefining \% on input line 2823.
+ [169]
+! Too many }'s.
+l.2835 \section{Post scriptum}\label{post-scriptum}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-
-] [20
-
-])
-(./artcap/onomastico.tex (./onomastico.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
- [21
-
-
-] [22
-
-]) (./artcap/corriente.tex
-(./corriente.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [23
-
-
-] [24
-
-]) (./artcap/glosario.tex
-Using TeX to sort glossary entries---this may take a while
-Package biblatex Info: Resetting trackers on input line 3.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-[25
-
-
-] [26
-
-])
-Package biblatex Info: Resetting trackers on input line 542.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
-(Font)              scaled to size 10.61993pt on input line 545.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 10.61993pt on input line 545.
-LaTeX Info: Redefining \sptext on input line 545.
-LaTeX Info: Redefining \. on input line 545.
-LaTeX Info: Redefining \% on input line 545.
-LaTeX Info: Redefining \sptext on input line 545.
-LaTeX Info: Redefining \. on input line 545.
-LaTeX Info: Redefining \% on input line 545.
-LaTeX Info: Redefining \sptext on input line 545.
-LaTeX Info: Redefining \. on input line 545.
-LaTeX Info: Redefining \% on input line 545.
-LaTeX Info: Redefining \sptext on input line 545.
-LaTeX Info: Redefining \. on input line 545.
-LaTeX Info: Redefining \% on input line 545.
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
- [27
-
-]
-\openout2 = ./artcap/indiceautores.aux
- (./artcap/indiceautores.tex [28
-
-
-] (./names.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
- [29
-
-] [30
-
-])
-(./artcap/colofon.tex
-Package biblatex Info: Resetting trackers on input line 2.
-)
-LaTeX Info: Redefining \. on input line 565.
-LaTeX Info: Redefining \% on input line 565.
-LaTeX Info: Redefining \. on input line 565.
-LaTeX Info: Redefining \% on input line 565.
- [31
-
-
-
-] 
+LaTeX Info: Redefining \. on input line 2838.
+LaTeX Info: Redefining \% on input line 2838.
+LaTeX Info: Redefining \. on input line 2838.
+LaTeX Info: Redefining \% on input line 2838.
+[170] 
 AED: pageslts setting LastPage 
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
-File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [32]
+LaTeX Info: Redefining \. on input line 3074.
+LaTeX Info: Redefining \% on input line 3074.
+LaTeX Info: Redefining \. on input line 3074.
+LaTeX Info: Redefining \% on input line 3074.
+[171]
 
-Package imakeidx Warning: Remember to run lualatex again after calling
-(imakeidx)                `\imki@messageconcepto '.
+Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
+ found. (Remove \makenoidxglossaries if you don't want any glossaries.)
+This document will not have a glossary.
 
-
-Package imakeidx Warning: Remember to run lualatex again after calling
-(imakeidx)                `\imki@messageonomastico '.
-
-
-Package imakeidx Warning: Remember to run lualatex again after calling
-(imakeidx)                `\imki@messagecorriente '.
-
-
-Package imakeidx Warning: Remember to run lualatex again after calling
-(imakeidx)                `\imki@messagenames '.
-
-\c@pagesLTS.arabic.1.local.count=\count615
+\c@pagesLTS.arabic.1.local.count=\count597
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
-(./pdf-seminarioUBA.aux
-LaTeX Info: Redefining \sptext on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-
-<Reading QR code for "https://github.com/albertomoyano/seminarioUBA2025" at lev
-el 4-M from aux file.>
-(./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
-(./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
-(./artcap/conclusiones.aux)
-LaTeX Info: Redefining \sptext on input line 80.
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-LaTeX Info: Redefining \sptext on input line 81.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \sptext on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
- (./artcap/indiceautores.aux))
+(./pdf-20250518TPUMAUROB.aux
+LaTeX Info: Redefining \sptext on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `pdf-seminarioUBA.out' has not changed.
-(rerunfilecheck)             Checksum: A1BCBDD616D995826EF591AF526FBA3F;2198.
-Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
+Package logreq Info: Writing requests to 'pdf-20250518TPUMAUROB.run.xml'.
 
-\openout1 = pdf-seminarioUBA.run.xml
+\openout1 = pdf-20250518TPUMAUROB.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 67518 strings out of 476553
- 932382,2848258 words of node,token memory allocated
- 832176 words of node memory still in use:
-   7145 hlist, 38 vlist, 4447 rule, 10 ins, 1 adjust, 8373 disc, 706 local_par, 
-112 math, 15482 glue, 5419 kern, 1386 penalty, 180 margin_kern, 56769 glyph, 346
-10 attribute, 1595 glue_spec, 4956 attribute_list, 147 write, 26 pdf_literal, 14
-7 pdf_start_link, 147 pdf_end_link, 18 pdf_dest, 70 pdf_action, 620 pdf_colorsta
-ck, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:11,2:313,3:173,4:63,5:94,6:16,7:1839,8:4,9:1990,10:17,11:167
- 87479 multiletter control sequences out of 65536+600000
- 85 fonts using 24186303 bytes
- 117i,10n,122p,2362b,3212s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Ital
-ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Lib
-ertinusSerif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lib
-ertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/open
-type/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/f
-onts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/texlive/texm
-f-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf>
-Output written on pdf-seminarioUBA.pdf (52 pages, 727193 bytes).
+ 59482 strings out of 476553
+ 5557783,2848258 words of node,token memory allocated
+ 5140559 words of node memory still in use:
+   5324 hlist, 5 vlist, 1205 rule, 177 ins, 1 adjust, 74133 disc, 2318 local_par
+, 313 math, 78246 glue, 55661 kern, 4592 penalty, 802 margin_kern, 468502 glyph,
+ 42779 attribute, 5146 glue_spec, 6123 attribute_list, 3 write, 24 pdf_literal, 
+730 pdf_colorstack nodes
+   avail lists: 1:17,2:268,3:58,4:28,5:232,6:14,7:3852,8:136,9:112,10:31,11:530
+ 79950 multiletter control sequences out of 65536+600000
+ 97 fonts using 26417531 bytes
+ 117i,8n,123p,5815b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
+Serif-BoldItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMP
+lexSansCondensed-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public
+/libertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/
+opentype/public/libertinus-fonts/LibertinusMath-Regular.otf></usr/share/texlive/
+texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf></u
+sr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSer
+if-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSans
+Condensed-SemiBold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libe
+rtinus-fonts/LibertinusSerif-Regular.otf></usr/share/texlive/texmf-dist/fonts/op
+entype/ibm/plex/IBMPlexSansCondensed-Regular.otf>
+Output written on pdf-20250518TPUMAUROB.pdf (175 pages, 585238 bytes).
 
-PDF statistics: 513 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 131072)
- 373 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 656 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
