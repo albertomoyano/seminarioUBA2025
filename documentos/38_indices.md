@@ -1,4 +1,4 @@
-# Tipos de índices posibles de gnerar en LaTeX
+# Tipos de índices posibles de generar en LaTeX
 
 ## Índices habituales en libros académicos o técnicos
 
@@ -8,7 +8,7 @@
 
 - Índice de figuras
 
-- Lista numerada con los títulos de todas las figuras usadas.
+        Lista numerada con los títulos de todas las figuras usadas.
 
 - Índice de tablas
 
