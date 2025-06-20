@@ -1,11 +1,14 @@
 \ifPDF
 \chapter{Ejemplos de fórmulas y ecuaciones en LaTeX que muestran su potencial, junto con una breve explicación de cada una}
+\chaptermark{emplos de fórmulas y ecuaciones\dots}
 \setcounter{PrimPag}{\theCurrentPage}
 	\else
 	\ifHTMLEPUB
 	\chapter{Ejemplos de fórmulas y ecuaciones en LaTeX que muestran su potencial, junto con una breve explicación de cada una}
 	\fi
 \fi
+
+
 
 \section{Fórmula cuadrática}
 
@@ -17,11 +20,12 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 
 \section{Serie de Taylor}
 
-\[
+\begin{equation}
+\label{eq:taylor1}
 e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
-\]
+\end{equation}
 
-\paragraph*{Explicación} Expande la función exponencial como una suma infinita de términos polinómicos.
+\paragraph*{Explicación} La serie~\ref{eq:taylor1} expande la función exponencial como una suma infinita de términos polinómicos.
 
 \section{Fórmula de integral definida}
 
@@ -29,7 +33,7 @@ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
 \]
 
-\paragraph*{Explicación} El teorema fundamental del cálculo relaciona la integral definida de $f(x)f(x)$ con su antiderivada $F(x)F(x)$.
+\paragraph*{Explicación} El teorema fundamental del cálculo relaciona la integral definida de $f(x)$ con su antiderivada $F(x)$.
 
 \section{Ecuación de Schrödinger (simplificada)}
 
@@ -40,14 +44,14 @@ i\hbar \frac{\partial}{\partial t} \Psi = \hat{H} \Psi
 \paragraph*{Explicación} Describe la evolución temporal de un sistema cuántico, donde $Ψ$ es la función de onda y $\hat{H}$ es el operador Hamiltoniano.
 
 \section{Sistema de ecuaciones alineadas}
-\[
-\begin{cases}
+
+\begin{align}
+\label{eq:alinear}
 	x + 2y = 5 \\
 	3x - y = 1
-\end{cases}
-\]
+\end{align}
 
-\paragraph*{Explicación} Representa un sistema de ecuaciones lineales, útil para problemas de álgebra.
+\paragraph*{Explicación} La ecuación~\ref{eq:alinear} representa un sistema de ecuaciones lineales, útil para problemas de álgebra.
 
 \section{Matriz 3D con fracciones y subíndices}
 
@@ -131,4 +135,6 @@ $\quad \downarrow$ {\footnotesize (\emph{continuación})}$\quad$
 - \(\mathbf{r}_i\), \(\mathbf{R}_A\): Posiciones de electrones y núcleos.
 - \(\Psi\): Función de onda molecular (depende de \(3N\) coordenadas electrónicas).
 
-\separata{formulas}
+\ifPDF
+\separata{capitulo4}
+\fi

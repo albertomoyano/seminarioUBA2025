@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  20 JUN 2025 12:49
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.29)  20 JUN 2025 16:46
  restricted system commands enabled.
 **pdf-seminarioUBA.tex
 (./pdf-seminarioUBA.tex
@@ -2903,17 +2903,16 @@ el 4-M from aux file.>
 \c@pagesLTS.roman.1.local.cnt=\count606
 
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
-(./artcap/capitulo4.aux) (./artcap/conclusiones.aux)
+(./artcap/conclusiones.aux)
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-
-(./artcap/indiceautores.aux)
+ (./artcap/indiceautores.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count607
 )
 \openout1 = pdf-seminarioUBA.aux
@@ -3273,13 +3272,13 @@ LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
 (Font)              scaled to size 14.15991pt on input line 35.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 16.99188pt on input line 43.
-<./media/logo-imago-ByW.png, id=121, 85.2786pt x 42.1575pt>
+<./media/logo-imago-ByW.png, id=117, 85.2786pt x 42.1575pt>
 File: ./media/logo-imago-ByW.png Graphic file (type png)
 <use ./media/logo-imago-ByW.png>
 Package luatex.def Info: ./media/logo-imago-ByW.png  used on input line 50.
 (luatex.def)             Requested size: 56.9055pt x 28.1315pt.
  [5<./media/logo-imago-ByW.png>]
-<./media/desconocido.png, id=128, 85.2786pt x 98.0463pt>
+<./media/desconocido.png, id=124, 85.2786pt x 98.0463pt>
 File: ./media/desconocido.png Graphic file (type png)
 <use ./media/desconocido.png>
 Package luatex.def Info: ./media/desconocido.png  used on input line 59.
@@ -3321,18 +3320,18 @@ LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 (Font)              scaled to size 9.81033pt on input line 2.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 10.61993pt on input line 2.
-LaTeX Info: Redefining \sptext on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
-LaTeX Info: Redefining \sptext on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-LaTeX Info: Redefining \sptext on input line 41.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-LaTeX Info: Redefining \sptext on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+LaTeX Info: Redefining \sptext on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \sptext on input line 29.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \sptext on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \sptext on input line 31.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
 )
 \tf@toc=\write12
 
@@ -3445,33 +3444,33 @@ LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sc' will be
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
 (Font)              scaled to size 11.63708pt on input line 11.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 8.25995pt on input line 36.
+(Font)              scaled to size 8.25995pt on input line 37.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 6.86723pt on input line 36.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+(Font)              scaled to size 6.86723pt on input line 37.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
 [1
 
 
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 11.7724pt on input line 52.
-<./media/letraA.png, id=246, 903.375pt x 255.95625pt>
+(Font)              scaled to size 11.7724pt on input line 53.
+<./media/letraA.png, id=239, 903.375pt x 255.95625pt>
 File: ./media/letraA.png Graphic file (type png)
 <use ./media/letraA.png>
-Package luatex.def Info: ./media/letraA.png  used on input line 61.
+Package luatex.def Info: ./media/letraA.png  used on input line 62.
 (luatex.def)             Requested size: 312.9803pt x 88.67993pt.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
  [2]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
  [3<./media/letraA.png>])
 LaTeX Info: Redefining \. on input line 525.
 LaTeX Info: Redefining \% on input line 525.
@@ -3530,7 +3529,7 @@ LaTeX Info: Redefining \% on input line 80.
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
  [10]
-<./media/avatar.png, id=328, 825.0825pt x 825.0825pt>
+<./media/avatar.png, id=321, 825.0825pt x 825.0825pt>
 File: ./media/avatar.png Graphic file (type png)
 <use ./media/avatar.png>
 Package luatex.def Info: ./media/avatar.png  used on input line 88.
@@ -3545,526 +3544,75 @@ LaTeX Info: Redefining \% on input line 527.
 LaTeX Info: Redefining \. on input line 527.
 LaTeX Info: Redefining \% on input line 527.
  [12]
-\openout2 = ./artcap/capitulo4.aux
- (./artcap/capitulo4.tex
-Capítulo 4.
-Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 11.79993pt on input line 16.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-[13
-
-
-
-
-]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 9.43994pt on input line 55.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 7.07996pt on input line 55.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 7.07996pt on input line 59.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/"f"' and I am going to ig
-nore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.69 I think the culprit is a tikzcd arrow in cell 1-1.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! Package xcolor Error: Undefined color `"\mitphi "''.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.69 I think the culprit is a tikzcd arrow in cell 1-1.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitphi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Argument of \@secondoffive has an extra }.
-<inserted text> 
-\par 
-l.71 \end{tikzcd}
-               
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \@secondoffive was complete.
-<to be read again> 
-\par 
-l.71 \end{tikzcd}
-               
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package xcolor Error: Undefined color `"\mitphi "''.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.69 I think the culprit is a tikzcd arrow in cell 1-1.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! Package xcolor Error: Undefined color `"\mitpsi "'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.69 I think the culprit is a tikzcd arrow in cell 1-2.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-\mitpsi 
-l.71 \end{tikzcd}
-               
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Argument of \@secondoffive has an extra }.
-<inserted text> 
-\par 
-l.71 \end{tikzcd}
-               
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \@secondoffive was complete.
-<to be read again> 
-\par 
-l.71 \end{tikzcd}
-               
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package xcolor Error: Undefined color `"\mitpsi "'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.69 I think the culprit is a tikzcd arrow in cell 1-2.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/"g"'' and I am going to i
-gnore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help
-...
-l.70 I think the culprit is a tikzcd arrow in cell 2-1.
-\errmessage ...currentrow -\tikzcd@currentcolumn }
-                                                  
-l.71 \end{tikzcd}
-               
-(That was another \errmessage.)
-
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-[14]
-
-! Package pgfkeys Error: I do not know the key '/tikz/small' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 ...ootnotesize \text{H}_2\text{SO}_4$]}[0,1.5]
-                                                   % Flecha más corta
-(That was another \errmessage.)
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 10
-3.
-
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 5.89996pt on input line 103.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 5.89996pt on input line 103.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 9.43994pt on input line 113.
-)
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
- [15]
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
- [16]
 \openout2 = ./artcap/conclusiones.aux
  (./artcap/conclusiones.tex
 Package biblatex Info: Resetting trackers on input line 2.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [17
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+ [13
 
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
- [18])
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+
+[14])
 LaTeX Info: Redefining \. on input line 532.
 LaTeX Info: Redefining \% on input line 532.
 LaTeX Info: Redefining \. on input line 532.
 LaTeX Info: Redefining \% on input line 532.
- [19] (./artcap/siglas.tex
+ [15] (./artcap/siglas.tex
 Using TeX to sort glossary entries---this may take a while
-[20
+[16
 
 
 
 ]
 Package biblatex Info: Resetting trackers on input line 3.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 11.79993pt on input line 3.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
+ [17
+
+] [18
+
+]) (./artcap/conceptos.tex (./concepto.ind
+Package biblatex Info: Resetting trackers on input line 1.
+)
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ [19
+
+
+] [20
+
+])
+(./artcap/onomastico.tex (./onomastico.ind
+Package biblatex Info: Resetting trackers on input line 1.
+)
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
  [21
+
 
 ] [22
 
-]) (./artcap/conceptos.tex (./concepto.ind
+]) (./artcap/corriente.tex
+(./corriente.ind
 Package biblatex Info: Resetting trackers on input line 1.
 )
 LaTeX Info: Redefining \. on input line 10.
@@ -4076,32 +3624,6 @@ LaTeX Info: Redefining \% on input line 10.
 
 ] [24
 
-])
-(./artcap/onomastico.tex (./onomastico.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
- [25
-
-
-] [26
-
-]) (./artcap/corriente.tex
-(./corriente.ind
-Package biblatex Info: Resetting trackers on input line 1.
-)
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [27
-
-
-] [28
-
 ]) (./artcap/glosario.tex
 Using TeX to sort glossary entries---this may take a while
 Package biblatex Info: Resetting trackers on input line 3.
@@ -4109,10 +3631,10 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-[29
+[25
 
 
-] [30
+] [26
 
 ])
 Package biblatex Info: Resetting trackers on input line 551.
@@ -4136,11 +3658,11 @@ LaTeX Info: Redefining \. on input line 555.
 LaTeX Info: Redefining \% on input line 555.
 LaTeX Info: Redefining \. on input line 555.
 LaTeX Info: Redefining \% on input line 555.
- [31
+ [27
 
 ]
 \openout2 = ./artcap/indiceautores.aux
- (./artcap/indiceautores.tex [32
+ (./artcap/indiceautores.tex [28
 
 
 ] (./names.ind
@@ -4150,9 +3672,9 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [33
+ [29
 
-] [34
+] [30
 
 ])
 (./artcap/colofon.tex
@@ -4162,7 +3684,7 @@ LaTeX Info: Redefining \. on input line 574.
 LaTeX Info: Redefining \% on input line 574.
 LaTeX Info: Redefining \. on input line 574.
 LaTeX Info: Redefining \% on input line 574.
- [35
+ [31
 
 
 
@@ -4173,7 +3695,7 @@ File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [36]
+) [32]
 
 Package imakeidx Warning: Remember to run lualatex again after calling
 (imakeidx)                `\imki@messageconcepto '.
@@ -4209,60 +3731,55 @@ LaTeX Info: Redefining \% on input line 20.
 el 4-M from aux file.>
 (./artcap/presentacion.aux) (./artcap/prologo.aux) (./artcap/introduccion.aux)
 (./artcap/capitulo1.aux) (./artcap/capitulo2.aux) (./artcap/capitulo3.aux)
-(./artcap/capitulo4.aux) (./artcap/conclusiones.aux)
+(./artcap/conclusiones.aux)
+LaTeX Info: Redefining \sptext on input line 80.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \sptext on input line 81.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \sptext on input line 85.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 LaTeX Info: Redefining \sptext on input line 86.
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
-LaTeX Info: Redefining \sptext on input line 87.
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-LaTeX Info: Redefining \sptext on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-LaTeX Info: Redefining \sptext on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-
-(./artcap/indiceautores.aux))
+ (./artcap/indiceautores.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `pdf-seminarioUBA.out' has not changed.
-(rerunfilecheck)             Checksum: B45FA85237ACB2349E9120F136149AF8;2867.
+(rerunfilecheck)             Checksum: A1BCBDD616D995826EF591AF526FBA3F;2198.
 Package logreq Info: Writing requests to 'pdf-seminarioUBA.run.xml'.
 
 \openout1 = pdf-seminarioUBA.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 71638 strings out of 476553
- 1165510,3417909 words of node,token memory allocated
- 976571 words of node memory still in use:
-   9183 hlist, 40 vlist, 4589 rule, 10 ins, 1 adjust, 8988 disc, 853 local_par, 
-364 math, 19244 glue, 5966 kern, 1560 penalty, 190 margin_kern, 60582 glyph, 565
-82 attribute, 1842 glue_spec, 8095 attribute_list, 157 write, 10 save_pos, 2360 
-pdf_literal, 148 pdf_start_link, 149 pdf_end_link, 18 pdf_dest, 71 pdf_action, 7
-41 pdf_colorstack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:11,2:313,3:2117,4:63,5:94,6:16,7:1839,8:56,9:1826,10:17,11:167
-,12:1
- 91459 multiletter control sequences out of 65536+600000
- 99 fonts using 27088623 bytes
- 116i,15n,122p,2362b,3212s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
-Math-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus
--fonts/LibertinusMath-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/
-ibm/plex/IBMPlexSansCondensed-Italic.otf></usr/share/texlive/texmf-dist/fonts/op
-entype/public/libertinus-fonts/LibertinusSerif-Italic.otf></usr/share/texlive/te
-xmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/s
-hare/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-SemiBold.ot
-f></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Re
-gular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/
-LibertinusSerif-Regular.otf>
-Output written on pdf-seminarioUBA.pdf (56 pages, 759012 bytes).
+ 70658 strings out of 476553
+ 932397,3417909 words of node,token memory allocated
+ 832204 words of node memory still in use:
+   7146 hlist, 38 vlist, 4447 rule, 10 ins, 1 adjust, 8373 disc, 706 local_par, 
+112 math, 15482 glue, 5419 kern, 1386 penalty, 180 margin_kern, 56769 glyph, 346
+16 attribute, 1596 glue_spec, 4957 attribute_list, 147 write, 26 pdf_literal, 14
+7 pdf_start_link, 147 pdf_end_link, 18 pdf_dest, 70 pdf_action, 620 pdf_colorsta
+ck, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
+   avail lists: 1:12,2:313,3:173,4:63,5:94,6:16,7:1839,8:4,9:1990,10:17,11:167
+ 90515 multiletter control sequences out of 65536+600000
+ 93 fonts using 24680831 bytes
+ 116i,10n,122p,2362b,3212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Ital
+ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Lib
+ertinusSerif-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lib
+ertinus-fonts/LibertinusSerif-Bold.otf></usr/share/texlive/texmf-dist/fonts/open
+type/ibm/plex/IBMPlexSansCondensed-SemiBold.otf></usr/share/texlive/texmf-dist/f
+onts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/share/texlive/texm
+f-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf>
+Output written on pdf-seminarioUBA.pdf (52 pages, 728104 bytes).
 
-PDF statistics: 560 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 117 named destinations out of 1000 (max. 131072)
- 381 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 513 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 131072)
+ 373 words of extra memory for PDF output out of 10000 (max. 100000000)
 
