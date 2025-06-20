@@ -5,6 +5,7 @@ pdftk ./pdf/pdf-seminarioUBA.pdf cat 17-19 output ./docs/introduccion-pdf-semina
 pdftk ./pdf/pdf-seminarioUBA.pdf cat 21-24 output ./docs/capitulo1-pdf-seminarioUBA.pdf
 pdftk ./pdf/pdf-seminarioUBA.pdf cat 25-27 output ./docs/capitulo2-pdf-seminarioUBA.pdf
 pdftk ./pdf/pdf-seminarioUBA.pdf cat 29-32 output ./docs/capitulo3-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 33-35 output ./docs/conclusiones-pdf-seminarioUBA.pdf
-pdftk ./pdf/pdf-seminarioUBA.pdf cat 36-51 output ./docs/indices-pdf-seminarioUBA.pdf
+pdftk ./pdf/pdf-seminarioUBA.pdf cat 33-35 output ./docs/formulas-pdf-seminarioUBA.pdf
+pdftk ./pdf/pdf-seminarioUBA.pdf cat 37-39 output ./docs/conclusiones-pdf-seminarioUBA.pdf
+pdftk ./pdf/pdf-seminarioUBA.pdf cat 40-55 output ./docs/indices-pdf-seminarioUBA.pdf
 exit

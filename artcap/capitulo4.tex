@@ -1,0 +1,134 @@
+\ifPDF
+\chapter{Ejemplos de fórmulas y ecuaciones en LaTeX que muestran su potencial, junto con una breve explicación de cada una}
+\setcounter{PrimPag}{\theCurrentPage}
+	\else
+	\ifHTMLEPUB
+	\chapter{Ejemplos de fórmulas y ecuaciones en LaTeX que muestran su potencial, junto con una breve explicación de cada una}
+	\fi
+\fi
+
+\section{Fórmula cuadrática}
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+\paragraph*{Explicación} Esta es la solución general para una ecuación cuadrática de la forma $ax2+bx+c=0ax2+bx+c=0$. La fórmula proporciona las raíces (soluciones) en función de los coeficientes $aa$, $bb$ y $cc$.
+
+\section{Serie de Taylor}
+
+\[
+e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
+\]
+
+\paragraph*{Explicación} Expande la función exponencial como una suma infinita de términos polinómicos.
+
+\section{Fórmula de integral definida}
+
+\[
+\int_{a}^{b} f(x) \, dx = F(b) - F(a)
+\]
+
+\paragraph*{Explicación} El teorema fundamental del cálculo relaciona la integral definida de $f(x)f(x)$ con su antiderivada $F(x)F(x)$.
+
+\section{Ecuación de Schrödinger (simplificada)}
+
+\[
+i\hbar \frac{\partial}{\partial t} \Psi = \hat{H} \Psi
+\]
+
+\paragraph*{Explicación} Describe la evolución temporal de un sistema cuántico, donde $Ψ$ es la función de onda y $\hat{H}$ es el operador Hamiltoniano.
+
+\section{Sistema de ecuaciones alineadas}
+\[
+\begin{cases}
+	x + 2y = 5 \\
+	3x - y = 1
+\end{cases}
+\]
+
+\paragraph*{Explicación} Representa un sistema de ecuaciones lineales, útil para problemas de álgebra.
+
+\section{Matriz 3D con fracciones y subíndices}
+
+\[
+\mathbf{M} = \begin{pmatrix}
+	\dfrac{x_{11}}{y_{11}} & \dfrac{x_{12}^2}{\sqrt{y_{12}}} & \cdots & \dfrac{x_{1n}}{y_{1n}} \\
+	\sum_{k=1}^n a_k & \prod_{j=1}^m b_j & \cdots & \int_0^1 f(x)\,dx \\
+	\vdots & \vdots & \ddots & \vdots \\
+	\partial_x^2 \psi & \nabla \times \mathbf{F} & \cdots & \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}
+\end{pmatrix}
+\]
+
+\paragraph*{Explicación} Una matriz que mezcla fracciones, sumatorias, productos, integrales, derivadas parciales, operadores diferenciales $\nabla$ y límites.
+
+\section{Diagrama conmutativo}
+
+\[
+\begin{tikzcd}[row sep=large, column sep=large]
+	A \arrow[r, "f"] \arrow[d, "\phi"'] & B \arrow[d, "\psi"] \\
+	C \arrow[r, "g"'] & D
+\end{tikzcd}
+\]
+
+\paragraph*{Explicación} Diagrama usado en álgebra abstracta para visualizar propiedades de homomorfismos.
+
+\section{Ecuaciones de Maxwell (Electromagnetismo)}
+
+\[
+\begin{aligned}
+	\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \quad &\text{(Ley de Gauss)} \\
+	\nabla \cdot \mathbf{B} &= 0 \quad &\text{(Ley de Gauss para magnetismo)} \\
+	\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \quad &\text{(Ley de Faraday)} \\
+	\nabla \times \mathbf{B} &= \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \quad &\text{(Ley de Ampère-Maxwell)}
+\end{aligned}
+\]
+
+\paragraph*{Explicación} Notación vectorial (\(\nabla\), \(\mathbf{E}\), \(\mathbf{B}\)) y constantes (\(\mu_0\), \(\varepsilon_0\)).
+
+\section{Síntesis del Ácido Acetilsalicílico (Aspirina)}
+
+% Ajustes globales para tamaño compacto
+\setchemfig{
+	atom sep=1.3em,
+	bond length=1pt,
+	compound style=small,
+	scheme debug=false
+}
+
+% Primera parte de la reacción (antes de la flecha)
+\schemestart
+\chemfig{*6((-OH)=-(-COOH)=(-H)=(-H)=(-H)=)}
+\+ \chemfig{CH_3-C(=[:90]O)-O-[:30]C(=[:90]O)-[:-30]CH_3}
+\arrow{->[$\footnotesize \text{H}_2\text{SO}_4$]}[0,1.5] % Flecha más corta
+\schemestop
+
+\medskip
+
+% Separador de continuidad
+\chemfig{*6((-O-C(=[:90]O)-CH_3)=-(-COOH)=)}
+
+\medskip
+
+$\quad \downarrow$ {\footnotesize (\emph{continuación})}$\quad$
+
+\medskip
+
+\chemfig{CH_3-COOH} % Producto final en nueva línea
+
+
+\paragraph*{Nota} Si la reacción tiene múltiples pasos, se divide cada etapa en bloque.
+
+\section{Ecuación de Schrödinger para Moléculas (Química Cuántica)}
+
+\[
+\left( -\sum_{i=1}^N \frac{\hbar^2}{2m_e} \nabla_i^2 - \sum_{A=1}^M \sum_{i=1}^N \frac{Z_A e^2}{4\pi \varepsilon_0 |\mathbf{r}_i - \mathbf{R}_A|} + \sum_{i<j}^N \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}_i - \mathbf{r}_j|} \right) \Psi = E \Psi
+\]
+
+\paragraph*{Explicación}
+- \(\nabla_i^2\): Laplaciano para el electrón \(i\).
+- \(Z_A\): Número atómico del núcleo \(A\).
+- \(\mathbf{r}_i\), \(\mathbf{R}_A\): Posiciones de electrones y núcleos.
+- \(\Psi\): Función de onda molecular (depende de \(3N\) coordenadas electrónicas).
+
+\separata{formulas}
